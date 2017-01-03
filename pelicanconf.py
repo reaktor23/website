@@ -7,6 +7,7 @@ SITENAME = u'Reaktor 23'
 SITEURL = ''
 
 PATH = 'content'
+STATIC_PATHS = ['images']
 
 TIMEZONE = 'Europe/Berlin'
 

@@ -15,8 +15,8 @@ First steps
 
 2. Load submodules
 
-        git submodules init
-        git submodules update
+        git submodule init
+        git submodule update
 
 3. Setup a virtual env and install pelican
 
@@ -24,4 +24,17 @@ First steps
         source env/bin/activate
         pip install -r requirements.txt
 
-4. Change or add new website content inside the `content/` folder
+4. Change or add new website content in a supported format inside the `content/` folder
+
+5. Test your additions
+
+        pelican output
+        cd ./output
+        python -m pelican.server
+        cd ..
+
+6. Add and commit your changes
+
+        git add ./content/*
+        git commit -m "Added a nice article about some nice stuff"
+        git push origin master

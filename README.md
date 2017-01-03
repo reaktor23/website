@@ -28,10 +28,21 @@ First steps
 
 5. Test your additions
 
-        pelican output
-        cd ./output
+        make html
+        make serve
+
+    or
+
+        pelican content
+        cd output/
         python -m pelican.server
         cd ..
+
+    or
+
+        ./develop_server.sh start
+
+    and visit <http://localhost:8000>
 
 6. Add and commit your changes
 

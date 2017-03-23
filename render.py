@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*- #
 
 import os
 import sys
@@ -22,9 +23,11 @@ def render(source, output):
                 srcpath = os.path.join(root, f)
                 dstpath = os.path.join(output, strip_dir(srcpath[:-3])) + ".html"
                 print("converting {} to {}".format(srcpath, dstpath))
-                md = open(srcpath, encoding='utf-8').read()
-                html = markdown.convert(md)
-                open(dstpath, 'w', encoding='utf-8').write(html)
+                with open(srcpath, encoding='utf-8') as srcfile:
+                    md = srcfile.read()
+                    html = markdown.convert(md)
+                    with open(dstpath, 'w', encoding='utf-8') as dstfile:
+                        dstfile.write(html)
 
 def strip_dir(path, count=1):
     return '/'.join(path.split('/')[count:])

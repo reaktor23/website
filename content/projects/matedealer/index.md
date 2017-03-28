@@ -1,21 +1,21 @@
 ---
 Title: Mate Dealer
-Image: {{:projekte:mate_dealer:vendo_1.jpg?200}}
+Image: ![](vendo_1.jpg)
 Author: Bouni, Sannny
 Status: obsolete
 Progress: 80
 Description: Umbau/Erweiterung eines Getränke- automaten um eine Bezahlsystem mit Datenbankanbinung und coole Features.
 ---
 
-There is a enlish version of this site: [[projects:mate_dealer_en|Mate Dealer]]
+There is a enlish version of this site: [Mate Dealer](projects:mate_dealer_en)
 
 Der MateDealer in der hier beschriebenen Konfiguration ist tot.
-Die Mechanischen Teile werden für den [[projects:matedealer2|MateDealer 2.0]] benutzt.
+Die Mechanischen Teile werden für den [MateDealer 2.0](projects:matedealer2) benutzt.
 
 
 # Der Ausgangszustand =====
 
-* Hersteller: [[http://www.sandenvendo.com/|Sanden Vendo]]
+* Hersteller: [Sanden Vendo](http://www.sandenvendo.com/)
 * Model: VDI 100-5
 * 5 Produktschächte
 * Betriebsspannung: 230VAC 50Hz
@@ -23,9 +23,9 @@ Die Mechanischen Teile werden für den [[projects:matedealer2|MateDealer 2.0]] b
 * Gewicht: 200kg
 * Baujahr: 02/2003
 * Kaufpreis: ~400€
-* Münzprüfer [[http://www.nri.de/|NRI]] G40.4000/4-0752 (EUR & GBP)
+* Münzprüfer [NRI](http://www.nri.de/) G40.4000/4-0752 (EUR & GBP)
 
-{{:projekte:mate_dealer:vendo_1.jpg?200|}}{{:projekte:mate_dealer:vendo_2.jpg?200|}}{{:projekte:mate_dealer:vendo_3.jpg?200|}}\\
+![](vendo_3.jpg)\\
 So sah der Automat aus als wir ihn abgeholt haben.
 
 # Unterlagen zum Automaten =====
@@ -39,7 +39,7 @@ So sah der Automat aus als wir ihn abgeholt haben.
 
 ## Verschiedenste Dokumente zu Sanden Vendo Geräten ====
 
-[[http://109.170.209.5:591/Part%20Manuals/Vendo/|Ein ?FTP? mit PDF's]]
+[Ein ?FTP? mit PDF's](http://109.170.209.5:591/Part%20Manuals/Vendo/)
 
 
 ---------------
@@ -59,7 +59,7 @@ So sah der Automat aus als wir ihn abgeholt haben.
 
 ## März 2011 ====
 
-* 01.03.2011: Nach dem wir von einem PC814 auf einen PC817 umgestiegen sind klappt der Empfang immer noch nicht wie gedacht. Die Nachfolgenden Bilder zeigen was mit dem Oszi sichtbar wurde. Die steigenden Flanken (untere Bildhälfte) steigen viel zu langsam an. im ersten Bild ist ein 10k Pullup verwendet worden, im zweiten dann ein 1k5. \\ {{:projekte:mate_dealer:20110301_002.jpg?200|}}{{:projekte:mate_dealer:20110301_003.jpg?200|}}
+* 01.03.2011: Nach dem wir von einem PC814 auf einen PC817 umgestiegen sind klappt der Empfang immer noch nicht wie gedacht. Die Nachfolgenden Bilder zeigen was mit dem Oszi sichtbar wurde. Die steigenden Flanken (untere Bildhälfte) steigen viel zu langsam an. im ersten Bild ist ein 10k Pullup verwendet worden, im zweiten dann ein 1k5. \\ ![](20110301_003.jpg)
 
 * 12.03.2011: Heute wurde ein Versuch unternommen mit schnellen PC900 Optokopplern das Problem in den Griff zu bekommen. Ergebinis ist ein gesprengter PC900 und ein gelöschtes/defektes ROM im Münzprüfer. Nach dem Test wurde das PC817 Board nochmal angeschlossen und mit diesem ein Test mit kleinerem Pullup (470R) und einem grösseren Vorwiderstand (560R) gemacht und das brachte den ersehnten Erfolg. 
 
@@ -105,9 +105,9 @@ So sah der Automat aus als wir ihn abgeholt haben.
 * ein weiterer fauler monat
 ## Januar 2012 
 * 10.01.2012 Heute wurden einige Aufzeichnungen mit dem Oszi gemacht um gute Widerstandswerte für Rv und Pullup der Optokoppler zu ermitteln. Die Ergebnisse sind nicht besonders gut, aber ausreichend.
-{{:projects:matedealer:optocoupler_100112_1.png?200|}}
-{{:projects:matedealer:optocoupler_100112_2.png?200|}}
-{{:projects:matedealer:optocoupler_100112_3.png?200|}}
+![](optocoupler_100112_1.png)
+![](optocoupler_100112_2.png)
+![](optocoupler_100112_3.png)
 
 hellblau ist die LED Seite an der das Arduino Board hängt, gelb die Transistorseite. Übertragen wurde mit 9600Baud.
 
@@ -135,11 +135,11 @@ hellblau ist die LED Seite an der das Arduino Board hängt, gelb die Transistors
 
 <color red>** Ab hier werden Schwerwiegende Änderungen am MateDealer Projekt stattfinden.**</color>
 
-* **30.07.2013** Kurz bevor die Kids zum [[events:fez2013|FEZ Abend]] zu uns gekommen sind hat sich der 2te Schacht des Matedealers verabschiedet. Er zeigt an er sei leer obwohl das nicht der Fall ist. Das durchmessen der Leitung und der Test des Schalters lassen darauf schliessen das es sich um einen Defekt auf der VMC Platine handelt.
+* **30.07.2013** Kurz bevor die Kids zum [FEZ Abend](events:fez2013) zu uns gekommen sind hat sich der 2te Schacht des Matedealers verabschiedet. Er zeigt an er sei leer obwohl das nicht der Fall ist. Das durchmessen der Leitung und der Test des Schalters lassen darauf schliessen das es sich um einen Defekt auf der VMC Platine handelt.
 * Wenig später hat sich gleich noch ein weiterer Schacht verabschiedet.
 * Nach kurzem überlegen wir es wohl darauf hinauslaufen, das wir ein komplett eigenes PCB anfertigen um die Steuerung des Automaten zu übernehmen, was nicht wirklich wild ist, denn es sind nur 5 Motoren (DC) und 10 Schalter (Schacht leer + Motor Position erreicht) zu bedienen. Ein weiterer Vorteil wird sein das das komplette MDB wegfällt und man viele Fehlerquellen eliminiert.
 # Software 
-Die Software die auf dem Arduino lauft ist auf [[https://github.com/Bouni/MateDealer|GitHub]] zu finden.
+Die Software die auf dem Arduino lauft ist auf [GitHub](https://github.com/Bouni/MateDealer) zu finden.
 
 ---------------
 # Probleme & Lösungen 
@@ -151,7 +151,7 @@ Die Software die auf dem Arduino lauft ist auf [[https://github.com/Bouni/MateDe
 
 ## Fehlender Schlüssel 
 * **Problem:** Als wir den Automaten gekauft haben, war er offen und es gab keine Schlüssel zum eingebauten Schloss mehr. Da niemand unbefugtes Zugang zum Inneren des Automaten haben soll muss ein Schloss mit Schlüssel her.
-* **Lösung**: Nach einiger Suche konnten wir ein Baugleiches Schloss in bei [[http://www.coinoperatorshop.com/shop/product_info.php?cPath=21_37_39_364&info=p5438_Lock-key-alike-T-Handle-inner-cylinder-lock.html|www.coinoperatorshop.com]] finden und bestellen. 
+* **Lösung**: Nach einiger Suche konnten wir ein Baugleiches Schloss in bei [www.coinoperatorshop.com](http://www.coinoperatorshop.com/shop/product_info.php?cPath=21_37_39_364&info=p5438_Lock-key-alike-T-Handle-inner-cylinder-lock.html) finden und bestellen. 
 * **Kosten:** ~7€ + MwSt. & Versand.
 
 ## Cashless Device 
@@ -190,24 +190,24 @@ Die Software die auf dem Arduino lauft ist auf [[https://github.com/Bouni/MateDe
 * **Entwicklungsstand:** 0%
 
 ## Display Scheibe 
-* **Idee:** Die Scheibe des Automaten die von ihrer Mineralwasser Werbung befreit wurde mit einem RGB Dot Matrix Display ausstatten. Wie z.B. [[http://www.youtube.com/watch?v=yzCAcbA51A0|das hier]]
+* **Idee:** Die Scheibe des Automaten die von ihrer Mineralwasser Werbung befreit wurde mit einem RGB Dot Matrix Display ausstatten. Wie z.B. [das hier](http://www.youtube.com/watch?v=yzCAcbA51A0)
 * **Entwicklungsstand:** 0%
 
 # MDB Protokoll 
 
-{{:projects:matedealer:mdb-timing.png?600|}}
-{{:projects:matedealer:mdb-flowchart.svg?600}}
+![](mdb-timing.png)
+![](mdb-flowchart.svg)
 
 # Elektronik 
 
 **20.09.2011**\\
-Hab mich entschieden das Elektronik "Problem" mit einem **[[http://arduino.cc/en/Main/ArduinoBoardMega2560|Arduino Mega 2560]] + MEGA Proto PCB Shield** zu realisieren. Das macht das ganze für andere eher Nachbaubar. Die Kosten werden etwa im selben Rahmen wie die bei einem Eigenbau liegen.
+Hab mich entschieden das Elektronik "Problem" mit einem **[Arduino Mega 2560](http://arduino.cc/en/Main/ArduinoBoardMega2560) + MEGA Proto PCB Shield** zu realisieren. Das macht das ganze für andere eher Nachbaubar. Die Kosten werden etwa im selben Rahmen wie die bei einem Eigenbau liegen.
 Evtl. wird das Shield mal als gefertigtes PCB gemacht und zum Selbstkostenpreis verkauft. Ist dann ne saubere Lösung. Die Bestellung sollte die Tage bei mir eintrudeln. ---Bouni
 
 ## Grundlegende Beschaltung 
 
-{{:projects:matedealer:mdb_atmega.png?300}}
-[[https://reaktor23.org/_media/de/projects/matedealer/mdb-proto-shield.svg|{{:projects:matedealer:mdb-proto-shield.svg?600}}]]\\
+![](mdb_atmega.png)
+![](mdb-proto-shield.svg)\\
 
 ## Was alles auf die Platine soll 
 * 1 Relais zum schalten des Kühlaggregates
@@ -220,11 +220,11 @@ Evtl. wird das Shield mal als gefertigtes PCB gemacht und zum Selbstkostenpreis 
 
 Die Authentification am Automaten soll mittels GNUPG Smartcard geschehen.
 Wir sind schon im Besitz von 2 Card Readern vom Typ OmniKey CardMan
- How To zu GnuPG mit SmartCard ===
+## How To zu GnuPG mit SmartCard
 http://www.gnupg.org/howtos/card-howto/en/smartcard-howto-single.html
 
 # Vergleichbare Projekte 
-* [[http://wiki.nottinghack.org.uk/wiki/Vending_Machine/Cashless_Device|Nottinghack]]
-* [[http://wiki.muc.ccc.de/matemat|CCC Muenchen]]
-* [[http://wiki.chaostreff.ch/Mate_Automat|CCC Basel]]
+* [Nottinghack](http://wiki.nottinghack.org.uk/wiki/Vending_Machine/Cashless_Device)
+* [CCC Muenchen](http://wiki.muc.ccc.de/matemat)
+* [CCC Basel](http://wiki.chaostreff.ch/Mate_Automat)
 

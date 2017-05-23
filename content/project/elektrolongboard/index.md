@@ -1,9 +1,10 @@
 ---
-Title: Elektro Longboard
-Description: Eigenbau eines elektrisch angetriebenen Longboards 
-Author: Sniser
-Status: beta
-Progress: 80
+title: Elektro Longboard
+description: Eigenbau eines elektrisch angetriebenen Longboards 
+author: Sniser
+status: beta
+progress: 80
+draft: false
 ---
 
 # Wie kam ich auf die Idee

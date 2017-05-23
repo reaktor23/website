@@ -1,10 +1,11 @@
 ---
-Title: Mate Dealer
-Image: ![](vendo_1.jpg)
-Author: Bouni, Sannny
-Status: obsolete
-Progress: 80
-Description: Umbau/Erweiterung eines Getränke- automaten um eine Bezahlsystem mit Datenbankanbinung und coole Features.
+title: Mate Dealer
+image: ![](vendo_1.jpg)
+author: Bouni, Sannny
+status: obsolete
+progress: 80
+description: Umbau/Erweiterung eines Getränke- automaten um eine Bezahlsystem mit Datenbankanbinung und coole Features.
+draft: false
 ---
 
 There is a enlish version of this site: [Mate Dealer](projects:mate_dealer_en)

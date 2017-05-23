@@ -1,3 +1,8 @@
+---
+title: "Testpage"
+draft: false
+---
+
 Paragraph 1
 ===========
 

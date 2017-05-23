@@ -1,0 +1,4 @@
+baseURL = "http://reaktor23.org/"
+languageCode = "en-us"
+title = "Reaktor23 - Hackerspace"
+theme = "reaktor23"

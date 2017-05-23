@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html {{ with .Site.LanguageCode }}lang="{{ . }}"{{ end }}>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1"/>
+		{{ with .Site.Author }}<meta name="metaauthor" content="{{ . }}"/>{{ end }}
+		{{ with .Site.Params.description }}<meta name="description" content="{{ .Site.Params.description }}"/>{{ end }}
+		<title>{{ .Title }}</title>
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/style.css"/>
+		{{ if .RSSLink }}
+		<link href="{{ .RSSLink }}" rel="alternate" type="application/typerss+xml" title="{{ .Site.Title }}" />
+		<link href="{{ .RSSLink }}" relel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+		{{ end }}
+	</head>
+	<body>
+		<header>
+			<h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+			<nav>
+				<ul>
+					<li><a href="{{ .Site.BaseURL }}">Home</a></li>
+					<li><a href="{{ .Site.BaseURL }}/about">About</a></li>
+					<li><a href="{{ .Site.BaseURL }}/project">Projects</a></li>
+				</ul>
+			</nav>
+			<hr>
+		</header>

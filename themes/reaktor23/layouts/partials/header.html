@@ -17,9 +17,14 @@
 			<h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
 			<nav>
 				<ul>
-					<li><a href="{{ .Site.BaseURL }}">Home</a></li>
-					<li><a href="{{ .Site.BaseURL }}/about">About</a></li>
-					<li><a href="{{ .Site.BaseURL }}/project">Projects</a></li>
+					{{ $currentPage := . }}
+					{{ range .Site.Menus.main }}
+					<li>
+						<a href="{{ .URL }}">
+							<span>{{ .Name }}</span>
+						</a>
+					</li>
+					{{end}}
 				</ul>
 			</nav>
 			<hr>

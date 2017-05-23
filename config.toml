@@ -2,3 +2,18 @@ baseURL = "http://reaktor23.org/"
 languageCode = "en-us"
 title = "Reaktor23 - Hackerspace"
 theme = "reaktor23"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = -1
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+[[menu.main]]
+    name = "Projects"
+    url = "/project/"
+
+[[menu.foot]]
+    name = "Impressum"
+    url = "/impressum/"

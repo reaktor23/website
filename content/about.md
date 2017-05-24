@@ -7,3 +7,4 @@ Reaktor 23 ist ein Hackerspace in Waldshut-Tiengen, Baden-Würtemberg, Deutschla
 
 Jeden Dienstag ab 19:00 ist der Reaktor 23 für jedermann geöffnet und immer jemand da. Solltet ihr Interesse haben an einem anderen Tag vorbei zu schauen, meldet euch bitte vorher auf der Mailingliste damit ihr nicht vor verschlossener Türe steht!
 
+![](img_20161025_205921.jpg)

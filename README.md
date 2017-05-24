@@ -9,7 +9,7 @@ Quickstart
 ----------
 
 1. Install hugo: see https://gohugo.io/overview/installing/
-2. Clone repository. At this time it's in the *hugo* branch:
+2. Clone repository. At this time it's in the [*hugo*](https://github.com/reaktor23/website/tree/hugo) branch:
 
     ```
     git clone -b hugo https://github.com/reaktor23/website.git reaktor23-website

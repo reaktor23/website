@@ -26,6 +26,8 @@ Todo
   - [ ] Have a nice news overview
   - [ ] Make a project overview, eg. using [cards](https://themes.gohugo.io/robust/)
 - [x] Make menu configurable in config.toml
+- [ ] Define content structure
+- [ ] **Figure out how to reference/handle file like images corrently so it will work with both summaries and page views.** [see](https://github.com/spf13/hugo/issues/1240)
 - [ ] Create deployment hooks
 - [ ] Migrate content from existing site
 - [ ] Write impressum, about, contect, etc. pages

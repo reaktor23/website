@@ -12,7 +12,7 @@ theme = "reaktor23"
     url = "/about/"
 [[menu.main]]
     name = "Projects"
-    url = "/project/"
+    url = "/projects/"
 
 [[menu.foot]]
     name = "Impressum"

@@ -1,4 +1,5 @@
 *.pid
 *.pyc
 env
-output
+/output
+/public

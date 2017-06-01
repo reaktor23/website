@@ -1,10 +1,11 @@
 ---
-Title: Mate Dealer
-Image: ![](vendo_1.jpg)
-Author: Bouni, Sannny
-Status: obsolete
-Progress: 80
-Description: Umbau/Erweiterung eines Getränke- automaten um eine Bezahlsystem mit Datenbankanbinung und coole Features.
+title: Mate Dealer
+image: ![](vendo_1.jpg)
+author: Bouni, Sannny
+status: obsolete
+progress: 80
+description: Umbau/Erweiterung eines Getränke- automaten um eine Bezahlsystem mit Datenbankanbinung und coole Features.
+draft: false
 ---
 
 There is a enlish version of this site: [Mate Dealer](projects:mate_dealer_en)
@@ -13,7 +14,7 @@ Der MateDealer in der hier beschriebenen Konfiguration ist tot.
 Die Mechanischen Teile werden für den [MateDealer 2.0](projects:matedealer2) benutzt.
 
 
-# Der Ausgangszustand =====
+# Der Ausgangszustand
 
 * Hersteller: [Sanden Vendo](http://www.sandenvendo.com/)
 * Model: VDI 100-5
@@ -22,42 +23,42 @@ Die Mechanischen Teile werden für den [MateDealer 2.0](projects:matedealer2) be
 * Nominale Leistungsaufnahme: 450W
 * Gewicht: 200kg
 * Baujahr: 02/2003
-* Kaufpreis: ~400€
+* Kaufpreis: ~400 €
 * Münzprüfer [NRI](http://www.nri.de/) G40.4000/4-0752 (EUR & GBP)
 
 ![](vendo_3.jpg)\\
 So sah der Automat aus als wir ihn abgeholt haben.
 
-# Unterlagen zum Automaten =====
+# Unterlagen zum Automaten
 
-* {{:projekte:mate_dealer:bb01_einstellanleitung_080306_de.pdf|Einstell Anleitung für die BB01 Steuerplatine}}
-* {{:projekte:mate_dealer:vendo_vdi_100-5_programmieranleitung.pdf|Programmieranleitung für den Automaten}}
-* {{:projekte:mate_dealer:g46f4000_de.pdf|Handbuch zum Münzprüfer}}
-* {{:projekte:mate_dealer:tubenvarianten_g46.pdf| Verfügbare Tubenvarianten des Münzprüfers}}
-* {{:projekte:mate_dealer:mdb_version_4-2.pdf|Spezifikation zum MDB Protokoll}}
-* {{:projects:matedealer:matedealer13.12.2011.rar|Ein Log der Kommunikation vom 13.12.2011}}
+* [Einstell Anleitung für die BB01 Steuerplatine](bb01_einstellanleitung_080306_de.pdf)
+* [Programmieranleitung für den Automaten](vendo_vdi_100-5_programmieranleitung.pdf)
+* [Handbuch zum Münzprüfer](g46f4000_de.pdf)
+* [Verfügbare Tubenvarianten des Münzprüfers](tubenvarianten_g46.pdf)
+* [Spezifikation zum MDB Protokoll](mdb_version_4-2.pdf)
+* [Ein Log der Kommunikation vom 13.12.2011](matedealer13.12.2011.rar)
 
-## Verschiedenste Dokumente zu Sanden Vendo Geräten ====
+## Verschiedenste Dokumente zu Sanden Vendo Geräten
 
 [Ein ?FTP? mit PDF's](http://109.170.209.5:591/Part%20Manuals/Vendo/)
 
 
 ---------------
-# Projekt History =====
+# Projekt History
 
-## Dezember 2010 ====
+## Dezember 2010
 
 * 04.12.2010: Wir haben die ersten Logs der Kommunikation zwischen VMC und Münzprüfer aufgezeichnet.
 
-## Januar 2011 ====
+## Januar 2011
 
 * 25.01.2011: Nach einiger Zeit des Lesens der MDB Spezifikation haben wir erste Versuche unternommen mit einem Optokoppler und dem STK500 + AtMega644P die Kommunikation zwischen Münzprüfer und VMC mitzulesen. Leider hatten wir keinen Erfolg was vermutlich am gewählten Optokoppler Typ liegt (PC814)
 
-## Februar 2011 ====
+## Februar 2011
 
 * 19.02.2011: Nachdem wir im Dezember Log festgestellt hatten das der VMC das Chashless Device welches wir mit hilfe des AtMegas simulieren wollen nicht adressiert, haben wir beim Hersteller des Automaten ein neues EEPROM gekauft, und diesers nun eingebaut. Im neuen Log ist schön zu sehen das das Cashless Device adressiert wird.
 
-## März 2011 ====
+## März 2011
 
 * 01.03.2011: Nach dem wir von einem PC814 auf einen PC817 umgestiegen sind klappt der Empfang immer noch nicht wie gedacht. Die Nachfolgenden Bilder zeigen was mit dem Oszi sichtbar wurde. Die steigenden Flanken (untere Bildhälfte) steigen viel zu langsam an. im ersten Bild ist ein 10k Pullup verwendet worden, im zweiten dann ein 1k5. \\ ![](20110301_003.jpg)
 
@@ -69,7 +70,7 @@ So sah der Automat aus als wir ihn abgeholt haben.
 
 **Milestone** Das senden von MDB Daten klappt nun auch.
 
-## April 2011 ====
+## April 2011
 
 * 15.04.2011: Die ersten Gehversuche sind gemacht. Das MDB Protokoll ist ein wenig komisch aber wir lassen uns nicht entmutigen.
 
@@ -81,11 +82,11 @@ So sah der Automat aus als wir ihn abgeholt haben.
 
 * 30.04.2011: Das Problem ist gefunden. Ein Fehlerhaft implementierter FiFo Buffer war die Ursache. Wenn man vor dem Überlauf das Getränk bezogen hat ging es, danach ging etwas schief. Nach dem beheben des Fehlers klappt das beziehen eines Getränks nun ohne Probleme. Das ganze ist momentan über 2 Taster gelöst. Taster 1 ist das authentifizieren eines Kunden am Automaten mit einem Festen Guthaben von 23€. Taste 2 ist das freigeben des Ausgabevorganges mit fixen 2€ Getränkepreis.
 
-**Milestone** Es ist nun möglich ein Getränk aus dem Automaten zu ziehen.
+**Milestone* Es ist nun möglich ein Getränk aus dem Automaten zu ziehen.
 
-{{vimeo>24110627?medium}}
+![](https://vimeo.com/24110627)
 
-## August 2011 ====
+## August 2011
 
 * 01.08.2011: In den letzten Monaten wurde der Code weitreichend überarbeitet. Beide Seriellen Verbindungen (MDB,Uplink) sind nun sowohl sendend als auch empfangend mit einem FiFo gepuffert. Ausserdem geschieht das Empfangen und senden im Interrupt Betrieb. Auch die anfangs verwendeten while Schleifen um auf neue Daten zu warten wurden erstezt und es ist nun mehr Zeit etwas sinnvolles in de Main Loop zu tun. 
 
@@ -93,11 +94,11 @@ So sah der Automat aus als wir ihn abgeholt haben.
 
 **Milestone** Das Backend ist in einer frühen alpha Phase funktioniert aber schon gut.
 
-## September 2011 ====
+## September 2011
 
 * 20.09.2011 Es wurde der Entschluss gefasst das Projekt auf ein Arduino Board zu portieren.
 
-## Oktober 2011 ====
+## Oktober 2011
 * Die Portierung ist immer noch im Gange wenn auch langsamer als gedacht. Die Idee vom Anfang das ganze in "Arduino Code" zu portieren wurde verworfen. es wird sich wieder um reinen C-Code handeln, denn die Arduino Serial Lib unterstützt keine anderen Modi als 8,N,1
 ## November 2011 
 * ein fauler monat
@@ -133,7 +134,7 @@ hellblau ist die LED Seite an der das Arduino Board hängt, gelb die Transistors
 ## Juli 2013 
 * **02.07.2013** Nach langem stillstand wurde heute eine lauffähige aber wahrscheinlich nicht sehr vertrauenswürdige Version der GUI auf dem single-board computer im MateDealer zum laufen gebracht. Weitere tests werden folgen.
 
-<color red>** Ab hier werden Schwerwiegende Änderungen am MateDealer Projekt stattfinden.**</color>
+** Ab hier werden Schwerwiegende Änderungen am MateDealer Projekt stattfinden.**
 
 * **30.07.2013** Kurz bevor die Kids zum [FEZ Abend](events:fez2013) zu uns gekommen sind hat sich der 2te Schacht des Matedealers verabschiedet. Er zeigt an er sei leer obwohl das nicht der Fall ist. Das durchmessen der Leitung und der Test des Schalters lassen darauf schliessen das es sich um einen Defekt auf der VMC Platine handelt.
 * Wenig später hat sich gleich noch ein weiterer Schacht verabschiedet.
@@ -207,7 +208,7 @@ Evtl. wird das Shield mal als gefertigtes PCB gemacht und zum Selbstkostenpreis 
 ## Grundlegende Beschaltung 
 
 ![](mdb_atmega.png)
-![](mdb-proto-shield.svg)\\
+![](mdb-proto-shield.svg)
 
 ## Was alles auf die Platine soll 
 * 1 Relais zum schalten des Kühlaggregates

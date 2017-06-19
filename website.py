@@ -32,7 +32,6 @@ class Website:
             for f in files:
                 if f.endswith('.md'):
                     srcpath = os.path.join(root, f)
-                    print(srcpath)
                     dstpath = self._generate_dst_path(source, output, srcpath)
                     print("converting {} to {}".format(srcpath, dstpath))
                     with open(srcpath, encoding='utf-8') as srcfile:
@@ -55,7 +54,7 @@ class Website:
     def _generate_dst_path(self, source, output, path, extension='.html'):
         path, filename = os.path.split(path)
         path = path.replace(source,output)
-        filename = f"{filename.split('.')[0]}{extension}"
+        filename = f"{os.path.splitext(filename)[0]}{extension}"
         return os.path.join(path, filename)
 
 

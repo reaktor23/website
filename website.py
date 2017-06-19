@@ -32,7 +32,8 @@ class Website:
             for f in files:
                 if f.endswith('.md'):
                     srcpath = os.path.join(root, f)
-                    dstpath = os.path.join(output, self._strip_dir(srcpath[:-3])) + ".html"
+                    print(srcpath)
+                    dstpath = self._generate_dst_path(source, output, srcpath)
                     print("converting {} to {}".format(srcpath, dstpath))
                     with open(srcpath, encoding='utf-8') as srcfile:
                         md = srcfile.read()
@@ -51,8 +52,11 @@ class Website:
         print(f"clean output directory {self.args.output}")
         shutil.rmtree(self.args.output)
 
-    def _strip_dir(self, path, count=1):
-        return '/'.join(path.split('/')[count:])
+    def _generate_dst_path(self, source, output, path, extension='.html'):
+        path, filename = os.path.split(path)
+        path = path.replace(source,output)
+        filename = f"{filename.split('.')[0]}{extension}"
+        return os.path.join(path, filename)
 
 
 if __name__ == '__main__':

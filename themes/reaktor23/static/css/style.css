@@ -1,0 +1,15 @@
+body > div > header >  .navbar {
+    min-height: 100px;
+}
+
+a {
+    color: #1f9518;
+}
+
+a:focus, a:hover {
+    color: #1f6518;
+}
+
+.navbar-brand {
+    padding-left: 0;
+}

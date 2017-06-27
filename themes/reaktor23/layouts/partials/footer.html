@@ -1,18 +1,21 @@
-    	<footer>
-			<hr>
-			<ul>
-				{{ $currentPage := . }}
-				{{ range .Site.Menus.foot }}
-				<li>
-					<a href="{{ .URL }}">
-						<span>{{ .Name }}</span>
-					</a>
-				</li>
-				{{end}}
-				{{ if .RSSLink }}
-				<li><a href="{{ .RSSLink }}">RSS</a></li>
-				{{ end }}
-			</ul>
-		</footer>
+			<footer class="navbar">
+				<hr>
+				<div class="container-fluid">
+					<ul class="nav navbar-nav navbar-right">
+						{{ $currentPage := . }}
+						{{ range .Site.Menus.foot }}
+						<li>
+							<a href="{{ .URL }}">
+								<span>{{ .Name }}</span>
+							</a>
+						</li>
+						{{end}}
+						{{ if .RSSLink }}
+						<li><a href="{{ .RSSLink }}">RSS</a></li>
+						{{ end }}
+					</ul>
+				</div>
+			</footer>
+		</div>
 	</body>
 </html>

@@ -2,10 +2,13 @@
 <html {{ with .Site.LanguageCode }}lang="{{ . }}"{{ end }}>
 	<head>
 		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width,initial-scale=1"/>
 		{{ with .Site.Author }}<meta name="metaauthor" content="{{ . }}"/>{{ end }}
 		{{ with .Site.Params.description }}<meta name="description" content="{{ .Site.Params.description }}"/>{{ end }}
 		<title>{{ .Title }}</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/style.css"/>
 		{{ if .RSSLink }}
 		<link href="{{ .RSSLink }}" rel="alternate" type="application/typerss+xml" title="{{ .Site.Title }}" />
@@ -13,19 +16,23 @@
 		{{ end }}
 	</head>
 	<body>
-		<header>
-			<h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
-			<nav>
-				<ul>
-					{{ $currentPage := . }}
-					{{ range .Site.Menus.main }}
-					<li>
-						<a href="{{ .URL }}">
-							<span>{{ .Name }}</span>
-						</a>
-					</li>
-					{{end}}
-				</ul>
-			</nav>
-			<hr>
-		</header>
+		<div class="container" role="main">
+			<header>
+				<nav class="navbar">
+					<div class="container-fluid">
+						<ul class="nav navbar-nav navbar-right">
+							{{ $currentPage := . }}
+							{{ range .Site.Menus.main }}
+							<li>
+								<a href="{{ .URL }}">
+									<span>{{ .Name }}</span>
+								</a>
+							</li>
+							{{end}}
+						</ul>
+						<div class="navbar-header">
+							<a href="{{ .Site.BaseURL }}" class="navbar-brand"><img src="/img/logo.png" alt="{{ .Site.Title }}"></a>
+					</div>
+					</div>
+				</nav>
+			</header>

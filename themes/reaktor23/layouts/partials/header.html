@@ -8,7 +8,7 @@
 		{{ with .Site.Params.description }}<meta name="description" content="{{ .Site.Params.description }}"/>{{ end }}
 		<title>{{ .Title }}</title>
 		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"/>
 		<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/style.css"/>
 		{{ if .RSSLink }}
 		<link href="{{ .RSSLink }}" rel="alternate" type="application/typerss+xml" title="{{ .Site.Title }}" />
@@ -18,21 +18,29 @@
 	<body>
 		<div class="container" role="main">
 			<header>
-				<nav class="navbar">
+				<nav class="navbar navbar-fixed-top navbar-default">
 					<div class="container-fluid">
-						<ul class="nav navbar-nav navbar-right">
-							{{ $currentPage := . }}
-							{{ range .Site.Menus.main }}
-							<li>
-								<a href="{{ .URL }}">
-									<span>{{ .Name }}</span>
-								</a>
-							</li>
-							{{end}}
-						</ul>
 						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
 							<a href="{{ .Site.BaseURL }}" class="navbar-brand"><img src="/img/logo.png" alt="{{ .Site.Title }}"></a>
-					</div>
+						</div>
+					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-right">
+								{{ $currentPage := . }}
+								{{ range .Site.Menus.main }}
+								<li>
+									<a href="{{ .URL }}">
+										<span>{{ .Name }}</span>
+									</a>
+								</li>
+								{{end}}
+							</ul>
+						</div>
 					</div>
 				</nav>
 			</header>

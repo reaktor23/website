@@ -1,5 +1,10 @@
-body > div > header >  .navbar {
+body > div > header > .navbar,
+body > div > header .navbar-header {
     min-height: 100px;
+}
+
+body {
+    padding-top: 120px;
 }
 
 a {
@@ -8,10 +13,6 @@ a {
 
 a:focus, a:hover {
     color: #1f6518;
-}
-
-.navbar-brand {
-    padding-left: 0;
 }
 
 article img {

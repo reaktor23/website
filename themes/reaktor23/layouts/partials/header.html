@@ -8,7 +8,7 @@
 		{{ with .Site.Params.description }}<meta name="description" content="{{ .Site.Params.description }}"/>{{ end }}
 		<title>{{ .Title }}</title>
 		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/bootstrap.min.css"/>
 		<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/style.css"/>
 		{{ if .RSSLink }}
 		<link href="{{ .RSSLink }}" rel="alternate" type="application/typerss+xml" title="{{ .Site.Title }}" />

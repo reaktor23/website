@@ -13,3 +13,7 @@ a:focus, a:hover {
 .navbar-brand {
     padding-left: 0;
 }
+
+article img {
+    max-width: 100%;
+}

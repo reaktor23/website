@@ -1,0 +1,23 @@
+{{ partial "header.html" . }}
+<article>
+	<header>
+		<h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+		<p class="small">
+		{{ if .Params.author }}{{ .Params.author }}{{ end }}
+		{{ if and (not .Date.IsZero) (.Params.author) }} - {{ end }}
+		{{ if not .Date.IsZero }}
+		<time datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">{{ .Date.Format "2006-01-02" }}</time>
+		{{ end }}
+		</p>
+	</header>
+	{{ if .Params.toc }}
+	<aside class="panel panel-default">
+		<div class="panel-heading">Table Of Conent</div>
+		<div class="panel-body">
+		{{ .TableOfContents }}
+		</div>
+	</aside>
+	{{ end }}
+	{{ .Content }}
+</article>
+{{ partial "footer.html" . }}

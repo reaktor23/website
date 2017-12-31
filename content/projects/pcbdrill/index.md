@@ -1,10 +1,9 @@
 ---
 title: Platinenbohrmaschine
 author: Bouni
-status: beta
-progress: 90
 description: Bau einer Platinenbohrmaschine die an einen Tisch geklemmt werden kann und von unten durch die Platine die Löcher bohrt. das anpeilen der Löcher soll mit Hilfe einer Webcam passieren
 draft: false
+date: 2017-12-31
 ---
 
 # Mechanik 

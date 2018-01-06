@@ -1,24 +1,22 @@
-			<footer class="navbar">
+			<footer>
 				<hr>
-				<div class="container-fluid">
-					<ul class="nav navbar-nav navbar-right">
+				<nav class="navbar navbar-expand">
+					<ul class="navbar-nav navbar-right">
 						{{ $currentPage := . }}
 						{{ range .Site.Menus.foot }}
-						<li>
-							<a href="{{ .URL }}">
-								<span>{{ .Name }}</span>
-							</a>
+						<li class="nav-item">
+							<a href="{{ .URL }}" class="nav-link">{{ .Name }}</a>
 						</li>
 						{{end}}
 						{{ if .RSSLink }}
-						<li><a href="{{ .RSSLink }}">RSS</a></li>
+						<li><a href="{{ .RSSLink }}" class="nav-link">RSS</a></li>
 						{{ end }}
 					</ul>
-				</div>
+				</nav>
 			</footer>
 		</div>
 
 		<script src="{{ .Site.BaseURL }}/js/jquery.min.js"></script>
-		<script src="{{ .Site.BaseURL }}/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"></script>
+		<script src="{{ .Site.BaseURL }}/js/bootstrap.min.js"></script>
 	</body>
 </html>

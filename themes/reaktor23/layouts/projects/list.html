@@ -1,12 +1,19 @@
 {{ partial "header.html" . }}
 
-{{ range .Data.Pages }}
-<div class="list-group">
-  <a href="{{ .Permalink }}" class="list-group-item">
-    <h4 class="list-group-item-heading">{{ .Title }}</h4>
-    <p class="list-group-item-text">{{ .Description }}</p>
-  </a>
+<div class="row">
+	{{ range .Data.Pages }}
+	<div class="col-sm-4">
+		<div class="card">
+  			<div class="card-body">
+				<h5 class="card-title">{{ .Title }}</h5>
+				<p class="card-text">{{ .Description }}</p>
+				<div class="text-center">
+					<a href="{{ .Permalink }}" class="btn btn-primary">More</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	{{ end }}
 </div>
-{{ end }}
 
 {{ partial "footer.html" . }}

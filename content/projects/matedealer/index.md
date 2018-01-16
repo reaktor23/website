@@ -25,6 +25,8 @@ Die Mechanischen Teile werden für den [MateDealer 2.0](projects:matedealer2) be
 * Kaufpreis: ~400 €
 * Münzprüfer [NRI](http://www.nri.de/) G40.4000/4-0752 (EUR & GBP)
 
+![](vendo_1.jpg)\\
+![](vendo_2.jpg)\\
 ![](vendo_3.jpg)\\
 So sah der Automat aus als wir ihn abgeholt haben.
 

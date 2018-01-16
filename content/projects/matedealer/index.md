@@ -99,10 +99,13 @@ So sah der Automat aus als wir ihn abgeholt haben.
 
 ## Oktober 2011
 * Die Portierung ist immer noch im Gange wenn auch langsamer als gedacht. Die Idee vom Anfang das ganze in "Arduino Code" zu portieren wurde verworfen. es wird sich wieder um reinen C-Code handeln, denn die Arduino Serial Lib unterstützt keine anderen Modi als 8,N,1
+
 ## November 2011 
 * ein fauler monat
+
 ## Dezember 2011 
 * ein weiterer fauler monat
+
 ## Januar 2012 
 * 10.01.2012 Heute wurden einige Aufzeichnungen mit dem Oszi gemacht um gute Widerstandswerte für Rv und Pullup der Optokoppler zu ermitteln. Die Ergebnisse sind nicht besonders gut, aber ausreichend.
 ![](optocoupler_100112_1.png)
@@ -113,10 +116,13 @@ hellblau ist die LED Seite an der das Arduino Board hängt, gelb die Transistors
 
 ## February 2012 
 * kein Fortschritt
+
 ## March 2012 
 * kein Fortschritt
+
 ## April 2012 
 * kein Fortschritt
+
 ## May 2012 
 * kein Fortschritt (Aber die Hoffnung das Projekt wiederzubeleben ;) )
 

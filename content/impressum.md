@@ -3,4 +3,5 @@ title: Impressum
 draft: false
 ---
 
-Yeah ...
+Impressum + Datenschutzerklaerung
+

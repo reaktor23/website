@@ -18,5 +18,5 @@ Bei dieser Website handelt es sich um eine statische Website. Es gibt keine
 Benutzerkonten oder Cookies. Lediglich der Webserver schreibt ein so genanntes
 Access Log aus dem Zeitpunkt, aufgerufene URL, IP Adresse und User Agent String
 der Seitenzugriffe ersichtlich sind. Dieses Log dient ausschliesslich zur
-Fehleranalyse ohne Personenbezug. Die Logdateien werden nach drei Tagen
-automatisch gelöscht.
+Fehleranalyse und hat keinen Personenbezug. Die Logdateien werden nach drei
+Tagen automatisch gelöscht.

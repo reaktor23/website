@@ -1,6 +1,9 @@
 ---
-title: "Testpage"
-draft: false
+title: "This is a test page"
+description: "to preview the layout and so on"
+author: "Max Mustermann"
+date: 2018-01-17 
+draft: true
 ---
 
 Paragraph 1

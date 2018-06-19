@@ -1,3 +1,37 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 article img {
     max-width: 100%;
+}
+/* reduce all markdown h by a fair amount to make a difference to the article header*/
+h1:not(.headline){
+    font-size:         calc(100% + 0.5rem);
+    font-size: -webkit-calc(100% + 0.5rem); 
+}
+
+h1 {
+    font-weight: 300;
+}
+
+.nav-item {
+    font-size: 1.8rem;
+}
+
+hr {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.meta {
+    color: #666;
+}
+
+.card {
+    min-height: 15em;
+}
+
+.border-dark {
+    border-color: #ececec !important;
 }

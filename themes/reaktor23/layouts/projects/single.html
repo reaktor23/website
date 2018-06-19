@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 <article>
 	<header>
-		<h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+		<h1 class="headline"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
 		<p class="small">
 		{{ if .Params.author }}{{ .Params.author }}{{ end }}
 		{{ if and (not .Date.IsZero) (.Params.author) }} - {{ end }}

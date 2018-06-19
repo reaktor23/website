@@ -2,12 +2,18 @@
 {{ range first 5 (where .Data.Pages "Section" "blog") }}
 <article>
 	<header>
-		<h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+		<h1 class="headline my-3"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+    <div class="meta">
+    {{ if .Params.Author }}
+    <span class="author">by {{ .Params.Author }} - </span>
+    {{ end }}
 		{{ if not .Date.IsZero }}
 		<time datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">{{ .Date.Format "2006-01-02" }}</time>
 		{{ end }}
+    </div>
 	</header>
 	{{ .Content }}
 </article>
+<hr/>
 {{ end }}
 {{ partial "footer.html" . }}

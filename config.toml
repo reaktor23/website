@@ -15,5 +15,5 @@ theme = "reaktor23"
     url = "/projects/"
 
 [[menu.foot]]
-    name = "Impressum"
+    name = "Impressum / Datenschutz"
     url = "/impressum/"

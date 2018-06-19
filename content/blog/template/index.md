@@ -2,7 +2,7 @@
 title: "Your page title here"
 description: "an optional description"
 author: "Your name"
-date: YYYY-MM-DD 
+date: 1970-01-01
 draft: true
 ---
 

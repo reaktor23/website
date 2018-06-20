@@ -1,0 +1,5 @@
+{{ if .IsNamedParams }}
+<img src="{{ .Get "src" }}" class="img-thumbnail" {{ if .Get "width" }}width="{{ .Get "width" }}"{{ end }}>
+{{ else }}
+<img src="{{ .Get "src" }}" class="img-thumbnail" {{ if len .Params | eq 2 }}width="{{ .Get 1 }}"{{ end }}>
+{{ end }}

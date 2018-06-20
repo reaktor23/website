@@ -25,9 +25,10 @@ Die Mechanischen Teile werden für den [MateDealer 2.0](projects:matedealer2) be
 * Kaufpreis: ~400 €
 * Münzprüfer [NRI](http://www.nri.de/) G40.4000/4-0752 (EUR & GBP)
 
-{{< figure src="vendo_1.jpg" width="200px" title="Matedealer 1">}}
-{{< figure src="vendo_2.jpg" width="200px" title="Matedealer 2">}}
-{{< figure src="vendo_3.jpg" width="200px" title="Matedealer 3">}}
+{{< thumbnail src="vendo_1.jpg" width="300px" >}}
+{{< thumbnail src="vendo_2.jpg" width="300px" >}}
+{{< thumbnail src="vendo_3.jpg" width="300px" >}}
+
 So sah der Automat aus als wir ihn abgeholt haben.
 
 # Unterlagen zum Automaten
@@ -112,11 +113,9 @@ So sah der Automat aus als wir ihn abgeholt haben.
 * 10.01.2012 Heute wurden einige Aufzeichnungen mit dem Oszi gemacht um gute Widerstandswerte für Rv und Pullup der Optokoppler zu ermitteln. Die Ergebnisse sind nicht besonders gut, aber ausreichend.
 
 
-![](optocoupler_100112_1.png)
-
-![](optocoupler_100112_2.png)
-
-![](optocoupler_100112_3.png)
+{{< thumbnail src="optocoupler_100112_1.png" width="350px" >}}
+{{< thumbnail src="optocoupler_100112_2.png" width="350px" >}}
+{{< thumbnail src="optocoupler_100112_3.png" width="350px" >}}
 
 hellblau ist die LED Seite an der das Arduino Board hängt, gelb die Transistorseite. Übertragen wurde mit 9600Baud.
 
@@ -207,8 +206,8 @@ Die Software die auf dem Arduino lauft ist auf [GitHub](https://github.com/Bouni
 
 # MDB Protokoll 
 
-![](mdb-timing.png)
-![](mdb-flowchart.svg)
+{{< thumbnail src="mdb-timing.png" width="1100px" >}}
+{{< thumbnail src="mdb-flowchart.svg" width="1100px" >}}
 
 # Elektronik 
 
@@ -218,8 +217,10 @@ Evtl. wird das Shield mal als gefertigtes PCB gemacht und zum Selbstkostenpreis 
 
 ## Grundlegende Beschaltung 
 
-![](mdb_atmega.png)
-![](mdb-proto-shield.svg)
+{{< thumbnail src="mdb_atmega.png" width="1100px" >}}
+
+
+{{< thumbnail src="mdb-proto-shield.svg" width="1100px" >}}
 
 ## Was alles auf die Platine soll 
 * 1 Relais zum schalten des Kühlaggregates

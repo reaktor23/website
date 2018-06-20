@@ -110,8 +110,12 @@ So sah der Automat aus als wir ihn abgeholt haben.
 
 ## Januar 2012 
 * 10.01.2012 Heute wurden einige Aufzeichnungen mit dem Oszi gemacht um gute Widerstandswerte für Rv und Pullup der Optokoppler zu ermitteln. Die Ergebnisse sind nicht besonders gut, aber ausreichend.
+
+
 ![](optocoupler_100112_1.png)
+
 ![](optocoupler_100112_2.png)
+
 ![](optocoupler_100112_3.png)
 
 hellblau ist die LED Seite an der das Arduino Board hängt, gelb die Transistorseite. Übertragen wurde mit 9600Baud.

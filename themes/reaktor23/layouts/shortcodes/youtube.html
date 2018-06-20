@@ -1,0 +1,9 @@
+{{ if .IsNamedParams }}
+  <div class="{{ if .Get "class" }}{{ .Get "class" }}{{ end }}">
+      <iframe width="640" height="360" src="https://www.youtube.com/embed/{{ .Get "id" }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
+{{ else }}
+  <div class="{{ if len .Params | eq 2 }}{{ .Get 1 }}{{ end }}">
+      <iframe width="640" height="360" src="https://www.youtube.com/embed/{{ .Get 0 }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
+{{ end }}

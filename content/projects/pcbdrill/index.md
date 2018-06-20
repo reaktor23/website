@@ -19,8 +19,7 @@ Die Ansteuerung des Schrittmotors gestaltet sich recht einfach, da es sich um ei
 
 # Software 
 
-[pcb-drill GitHub Repo](https://github.com/Bouni/pcb-drill)
-
+{{< fa github 2 >}} [pcb-drill GitHub Repo](https://github.com/Bouni/pcb-drill)
 
 # Video 
 

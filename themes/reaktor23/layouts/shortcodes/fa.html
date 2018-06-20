@@ -1,0 +1,5 @@
+{{ if .IsNamedParams }}
+<i class="fa fa-{{ .Get "icon" }}{{ if .Get "size" }} fa-{{ .Get "size"}}x{{end}}" aria-hidden="true"></i>
+{{ else }}
+<i class="fa fa-{{ .Get 0 }}{{ if len .Params | eq 2 }} fa-{{ .Get 1 }}x{{end}}" aria-hidden="true"></i>
+{{ end }}

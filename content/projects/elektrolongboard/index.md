@@ -37,7 +37,7 @@ date: 2017-12-31
 * Die Regler werden über eine Pulsweitenmodulation geregelt. Regler benötigen eine konstante Folge von 1ms bis 2ms Impulsen mit einem Abstand von 20ms. Wobei ein Impuls von 1,5ms dem 
 * Stillstand entspricht, 2ms entsprechen Vollgas vorwärts und 1 ms entsprechen Vollgas rückwärst. Die Höhe der Spannung ist dabei abhängig vom eingesetzten BEC (Battery Eliminator Circuit). Bei einem 5v BEC, beträgt die Pulshöhe 5v, bei einem 6v BEC beträgt die Pulshöhe 6v, usw.
 * Das Bild zeigt ein typisches Ausgangssignal von einem Empfänger
-  ![](radio_pwm.gif) 
+ {{< thumbnail src="radio_pwm.gif" width="250px">}} 
 * [So funzt die Funke](http://www.svenfroemmer.de/index.php?optioncom_wrapper&view=wrapper&Itemid=129): Hier kan man alles im Detail nachlesen.
 
 ## Arduino Code
@@ -46,16 +46,16 @@ date: 2017-12-31
 * Über die PS Taste des Controllers wird der Controller mit dem Arduino connected so wie disconnected.
 * Mit dem Analogbutton L2 kann die Geschwindigkeit des Motors gesteuert werden.
  
-* Der Motor wird über eine Rampe gesteuert. Es ist also möglich Vollgas zu geben und der Motor wird langsam bis auf Vollgas beschleunigt. \\ 
-  ![](sonynav.jpg) 
+* Der Motor wird über eine Rampe gesteuert. Es ist also möglich Vollgas zu geben und der Motor wird langsam bis auf Vollgas beschleunigt. 
+  {{< thumbnail src="sonynav.jpg" width="350px">}} 
 * Arduino mit Oszi.
-  ![](foto_1.jpg)
+  {{< thumbnail src="foto_1.jpg" width="350px">}}
 * PWM kein Gas 1,5ms
-  ![](foto_2.jpg)
+  {{< thumbnail src="foto_2.jpg" width="350px">}}
 * PWM Vollgas vorwärts 2,0ms oder größer
-  ![](foto_3.jpg)
+  {{< thumbnail src="foto_3.jpg" width="350px">}}
 * PWM Vollgas rückwärts 1,0ms oder kleiner
-  ![](foto_4.jpg)
+  {{< thumbnail src="foto_4.jpg" width="350px">}}
 
 ## Was ist noch zu tun 
 
@@ -74,12 +74,11 @@ date: 2017-12-31
 * So, die ersten Testfahrten sind ganz gut gelaufen. Aus dem Stand heraus lässt sich das Board nicht bewegen, jedoch reicht ein leichtes puschen aus und dann gehts ganz gut vorwärts.
 * Die Motorhalterung zeigt erste Schwachstellen, da sich Risse bilden.
 * Eine überarbeitete Version der Motorhalterung befindet sich im Druck. 
-* //Seite noch im Aufbau//
 
-![](img_20140425_223747.jpg)
-![](img_2014.jpg)
-![](img_2012.jpg)
-![](img_2009.jpg)
-![](img_2011.jpg)
-![](img_2010.jpg)
+{{< thumbnail src="img_20140425_223747.jpg" width="350px" class="horizontal">}}
+{{< thumbnail src="img_2014.jpg" width="350px" class="horizontal">}}
+{{< thumbnail src="img_2012.jpg" width="350px" class="horizontal">}}
+{{< thumbnail src="img_2009.jpg" width="350px" class="horizontal">}}
+{{< thumbnail src="img_2011.jpg" width="350px" class="horizontal">}}
+{{< thumbnail src="img_2010.jpg" width="350px" class="horizontal">}}
 

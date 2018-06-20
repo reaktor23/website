@@ -25,9 +25,9 @@ Die Mechanischen Teile werden für den [MateDealer 2.0](projects:matedealer2) be
 * Kaufpreis: ~400 €
 * Münzprüfer [NRI](http://www.nri.de/) G40.4000/4-0752 (EUR & GBP)
 
-{{< thumbnail src="vendo_1.jpg" width="300px" >}}
-{{< thumbnail src="vendo_2.jpg" width="300px" >}}
-{{< thumbnail src="vendo_3.jpg" width="300px" >}}
+{{< thumbnail src="vendo_1.jpg" width="300px" class="horizontal">}}
+{{< thumbnail src="vendo_2.jpg" width="300px" class="horizontal">}}
+{{< thumbnail src="vendo_3.jpg" width="300px" class="horizontal">}}
 
 So sah der Automat aus als wir ihn abgeholt haben.
 
@@ -113,9 +113,9 @@ So sah der Automat aus als wir ihn abgeholt haben.
 * 10.01.2012 Heute wurden einige Aufzeichnungen mit dem Oszi gemacht um gute Widerstandswerte für Rv und Pullup der Optokoppler zu ermitteln. Die Ergebnisse sind nicht besonders gut, aber ausreichend.
 
 
-{{< thumbnail src="optocoupler_100112_1.png" width="350px" >}}
-{{< thumbnail src="optocoupler_100112_2.png" width="350px" >}}
-{{< thumbnail src="optocoupler_100112_3.png" width="350px" >}}
+{{< thumbnail src="optocoupler_100112_1.png" width="350px" class="horizontal">}}
+{{< thumbnail src="optocoupler_100112_2.png" width="350px" class="horizontal">}}
+{{< thumbnail src="optocoupler_100112_3.png" width="350px" class="horizontal">}}
 
 hellblau ist die LED Seite an der das Arduino Board hängt, gelb die Transistorseite. Übertragen wurde mit 9600Baud.
 

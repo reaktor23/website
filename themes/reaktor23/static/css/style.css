@@ -43,5 +43,9 @@ footer a.nav-link {
 }
 
 .img-thumbnail {
-    display: inline-block;
+    display: block;
+}
+
+.img-thumbnail.horizontal {
+    display: inline-block !important;
 }

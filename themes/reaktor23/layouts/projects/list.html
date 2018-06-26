@@ -1,9 +1,12 @@
 {{ partial "header.html" . }}
 
 <div class="row">
-	{{ range .Data.Pages }}
-	<div class="col-sm-4">
-		<div class="card border-dark">
+	<div class="card-columns">
+	    {{ range .Data.Pages }}
+		<div class="card border-secondary">
+			{{- if .Params.image }}
+			<img class="card-img-top" src="{{ .Permalink }}/{{ .Params.image }}" alt="Card image cap">
+			{{- end }}
   			<div class="card-body">
 				<h5 class="card-title">{{ .Title }}</h5>
 				<p class="card-text">{{ .Description }}</p>
@@ -12,8 +15,8 @@
 				</div>
 			</div>
 		</div>
+		{{ end }}
 	</div>
-	{{ end }}
 </div>
 
 {{ partial "footer.html" . }}

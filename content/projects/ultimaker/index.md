@@ -4,6 +4,7 @@ author: Zeno
 description: 3D Printer for our Hackerspace
 draft: false
 date: 2017-12-31
+image: rotary_head4.png
 ---
 
 {{% box success %}}

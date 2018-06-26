@@ -4,6 +4,7 @@ description: Eigenbau eines elektrisch angetriebenen Longboards
 author: Sniser
 draft: false
 date: 2017-12-31
+image: img_20140425_223747.jpg
 ---
 
 # Wie kam ich auf die Idee

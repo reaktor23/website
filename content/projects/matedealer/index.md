@@ -5,6 +5,7 @@ description: Umbau/Erweiterung eines Getränke- automaten um eine Bezahlsystem m
 date: 2017-12-31
 toc: true
 draft: false
+image: vendo_1.jpg
 ---
 
 There is a enlish version of this site: [Mate Dealer](projects:mate_dealer_en)

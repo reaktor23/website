@@ -4,6 +4,7 @@ author: Bouni
 description: Bau einer Steuerung für eine Flipdot Matrix
 date: 2017-12-31
 draft: false
+image: flip-dot.jpg
 ---
 
 # Ansteuerung

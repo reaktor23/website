@@ -51,3 +51,6 @@ footer a.nav-link {
     display: inline-block !important;
 }
 
+#reaktorstatus {
+    width: 20rem;
+}

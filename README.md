@@ -78,5 +78,4 @@ Your content here
 
 _type_ is one of the bootstrap classes for alerts (primary, secondary, success, danger, warning, info, light, dark), defaults to info.
 
-_id_ is mandatory
 

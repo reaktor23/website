@@ -36,7 +36,7 @@ We added some feature to the original printer:
 # Available special materials 
 
 {{% table %}}
-| color | material | quantity |
+| Color/Type | Material | Quantity |
 | --- | --- | --- |
 | black | PLA-Flexible | 0.6kg |
 | white | PLA-Flexible | 0.6kg |

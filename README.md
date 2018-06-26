@@ -78,4 +78,12 @@ Your content here
 
 _type_ is one of the bootstrap classes for alerts (primary, secondary, success, danger, warning, info, light, dark), defaults to info.
 
+**Table**
 
+Wraps a markdown table and makes it a bit more fancy by adding the bootstrap table class
+
+{{% table %}}
+| A | B |
+| --- | --- |
+| 1 | 2 |
+{{% /table %}}

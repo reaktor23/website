@@ -1,15 +1,15 @@
 			<footer>
 				<nav class="navbar navbar-expand">
 					<ul class="navbar-nav navbar-right">
-						{{ $currentPage := . }}
-						{{ range .Site.Menus.foot }}
+						{{- $currentPage := . }}
+						{{- range .Site.Menus.foot }}
 						<li class="nav-item">
-							<a href="{{ .URL }}" class="nav-link">{{ .Name }}</a>
+							<a href="{{ .URL }}" class="nav-link text-muted"><small class="text-muted">{{ .Name }}</small></a>
 						</li>
-						{{end}}
-						{{ if .RSSLink }}
-						<li class="nav-item"><a href="{{ .RSSLink }}" class="nav-link">RSS</a></li>
-						{{ end }}
+						{{- end }}
+						{{- if .RSSLink }}
+						<li class="nav-item"><a href="{{ .RSSLink }}" class="nav-link"><small class="text-muted">RSS</small></a></li>
+						{{- end }}
 					</ul>
 				</nav>
 			</footer>

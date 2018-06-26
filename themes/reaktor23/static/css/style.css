@@ -36,6 +36,7 @@ footer a.nav-link {
 
 .card {
     min-height: 15em;
+    margin-bottom: 2rem;
 }
 
 .border-dark {

@@ -22,13 +22,61 @@ Quickstart
 Todo
 ----
 
-- [ ] Create proper theme
-  - [ ] Have a nice news overview
-  - [ ] Make a project overview, eg. using [cards](https://themes.gohugo.io/robust/)
+- [x] Create proper theme
+  - [x] Have a nice news overview
+  - [x] Make a project overview, eg. using [cards](https://themes.gohugo.io/robust/)
 - [x] Make menu configurable in config.toml
-- [ ] Define content structure
+- [x] Define content structure
 - [ ] **Figure out how to reference/handle file like images corrently so it will work with both summaries and page views.** [see](https://github.com/spf13/hugo/issues/1240)
 - [ ] Create deployment hooks
 - [ ] Migrate content from existing site
 - [ ] Write impressum, about, contect, etc. pages
+- [ ] Create functioning Reaktor Status on landing page
+
+Custom shortcodes
+----
+Shortcodes are used to enable users to create certain HTML output from the markup pages.
+Here are our implemented shortcodes for documentation:
+
+**Thumbnail**
+
+Geneartes a nice looking frame around the image.
+
+{{< thumnail src="url/to/img.jpg" width="200px" class="horizontal" >}}
+
+_src_ is mandatory, _width_ controls the image width, _class_ enables us to align the images horizontaly if neccessary
+
+**Font Awesome**
+
+Let you insert a Font Awesome Icon into you page.
+
+{{< fa icon="github" size="3" >}}
+
+_icon_ is mandatrory, _size_ controls the icon size (1,2,3,4,5)
+
+**Vimeo**
+
+Let you embed a vimeo video.
+
+{{< vimeo id="43611049" >}}
+
+_id_ is mandatory
+
+**Youtube**
+
+Let you embed a youtube video.
+
+{{< youtube id="aqz-KE-bpKQ" >}}
+
+**Box**
+
+Let you put content in an bootstrap alert box.
+
+{{% box type="danger" %}}
+Your content here 
+{{% /box %}}
+
+_type_ is one of the bootstrap classes for alerts (primary, secondary, success, danger, warning, info, light, dark), defaults to info.
+
+_id_ is mandatory
 

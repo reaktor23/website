@@ -1,0 +1,9 @@
+{{ if .IsNamedParams }}
+<div class="alert alert-{{ if .Get "type" }}{{ .Get "type" }}{{ else }}info{{ end }}" role="alert">
+    {{ .Inner }}
+</div>
+{{ else }}
+<div class="alert alert-{{ if len .Params | eq 1 }}{{ .Get 0 }}{{ else }}info{{ end }}" role="alert">
+    {{ .Inner }}
+</div>
+{{ end }}

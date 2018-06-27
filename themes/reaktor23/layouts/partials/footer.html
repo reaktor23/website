@@ -1,21 +1,18 @@
-			<footer>
-				<nav class="navbar navbar-expand">
-					<ul class="navbar-nav navbar-right">
-						{{- $currentPage := . }}
-						{{- range .Site.Menus.foot }}
-						<li class="nav-item">
-							<a href="{{ .URL }}" class="nav-link text-muted"><small class="text-muted">{{ .Name }}</small></a>
-						</li>
-						{{- end }}
-						{{- if .RSSLink }}
-						<li class="nav-item"><a href="{{ .RSSLink }}" class="nav-link"><small class="text-muted">RSS</small></a></li>
-						{{- end }}
-					</ul>
-				</nav>
-			</footer>
-		</div>
-		<script src="{{ .Site.BaseURL }}/js/jquery.min.js"></script>
-		<script src="{{ .Site.BaseURL }}/js/bootstrap.min.js"></script>
-		<script src="{{ .Site.BaseURL }}/js/reaktorstatus.js"></script>
-	</body>
+<footer>
+    <div class="footer-copyright text-center py-3">
+        {{- $currentPage := . }}
+        {{- range .Site.Menus.foot }}
+        <a href="{{ .URL }}" class="text-muted">{{ .Name }}</a>
+        {{- end }}
+        {{- if .RSSLink }}
+        <span class="text-muted px-2">&bull;</span>
+        <a href="{{ .RSSLink }}" class="text-muted">RSS</a>
+        {{- end }}
+    </div>
+</footer>
+
+<script src="{{ .Site.BaseURL }}/js/jquery.min.js"></script>
+<script src="{{ .Site.BaseURL }}/js/bootstrap.min.js"></script>
+<script src="{{ .Site.BaseURL }}/js/reaktorstatus.js"></script>
+</body>
 </html>

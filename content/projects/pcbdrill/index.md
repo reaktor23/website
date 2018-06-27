@@ -4,6 +4,7 @@ author: Bouni
 description: Bau einer Platinenbohrmaschine die an einen Tisch geklemmt werden kann und von unten durch die Platine die Löcher bohrt. das anpeilen der Löcher soll mit Hilfe einer Webcam passieren
 draft: false
 date: 2017-12-31
+image: pcbdrill.jpg
 ---
 
 # Mechanik 
@@ -20,6 +21,10 @@ Die Ansteuerung des Schrittmotors gestaltet sich recht einfach, da es sich um ei
 # Software 
 
 {{< fa github 2 >}} [pcb-drill GitHub Repo](https://github.com/Bouni/pcb-drill)
+
+# Bilder
+
+{{< thumbnail src="pcbdrill.jpg" width="350">}}
 
 # Video 
 

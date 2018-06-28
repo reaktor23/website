@@ -7,8 +7,24 @@ article img {
 }
 /* reduce all markdown h by a fair amount to make a difference to the article header*/
 h1:not(.headline){
-    font-size:         calc(100% + 0.5rem);
-    font-size: -webkit-calc(100% + 0.5rem); 
+    font-size:         calc(100% + 0.8rem);
+    font-size: -webkit-calc(100% + 0.8rem); 
+}
+h2:not(.headline){
+    font-size:         calc(100% + 0.6rem);
+    font-size: -webkit-calc(100% + 0.6rem); 
+}
+h3:not(.headline){
+    font-size:         calc(100% + 0.4rem);
+    font-size: -webkit-calc(100% + 0.4rem); 
+}
+h4:not(.headline){
+    font-size:         calc(100% + 0.2rem);
+    font-size: -webkit-calc(100% + 0.2rem); 
+}
+h5:not(.headline){
+    font-size:         calc(100%);
+    font-size: -webkit-calc(100%); 
 }
 
 h1 {

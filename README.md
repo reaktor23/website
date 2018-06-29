@@ -42,7 +42,7 @@ Here are our implemented shortcodes for documentation:
 
 Geneartes a nice looking frame around the image.
 
-{{< thumnail src="url/to/img.jpg" width="200px" class="horizontal" >}}
+    {{< thumnail src="url/to/img.jpg" width="200px" class="horizontal" >}}
 
 _src_ is mandatory, _width_ controls the image width, _class_ enables us to align the images horizontaly if neccessary
 
@@ -50,7 +50,7 @@ _src_ is mandatory, _width_ controls the image width, _class_ enables us to alig
 
 Let you insert a Font Awesome Icon into you page.
 
-{{< fa icon="github" size="3" >}}
+    {{< fa icon="github" size="3" >}}
 
 _icon_ is mandatrory, _size_ controls the icon size (1,2,3,4,5)
 
@@ -58,7 +58,7 @@ _icon_ is mandatrory, _size_ controls the icon size (1,2,3,4,5)
 
 Let you embed a vimeo video.
 
-{{< vimeo id="43611049" >}}
+    {{< vimeo id="43611049" >}}
 
 _id_ is mandatory
 
@@ -66,15 +66,15 @@ _id_ is mandatory
 
 Let you embed a youtube video.
 
-{{< youtube id="aqz-KE-bpKQ" >}}
+    {{< youtube id="aqz-KE-bpKQ" >}}
 
 **Box**
 
 Let you put content in an bootstrap alert box.
 
-{{% box type="danger" %}}
-Your content here 
-{{% /box %}}
+    {{% box type="danger" %}}
+    Your content here 
+    {{% /box %}}
 
 _type_ is one of the bootstrap classes for alerts (primary, secondary, success, danger, warning, info, light, dark), defaults to info.
 
@@ -82,8 +82,9 @@ _type_ is one of the bootstrap classes for alerts (primary, secondary, success, 
 
 Wraps a markdown table and makes it a bit more fancy by adding the bootstrap table class
 
-{{% table %}}
-| A | B |
-| --- | --- |
-| 1 | 2 |
-{{% /table %}}
+    {{% table %}}
+    | A | B |
+    | --- | --- |
+    | 1 | 2 |
+    | 3 | 4 |
+    {{% /table %}}

@@ -20,21 +20,8 @@ image: radiationmap-heatmap.png
 
 ### Bundesamt fuer Strahlenschutz 
 
-  * Zweistünidige Messwerte in µS/h, leider keine Niederschlagsmessdaten
-
-    wget -P ~/Projects/ODL-Daten/$(date +%Y%m%d)/ODL-BFS/ -i odl-bfs.txt
-
-    - http://offeneDaten:odaten@odlinfo.bfs.de/daten/2h_00.dat
-    - http://offeneDaten:odaten@odlinfo.bfs.de/daten/2h_02.dat
-    - http://offeneDaten:odaten@odlinfo.bfs.de/daten/2h_04.dat
-    - http://offeneDaten:odaten@odlinfo.bfs.de/daten/2h_08.dat
-    - http://offeneDaten:odaten@odlinfo.bfs.de/daten/2h_10.dat
-    - http://offeneDaten:odaten@odlinfo.bfs.de/daten/2h_12.dat
-    - http://offeneDaten:odaten@odlinfo.bfs.de/daten/2h_14.dat
-    - http://offeneDaten:odaten@odlinfo.bfs.de/daten/2h_16.dat
-    - http://offeneDaten:odaten@odlinfo.bfs.de/daten/2h_18.dat
-    - http://offeneDaten:odaten@odlinfo.bfs.de/daten/2h_20.dat
-    - http://offeneDaten:odaten@odlinfo.bfs.de/daten/2h_22.dat
+  * Alle Daten sind auf dem [Sever des BfS](https://odlinfo.bfs.de/daten/) zu finden.
+  * Eine [Beschreibung](https://odlinfo.bfs.de/daten/Datenbereitstellung-2016-04-21.pdf) was alles verfügbar ist sowie was die Daten für eine Bedeutung haben. 
 
 ## Österreich
 ### Lebensministerium 

@@ -3,4 +3,5 @@
 env
 output
 /public
+/resources
 webhookconfig.py

@@ -17,3 +17,7 @@ theme = "reaktor23"
 [[menu.foot]]
     name = "Impressum / Datenschutz"
     url = "/impressum/"
+
+[imaging]
+resampleFilter = "Lanczos"
+quality = 80

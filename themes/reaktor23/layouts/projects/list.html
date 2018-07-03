@@ -5,7 +5,10 @@
 	    {{ range .Data.Pages }}
 		<div class="card border-secondary mx-2 mb-4">
 			{{- if .Params.image }}
-			<img class="card-img-top" src="{{ .Permalink }}/{{ .Params.image }}" alt="Card image cap">
+			{{- with $cardimg := .Resources.GetMatch .Params.image }}
+			{{- $cardimg_scaled := .Resize "305x" }}
+			<img class="card-img-top" src="{{ $cardimg_scaled.Permalink }}" alt="Card image cap">
+			{{- end }}
 			{{- end }}
   			<div class="card-body">
 				<h5 class="card-title">{{ .Title }}</h5>

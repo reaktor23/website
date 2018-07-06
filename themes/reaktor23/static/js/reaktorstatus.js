@@ -1,6 +1,6 @@
 // get JSON according to the SpaceAPI
 var getstatus = function() {
-  $.getJSON("https://r23.mooo.com/spaceapi", function(data) {
+  $.getJSON("https://bdstr.reaktor23.org/spaceapi", function(data) {
     $("#reaktorstatus > #message").removeClass();
     var timeout = new Date().valueOf() - data.state.lastchange > 120;
     if(data.state.open == "open" && !timeout) {

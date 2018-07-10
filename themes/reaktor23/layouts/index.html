@@ -1,4 +1,5 @@
 {{ partial "header.html" . }}
+{{ partial "github-corner.html" . }}
 {{- range $i, $e := (first 5 (where .Data.Pages "Section" "blog")) }}
 {{- if gt $i 0 }}
 <hr>

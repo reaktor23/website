@@ -1,44 +1,24 @@
-<!DOCTYPE html>
-<html {{ with .Site.LanguageCode }}lang="{{ . }}"{{ end }}>
-	<head>
-		<meta charset="utf-8"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		{{ with .Site.Author }}<meta name="metaauthor" content="{{ . }}"/>{{ end }}
-		{{ with .Site.Params.description }}<meta name="description" content="{{ .Site.Params.description }}"/>{{ end }}
-		<title>{{ .Title }}</title>
-		<!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
-		<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/bootstrap.min.css"/>
-		<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/font-awesome.min.css"/>
-		<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/style.css"/>
-		{{ if .RSSLink }}
-		<link href="{{ .RSSLink }}" rel="alternate" type="application/typerss+xml" title="{{ .Site.Title }}" />
-		<link href="{{ .RSSLink }}" relel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
-		{{ end }}
-	</head>
-	<body>
-		<div class="container" role="main">
-			<header>
-				<nav class="navbar navbar-expand-md mb-4 navbar-light">
-					<a href="{{ .Site.BaseURL }}" class="navbar-brand mr-5"><img src="/img/logo.png" alt="{{ .Site.Title }}"></a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse" id="navbarNav">
-						<ul class="navbar-nav">
-							{{ $currentPage := . }}
-							{{ range .Site.Menus.main }}
-							<li class="nav-item mr-3">
-								<a href="{{ .URL }}" class="nav-link">{{ .Name }}</a>
-							</li>
-							{{end}}
-						</ul>
-					</div>
-                    <div id="reaktorstatus" class="text-center">
-                        Reaktor status:
-                        <div id="message" class="text-success"></div>
-                        <div class="small"><a href="/status/"><i class="fa fa-info-circle" aria-hidden="true"></i></a></div>
-                    </div>
-				</nav>
-			</header>
+<header>
+	<nav class="navbar navbar-expand-md mb-4 navbar-light">
+		<a href="{{ .Site.BaseURL }}" class="navbar-brand mr-5"><img src="/img/logo.png" alt="{{ .Site.Title }}"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				{{ $currentPage := . }}
+				{{ range .Site.Menus.main }}
+				<li class="nav-item mr-3">
+					<a href="{{ .URL }}" class="nav-link">{{ .Name }}</a>
+				</li>
+				{{end}}
+			</ul>
+		</div>
+        <div id="reaktorstatus" class="text-center">
+            Reaktor status:
+            <div id="message" class="text-success"></div>
+            <div class="small"><a href="/status/"><i class="fa fa-info-circle" aria-hidden="true"></i></a></div>
+        </div>
+	</nav>
+</header>
 

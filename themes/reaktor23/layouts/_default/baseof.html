@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html {{ with .Site.LanguageCode }}lang="{{ . }}"{{ end }}>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		{{ with .Site.Author }}<meta name="metaauthor" content="{{ . }}"/>{{ end }}
+		{{ with .Site.Params.description }}<meta name="description" content="{{ .Site.Params.description }}"/>{{ end }}
+		<title>{{ .Title }}</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/font-awesome.min.css"/>
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/style.css"/>
+		{{ if .RSSLink }}
+		<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }} RSS" />
+		{{ end }}
+	</head>
+	<body>
+		{{ partial "github-corner.html" . }}
+		<div class="container" role="main">
+		{{ partial "header.html" . }}
+		{{ block "main" . }}
+		{{ end }}
+		</div>
+	{{ partial "footer.html" . }}
+	{{ partial "scripts.html" . }}
+</body>
+</html>

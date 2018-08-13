@@ -1,4 +1,4 @@
-{{ partial "header.html" . }}
+{{ define "main" }}
 <article>
     <header>
         <h1 class="headline my-3"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
@@ -23,4 +23,4 @@
     {{ end }}
     {{ .Content }}
 </article>
-{{ partial "footer.html" . }}
+{{ end }}

@@ -13,7 +13,7 @@ var getstatus = function() {
     }
     else {
       $("#reaktorstatus > #message").addClass("text-warning");
-      $("#reaktorstatus > #message").html("Not sure, better contcat us first!");
+      $("#reaktorstatus > #message").html("Not sure, better contact us first!");
     }
     if($("#apidteails")) {
       $("#apidteails").html("");

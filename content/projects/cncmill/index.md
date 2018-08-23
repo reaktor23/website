@@ -4,6 +4,8 @@ author: Valentin, Bouni
 description: Eine CNC Fräse für unsern Hackerspace
 draft: false
 date: 2018-08-22
+image: DSC_0046.JPG
+
 ---
 
 # Vorgeschichte
@@ -22,7 +24,7 @@ Diesen Prozess werden wir hier dokumentieren.
 
 ## Elektronik
 
-Angetrieben werden die Achsen von Nema34 Schrittmotoren. Diese werden von [Treiberkarten]() und 60V Netzteilen mit Strom versorgt. Die (Spindel)[http://cnc.a-ueberbach.de/spindle/alles-ueber-die-22kw-chinaspindel/] ist über einen Frequenzumrichter des Herstellers HuanYang angeschlossen. Dieser spricht einen kuriosen Modbus-Dialekt. Motoren und Spindel sind bzw. waren an der Steuerung (Smoothieboard V1)[http://smoothieware.org/smoothieboard] angeschlossen. Hier sind ebenfalls Endschalter angeschlossen. Fräsdateien und Steuerungsinputs bekommt das Board per Ethernet.
+Angetrieben werden die Achsen von Nema34 Schrittmotoren. Diese werden von [Treiberkarten]() und 60V Netzteilen mit Strom versorgt. Die [Spindel](http://cnc.a-ueberbach.de/spindle/alles-ueber-die-22kw-chinaspindel/) ist über einen Frequenzumrichter des Herstellers HuanYang angeschlossen. Dieser spricht einen kuriosen Modbus-Dialekt. Motoren und Spindel sind bzw. waren an der Steuerung [Smoothieboard V1](http://smoothieware.org/smoothieboard) angeschlossen. Hier sind ebenfalls Endschalter angeschlossen. Fräsdateien und Steuerungsinputs bekommt das Board per Ethernet.
 
 Grundsätzlich ist das Smoothieboard eine gute 3D-Drucker-Steuerung, die viele Möglichkeiten bietet. Für den Betrieb an unserer Maschine haben wir allerdings im Laufe der Zeit herausgefunden, dass es noch nicht die optimale Lösung ist. Auf Feedrate-Override oder Nothalt reagiert die Steuerung erst nachdem eine Programmzeile beendet ist.
 

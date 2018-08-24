@@ -60,4 +60,15 @@ sudo apt-get update
 sudo apt-get install linuxcnc-uspace
 ```
 
-Nun ist es spät geworden, weitere dokumentation folgt...  --Valentin, 23.August.18
+## Zweiter Akt: Netzwerkverbindung herstellen
+
+Die MESA-Karte hat standardmäßig die IP 192.168.1.121 . Um mit der Karte kommunizieren zu können muss am Computer eine statische IP-Adresse vergeben werden. Dazu oben rechts im Panel auf das Netzwerksymbol rechtsklicken und Edit Connections... auswählen. Im sich öffnenden Fenster eine neue Verbindung erstellen, Èthernet auswählen und bestätigen. Es öffnet sich ein neues Fenster. Im Tab Ethernet wird bei Device die richtige Netzwerkkarte ausgewählt. Im Tab IPv4 Settings wird manual ausgewählt. Mit einem Klick auf Add wird eine Verbindung mit der Adresse 192.168.1.1 und der Netzwaske 24 eingegeben. das Gateway bleibt offen. Alle Fenster bestätigen und schließen. Nun im Panel oben rechts erneut auf das Netzwerkysmbol klicken und die neu erstellte Verbindung auswählen.
+
+Zum Testen wird ein Terminal geöffnet, in dem der Befehl `ping -c 4 191.168.1.1` eingegeben wird. Lautet die Antwort `4 packets transmitted, 4 received, 0% packet loss`, so sollte alles richtig eingestellt sein.
+
+## Dritter Akt: LinuxCNC einrichten
+
+## Vierter Akt: Testen:
+
+Um die Funktion zu testen, haben wir einen Schrittmotor angeschlossen und diesen in LinuxCNC hin- und her fahren lassen:
+{{< youtube id="eHHdeMp9l_A" >}}

@@ -8,3 +8,5 @@ We try to comply with the [SpaceAPI](http://spaceapi.net/) as good as possible :
 
 <div id="apidteails"></div>
 
+<div id="apijson"></div>
+

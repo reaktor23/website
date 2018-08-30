@@ -19,6 +19,9 @@ var getstatus = function() {
       $("#apidteails").html("");
       printdetails(data);
     }
+    if($("#apijson")) {
+      $("#apijson").html(JSON.stringify(data));
+    }
   });
 }
 

@@ -20,7 +20,7 @@ var getstatus = function() {
       printdetails(data);
     }
     if($("#apijson")) {
-      $("#apijson").html(JSON.stringify(data));
+      $("#apijson").html(JSON.stringify(data, null, '\t'));
     }
   });
 }

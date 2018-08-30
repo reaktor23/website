@@ -2,7 +2,8 @@
 var getstatus = function() {
   $.getJSON("https://bdstr.reaktor23.org/spaceapi", function(data) {
     $("#reaktorstatus > #message").removeClass();
-    var timeout = new Date().valueOf() - data.state.lastchange > 120;
+    // Check if last update is longer than 2 Minutes old
+    var timeout = new Date().valueOf() - data.state.lastchange > (120 * 1000);
     if(data.state.open == "open" && !timeout) {
       $("#reaktorstatus > #message").addClass("text-success");
       $("#reaktorstatus > #message").html(data.state.message);

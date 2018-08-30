@@ -70,3 +70,10 @@ footer a.nav-link {
 #reaktorstatus {
     width: 20rem;
 }
+
+#apijson {
+    margin-top: 2rem;
+    background-color: #FBFBFB;
+    border-radius: 0.3rem
+    padding: 1rem;
+}

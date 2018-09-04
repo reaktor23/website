@@ -50,6 +50,12 @@ footer a.nav-link {
     font-size: 1.5rem;
 }
 
+pre {
+    background-color: #ededed;
+    border-radius: .25em;
+    padding: 1em;
+}
+
 .card {
     min-height: 15em;
     margin-bottom: 2rem;

@@ -56,6 +56,13 @@ pre {
     padding: 1em;
 }
 
+p > code {
+    background-color: #ededed;
+    border-radius: .25em;
+    padding: .1em .5em;
+    margin: 0em .1em;
+}
+
 .card {
     min-height: 15em;
     margin-bottom: 2rem;

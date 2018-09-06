@@ -1,7 +1,7 @@
-{{ partial "header.html" . }}
+{{ define "main" }}
 <ul>
 {{ range .Data.Pages }}
 	<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
 {{ end }}
 </ul>
-{{ partial "footer.html" . }}
+{{ end }}

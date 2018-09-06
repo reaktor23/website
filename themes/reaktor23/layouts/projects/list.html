@@ -4,6 +4,7 @@
 	<div class="card-columns">
 	    {{ range .Data.Pages }}
 		<div class="card border-secondary mx-2 mb-4">
+			<a href="{{ .Permalink }}" class="card-link"></a>
 			{{- if .Params.image }}
 			{{- with $cardimg := .Resources.GetMatch .Params.image }}
 			{{- $cardimg_scaled := .Resize "305x" }}
@@ -11,11 +12,8 @@
 			{{- end }}
 			{{- end }}
   			<div class="card-body">
-				<h5 class="card-title">{{ .Title }}</h5>
+				<h5 class="card-title font-weight-bold">{{ .Title }}</h5>
 				<p class="card-text">{{ .Description }}</p>
-				<div class="text-center">
-					<a href="{{ .Permalink }}" class="btn btn-primary">More</a>
-				</div>
 			</div>
 		</div>
 		{{ end }}

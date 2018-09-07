@@ -1,16 +1,14 @@
 {{ define "main" }}
 {{ range .Data.Pages }}
-<div style="display: flex;">
-  <time datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}" style="margin-top: 28px; text-align: right; width: 7rem;">{{ .Date.Format "2006-01-02" }}</time>
-  <div style="border-left: 5px gray solid; margin-left: 30px">
-    <div style="width: 30px; height: 30px; border: 3px gray solid; border-radius: 15px; background-color: #46b71d; position: relative; left: -18px; margin-top: 25px;"></div>
-  </div>
-  <div class="card" style="margin-top: 10px; max-width: 900px;">
+<div class="talk-timeline">
+  <time datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">{{ .Date.Format "2006-01-02" }}</time>
+  <div class="timeline"><div></div></div>
+  <div class="card">
     <a href="{{ .Permalink }}" class="card-link"></a>
     <div class="card-body">
-      <h5 class="card-title font-weight-bold">{{ .Title }}</h5>
-  	<p class="card-text">{{ .Description }}</p>
-  	<p class="card-text">by {{ .Params.Author }}</p>
+      <h5 class="card-title">{{ .Title }}</h5>
+      <p class="card-text">{{ .Description }}</p>
+      <p class="card-text">by {{ .Params.Author }}</p>
     </div>
   </div>
 </div>

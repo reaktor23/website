@@ -109,3 +109,38 @@ p > code {
     border-radius: 0.3rem;
     padding: 1rem;
 }
+
+.talk-timeline {
+    display: flex;
+}
+
+.talk-timeline > time {
+    margin-top: 28px;
+    text-align: right;
+    width: 7rem;
+}
+
+.talk-timeline div.timeline {
+    border-left: 3px #7f7f7f solid;
+    margin-left: 30px
+}
+
+.talk-timeline div.timeline > div {
+    width: 30px;
+    height: 30px;
+    border: 3px #7f7f7f solid;
+    border-radius: 15px;
+    background-image: radial-gradient(circle, #8bf22f, #46b71d);
+    position: relative;
+    left: -17px;
+    margin-top: 25px;
+}
+
+.talk-timeline .card {
+    margin-top: 10px;
+    max-width: 900px;
+}
+
+.talk-timeline .card-title {
+    font-weight: bold;
+}

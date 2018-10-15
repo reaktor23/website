@@ -118,6 +118,7 @@ p > code {
     margin-top: 28px;
     text-align: right;
     width: 7rem;
+    min-width: 7rem;
 }
 
 .talk-timeline div.timeline {

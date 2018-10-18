@@ -26,9 +26,10 @@ Da wir immer wieder Probleme damit haben soll etwas neues her, das vielleicht et
 # Mögliche Hardware
 
  - ESP32 NodeMCU
+   - ca. 10€, bei Amazon
  - RaspberryPi 3 B+
+   - ca. 35€ (ohne SD Karte), bei z.B. Amazon
  - RaspberryPi Zero W  
- - OrangePi
- - NanoPi
-
-**ToDo**: Preise für die Devices herausfinden und nachtragen
+   - ca. 11€ (ohne SD karte), bei z.B. sertronics-shop.de
+ - OrangePi Zero H2 
+   - ca. 28€ (ohne SD Karte), bei z.B. Amazon

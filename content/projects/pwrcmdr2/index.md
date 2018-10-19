@@ -14,14 +14,23 @@ Da wir immer wieder Probleme damit haben soll etwas neues her, das vielleicht et
 
 # Was soll der neue alles können?
 
- - Ein Linux als OS mit SSH (Nice to have)
- - HTTPS
- - 24VDC tolerante Ein- und Ausgänge
- - Wieder Ansteuerung der Relais mit Selbsthaltung, so das man im Falle eines Ausfalls weiterhin die Stromkreise schalten kann.
+ - Ein Linux als OS mit SSH (Nice to have)✓ 
+ - HTTPS ✓ 
+ - 24VDC tolerante Ein- und Ausgänge ✓ 
+ - Wieder Ansteuerung der Relais mit Selbsthaltung, so das man im Falle eines Ausfalls weiterhin die Stromkreise schalten kann. ✓ 
  - Stromverbrauchsmessung, hier wäre sicher zu klären ob der Puls Ausgang auf dem Stromzähler wirklich defekt ist.
- - 1-Wire Temperaturmessung
- - Luftfeuchtigkeitsmessung
+   - Es gibt für ca. 20@€ fast die selben 3-Phasen Stromzähler wie der momentan verbaute auf EBay
+ - Temperaturmessung -> 1-Wire
+ - Luftfeuchtigkeitsmessung -> 1-Wire
+   - Evtl. mit einem DHT22 Temperatur und Luftfeuchte messen! 
+   - DHT-22 kostet ca. 5€
  - Helligkeitsmessung
+   - LDR kostet ca. 1.50€
+ - Gas Sensor für Luftqualitätsmessung
+   - MQ-135 kostst ca. 3€
+ - PIR Sensor um Bewegung zu erkennen
+   - Ist schon vorhanden 
+
 
 # Hardware
 

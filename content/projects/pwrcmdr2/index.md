@@ -32,3 +32,10 @@ Da wir immer wieder Probleme damit haben soll etwas neues her, das vielleicht et
  - NanoPi
 
 **ToDo**: Preise für die Devices herausfinden und nachtragen
+
+## Formfaktor
+
+Schick wäre das ganze in ein Hutschienengehäuse verbauen zu können wie z.B. eines hiervon:
+
+ - [Pollin, Hutschienengehäuse für RPi, 8TE, 14.95€](https://www.pollin.de/p/hutschienen-gehaeuse-fuer-raspberry-pi-model-b-8te-702341)
+ - [Pollin, Hutschienengehäuse 6TE, 5.95€](https://www.pollin.de/p/hutschienengehaeuse-6-c-105x71x90-mm-460147)

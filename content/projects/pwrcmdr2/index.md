@@ -23,19 +23,27 @@ Da wir immer wieder Probleme damit haben soll etwas neues her, das vielleicht et
  - Luftfeuchtigkeitsmessung
  - Helligkeitsmessung
 
-# Mögliche Hardware
+# Hardware
 
- - ESP32 NodeMCU
+## Board
+
  - RaspberryPi 3 B+
- - RaspberryPi Zero W  
- - OrangePi
- - NanoPi
+   - ca. 35€ (ohne SD Karte), bei z.B. Amazon
 
-**ToDo**: Preise für die Devices herausfinden und nachtragen
+Folgende Optionen wurden aus diversen Gründen verworfen:
+
+ - ~~ESP32 NodeMCU~~
+   - ca. 10€, bei Amazon
+ - ~~RaspberryPi Zero W~~  
+   - ca. 11€ (ohne SD karte), bei z.B. sertronics-shop.de
+ - ~~OrangePi Zero H2~~
+   - ca. 28€ (ohne SD Karte), bei z.B. Amazon
 
 ## Formfaktor
 
-Schick wäre das ganze in ein Hutschienengehäuse verbauen zu können wie z.B. eines hiervon:
+~~Schick wäre das ganze in ein Hutschienengehäuse verbauen zu können wie z.B.:~~
 
- - [Pollin, Hutschienengehäuse für RPi, 8TE, 14.95€](https://www.pollin.de/p/hutschienen-gehaeuse-fuer-raspberry-pi-model-b-8te-702341)
- - [Pollin, Hutschienengehäuse 6TE, 5.95€](https://www.pollin.de/p/hutschienengehaeuse-6-c-105x71x90-mm-460147)
+Ist bestellt mitsamt einem RspberryPi 3B+
+
+[Pollin, Hutschienengehäuse für RPi, 8TE, 14.95€](https://www.pollin.de/p/hutschienen-gehaeuse-fuer-raspberry-pi-model-b-8te-702341)
+ 

@@ -34,9 +34,8 @@ Deutschland
 
 ## Innen
 
-<center>
-![](vonoben_500.jpg)
-![](3dprinter_500.jpg)
-
-![](reaktor23_location_500.png)
-</center>
+<p style="text-align: center;">
+{{< thumbnail src="vonoben.jpg" width="500px" class="horizontal spacing" >}}
+{{< thumbnail src="3dprinter.jpg" width="500px" class="horizontal spacing" >}}
+{{< thumbnail src="reaktor23_location.png" width="500px" class="horizontal spacing" >}}
+</p>

@@ -13,6 +13,9 @@ theme = "reaktor23"
 [[menu.main]]
     name = "Projects"
     url = "/projects/"
+[[menu.main]]
+    name = "Talks"
+    url = "/talks/"
 
 [[menu.foot]]
     name = "Impressum / Datenschutz"

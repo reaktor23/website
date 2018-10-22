@@ -17,4 +17,4 @@ noch irgendwann die bisher gehaltenen Talks aufzulisten, soweit ich das noch
 nachvollziehen kann zumindest.
 
 Auf https://github.com/reaktor23/talks haben wir angefangen Vorschläge und
-Wunsche für Talks zu sammeln.
+Wünsche für Talks zu sammeln.

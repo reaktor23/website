@@ -42,7 +42,7 @@ Here are our implemented shortcodes for documentation:
 
 Geneartes a nice looking frame around the image.
 
-    {{< thumnail src="url/to/img.jpg" width="200px" class="horizontal" >}}
+    {{< thumbnail src="url/to/img.jpg" width="200px" class="horizontal" >}}
 
 _src_ is mandatory, _width_ controls the image width, _class_ enables us to align the images horizontaly if neccessary
 

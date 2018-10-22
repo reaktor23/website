@@ -99,6 +99,10 @@ p > code {
     display: inline-block !important;
 }
 
+.img-thumbnail.spacing {
+    margin: 10px;
+}
+
 #reaktorstatus {
     width: 20rem;
 }

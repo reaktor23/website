@@ -66,9 +66,17 @@ Die MESA-Karte hat standardmäßig die IP 192.168.1.121 . Um mit der Karte kommu
 
 Zum Testen wird ein Terminal geöffnet, in dem der Befehl `ping -c 4 191.168.1.1` eingegeben wird. Lautet die Antwort `4 packets transmitted, 4 received, 0% packet loss`, so sollte alles richtig eingestellt sein.
 
-## Dritter Akt: LinuxCNC einrichten
+## Dritter Akt: LinuxCNC einrichten und erster Funktionstest
 
-## Vierter Akt: Testen:
+Wir haben die Funktion von linuxcnc mit der mitgelieferten config getestet. Hierzu waren jedoch einige Anpassungen für unsere Mesa 7i96 Ethernet Karte notwendig. Diese sind weiter unten beschrieben
 
 Um die Funktion zu testen, haben wir einen Schrittmotor angeschlossen und diesen in LinuxCNC hin- und her fahren lassen:
 {{< youtube id="eHHdeMp9l_A" >}}
+
+## Vierter Akt: Konfiguration
+
+Die Konfiguration findet über **.ini** und **.hal** files statt. Diese liegen auf unserem Fräsen Rechner unter `~/linuxcnc/configs` aber im Grunde ist es egal wo man seine config files ablegt, man übergibt den Pfad zum .ini file sowieso beim starten von linuxcnc.
+
+Unsere aktuelle config findet sich auf [{{< fa icon="github" size="1" >}}GitHub](https://github.com/reaktor23/Fraese-Config)
+
+Da wir doch auch an sehr vielen Stellen unsere Probleme hatten, werden wir versuchen einige davon hier detailierter zu beschreiben.

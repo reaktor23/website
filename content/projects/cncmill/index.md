@@ -41,7 +41,7 @@ Ich habe mit meiner Projektarbeit eine Dokumentation erstellt, in denen Details 
 # Umbau auf LinuxCNC - Ein Meisterwerk in ??? Akten
 
 ## Erster Akt: Das Realtime - Betriebssystem installieren
-Debian 9.5.0 [hier](https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/9.5.0+nonfree/amd64/iso-cd/firmware-9.5.0-amd64-netinst.iso) runterladen und damit einen bootbaren USB Stick erstellen. Graphical Install auswählen, und alles mit Standardeinstellungen installieren.
+Debian 9.5.0 [hier](https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/archive/9.5.0+nonfree/amd64/iso-cd/firmware-9.5.0-amd64-netinst.iso) runterladen und damit einen bootbaren USB Stick erstellen. Graphical Install auswählen, und alles mit Standardeinstellungen installieren.
 
 Im frisch installierten Debian öffnet man den Synaptic-Paketmanager und installiert linux-image-latest.version-rt. 
 

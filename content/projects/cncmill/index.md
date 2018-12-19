@@ -41,24 +41,60 @@ Ich habe mit meiner Projektarbeit eine Dokumentation erstellt, in denen Details 
 # Umbau auf LinuxCNC - Ein Meisterwerk in ??? Akten
 
 ## Erster Akt: Das Realtime - Betriebssystem installieren
-Debian 9.5.0 [hier](https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/9.5.0+nonfree/amd64/iso-cd/firmware-9.5.0-amd64-netinst.iso) runterladen und damit einen bootbaren USB Stick erstellen. Graphical Install auswählen, und alles mit Standardeinstellungen installieren.
 
-Im frisch installierten Debian öffnet man den Synaptic-Paketmanager und installiert linux-image-latest.version-rt. 
+Debian Stretch Netinstaller von [hier](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.6.0-amd64-netinst.iso) herunterladen.
 
-PC neu starten und in einem Terminal `uname -a` eingeben und überprüfen, ob der PREEMT RT Kernel geladen wurde.
-Wenn alles Stimmt, folgen die folgenden Befehle, um das System zu aktualisieren und die neuste Version von LinuxCNC aus dem Master-Ding zu installieren.
+Image mit z.B. dd auf einen USB Stick schreiben (Achtung, sichergehen das /dev/sdb auch der USB Stick ist!):
 
 ```
-sudo apt-get update
-sudo apt-get dist-upgrade
-sudo apt-get install dirmngr
-sudo apt-get install software-properties-common
-*** to get the buildbot current build
-sudo apt-key adv --keyserver hkp://keys.gnupg.net --recv-key E0EE663E
-sudo add-apt-repository "deb http://buildbot.linuxcnc.org/ stretch master-rtpreempt"
-sudo apt-get update
-sudo apt-get install linuxcnc-uspace
+sudo dd if=debian-9.6.0-amd64-netinst.iso of=/dev/sdb bs=4M status=progress
 ```
+
+USB Stick in den Rechner und davon booten, Debian installieren und anschliessend das frisch installierte System booten.
+
+Terminal öffnen und folgende Befehle ausführen:
+
+```
+# Als Root anmelden 
+su -
+
+# System updaten
+apt-get update
+apt-get upgrade
+apt-get dist-upgrade$
+
+# Realtime kernel installieren
+apt-get install linux-image-rt-amd64
+
+# sudo installieren
+apt-get install sudo
+# User der Gruppe sudo hinzufügen
+useradd -a -G sudo <username>
+
+#dirmngr installieren um Fehler beim den Nachfolgenden befehlen zu verhindern
+apt-get install dirmngr
+
+# Key des linuxcnc buildbots hinzufügen
+apt-key adv --keyserver hkp://keys.gnupg.net --recv-key E0EE663E
+
+# buildbot repo zur sources.list hinzufügen
+add-apt-repository "deb http://buildbot.linuxcnc.org/ stretch master-rtpreempt"
+
+# Paketquellen installieren
+apt-get update
+
+# linuxcnc installieren
+apt-get install linuxcnc-uspace
+
+# Nützliche Pakete installieren
+apt-get install vim git
+
+# System neu starten
+reboot
+```
+
+PC neu starten, ein Terminal öffnen und mit `uname -a` ob der PREEMT RT Kernel geladen wurde.
+Da sollte dann so etwas wie `Linux mill 4.9.0-8-rt-amd64 #1 SMP PREEMPT RT Debian 4.9.130-2 (2018-10-27) x86_64 GNU/Linux` stehen
 
 ## Zweiter Akt: Netzwerkverbindung herstellen
 
@@ -75,8 +111,15 @@ Um die Funktion zu testen, haben wir einen Schrittmotor angeschlossen und diesen
 
 ## Vierter Akt: Konfiguration
 
-Die Konfiguration findet über **.ini** und **.hal** files statt. Diese liegen auf unserem Fräsen Rechner unter `~/linuxcnc/configs` aber im Grunde ist es egal wo man seine config files ablegt, man übergibt den Pfad zum .ini file sowieso beim starten von linuxcnc.
+Die Konfiguration findet über **.ini** und **.hal** files statt. Diese liegen auf unserem Fräsen Rechner unter `~/linuxcnc` aber im Grunde ist es egal wo man seine config files ablegt, man übergibt den Pfad zum .ini file sowieso beim starten von linuxcnc.
 
-Unsere aktuelle config findet sich auf [{{< fa icon="github" size="1" >}}GitHub](https://github.com/reaktor23/Fraese-Config)
+```
+# ins home verzeichnis wechseln
+cd ~
+# Konfig unserer fräse von Github clonen
+git clone https://github.com/reaktor23/Fraese-Config.git linuxcnc
+```
+
+Um linuxcnc zu starten ein terminal öffnen und `linuxcnc ~/linuxcnc/7i76-1k.ini` eingeben und starten.
 
 Da wir doch auch an sehr vielen Stellen unsere Probleme hatten, werden wir versuchen einige davon hier detailierter zu beschreiben.

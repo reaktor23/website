@@ -4,7 +4,7 @@ author: Bouni
 description: Frischzellenkur für unseren pwrCMDr!
 date: 2018-10-17
 draft: false
-image: 
+image: pwrcmdr2.png 
 ---
 
 # Warum?

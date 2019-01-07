@@ -116,10 +116,25 @@ Die Konfiguration findet über **.ini** und **.hal** files statt. Diese liegen a
 ```
 # ins home verzeichnis wechseln
 cd ~
-# Konfig unserer fräse von Github clonen
+# Konfig unserer Fräse von Github clonen
 git clone https://github.com/reaktor23/Fraese-Config.git linuxcnc
 ```
 
 Um linuxcnc zu starten ein terminal öffnen und `linuxcnc ~/linuxcnc/7i76-1k.ini` eingeben und starten.
 
 Da wir doch auch an sehr vielen Stellen unsere Probleme hatten, werden wir versuchen einige davon hier detailierter zu beschreiben.
+
+# Update 07.01.2019 - Handrad
+
+Wir konten ein gebrauchtes Handrad ([Euchner HBA](https://www.euchner.de/de-de/Produkte/Handbedienger%C3%A4te-und-Handr%C3%A4der/Handbedienger%C3%A4t-HBA/HBA-079827)) ergattern und haben dieses währen des [35C3](https://events.ccc.de/congress/2018) erfolgreich in unser LinuxCNC Setup integrieren.
+Das Handrad verfügt über:
+
+- 2 Wahlschalter, einen Achse, der andere für die Schrittweite
+- 3 Folientasten +, Eilgang, - (derzeit nicht verwendet)
+- 2 Parallel geschaltete Freigabetaster (derzeit nicht verwendet)
+- 1 NOT-STOP Taster
+- 1 Drehencoder
+
+Alle Signale wurden auf einem Arduino Nano aufgelegt ([Link zum Sketch](https://github.com/reaktor23/Fraese-Config/blob/master/handwheel/handwheel_arduino/handwheel_arduino.ino)), dieses sendet bei Änderung die daten Seriell zum PC, z.B. Plus:1 für Plustaste ist gedrückt.
+Dort liegt ein [Python Programm](https://github.com/reaktor23/Fraese-Config/blob/master/handwheel/handwheel.py) das die Daten auswertet und an Linux CNC weiterreicht [Link zum HAL File](https://github.com/reaktor23/Fraese-Config/blob/master/handwheel/handwheel.hal).
+In der INI muss lediglich das HAL file eingebunden werden [Link zur betreffenden INI Zeile](https://github.com/reaktor23/Fraese-Config/blob/master/7i96-1k.ini#L99)

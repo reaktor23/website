@@ -98,18 +98,11 @@ Da sollte dann so etwas wie `Linux mill 4.9.0-8-rt-amd64 #1 SMP PREEMPT RT Debia
 
 ## Zweiter Akt: Netzwerkverbindung herstellen
 
-Die MESA-Karte hat standardmäßig die IP 192.168.1.121 . Um mit der Karte kommunizieren zu können muss am Computer eine statische IP-Adresse vergeben werden. Dazu oben rechts im Panel auf das Netzwerksymbol rechtsklicken und Edit Connections... auswählen. Im sich öffnenden Fenster eine neue Verbindung erstellen, Èthernet auswählen und bestätigen. Es öffnet sich ein neues Fenster. Im Tab Ethernet wird bei Device die richtige Netzwerkkarte ausgewählt. Im Tab IPv4 Settings wird manual ausgewählt. Mit einem Klick auf Add wird eine Verbindung mit der Adresse 192.168.1.1 und der Netzwaske 24 eingegeben. das Gateway bleibt offen. Alle Fenster bestätigen und schließen. Nun im Panel oben rechts erneut auf das Netzwerkysmbol klicken und die neu erstellte Verbindung auswählen.
+Die MESA-Karte hat standardmäßig die IP 192.168.1.121 . Um mit der Karte kommunizieren zu können muss am Computer eine statische IP-Adresse vergeben werden. Dazu oben rechts im Panel auf das Netzwerksymbol rechtsklicken und Edit Connections... auswählen. Im sich öffnenden Fenster eine neue Verbindung erstellen, Èthernet auswählen und bestätigen. Es öffnet sich ein neues Fenster. Im Tab Ethernet wird bei Device die richtige Netzwerkkarte ausgewählt. Im Tab IPv4 Settings wird manual ausgewählt. Mit einem Klick auf Add wird eine Verbindung mit der Adresse 192.168.1.1 und der Netzwaske 24 eingegeben. Der Eintrag des Gateways bleibt leer. Alle Fenster bestätigen und schließen. Nun im Panel oben rechts erneut auf das Netzwerkysmbol klicken und die neu erstellte Verbindung auswählen.
 
 Zum Testen wird ein Terminal geöffnet, in dem der Befehl `ping -c 4 191.168.1.1` eingegeben wird. Lautet die Antwort `4 packets transmitted, 4 received, 0% packet loss`, so sollte alles richtig eingestellt sein.
 
-## Dritter Akt: LinuxCNC einrichten und erster Funktionstest
-
-Wir haben die Funktion von linuxcnc mit der mitgelieferten config getestet. Hierzu waren jedoch einige Anpassungen für unsere Mesa 7i96 Ethernet Karte notwendig. Diese sind weiter unten beschrieben
-
-Um die Funktion zu testen, haben wir einen Schrittmotor angeschlossen und diesen in LinuxCNC hin- und her fahren lassen:
-{{< youtube id="eHHdeMp9l_A" >}}
-
-## Vierter Akt: Konfiguration
+## Dritter Akt: LinuxCNC einrichten und Konfiguration
 
 Die Konfiguration findet über **.ini** und **.hal** files statt. Diese liegen auf unserem Fräsen Rechner unter `~/linuxcnc` aber im Grunde ist es egal wo man seine config files ablegt, man übergibt den Pfad zum .ini file sowieso beim starten von linuxcnc.
 

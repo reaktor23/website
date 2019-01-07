@@ -104,16 +104,12 @@ Zum Testen wird ein Terminal geöffnet, in dem der Befehl `ping -c 4 191.168.1.1
 
 ## Dritter Akt: LinuxCNC einrichten und Konfiguration
 
-
-
-
-
 Die Konfiguration findet über **.ini** und **.hal** files statt. Diese liegen auf unserem Fräsen Rechner unter `~/linuxcnc` aber im Grunde ist es egal wo man seine config files ablegt, man übergibt den Pfad zum .ini file sowieso beim starten von linuxcnc.
 
 ```
 # ins home verzeichnis wechseln
 cd ~
-# Konfig unserer fräse von Github clonen
+# Konfig unserer Fräse von Github clonen
 git clone https://github.com/reaktor23/Fraese-Config.git linuxcnc
 ```
 
@@ -121,5 +117,17 @@ Um linuxcnc zu starten ein terminal öffnen und `linuxcnc ~/linuxcnc/7i76-1k.ini
 
 Da wir doch auch an sehr vielen Stellen unsere Probleme hatten, werden wir versuchen einige davon hier detailierter zu beschreiben.
 
-Um die Funktion zu testen, haben wir einen Schrittmotor angeschlossen und diesen in LinuxCNC hin- und her fahren lassen:
-{{< youtube id="eHHdeMp9l_A" >}}
+# Update 07.01.2019 - Handrad
+
+Wir konten ein gebrauchtes Handrad ([Euchner HBA](https://www.euchner.de/de-de/Produkte/Handbedienger%C3%A4te-und-Handr%C3%A4der/Handbedienger%C3%A4t-HBA/HBA-079827)) ergattern und haben dieses währen des [35C3](https://events.ccc.de/congress/2018) erfolgreich in unser LinuxCNC Setup integrieren.
+Das Handrad verfügt über:
+
+- 2 Wahlschalter, einen Achse, der andere für die Schrittweite
+- 3 Folientasten +, Eilgang, - (derzeit nicht verwendet)
+- 2 Parallel geschaltete Freigabetaster (derzeit nicht verwendet)
+- 1 NOT-STOP Taster
+- 1 Drehencoder
+
+Alle Signale wurden auf einem Arduino Nano aufgelegt ([Link zum Sketch](https://github.com/reaktor23/Fraese-Config/blob/master/handwheel/handwheel_arduino/handwheel_arduino.ino)), dieses sendet bei Änderung die daten Seriell zum PC, z.B. Plus:1 für Plustaste ist gedrückt.
+Dort liegt ein [Python Programm](https://github.com/reaktor23/Fraese-Config/blob/master/handwheel/handwheel.py) das die Daten auswertet und an Linux CNC weiterreicht [Link zum HAL File](https://github.com/reaktor23/Fraese-Config/blob/master/handwheel/handwheel.hal).
+In der INI muss lediglich das HAL file eingebunden werden [Link zur betreffenden INI Zeile](https://github.com/reaktor23/Fraese-Config/blob/master/7i96-1k.ini#L99)

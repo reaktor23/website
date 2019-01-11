@@ -28,10 +28,10 @@ Todo
 - [x] Make menu configurable in config.toml
 - [x] Define content structure
 - [ ] **Figure out how to reference/handle file like images corrently so it will work with both summaries and page views.** [see](https://github.com/spf13/hugo/issues/1240)
-- [ ] Create deployment hooks
-- [ ] Migrate content from existing site
-- [ ] Write impressum, about, contect, etc. pages
-- [ ] Create functioning Reaktor Status on landing page
+- [x] Create deployment hooks
+- [x] Migrate content from existing site
+- [x] Write impressum, about, contect, etc. pages
+- [x] ~~Create functioning Reaktor Status on landing page~~
 
 Custom shortcodes
 ----

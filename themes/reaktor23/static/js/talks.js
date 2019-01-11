@@ -11,7 +11,7 @@ var gettalks = function() {
             })
             $("tbody").append("<tr><td><a href='"+
                 talk[t].html_url+"'>" + 
-                talk[t].title + "</a></td><td>"+ 
+                talk[t].title + " <i class='fa fa-external-link' aria-hidden='true'></i></a></td><td>"+ 
                 talk[t].body+"</td><td>"+ 
                 talk[t].assignees.join()+"</td><td>"+ labels +"</td></tr>")
         })

@@ -4,6 +4,7 @@ author: Bouni
 description: Dieses Projekt entstand aus dem powermeter Projekt. Es verbindet die Überwachung des Stromverbrauches und die Kontrolle der Stromverteilung.
 date: 2017-12-31
 draft: false
+obsolete: true
 image: bgetech_drt428b.jpg
 ---
 

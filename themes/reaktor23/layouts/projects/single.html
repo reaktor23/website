@@ -12,6 +12,11 @@
             <time datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">{{ .Date.Format "2006-01-02" }}</time>
             {{ end }}
         </div>
+        <div>
+        <div class="project-image-frame">
+            <img class="project-image-single" src="{{ .Params.image }}" alt="Project image">
+        </div>
+        </div>
     </header>
     {{ if .Params.toc }}
     <aside class="panel panel-default">

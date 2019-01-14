@@ -103,6 +103,15 @@ p > code {
     margin: 10px;
 }
 
+.project-image-single {
+    margin-bottom: 0.5em;
+    max-width: 50%;
+    max-height: 20em;
+    padding: 5px;
+    border: solid 1px #EFEFEF;
+    border-radius: 5px;
+}
+
 #reaktorstatus {
     width: 20rem;
 }

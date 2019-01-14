@@ -12,47 +12,37 @@ image: pwrcmdr2.png
 Unser aktueller pwrCMDr besteht aus einem Arduino-Ethernet auf einer selbstgeätzten Platine.
 Da wir immer wieder Probleme damit haben soll etwas neues her, das vielleicht etwas mehr Spielraum gibt um Änderungen/Verbesserungen zu integrieren.
 
-# Was soll der neue alles können?
-
- - Ein Linux als OS mit SSH (Nice to have)✓ 
- - HTTPS ✓ 
- - 24VDC tolerante Ein- und Ausgänge ✓ 
- - Wieder Ansteuerung der Relais mit Selbsthaltung, so das man im Falle eines Ausfalls weiterhin die Stromkreise schalten kann. ✓ 
- - Stromverbrauchsmessung, hier wäre sicher zu klären ob der Puls Ausgang auf dem Stromzähler wirklich defekt ist.
-   - Es gibt für ca. 20@€ fast die selben 3-Phasen Stromzähler wie der momentan verbaute auf EBay
- - Temperaturmessung -> 1-Wire
- - Luftfeuchtigkeitsmessung -> 1-Wire
-   - Evtl. mit einem DHT22 Temperatur und Luftfeuchte messen! 
-   - DHT-22 kostet ca. 5€
- - Helligkeitsmessung
-   - LDR kostet ca. 1.50€
- - Gas Sensor für Luftqualitätsmessung
-   - MQ-135 kostst ca. 3€
- - PIR Sensor um Bewegung zu erkennen
-   - Ist schon vorhanden 
-
-
 # Hardware
 
 ## Board
 
- - RaspberryPi 3 B+
-   - ca. 35€ (ohne SD Karte), bei z.B. Amazon
-
-Folgende Optionen wurden aus diversen Gründen verworfen:
-
- - ~~ESP32 NodeMCU~~
-   - ca. 10€, bei Amazon
- - ~~RaspberryPi Zero W~~  
-   - ca. 11€ (ohne SD karte), bei z.B. sertronics-shop.de
- - ~~OrangePi Zero H2~~
-   - ca. 28€ (ohne SD Karte), bei z.B. Amazon
+Wir haben uns für ein RaspberryPi 3 B+ entschieden, das ist ausreichend flott udn erfüllt alle unsere Wunschkriterien.
+Ausserdem ist es sehr viel einfacher zu bekommen als die etwas günstigeren Verterter von z.B. Aliexpress (BananaPi, etc.)
 
 ## Formfaktor
 
-~~Schick wäre das ganze in ein Hutschienengehäuse verbauen zu können wie z.B.:~~
+Das Raspberry Pi kommt in ein Hutschienengehäuse von [Pollin](https://www.pollin.de/p/hutschienen-gehaeuse-fuer-raspberry-pi-model-b-8te-702341).
+Dieses hat ausreichend Platz für einen [HAT](https://www.raspberrypi.org/blog/introducing-raspberry-pi-hats/) auch wenn wir uns nicht an die genauen Specs halten.
 
-Ist bestellt mitsamt einem RspberryPi 3B+
+## Spannungsversorgung
 
-[Pollin, Hutschienengehäuse für RPi, 8TE, 14.95€](https://www.pollin.de/p/hutschienen-gehaeuse-fuer-raspberry-pi-model-b-8te-702341)
- 
+Wir versorgen das Board mit 24VDC da wir das eh im Schaltschrank verwenden. Das RPi wird über die Stiftleisten mit 5VDC versorgt womit die Notwendigkeit eines USB Netzteil entfällt.
+Die 5V werden von einem [AliExpress DC/DC Wandler](https://de.aliexpress.com/item/-/32830931596.html) generiert der auf dem Board verlötet wird.
+
+## Funktionen
+
+### Schützsteuerung
+
+Wir haben wieder unsere zweikanalige Schützsteuerung verbaut, diese ist so ausgelegt das sie zwei Externe Schütze die unsere beiden Stromkreise schalten ein bzw. ausschalten können.
+Dabei war uns wichtig das das auch funktionieren muss wenn der PowerCommander einmal einen Ausfall haben sollte.
+Deshalb schalten die 4 Relais einfach eine Selbsthaltung der Schütze, parallel dazu gibt es noch extern verbaute Hardware Taster damit sich das ganze auch wie bereits erwähnt im Notfall schalten lässt.
+
+## Ein- und Ausgänge
+
+Das Board verfügt über 4 Relais Ausgänge, dabei lässt sich über einen Lötjumper wählen ob der betreffende Kanal Schliesser oder Öffner sein soll.
+Desweiteren hat das Board 8 Digitaleingänge die 24V tollerant sind und mittels Optokopplern getrennt sind.
+
+## Sensorik
+
+Es sind ein I2C, ein 1-Wire und ein RS485 Port vorhanden. Über diese wollen wir diverse Sensorik anbinden.
+

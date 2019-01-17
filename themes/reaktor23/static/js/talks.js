@@ -13,7 +13,7 @@ var gettalks = function() {
                 talk[t].html_url+"'>" + 
                 talk[t].title + " <i class='fa fa-external-link' aria-hidden='true'></i></a></td><td>"+ 
                 talk[t].body+"</td><td>"+ 
-                talk[t].assignees.join()+"</td><td>"+ labels +"</td></tr>")
+                talk[t].assignees.map(function(e){return e.login}).join()+"</td><td>"+ labels +"</td></tr>")
         })
     })
 }

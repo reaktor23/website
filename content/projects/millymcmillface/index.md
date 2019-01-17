@@ -131,3 +131,12 @@ Das Handrad verfügt über:
 Alle Signale wurden auf einem Arduino Nano aufgelegt ([Link zum Sketch](https://github.com/reaktor23/MillyMcMillface/blob/master/handwheel/handwheel_arduino/handwheel_arduino.ino)), dieses sendet bei Änderung die daten Seriell zum PC, z.B. Plus:1 für Plustaste ist gedrückt.
 Dort liegt ein [Python Programm](https://github.com/reaktor23/MillyMcMillface/blob/master/handwheel/handwheel.py) das die Daten auswertet und an Linux CNC weiterreicht [Link zum HAL File](https://github.com/reaktor23/MillyMcMillface/blob/master/handwheel/handwheel.hal).
 In der INI muss lediglich das HAL file eingebunden werden [Link zur betreffenden INI Zeile](https://github.com/reaktor23/MillyMcMillface/blob/master/7i96-1k.ini#L99)
+
+# Update 17.01.2019 - Encoder Feedback
+
+Da wir immer wieder mit Schrittverlusten kämpfen haben wir beschlossen die Achsen mit Encodern auszustatten um ein Closed-Loop System zu bekommen.
+Unsere Motoren sind glücklicherweise mit beidseiteigen Wellen ausgestattet, die eine treibt die Spindel an, die andere wird mit einem Hohlwellenencoder versehen.
+Die Encoder werden an eine Mesanet [7i85S](http://store.mesanet.com/index.php?route=product/product&product_id=125&search=7i85s) angeschlossen die uns weitere Encodereingänge verschafft.
+Der User PCW aus dem linuxcnc forum war so freundlich uns ein passendes [Bitfile](https://forum.linuxcnc.org/27-driver-boards/35820-7i96-7i85s#123869) für die 7i96 zur Verfügung zu stellen.
+
+

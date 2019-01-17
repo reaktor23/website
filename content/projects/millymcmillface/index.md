@@ -36,7 +36,7 @@ Nach den ersten Versuchen stellte sich heraus, dass es sich um ein selten verwen
 
 ## Mechanik
 
-Ich habe mit meiner Projektarbeit eine Dokumentation erstellt, in denen Details zum Planung und zum Bau der Maschine beschrieben werden. Diese Dokumentation kann [hier](https://github.com/reaktor23/website/raw/master/content/projects/cncmill/Seminarkursarbeit_f%C3%BCr_R23.pdf) heruntergeladen werden.
+Ich habe mit meiner Projektarbeit eine Dokumentation erstellt, in denen Details zum Planung und zum Bau der Maschine beschrieben werden. Diese Dokumentation kann [hier](https://github.com/reaktor23/website/raw/master/content/projects/millymcmillface/Seminarkursarbeit_f%C3%BCr_R23.pdf) heruntergeladen werden.
 
 # Umbau auf LinuxCNC - Ein Meisterwerk in ??? Akten
 

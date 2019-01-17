@@ -7,14 +7,14 @@ draft: false
 
 Wie vermutlich fast jeder Hackerspace im deutschsprachigen Raum und darüber hinaus haben auch wir vom 27.12.2018 bis zum 30.12.2018 die Streams vom [35C3](https://events.ccc.de/category/congress/35c3/) angeschaut.
 Und wie es halt so ist sind bei uns in den letzten Jahren ettliche Projekte ins Leben gerufen worden, jedoch nie (richtig) fertig gestellt worden.
-Glücklicherweise ist es uns gleich am 27.12. gelungen unsere [CNC Fräse](https://reaktor23.org/projects/cncmill/) wiederzubeleben, was uns ein enormes Maß an neuen Möglichkeiten eröffnet.
+Glücklicherweise ist es uns gleich am 27.12. gelungen unsere [CNC Fräse](https://reaktor23.org/projects/millymcmillface/) wiederzubeleben, was uns ein enormes Maß an neuen Möglichkeiten eröffnet.
 Und so haben wir diesen Congress mehr damit zugebracht unseren Space zu verbessern als die Streams zu schauen. 
 
 
 ## CNC Fräse
 Unser Rechner auf dem LinuxCNC läuft war defekt und wir haben einen neuen eingebaut und wieder zum laufen gebracht. 
 Als dies getan war haben wir mit der Fräse Siebdruckplatten zugeschnitten um eine schwenkbare Konsole für Bildschirm und Tastatur/Maus zu schaffen da dierse bis dahin auf einem Tisch neben der Fräse standen.
-Der Artikel zum Projekt findet sich [hier](https://reaktor23.org/projects/cncmill/)
+Der Artikel zum Projekt findet sich [hier](https://reaktor23.org/projects/millymcmillface/)
 
 ## Lüftungsanlage
 Unser Hackserspace ist sehr klein und verfügt lediglich über eine Tür mit einem Schmalen Seitenflügel und ein Oberlicht das sich allerdings nicht öffnen lässt was es uns kam möglich macht zu lüften.

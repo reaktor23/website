@@ -1,5 +1,5 @@
 ---
-title: CNC Fräse
+title: MillyMcMillface
 author: Valentin, Bouni
 description: Eine CNC Fräse für unsern Hackerspace
 draft: false
@@ -110,7 +110,7 @@ Die Konfiguration findet über **.ini** und **.hal** files statt. Diese liegen a
 # ins home verzeichnis wechseln
 cd ~
 # Konfig unserer Fräse von Github clonen
-git clone https://github.com/reaktor23/Fraese-Config.git linuxcnc
+git clone https://github.com/reaktor23/MillyMcMillface.git linuxcnc
 ```
 
 Um linuxcnc zu starten ein terminal öffnen und `linuxcnc ~/linuxcnc/7i76-1k.ini` eingeben und starten.
@@ -128,6 +128,6 @@ Das Handrad verfügt über:
 - 1 NOT-STOP Taster
 - 1 Drehencoder
 
-Alle Signale wurden auf einem Arduino Nano aufgelegt ([Link zum Sketch](https://github.com/reaktor23/Fraese-Config/blob/master/handwheel/handwheel_arduino/handwheel_arduino.ino)), dieses sendet bei Änderung die daten Seriell zum PC, z.B. Plus:1 für Plustaste ist gedrückt.
-Dort liegt ein [Python Programm](https://github.com/reaktor23/Fraese-Config/blob/master/handwheel/handwheel.py) das die Daten auswertet und an Linux CNC weiterreicht [Link zum HAL File](https://github.com/reaktor23/Fraese-Config/blob/master/handwheel/handwheel.hal).
-In der INI muss lediglich das HAL file eingebunden werden [Link zur betreffenden INI Zeile](https://github.com/reaktor23/Fraese-Config/blob/master/7i96-1k.ini#L99)
+Alle Signale wurden auf einem Arduino Nano aufgelegt ([Link zum Sketch](https://github.com/reaktor23/MillyMcMillface/blob/master/handwheel/handwheel_arduino/handwheel_arduino.ino)), dieses sendet bei Änderung die daten Seriell zum PC, z.B. Plus:1 für Plustaste ist gedrückt.
+Dort liegt ein [Python Programm](https://github.com/reaktor23/MillyMcMillface/blob/master/handwheel/handwheel.py) das die Daten auswertet und an Linux CNC weiterreicht [Link zum HAL File](https://github.com/reaktor23/MillyMcMillface/blob/master/handwheel/handwheel.hal).
+In der INI muss lediglich das HAL file eingebunden werden [Link zur betreffenden INI Zeile](https://github.com/reaktor23/MillyMcMillface/blob/master/7i96-1k.ini#L99)

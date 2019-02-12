@@ -1,13 +1,14 @@
 addons:
   apt:
     packages:
+      - hugo
       - python-pygments
 
 install:
   - rm -rf public || exit 0
 
 script:
-  - binaries/hugo
+  - hugo -v -b https://reaktor23.org --cleanDestinationDir
   - echo 'reaktor23.org' > public/CNAME
 
 deploy:

@@ -1,0 +1,19 @@
+addons:
+  apt:
+    packages:
+      - python-pygments
+
+install:
+  - rm -rf public || exit 0
+
+script:
+  - binaries/hugo
+  - echo 'reaktor23.org' > public/CNAME
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: public
+  on:
+    branch: master

@@ -2,50 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Reaktor23 - Hackerspace</title>
-    <link>https://reaktor23.org/blog/</link>
+    <link>/blog/</link>
     <description>Recent content in Blogs on Reaktor23 - Hackerspace</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>de-de</language>
     <lastBuildDate>Thu, 10 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://reaktor23.org/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>35C3 - the aftermath</title>
-      <link>https://reaktor23.org/blog/35c3-2019-10-01/</link>
+      <link>/blog/35c3-2019-10-01/</link>
       <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://reaktor23.org/blog/35c3-2019-10-01/</guid>
+      <guid>/blog/35c3-2019-10-01/</guid>
       <description>Wie vermutlich fast jeder Hackerspace im deutschsprachigen Raum und darüber hinaus haben auch wir vom 27.12.2018 bis zum 30.12.2018 die Streams vom 35C3 angeschaut. Und wie es halt so ist sind bei uns in den letzten Jahren ettliche Projekte ins Leben gerufen worden, jedoch nie (richtig) fertig gestellt worden. Glücklicherweise ist es uns gleich am 27.12. gelungen unsere CNC Fräse wiederzubeleben, was uns ein enormes Maß an neuen Möglichkeiten eröffnet.</description>
     </item>
     
     <item>
       <title>Reaktor Talks</title>
-      <link>https://reaktor23.org/blog/talks-2018-10-21/</link>
+      <link>/blog/talks-2018-10-21/</link>
       <pubDate>Sun, 21 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://reaktor23.org/blog/talks-2018-10-21/</guid>
+      <guid>/blog/talks-2018-10-21/</guid>
       <description>Da die kalte Jahreszeit dann doch so langsam mal anfängt, ist es die richtige Zeit um die &amp;ldquo;Reaktor Talks&amp;rdquo; wiederzubeleben. Jeder der mag, kann einen Vortrag über ein beliebiges Thema halten. Oft fand das bisher eher spontan statt, also so mit einer Woche Vorlaufszeit, weil sich ein oder mehrere Leute für etwas bestimmtes interessierten und jemand anders darüber was erzählen oder zeigen konnte.
 Diese Website hat nun ein kleine Infoseite darüber.</description>
     </item>
     
     <item>
       <title>Projekt CNC Fräse</title>
-      <link>https://reaktor23.org/blog/cnc-mill-2018-09-07/</link>
+      <link>/blog/cnc-mill-2018-09-07/</link>
       <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://reaktor23.org/blog/cnc-mill-2018-09-07/</guid>
+      <guid>/blog/cnc-mill-2018-09-07/</guid>
       <description>Vor ca. 2 Wochen haben wir damit begonnen unsere CNC Fräse auf Linux CNC umzustellen und seit letzter Woche ist die Fräse im Testbetrieb. Alles in allem sind wir sehr zufrieden mit dem Fortschritt des Projektes. Wir erhoffen uns dadurch endlich mehr Projekte die gefräste Teile erfordern, umsetzen zu können.
 Weitere Infos zum Projekt sowie eine Doku findet ihr unter Projekte</description>
     </item>
     
     <item>
       <title>Neue Website</title>
-      <link>https://reaktor23.org/blog/new-website-2018-06-19/</link>
+      <link>/blog/new-website-2018-06-19/</link>
       <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://reaktor23.org/blog/new-website-2018-06-19/</guid>
+      <guid>/blog/new-website-2018-06-19/</guid>
       <description>Wir haben es endlich geschafft eine neue Website zu bauen! Yay! Naja, fast. Noch muessen wir etwas Arbeit hinein stecken.
 Zuvor hatten wir eine auf DokuWiki basierenden Website. DokuWiki ist an sich nicht schlecht, war aber dann doch ein bisschen ein funktioneller Overkill und doch fehlte uns eine Funktion: Schon lange wollten wir es jedem sehr einfach machen Inhalte auf der Website zu ergaenzen, korrigieren oder gar zu verfassen. Mit DokuWiki brauchte man dafuer mindestens einen Login, etwas was vielen Leuten einfach im Wege war.</description>
     </item>

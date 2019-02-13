@@ -2,108 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reaktor23 - Hackerspace</title>
-    <link>https://reaktor23.org/</link>
+    <link>/</link>
     <description>Recent content on Reaktor23 - Hackerspace</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>de-de</language>
     <lastBuildDate>Thu, 10 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://reaktor23.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>35C3 - the aftermath</title>
-      <link>https://reaktor23.org/blog/35c3-2019-10-01/</link>
+      <link>/blog/35c3-2019-10-01/</link>
       <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://reaktor23.org/blog/35c3-2019-10-01/</guid>
+      <guid>/blog/35c3-2019-10-01/</guid>
       <description>Wie vermutlich fast jeder Hackerspace im deutschsprachigen Raum und darüber hinaus haben auch wir vom 27.12.2018 bis zum 30.12.2018 die Streams vom 35C3 angeschaut. Und wie es halt so ist sind bei uns in den letzten Jahren ettliche Projekte ins Leben gerufen worden, jedoch nie (richtig) fertig gestellt worden. Glücklicherweise ist es uns gleich am 27.12. gelungen unsere CNC Fräse wiederzubeleben, was uns ein enormes Maß an neuen Möglichkeiten eröffnet.</description>
     </item>
     
     <item>
       <title>Reaktor Talks</title>
-      <link>https://reaktor23.org/blog/talks-2018-10-21/</link>
+      <link>/blog/talks-2018-10-21/</link>
       <pubDate>Sun, 21 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://reaktor23.org/blog/talks-2018-10-21/</guid>
+      <guid>/blog/talks-2018-10-21/</guid>
       <description>Da die kalte Jahreszeit dann doch so langsam mal anfängt, ist es die richtige Zeit um die &amp;ldquo;Reaktor Talks&amp;rdquo; wiederzubeleben. Jeder der mag, kann einen Vortrag über ein beliebiges Thema halten. Oft fand das bisher eher spontan statt, also so mit einer Woche Vorlaufszeit, weil sich ein oder mehrere Leute für etwas bestimmtes interessierten und jemand anders darüber was erzählen oder zeigen konnte.
 Diese Website hat nun ein kleine Infoseite darüber.</description>
     </item>
     
     <item>
       <title>pwrcmdr2</title>
-      <link>https://reaktor23.org/projects/pwrcmdr2/</link>
+      <link>/projects/pwrcmdr2/</link>
       <pubDate>Wed, 17 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://reaktor23.org/projects/pwrcmdr2/</guid>
+      <guid>/projects/pwrcmdr2/</guid>
       <description>Warum? Unser aktueller bisheriger pwrCMDr bestand aus einem Arduino-Ethernet auf einer selbstgeätzten Platine. Da wir immer wieder Probleme damit haben sollte etwas neues her, das vielleicht etwas mehr Spielraum gibt um Änderungen/Verbesserungen zu integrieren.
 Hardware Board Wir haben uns für ein RaspberryPi 3 B+ entschieden, das ist ausreichend flott udn erfüllt alle unsere Wunschkriterien. Ausserdem ist es sehr viel einfacher zu bekommen als die etwas günstigeren Verterter von z.B. Aliexpress (BananaPi, etc.</description>
     </item>
     
     <item>
       <title>Projekt CNC Fräse</title>
-      <link>https://reaktor23.org/blog/cnc-mill-2018-09-07/</link>
+      <link>/blog/cnc-mill-2018-09-07/</link>
       <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://reaktor23.org/blog/cnc-mill-2018-09-07/</guid>
+      <guid>/blog/cnc-mill-2018-09-07/</guid>
       <description>Vor ca. 2 Wochen haben wir damit begonnen unsere CNC Fräse auf Linux CNC umzustellen und seit letzter Woche ist die Fräse im Testbetrieb. Alles in allem sind wir sehr zufrieden mit dem Fortschritt des Projektes. Wir erhoffen uns dadurch endlich mehr Projekte die gefräste Teile erfordern, umsetzen zu können.
 Weitere Infos zum Projekt sowie eine Doku findet ihr unter Projekte</description>
     </item>
     
     <item>
       <title>MillyMcMillface</title>
-      <link>https://reaktor23.org/projects/millymcmillface/</link>
+      <link>/projects/millymcmillface/</link>
       <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://reaktor23.org/projects/millymcmillface/</guid>
+      <guid>/projects/millymcmillface/</guid>
       <description>Vorgeschichte Es bestand schon lange der Plan, eine CNC Fräse zu bauen, doch das war lange nur ein Plan. Vor ca. einem Jahr ist die Fräse von Valentin im Zuge von Jugend Forscht gebaut worden. Leider bereitet das Smoothieboard, das die Fräse steuert, ein paar Probleme. Deshalb wurde beschlossen, auf eine LinuxCNC basierte Steuerung umzubauen. Diesen Prozess werden wir hier dokumentieren.
 Video   Hardware Elektronik Angetrieben werden die Achsen von Nema34 Schrittmotoren.</description>
     </item>
     
     <item>
       <title>CTF</title>
-      <link>https://reaktor23.org/projects/ctf/</link>
+      <link>/projects/ctf/</link>
       <pubDate>Mon, 09 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://reaktor23.org/projects/ctf/</guid>
+      <guid>/projects/ctf/</guid>
       <description>CTFs  https://capturetheflag.withgoogle.com http://overthewire.org/wargames/natas/ https://www.root-me.org/?lang=en  Title image by: https://www.flickr.com/photos/christiaancolen/20607150556</description>
     </item>
     
     <item>
       <title>Neue Website</title>
-      <link>https://reaktor23.org/blog/new-website-2018-06-19/</link>
+      <link>/blog/new-website-2018-06-19/</link>
       <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://reaktor23.org/blog/new-website-2018-06-19/</guid>
+      <guid>/blog/new-website-2018-06-19/</guid>
       <description>Wir haben es endlich geschafft eine neue Website zu bauen! Yay! Naja, fast. Noch muessen wir etwas Arbeit hinein stecken.
 Zuvor hatten wir eine auf DokuWiki basierenden Website. DokuWiki ist an sich nicht schlecht, war aber dann doch ein bisschen ein funktioneller Overkill und doch fehlte uns eine Funktion: Schon lange wollten wir es jedem sehr einfach machen Inhalte auf der Website zu ergaenzen, korrigieren oder gar zu verfassen. Mit DokuWiki brauchte man dafuer mindestens einen Login, etwas was vielen Leuten einfach im Wege war.</description>
     </item>
     
     <item>
       <title>Elektro Longboard</title>
-      <link>https://reaktor23.org/projects/elektrolongboard/</link>
+      <link>/projects/elektrolongboard/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://reaktor23.org/projects/elektrolongboard/</guid>
+      <guid>/projects/elektrolongboard/</guid>
       <description>Wie kam ich auf die Idee  Nach dem ich in der Glotze einen Bericht über Elektroboards sah war für mich klar so ein Teil will ich auch!! Zunächst suchte ich im Netz nach Anbietern fertiger Boards wobei mir hier die Boards von Evolve und Boosted ins Auge stachen. Da ich diese aber recht teuer fand war die Idee eines Eigenbau gebohren. Eine sehr hilfreiche Seite beim Stöbern nach Ideen ist das Elektro-Skateboard Forum.</description>
     </item>
     
     <item>
       <title>Flipdot</title>
-      <link>https://reaktor23.org/projects/flipdot/</link>
+      <link>/projects/flipdot/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://reaktor23.org/projects/flipdot/</guid>
+      <guid>/projects/flipdot/</guid>
       <description>Ansteuerung Auf der Platine ist bereits ein FP2800 verbaut, und alle Zeilen sind mit Hilfe des PCB auf diesen verdrahtet. Der andere Anschluss jedes Pixels ist mit 2 Dioden auf je eine Leiterbahn verbunden die die Spalten miteinander verbinden.
 Dieses Bild soll anhand von 4 Pixeln verdeutlichen wie die Matrix verschalten ist. Dies ist die Transistorschaltung die wir momentan zum schalten der Reihen einsetzen. Bilder   Videos Datenblätter  flip.</description>
     </item>
     
     <item>
       <title>Mate Dealer</title>
-      <link>https://reaktor23.org/projects/matedealer/</link>
+      <link>/projects/matedealer/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://reaktor23.org/projects/matedealer/</guid>
+      <guid>/projects/matedealer/</guid>
       <description>There is a enlish version of this site: Mate Dealer
 Der MateDealer in der hier beschriebenen Konfiguration ist tot. Die Mechanischen Teile werden für den MateDealer 2.0 benutzt.
 Der Ausgangszustand  Hersteller: Sanden Vendo Model: VDI 100-5 5 Produktschächte Betriebsspannung: 230VAC 50Hz Nominale Leistungsaufnahme: 450W Gewicht: 200kg Baujahr: 02/2003 Kaufpreis: ~400 € Münzprüfer NRI G40.4000&amp;frasl;4-0752 (EUR &amp;amp; GBP)   So sah der Automat aus als wir ihn abgeholt haben.</description>
@@ -111,19 +111,19 @@ Der Ausgangszustand  Hersteller: Sanden Vendo Model: VDI 100-5 5 Produktschächt
     
     <item>
       <title>Mate Dealer 2.0</title>
-      <link>https://reaktor23.org/projects/matedealer2/</link>
+      <link>/projects/matedealer2/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://reaktor23.org/projects/matedealer2/</guid>
+      <guid>/projects/matedealer2/</guid>
       <description>Changes to MateDealer 1.0  completely custom build VMC new wiring no buttons on the machine to interact with it -&amp;gt; web service / smartphone app only no MDB -&amp;gt; reduce the complexity a clear json based protocol  To Do List  renew the wiring of the slot motors ✓ renew the wiring of the slot empty switches ✓ renew the wiring of the motor position switches ✓ print a mount for the new vending machine controller ✓ design the pcb for then new vending machine controller ✓ mount the power supply in a nicer way than in the old MateDealer ✓ do the wiring on the vmc side ✓ write the code for the vmc ✓ write a Android/iOS app that can control the vending machine (the webapp works well for all devices) write a webinterface that can control the vending machine ✓(alpha)  Files  Eagle design files of the prototype board.</description>
     </item>
     
     <item>
       <title>Platinenbohrmaschine</title>
-      <link>https://reaktor23.org/projects/pcbdrill/</link>
+      <link>/projects/pcbdrill/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://reaktor23.org/projects/pcbdrill/</guid>
+      <guid>/projects/pcbdrill/</guid>
       <description>Mechanik Die Vorrichtung ist so konstruiert, das sie an einer Tischplatte festgeklemmt wird. So ist das Gerät portabel und kann bei Nichtgebrauch einfach verstaut werden. Die Bohrmaschine ist eine Proxxon LB/E, die Langhals Variante wurde gewählt, um ein besseres einspannen in die Vorrichtung zu ermöglichen.
 Die Bohrmaschine ist auf einem Stück Führungsschiene montiert, und wird von einem Exzenter nach oben gedrückt. Der Exzenter wird von einem Schrittmotor angetrieben.
 Elektronik Die Ansteuerung des Schrittmotors gestaltet sich recht einfach, da es sich um einen unipolaren Schrittmotor handelt.</description>
@@ -131,39 +131,39 @@ Elektronik Die Ansteuerung des Schrittmotors gestaltet sich recht einfach, da es
     
     <item>
       <title>R23 AudioControl</title>
-      <link>https://reaktor23.org/projects/audiocontrol/</link>
+      <link>/projects/audiocontrol/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://reaktor23.org/projects/audiocontrol/</guid>
+      <guid>/projects/audiocontrol/</guid>
       <description>Hintergrund Da es ziemlich unpraktisch war, jedes Mal das Podest zu besteigen um das Radio einzuschalten, kauften wir einen neuen Verstärker und ein Mischpult. Als die Frage aufkam, wie man seine „mobilen Endgeräte“ ohne ein viel zu langes Audiokabel einstecken kann, kam die Idee auf, ein Modul zum bequemen Wechseln des Audioeingangs zu entwickeln.
 Funktion Das R23 AudioControl – Modul besteht aus einem ATmega8 sowie 4 Kleinsignalrelais, die über beleuchtete Taster ausgewählt werden und damit das Handy zum Mischpult durchzuschalten.</description>
     </item>
     
     <item>
       <title>RadiationData</title>
-      <link>https://reaktor23.org/projects/radiationdata/</link>
+      <link>/projects/radiationdata/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://reaktor23.org/projects/radiationdata/</guid>
+      <guid>/projects/radiationdata/</guid>
       <description>Linksammlung  Landesamt fuer Umwelt BW European Radiological Data Exchange Platform ODL Daten vom BfS -&amp;gt; Login fuers beziehen des CSV ist beantragt  Datenquellen Deutschland Bundesamt fuer Strahlenschutz  Alle Daten sind auf dem Sever des BfS zu finden. Eine Beschreibung was alles verfügbar ist sowie was die Daten für eine Bedeutung haben.  Österreich Lebensministerium  Karte mit Messwerten Land-, forst- und wasserwirtschaftliches Rechenzentrum GmbH, ohne Parameter bekommt man ein Query Formular zurück :)</description>
     </item>
     
     <item>
       <title>Ultimaker</title>
-      <link>https://reaktor23.org/projects/ultimaker/</link>
+      <link>/projects/ultimaker/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://reaktor23.org/projects/ultimaker/</guid>
+      <guid>/projects/ultimaker/</guid>
       <description>Current status of the ultimaker We added some feature to the original printer:
  Dual Extruder (printing with two different colores / two different materials) Heated Bed (better grip for the first layer / able to print ABS&amp;hellip;)   Available print materials   Color Material Quantity     light blue PLA 0.3kg   dark blue PLA 0.3kg   translucent blue PLA 0,65kg   silver PLA ?</description>
     </item>
     
     <item>
       <title>pwrcmdr</title>
-      <link>https://reaktor23.org/projects/pwrcmdr/</link>
+      <link>/projects/pwrcmdr/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://reaktor23.org/projects/pwrcmdr/</guid>
+      <guid>/projects/pwrcmdr/</guid>
       <description>Verbrauchsmessung Wir werden unsern Stromverbrauch messen &amp;amp; loggen.
 Zum Einsatz kommt ein S0 Schnittstelle (Nein nicht S0 Bus von der ISDN Anlage ;-))
  Projekt History  09.08.2011: Es wurden erste Versuche unternommen die S0 Schnittstelle auszuwerten. Leider erfolglos. 30.08.2011: Nach dem sich herausgestellt hat das die Drähte einfach verkehrt herum angeschlossen waren hat man auf dem Oszi nun saubere Pulse gesehen. 04.10.2011: Nach einigem hin und her bin ich zu dem Schluss gekommen, das ein [[http://arduino.</description>
@@ -171,10 +171,10 @@ Zum Einsatz kommt ein S0 Schnittstelle (Nein nicht S0 Bus von der ISDN Anlage ;-
     
     <item>
       <title></title>
-      <link>https://reaktor23.org/impressum/</link>
+      <link>/impressum/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://reaktor23.org/impressum/</guid>
+      <guid>/impressum/</guid>
       <description>Impressum Reaktor 23
 p. Adr. Samuel Barabas
 Badstrasse 29a
@@ -186,30 +186,30 @@ Allerdings werden einerseits diese Seiten auf Servern Dritter gehostet, anderers
     
     <item>
       <title>Reaktor 23</title>
-      <link>https://reaktor23.org/about/</link>
+      <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://reaktor23.org/about/</guid>
+      <guid>/about/</guid>
       <description>Reaktor 23 ist ein Hackerspace in Waldshut-Tiengen, Baden-Würtemberg, Deutschland, Erde, Milchstrasse. Gegründet um Leuten eine Plattform zu bieten, ihre Kreativität frei auszuleben, zu lernen wie Dinge funktionieren, um neue Dinge zu erschaffen.
 Jeden Dienstag ab 19:00 ist der Reaktor 23 für jedermann geöffnet und immer jemand da. Solltet ihr Interesse haben an einem anderen Tag vorbei zu schauen, meldet euch bitte vorher auf der Mailingliste damit ihr nicht vor verschlossener Türe steht!</description>
     </item>
     
     <item>
       <title>Reaktor 23 Space Status</title>
-      <link>https://reaktor23.org/status/</link>
+      <link>/status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://reaktor23.org/status/</guid>
+      <guid>/status/</guid>
       <description>Here you can find mor detailed infos about the state of our Hackerspace! We try to comply with the SpaceAPI as good as possible :-)
   </description>
     </item>
     
     <item>
       <title>Talks</title>
-      <link>https://reaktor23.org/talks/</link>
+      <link>/talks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://reaktor23.org/talks/</guid>
+      <guid>/talks/</guid>
       <description>In regelmässig unregelmässigen Abständen finden im Reaktor 23 &amp;ldquo;Talks&amp;rdquo; statt, wobei jemand über ein Thema referiert mit dem er sich gerade beschäftigt oder gut auskennt und sein Wissen teilen möchte.
 Die Themen- und Terminfindung findet meist spontan statt. Auf https://github.com/reaktor23/talks können aber auch Wünsche und Vorschläge erfasst werden. Ein neuer Talk wird meist auf unsere Mailingliste oder unserem Threema Group-Chat angekündigt.
 Der Zeitrahmen für einen Talk sollte nicht zu lange sein, so max.</description>

@@ -49,6 +49,7 @@ Es sind ein I2C, ein 1-Wire und ein RS485 Port vorhanden. Über diese wollen wir
 # Software
 
 Wir haben [Hassio](https://www.home-assistant.io/hassio/), eine speziell auf das RaspberryPi zugeschnittene Distribution von [Home Assistant](https://www.home-assistant.io) auf dem RaspberryPi installiert.
+
 Das hat sehr viele nett Vortiele für uns:
 
 - Ansteuerungen der GPIOs via Webinterface und/oder REST API ([rpi_gpio](https://www.home-assistant.io/components/rpi_gpio/))
@@ -57,3 +58,6 @@ Das hat sehr viele nett Vortiele für uns:
 
 Ausserdem die einfache Konfiguration via YAML files und das ermöglichen von Automations und vielen weiteren coolen Features!
 
+So sieht das interface in seiner ersten Version aus, hier bietet sich noch viel Spielraum für Erweiterungen :-)
+
+![Hass.io](hassio.png)

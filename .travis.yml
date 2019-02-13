@@ -5,15 +5,15 @@ addons:
 
 install:
   - wget https://github.com/gohugoio/hugo/releases/download/v0.54.0/hugo_0.54.0_Linux-64bit.deb -O /tmp/hugo.dpkg && sudo dpkg -i /tmp/hugo.dpkg
-  - rm -rf public || exit 0
 
 script:
   - hugo -v -b https://reaktor23.org --cleanDestinationDir
-  - echo 'reaktor23.org' > public/CNAME
 
 deploy:
   provider: pages
+  fqdn: reaktor23.org
   skip_cleanup: true
+  keep-history: true
   github_token: $GITHUB_TOKEN
   local_dir: public
   on:

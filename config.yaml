@@ -1,0 +1,24 @@
+---
+baseURL: https://reaktor23.org
+languageCode: de-de
+title: Reaktor23 - Hackerspace
+theme: reaktor23
+
+menu:
+  main:
+    - name: Blog
+      url: /
+      weight: -1
+    - name: About
+      url: /about/
+    - name: Projects
+      url: /projects/
+    - name: Talks
+      url: /talks/
+  foot:
+    - name: Impressum / Datenschutz
+      url: /impressum/
+
+imaging:
+  resampleFilter: Lanczos
+  quality: 80

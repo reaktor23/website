@@ -15,9 +15,9 @@ verschlossener Türe steht!
 
 ## Kontakt
 
-E-Mail: info@reaktor23.org
+E-Mail: info (ät) reaktor23 (Punkt) org
 
-Mailinglist: reaktor23@lists.reaktor23.org - https://lists.reaktor23.org/mailman/listinfo/reaktor23
+Mailinglist: reaktor23 (ät) lists.reaktor23 (Punkt) org - https://lists.reaktor23.org/mailman/listinfo/reaktor23
 
 ## Ort
 

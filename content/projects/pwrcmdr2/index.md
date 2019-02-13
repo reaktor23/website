@@ -9,8 +9,8 @@ image: pwrcmdr2.png
 
 # Warum?
 
-Unser aktueller pwrCMDr besteht aus einem Arduino-Ethernet auf einer selbstgeätzten Platine.
-Da wir immer wieder Probleme damit haben soll etwas neues her, das vielleicht etwas mehr Spielraum gibt um Änderungen/Verbesserungen zu integrieren.
+Unser <strike>aktueller</strike> bisheriger pwrCMDr bestand aus einem Arduino-Ethernet auf einer selbstgeätzten Platine.
+Da wir immer wieder Probleme damit haben sollte etwas neues her, das vielleicht etwas mehr Spielraum gibt um Änderungen/Verbesserungen zu integrieren.
 
 # Hardware
 
@@ -45,4 +45,15 @@ Desweiteren hat das Board 8 Digitaleingänge die 24V tollerant sind und mittels 
 ## Sensorik
 
 Es sind ein I2C, ein 1-Wire und ein RS485 Port vorhanden. Über diese wollen wir diverse Sensorik anbinden.
+
+# Software
+
+Wir haben [Hassio](https://www.home-assistant.io/hassio/), eine speziell auf das RaspberryPi zugeschnittene Distribution von [Home Assistant](https://www.home-assistant.io) auf dem RaspberryPi installiert.
+Das hat sehr viele nett Vortiele für uns:
+
+- Ansteuerungen der GPIOs via Webinterface und/oder REST API ([rpi_gpio](https://www.home-assistant.io/components/rpi_gpio/))
+- Auslesen der 1-Wire Temperatursensoren ([sensor.onewire](https://www.home-assistant.io/components/sensor.onewire/))
+- Bereitstellen des Reaktorstatus via SpaceAPI ([spaceapi](https://www.home-assistant.io/components/spaceapi/))
+
+Ausserdem die einfache Konfiguration via YAML files und das ermöglichen von Automations und vielen weiteren coolen Features!
 

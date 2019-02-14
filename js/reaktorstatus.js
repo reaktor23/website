@@ -31,7 +31,7 @@ var printdetails = function(data) {
   $("#apidteails").append("<div>Last refresh</div>")
   $("#apidteails").append("<div>"+new Date(data.state.lastchange)+"</div>")
   $("#apidteails").append("<br/><div>Temperatures</div>")
-  data.sensors.temperatures.forEach(function(e) {
+  data.sensors.temperature.forEach(function(e) {
     $("#apidteails").append("<div>"+e.name+": "+e.value+" "+e.unit+"</div>")
   })
   /*

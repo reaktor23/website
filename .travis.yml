@@ -1,3 +1,5 @@
+language: minimal
+
 addons:
   apt:
     packages:
@@ -7,7 +9,7 @@ install:
   - wget https://github.com/gohugoio/hugo/releases/download/v0.54.0/hugo_0.54.0_Linux-64bit.deb -O /tmp/hugo.dpkg && sudo dpkg -i /tmp/hugo.dpkg
 
 script:
-  - hugo -v -b https://reaktor23.org --cleanDestinationDir
+  - hugo -v --cleanDestinationDir
 
 deploy:
   provider: pages

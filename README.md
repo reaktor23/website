@@ -4,6 +4,7 @@ Reaktor 23 website
 This is another approach for a new website for http://reaktor23.org using the
 [Hugo static site generator](https://gohugo.io/).
 
+[![Build Status](https://travis-ci.org/reaktor23/website.svg?branch=master)](https://travis-ci.org/reaktor23/website)
 
 Quickstart
 ----------

@@ -4,13 +4,14 @@ var getstatus = function() {
     $("#reaktorstatus > #message").removeClass();
     // Check if last update is longer than 2 Minutes old
     var timeout = new Date().valueOf() - data.state.lastchange > (120 * 1000);
-    if(data.state.open == "open" && !timeout) {
+    if(data.state.open && !timeout) {
       $("#reaktorstatus > #message").addClass("text-success");
-      $("#reaktorstatus > #message").html(data.state.message);
+      $("#reaktorstatus > #message").html("Come in, we're open!");
     }
-    else if(data.state.open == "closed" && !timeout) {
+    else if(!data.state.open && !timeout) {
       $("#reaktorstatus > #message").addClass("text-danger");
-      $("#reaktorstatus > #message").html(data.state.message);
+      //$("#reaktorstatus > #message").html(data.state.message);
+      $("#reaktorstatus > #message").html("Sorry, we're closed!");
     }
     else {
       $("#reaktorstatus > #message").addClass("text-warning");
@@ -33,10 +34,12 @@ var printdetails = function(data) {
   data.sensors.temperatures.forEach(function(e) {
     $("#apidteails").append("<div>"+e.name+": "+e.value+" "+e.unit+"</div>")
   })
+  /*
   $("#apidteails").append("<br/><div>Power circuits</div>")
   data.sensors.power_circuits.forEach(function(e) {
     $("#apidteails").append("<div>"+e.name+": "+e.value+" "+e.unit+"</div>")
   })
+  */
 }
 
 // Call function on page load

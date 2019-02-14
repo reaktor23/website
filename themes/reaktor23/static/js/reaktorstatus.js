@@ -3,19 +3,13 @@ var getstatus = function() {
   $.getJSON("https://bdstr.reaktor23.org/spaceapi", function(data) {
     $("#reaktorstatus > #message").removeClass();
     // Check if last update is longer than 2 Minutes old
-    var timeout = new Date().valueOf() - data.state.lastchange > (120 * 1000);
-    if(data.state.open && !timeout) {
+    if(data.state.open) {
       $("#reaktorstatus > #message").addClass("text-success");
-      $("#reaktorstatus > #message").html("Come in, we're open!");
-    }
-    else if(!data.state.open && !timeout) {
+      $("#reaktorstatus > #message").html("Come in, we're open!<br><small class='text-muted'>"+new Date(data.state.lastchange * 1000)+"</small>");
+    } else {
       $("#reaktorstatus > #message").addClass("text-danger");
       //$("#reaktorstatus > #message").html(data.state.message);
-      $("#reaktorstatus > #message").html("Sorry, we're closed!");
-    }
-    else {
-      $("#reaktorstatus > #message").addClass("text-warning");
-      $("#reaktorstatus > #message").html("Not sure, better contact us first!");
+      $("#reaktorstatus > #message").html("Sorry, we're closed!<br><small class='text-muted'>"+new Date(data.state.lastchange * 1000)+"</small>");
     }
     if($("#apidteails")) {
       $("#apidteails").html("");
@@ -28,7 +22,7 @@ var getstatus = function() {
 }
 
 var printdetails = function(data) {
-  $("#apidteails").append("<div>Last refresh</div>")
+  $("#apidteails").append("<div>Last state change</div>")
   $("#apidteails").append("<div>"+new Date(data.state.lastchange)+"</div>")
   $("#apidteails").append("<br/><div>Temperatures</div>")
   data.sensors.temperature.forEach(function(e) {

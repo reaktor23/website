@@ -1,6 +1,6 @@
 // get JSON according to the SpaceAPI
 var getstatus = function() {
-  $.getJSON("https://bdstr.reaktor23.org/spaceapi", function(data) {
+  $.getJSON("https://spaceapi.reaktor23.org", function(data) {
     $("#reaktorstatus > #message").removeClass();
     // Check if last update is longer than 2 Minutes old
     if(data.state.open) {

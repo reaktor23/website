@@ -23,7 +23,7 @@ var getstatus = function() {
 
 var printdetails = function(data) {
   $("#apidteails").append("<div>Last state change</div>")
-  $("#apidteails").append("<div>"+new Date(data.state.lastchange)+"</div>")
+  $("#apidteails").append("<div>"+new Date(data.state.lastchange*1000)+"</div>")
   $("#apidteails").append("<br/><div>Temperatures</div>")
   data.sensors.temperature.forEach(function(e) {
     $("#apidteails").append("<div>"+e.name+": "+e.value+" "+e.unit+"</div>")

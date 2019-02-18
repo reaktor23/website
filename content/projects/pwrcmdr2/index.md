@@ -7,6 +7,13 @@ draft: false
 image: pwrcmdr2.png 
 ---
 
+{{% box type="success" %}}
+Wir haben noch 4 Platinen für den pwrCMDer übrig und würden diese gerne gratis an andere Hackerspaces abgeben wenn Interesse besteht.
+Eine Liste mit Bauteilen für die Bestellung bei Pollin ist ebenfalls vorhanden.
+Der einzige Knackpunkt ist das ein kleiner Layoutfehler bei den Optokopplern unterlaufen ist und das Pinout nicht stimmt.
+Das kann aber mit ein wenig gutem altem Pfusch<sup><i class="fa fa-trademark" aria-hidden="true"></i></sup> behoben werden (genauere Infos auf Anfrage).
+{{% /box %}}
+
 # Warum?
 
 Unser <strike>aktueller</strike> bisheriger pwrCMDr bestand aus einem Arduino-Ethernet auf einer selbstgeätzten Platine.

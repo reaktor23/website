@@ -6,10 +6,21 @@
     <description>Recent content in Blogs on Reaktor23 - Hackerspace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Thu, 10 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Feinstaubmessung jetzt auch im Reaktor</title>
+      <link>/blog/luftdaten/</link>
+      <pubDate>Wed, 19 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/luftdaten/</guid>
+      <description>Feinstaub Messstation Seit gestern läuft in unserem Hackerspace ein Feinstaub/Temperatur/Luftfeuchte Sensor der seine Daten an luftdaten.info sendet.
+Unsere Messtation ist auf der Karte von Luftdaten.info zu finden.
+Ausserdem werden die Messwerte via SpaceAPI von unserer Home Assistant Installation zur Verfügung gestellt.</description>
+    </item>
     
     <item>
       <title>35C3 - the aftermath</title>

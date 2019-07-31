@@ -6,10 +6,21 @@
     <description>Recent content on Reaktor23 - Hackerspace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Wed, 19 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 31 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CCC Camp 2019</title>
+      <link>/blog/camp2019/</link>
+      <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/camp2019/</guid>
+      <description>Wir fahren zum CCC Camp 2019 Wir sind in der glücklichen Lage uns 3 Tickets für das CCC Camp 2019 ergattert zu haben. Zwei davon durch befreundete Hacker/Hackerspaces aus der Schweiz, ein riesiges Dankeschön an dieser Stelle dafür :-)
+Wir dürfen uns auch dem CCC-CH Village anschliessen und freuen uns schon darauf was es alles zu erleben geben wird.
+Falls auch du zum Camp kommst würden wir uns freuen dich dort zu terffen!</description>
+    </item>
     
     <item>
       <title>Feinstaubmessung jetzt auch im Reaktor</title>

@@ -2,6 +2,8 @@
 languageCode: de-de
 title: Reaktor23 - Hackerspace
 theme: reaktor23
+baseurl: ""
+
 
 menu:
   main:

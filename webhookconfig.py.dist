@@ -1,6 +1,0 @@
-secret = '...'
-dest = '/path/to/htdocs'
-repo = '/path/to/gitrepo'
-domain = '//reaktor23.org'
-host = 'localhost'
-port = 23232

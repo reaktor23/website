@@ -58,8 +58,7 @@ Diese Website hat nun ein kleine Infoseite darüber.</description>
       <pubDate>Wed, 17 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://reaktor23.org/projects/pwrcmdr2/</guid>
-      <description>Wir haben noch 4 Platinen für den pwrCMDer übrig und würden diese gerne gratis an andere Hackerspaces abgeben wenn Interesse besteht. Eine Liste mit Bauteilen für die Bestellung bei Pollin ist ebenfalls vorhanden. Der einzige Knackpunkt ist das ein kleiner Layoutfehler bei den Optokopplern unterlaufen ist und das Pinout nicht stimmt. Das kann aber mit ein wenig gutem altem Pfusch behoben werden (genauere Infos auf Anfrage).
- Warum? Unser aktueller bisheriger pwrCMDr bestand aus einem Arduino-Ethernet auf einer selbstgeätzten Platine.</description>
+      <description>Wir haben noch 4 Platinen für den pwrCMDer übrig und würden diese gerne gratis an andere Hackerspaces abgeben wenn Interesse besteht. Eine Liste mit Bauteilen für die Bestellung bei Pollin ist ebenfalls vorhanden. Der einzige Knackpunkt ist das ein kleiner Layoutfehler bei den Optokopplern unterlaufen ist und das Pinout nicht stimmt. Das kann aber mit ein wenig gutem altem Pfusch behoben werden (genauere Infos auf Anfrage).  Warum? Unser aktueller bisheriger pwrCMDr bestand aus einem Arduino-Ethernet auf einer selbstgeätzten Platine.</description>
     </item>
     
     <item>
@@ -152,6 +151,17 @@ Elektronik Die Ansteuerung des Schrittmotors gestaltet sich recht einfach, da es
     </item>
     
     <item>
+      <title>pwrcmdr</title>
+      <link>https://reaktor23.org/projects/pwrcmdr/</link>
+      <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://reaktor23.org/projects/pwrcmdr/</guid>
+      <description>Verbrauchsmessung Wir werden unsern Stromverbrauch messen &amp;amp; loggen.
+Zum Einsatz kommt ein S0 Schnittstelle (Nein nicht S0 Bus von der ISDN Anlage ;-))
+ Projekt History  09.08.2011: Es wurden erste Versuche unternommen die S0 Schnittstelle auszuwerten. Leider erfolglos. 30.08.2011: Nach dem sich herausgestellt hat das die Drähte einfach verkehrt herum angeschlossen waren hat man auf dem Oszi nun saubere Pulse gesehen. 04.10.2011: Nach einigem hin und her bin ich zu dem Schluss gekommen, das ein [[http://arduino.</description>
+    </item>
+    
+    <item>
       <title>R23 AudioControl</title>
       <link>https://reaktor23.org/projects/audiocontrol/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
@@ -176,19 +186,7 @@ Funktion Das R23 AudioControl – Modul besteht aus einem ATmega8 sowie 4 Kleins
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://reaktor23.org/projects/ultimaker/</guid>
-      <description>Current status of the ultimaker We added some feature to the original printer:
- Dual Extruder (printing with two different colores / two different materials) Heated Bed (better grip for the first layer / able to print ABS&amp;hellip;)   Available print materials   Color Material Quantity     light blue PLA 0.3kg   dark blue PLA 0.3kg   translucent blue PLA 0,65kg   silver PLA ?</description>
-    </item>
-    
-    <item>
-      <title>pwrcmdr</title>
-      <link>https://reaktor23.org/projects/pwrcmdr/</link>
-      <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://reaktor23.org/projects/pwrcmdr/</guid>
-      <description>Verbrauchsmessung Wir werden unsern Stromverbrauch messen &amp;amp; loggen.
-Zum Einsatz kommt ein S0 Schnittstelle (Nein nicht S0 Bus von der ISDN Anlage ;-))
- Projekt History  09.08.2011: Es wurden erste Versuche unternommen die S0 Schnittstelle auszuwerten. Leider erfolglos. 30.08.2011: Nach dem sich herausgestellt hat das die Drähte einfach verkehrt herum angeschlossen waren hat man auf dem Oszi nun saubere Pulse gesehen. 04.10.2011: Nach einigem hin und her bin ich zu dem Schluss gekommen, das ein [[http://arduino.</description>
+      <description>**Current status of the ultimaker** We added some feature to the original printer: - Dual Extruder (printing with two different colores / two different materials) - Heated Bed (better grip for the first layer / able to print ABS...)  Available print materials    Color Material Quantity     light blue PLA 0.3kg   dark blue PLA 0.3kg   translucent blue PLA 0,65kg   silver PLA ?</description>
     </item>
     
     <item>

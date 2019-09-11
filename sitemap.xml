@@ -3,7 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://reaktor23.org/blog/</loc>
+    <lastmod>2019-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://reaktor23.org/blog/camp2019/</loc>
+    <lastmod>2019-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://reaktor23.org/</loc>
     <lastmod>2019-07-31T00:00:00+00:00</lastmod>
   </url>
   
@@ -20,6 +30,11 @@
   <url>
     <loc>https://reaktor23.org/blog/talks-2018-10-21/</loc>
     <lastmod>2018-10-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://reaktor23.org/projects/</loc>
+    <lastmod>2018-10-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -73,6 +88,11 @@
   </url>
   
   <url>
+    <loc>https://reaktor23.org/projects/pwrcmdr/</loc>
+    <lastmod>2017-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://reaktor23.org/projects/audiocontrol/</loc>
     <lastmod>2017-12-31T00:00:00+00:00</lastmod>
   </url>
@@ -88,29 +108,11 @@
   </url>
   
   <url>
-    <loc>https://reaktor23.org/projects/pwrcmdr/</loc>
-    <lastmod>2017-12-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://reaktor23.org/impressum/</loc>
   </url>
   
   <url>
-    <loc>https://reaktor23.org/blog/</loc>
-    <lastmod>2019-07-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://reaktor23.org/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://reaktor23.org/projects/</loc>
-    <lastmod>2018-10-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -122,14 +124,7 @@
   </url>
   
   <url>
-    <loc>https://reaktor23.org/</loc>
-    <lastmod>2019-07-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://reaktor23.org/tags/</loc>
-    <priority>0</priority>
   </url>
   
   <url>

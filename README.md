@@ -1,8 +1,7 @@
 Reaktor 23 website
 ==================
 
-This is another approach for a new website for http://reaktor23.org using the
-[Hugo static site generator](https://gohugo.io/).
+The website behind http://reaktor23.org made using the [Hugo static site generator](https://gohugo.io/).
 
 [![Build Status](https://travis-ci.org/reaktor23/website.svg?branch=master)](https://travis-ci.org/reaktor23/website)
 
@@ -10,32 +9,23 @@ Quickstart
 ----------
 
 1. Install hugo: see https://gohugo.io/overview/installing/
-2. Clone repository. At this time it's in the [*hugo*](https://github.com/reaktor23/website/tree/hugo) branch:
+2. Clone this repository
 
     ```
-    git clone -b hugo https://github.com/reaktor23/website.git reaktor23-website
+    git clone https://github.com/reaktor23/website.git reaktor23-website
     cd reaktor23-website
     ```
 4. Mess around with the content ... or not
 5. View page on your machine with `hugo server` and visiting http://localhost:1313
 
+Deploying
+---------
 
-Todo
-----
-
-- [x] Create proper theme
-  - [x] Have a nice news overview
-  - [x] Make a project overview, eg. using [cards](https://themes.gohugo.io/robust/)
-- [x] Make menu configurable in config.toml
-- [x] Define content structure
-- [ ] **Figure out how to reference/handle file like images corrently so it will work with both summaries and page views.** [see](https://github.com/spf13/hugo/issues/1240)
-- [x] Create deployment hooks
-- [x] Migrate content from existing site
-- [x] Write impressum, about, contect, etc. pages
-- [x] ~~Create functioning Reaktor Status on landing page~~
+All commits to the master branch will be deployed automatically via Travis CI https://reaktor23.org.
 
 Custom shortcodes
-----
+-----------------
+
 Shortcodes are used to enable users to create certain HTML output from the markup pages.
 Here are our implemented shortcodes for documentation:
 

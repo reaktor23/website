@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{- range $i, $e := (first 5 (where .Data.Pages "Section" "blog")) }}
+{{- range $i, $e := (first 5 (where $.Site.RegularPages "Section" "blog")) }}
 {{- if gt $i 0 }}
 <hr>
 {{- end }}

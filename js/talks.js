@@ -1,4 +1,5 @@
 var gettalks = function() {
+    var converter = new showdown.Converter()
     // Query Talks from Github
     $.get("https://api.github.com/repos/reaktor23/talks/issues?state=open", function(talk){
         // empty the Talks div
@@ -12,7 +13,7 @@ var gettalks = function() {
             $("tbody").append("<tr><td><a href='"+
                 talk[t].html_url+"'>" + 
                 talk[t].title + " <i class='fa fa-external-link' aria-hidden='true'></i></a></td><td>"+ 
-                talk[t].body+"</td><td>"+ 
+                converter.makeHtml(talk[t].body) + "</td><td>"+
                 talk[t].assignees.map(function(e){return e.login}).join()+"</td><td>"+ labels +"</td></tr>")
         })
     })

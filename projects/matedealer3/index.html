@@ -113,6 +113,7 @@
 <li><a href="#the-procedure-of-getting-a-cool-drink">The procedure of getting a cool drink</a></li>
 <li><a href="#the-payment">The payment</a></li>
 <li><a href="#what-works-so-far">What works so far</a></li>
+<li><a href="#fails">Fails</a></li>
 <li><a href="#ideas">Ideas</a>
 <ul>
 <li><a href="#cooler">Cooler</a></li>
@@ -229,6 +230,14 @@ so we decided to let the users vend without authentication and decrement their f
 <p>The cooler is controlled depending on the temperature inside of the machine with a hysteresis that is configurable.
 That allows us to only coll down when its neccessary.</p>
 
+<h2 id="fails">Fails</h2>
+
+<ul>
+<li>I didn&rsquo;t know how much current the motors draw, so I guessed 1A and ordered TR5 fuses with 1A. Turns out the are labled with 5.2A and actually draw 4.9A which on the first try blew all 5 fuses imedialtely.</li>
+<li>I used relays that are rated for 3A because I guessed the actual motor current (and I had dozens of them laying around). I decided to use them directly until they start to fail. If that happens I replace them and use additional relays that are controlled by the small ones.</li>
+<li>I accidentally placed a via that stitches 24VAC to GND which results in a short circuit when one of the relays is switched on. This issue could be easily fixed with a sharp cutter knife.</li>
+</ul>
+
 <h2 id="ideas">Ideas</h2>
 
 <h3 id="cooler">Cooler</h3>
@@ -260,7 +269,7 @@ A hot candidate for that display is one of the several 7&rdquo; HDMI displays of
 		<span class="px-2">&bull;</span>
 		<a href="https://github.com/reaktor23"><i class="fa fa-github text-muted" style="font-size: 1.25rem;" aria-hidden="true"></i></a>
 		<br>
-		<span style="font-size: 0.7em;">build time: 2019-10-24 15:23</span>
+		<span style="font-size: 0.7em;">build time: 2019-10-24 15:34</span>
 	</div>
 </footer>
 

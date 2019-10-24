@@ -5,6 +5,7 @@ description: The Matedealer is dead, long live the MateDealer!
 date: 2017-12-31
 toc: true
 draft: false
+obsolete: true
 image: matedealer-2.0-prototype.jpg
 ---
 

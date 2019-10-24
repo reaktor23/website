@@ -5,6 +5,7 @@ description: Umbau/Erweiterung eines Getränke- automaten um eine Bezahlsystem m
 date: 2017-12-31
 toc: true
 draft: false
+obsolete: true
 image: vendo_1.jpg
 ---
 

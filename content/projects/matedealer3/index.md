@@ -86,6 +86,12 @@ so we decided to let the users vend without authentication and decrement their f
 The cooler is controlled depending on the temperature inside of the machine with a hysteresis that is configurable.
 That allows us to only coll down when its neccessary.
 
+## Fails
+
+* I didn't know how much current the motors draw, so I guessed 1A and ordered TR5 fuses with 1A. Turns out the are labled with 5.2A and actually draw 4.9A which on the first try blew all 5 fuses imedialtely.
+* I used relays that are rated for 3A because I guessed the actual motor current (and I had dozens of them laying around). I decided to use them directly until they start to fail. If that happens I replace them and use additional relays that are controlled by the small ones.
+* I accidentally placed a via that stitches 24VAC to GND which results in a short circuit when one of the relays is switched on. This issue could be easily fixed with a sharp cutter knife.
+
 ## Ideas
 
 

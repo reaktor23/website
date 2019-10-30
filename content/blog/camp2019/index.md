@@ -12,4 +12,4 @@ Zwei davon durch befreundete Hacker/Hackerspaces aus der Schweiz, ein riesiges D
 
 Wir dürfen uns auch dem [CCC-CH Village](https://events.ccc.de/camp/2019/wiki/Village:CCC-CH) anschliessen und freuen uns schon darauf was es alles zu erleben geben wird.
 
-Falls auch du zum Camp kommst würden wir uns freuen dich dort zu terffen!
+Falls auch du zum Camp kommst würden wir uns freuen dich dort zu treffen!

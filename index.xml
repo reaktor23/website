@@ -29,7 +29,7 @@ Then we decided to build our own new controller board based on an Arduino Mega25
       <guid>https://reaktor23.org/blog/camp2019/</guid>
       <description>Wir fahren zum CCC Camp 2019 Wir sind in der glücklichen Lage uns 3 Tickets für das CCC Camp 2019 ergattert zu haben. Zwei davon durch befreundete Hacker/Hackerspaces aus der Schweiz, ein riesiges Dankeschön an dieser Stelle dafür :-)
 Wir dürfen uns auch dem CCC-CH Village anschliessen und freuen uns schon darauf was es alles zu erleben geben wird.
-Falls auch du zum Camp kommst würden wir uns freuen dich dort zu terffen!</description>
+Falls auch du zum Camp kommst würden wir uns freuen dich dort zu treffen!</description>
     </item>
     
     <item>
@@ -49,7 +49,7 @@ Ausserdem werden die Messwerte via SpaceAPI von unserer Home Assistant Installat
       <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://reaktor23.org/blog/35c3-2019-10-01/</guid>
-      <description>Wie vermutlich fast jeder Hackerspace im deutschsprachigen Raum und darüber hinaus haben auch wir vom 27.12.2018 bis zum 30.12.2018 die Streams vom 35C3 angeschaut. Und wie es halt so ist sind bei uns in den letzten Jahren ettliche Projekte ins Leben gerufen worden, jedoch nie (richtig) fertig gestellt worden. Glücklicherweise ist es uns gleich am 27.12. gelungen unsere CNC Fräse wiederzubeleben, was uns ein enormes Maß an neuen Möglichkeiten eröffnet.</description>
+      <description>Wie vermutlich fast jeder Hackerspace im deutschsprachigen Raum und darüber hinaus haben auch wir vom 27.12.2018 bis zum 30.12.2018 die Streams vom 35C3 angeschaut. Und wie es halt so ist sind bei uns in den letzten Jahren etliche Projekte ins Leben gerufen worden, jedoch nie (richtig) fertig gestellt worden. Glücklicherweise ist es uns gleich am 27.12. gelungen unsere CNC Fräse wiederzubeleben, was uns ein enormes Maß an neuen Möglichkeiten eröffnet.</description>
     </item>
     
     <item>
@@ -106,8 +106,8 @@ Video   Hardware Elektronik Angetrieben werden die Achsen von Nema34 Schrittmoto
       <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://reaktor23.org/blog/new-website-2018-06-19/</guid>
-      <description>Wir haben es endlich geschafft eine neue Website zu bauen! Yay! Naja, fast. Noch muessen wir etwas Arbeit hinein stecken.
-Zuvor hatten wir eine auf DokuWiki basierenden Website. DokuWiki ist an sich nicht schlecht, war aber dann doch ein bisschen ein funktioneller Overkill und doch fehlte uns eine Funktion: Schon lange wollten wir es jedem sehr einfach machen Inhalte auf der Website zu ergaenzen, korrigieren oder gar zu verfassen. Mit DokuWiki brauchte man dafuer mindestens einen Login, etwas was vielen Leuten einfach im Wege war.</description>
+      <description>Wir haben es endlich geschafft eine neue Website zu bauen! Yay! Naja, fast. Noch müssen wir etwas Arbeit hinein stecken.
+Zuvor hatten wir eine auf DokuWiki basierenden Website. DokuWiki ist an sich nicht schlecht, war aber dann doch ein bisschen ein funktioneller Overkill und doch fehlte uns eine Funktion: Schon lange wollten wir es jedem sehr einfach machen Inhalte auf der Website zu ergänzen, korrigieren oder gar zu verfassen. Mit DokuWiki brauchte man dafür mindestens einen Login, etwas was vielen Leuten einfach im Wege war.</description>
     </item>
     
     <item>

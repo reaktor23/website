@@ -112,13 +112,16 @@
 <li><a href="#pictures">Pictures</a></li>
 <li><a href="#the-procedure-of-getting-a-cool-drink">The procedure of getting a cool drink</a></li>
 <li><a href="#the-payment">The payment</a></li>
-<li><a href="#what-works-so-far">What works so far</a></li>
-<li><a href="#fails">Fails</a></li>
-<li><a href="#ideas">Ideas</a>
+<li><a href="#what-works-so-far">What works so far</a>
 <ul>
+<li><a href="#nfc-authentication">NFC authentication</a></li>
 <li><a href="#cooler">Cooler</a></li>
 <li><a href="#display">Display</a></li>
+<li><a href="#accounting">Accounting</a></li>
+<li><a href="#logging">Logging</a></li>
+<li><a href="#integration">Integration</a></li>
 </ul></li>
+<li><a href="#fails">Fails</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -224,11 +227,44 @@ That makes it easy for us to get the money and does not need to handle payments 
 
 <p>We are in a beta phase at the moment.</p>
 
-<p>We have no NFC enabled at the moment (due to the lack of code for it :-) ),
-so we decided to let the users vend without authentication and decrement their funds on the whiteboard as we did the last couple of years.</p>
+<h3 id="nfc-authentication">NFC authentication</h3>
+
+<p>We finally managed to integrate a ACR-122U USB NFC Reader with the MateDealer that allows us to authenticate a user. We know for sure that using the UID of a NFC badge isn&rsquo;t very secure but thats not the point for us.</p>
+
+<h3 id="cooler">Cooler</h3>
 
 <p>The cooler is controlled depending on the temperature inside of the machine with a hysteresis that is configurable.
-That allows us to only coll down when its neccessary.</p>
+That allows us to only coll down when its neccessary.
+The cooler is blocked when nobody is in the hackerspace to save energy or it is not Tuesday between 18:00 and 23:00 which is our main opening hours.</p>
+
+<h3 id="display">Display</h3>
+
+<p>We ordered a 8&rdquo; HDMI display on AliExpress that will replace the product lables next to the selection buttons.
+That way we can shwo dynamic product labels an when a vend is ongoing or another information needs to be shown to the users it can be done that way.</p>
+
+<h3 id="accounting">Accounting</h3>
+
+<p>We decided to send a measurement to a InfluxDB on every vend that includes <code>username</code>, <code>product</code>, <code>price</code> and a <code>timestamp</code>.
+At the end of the month, we can simply run a (yet to be written) script that fetchs all vend of the past month and sums up the consumption per user.
+Our treasurer then can request the amount from the user. We plan to have users to top up a virtual account and the the treasurer wil subtract the amount from the available funds.
+That way he does not have to run after people an make them pay afterwards.
+We will see how that works out.</p>
+
+<h3 id="logging">Logging</h3>
+
+<p>We send several values to the InfluxDB to have a log of what is going on, at the moment these are:</p>
+
+<ul>
+<li>Inside temperature</li>
+<li>Cooler state (on/off)</li>
+<li>Slot states (ok/empty)</li>
+</ul>
+
+<h3 id="integration">Integration</h3>
+
+<p>Our <a href="https://reaktor23.org/projects/pwrcmdr2/">pwrCMDer</a> runs <a href="https://www.home-assistant.io/">Home-Assistant</a>, from there we&rsquo;ve integrated several InfluxDB values as sensors.
+That allows us to let the pwrCMDer react to state changes.
+We plan to let it send a information message when a slot runs empty for example (yet to be done) or having the states in our <a href="https://reaktor23.org/status/">SpaceAPI</a> (already done)</p>
 
 <h2 id="fails">Fails</h2>
 
@@ -237,18 +273,6 @@ That allows us to only coll down when its neccessary.</p>
 <li>I used relays that are rated for 3A because I guessed the actual motor current (and I had dozens of them laying around). I decided to use them directly until they start to fail. If that happens I replace them and use additional relays that are controlled by the small ones.</li>
 <li>I accidentally placed a via that stitches 24VAC to GND which results in a short circuit when one of the relays is switched on. This issue could be easily fixed with a sharp cutter knife.</li>
 </ul>
-
-<h2 id="ideas">Ideas</h2>
-
-<h3 id="cooler">Cooler</h3>
-
-<p>We want to enable the cooling depending on the presence of hackerspace members. That Task is very easy to achieve because we can simply poll the <a href="https://reaktor23.org/projects/pwrcmdr2/">pwrcmder</a> running the <a href="https://spaceapi.io/">SpaceAPI</a> and use the <code>state</code> as an indicator.
-Additionally we wnat to enable the cooler on Tuesdays from approximately 18:00 until midnight becuse that is the time frame when almost always memebers are present.</p>
-
-<h3 id="display">Display</h3>
-
-<p>We want to add a nice little HDMI display to show status info, availablity of products, errors and so on.
-A hot candidate for that display is one of the several 7&rdquo; HDMI displays offered on AliExpress as the cost as little as 20$.</p>
 <div class="footnotes">
 
 <hr />
@@ -269,7 +293,7 @@ A hot candidate for that display is one of the several 7&rdquo; HDMI displays of
 		<span class="px-2">&bull;</span>
 		<a href="https://github.com/reaktor23"><i class="fa fa-github text-muted" style="font-size: 1.25rem;" aria-hidden="true"></i></a>
 		<br>
-		<span style="font-size: 0.7em;">build time: 2019-10-30 10:31</span>
+		<span style="font-size: 0.7em;">build time: 2019-11-07 11:34</span>
 	</div>
 </footer>
 

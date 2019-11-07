@@ -80,30 +80,48 @@ That makes it easy for us to get the money and does not need to handle payments 
 
 We are in a beta phase at the moment. 
 
-We have no NFC enabled at the moment (due to the lack of code for it :-) ),
-so we decided to let the users vend without authentication and decrement their funds on the whiteboard as we did the last couple of years.
+### NFC authentication
+
+We finally managed to integrate a ACR-122U USB NFC Reader with the MateDealer that allows us to authenticate a user. We know for sure that using the UID of a NFC badge isn't very secure but thats not the point for us.
+
+### Cooler
 
 The cooler is controlled depending on the temperature inside of the machine with a hysteresis that is configurable.
 That allows us to only coll down when its neccessary.
+The cooler is blocked when nobody is in the hackerspace to save energy or it is not Tuesday between 18:00 and 23:00 which is our main opening hours.
+
+### Display
+
+We ordered a 8" HDMI display on AliExpress that will replace the product lables next to the selection buttons.
+That way we can shwo dynamic product labels an when a vend is ongoing or another information needs to be shown to the users it can be done that way.
+
+### Accounting
+
+We decided to send a measurement to a InfluxDB on every vend that includes `username`, `product`, `price` and a `timestamp`.
+At the end of the month, we can simply run a (yet to be written) script that fetchs all vend of the past month and sums up the consumption per user. 
+Our treasurer then can request the amount from the user. We plan to have users to top up a virtual account and the the treasurer wil subtract the amount from the available funds.
+That way he does not have to run after people an make them pay afterwards.
+We will see how that works out.
+
+### Logging
+
+We send several values to the InfluxDB to have a log of what is going on, at the moment these are:
+
+- Inside temperature
+- Cooler state (on/off)
+- Slot states (ok/empty)
+
+### Integration
+
+Our [pwrCMDer](https://reaktor23.org/projects/pwrcmdr2/) runs [Home-Assistant](https://www.home-assistant.io/), from there we've integrated several InfluxDB values as sensors.
+That allows us to let the pwrCMDer react to state changes.
+We plan to let it send a information message when a slot runs empty for example (yet to be done) or having the states in our [SpaceAPI](https://reaktor23.org/status/) (already done)
+
 
 ## Fails
 
 * I didn't know how much current the motors draw, so I guessed 1A and ordered TR5 fuses with 1A. Turns out the are labled with 5.2A and actually draw 4.9A which on the first try blew all 5 fuses imedialtely.
 * I used relays that are rated for 3A because I guessed the actual motor current (and I had dozens of them laying around). I decided to use them directly until they start to fail. If that happens I replace them and use additional relays that are controlled by the small ones.
 * I accidentally placed a via that stitches 24VAC to GND which results in a short circuit when one of the relays is switched on. This issue could be easily fixed with a sharp cutter knife.
-
-## Ideas
-
-
-### Cooler
-
-We want to enable the cooling depending on the presence of hackerspace members. That Task is very easy to achieve because we can simply poll the [pwrcmder](https://reaktor23.org/projects/pwrcmdr2/) running the [SpaceAPI](https://spaceapi.io/) and use the `state` as an indicator.
-Additionally we wnat to enable the cooler on Tuesdays from approximately 18:00 until midnight becuse that is the time frame when almost always memebers are present.
-
-### Display
-
-We want to add a nice little HDMI display to show status info, availablity of products, errors and so on.
-A hot candidate for that display is one of the several 7" HDMI displays offered on AliExpress as the cost as little as 20$.
-
 
 [^actse]: Our main server, actse = a computer that serves everything

@@ -1,29 +1,29 @@
 {{ define "main" }}
 
 <div class="row">
-	<div class="card-columns">
-	    {{ range .Data.Pages }}
-		<div class="card border-secondary mx-2 mb-4">
-			<a href="{{ .Permalink }}" class="card-link"></a>
-      {{ $obsolete := .Params.obsolete }}
-			{{- if .Params.image }}
-			{{- with $cardimg := .Resources.GetMatch .Params.image }}
-			{{- $cardimg_scaled := .Resize "305x" }}
-      <div>
-			<img class="card-img-top" src="{{ $cardimg_scaled.Permalink }}" alt="Card image cap">
-      {{ if $obsolete }}
-      <img style="position:absolute; width:100%; top:25%; left:0;" src="/img/obsolete.png">
-      {{ end }}
-      </div>
-			{{- end }}
-			{{- end }}
-  			<div class="card-body" style="position:relative">
-				<h5 class="card-title font-weight-bold">{{ .Title }}</h5>
-				<p class="card-text">{{ .Description }}</p>
-			</div>
-		</div>
-		{{ end }}
-	</div>
+    <div class="card-columns">
+        {{ range (.Data.Pages.ByParam "obsolete").Reverse }}
+        <div class="card border-secondary mx-2 mb-4">
+            <a href="{{ .Permalink }}" class="card-link"></a>
+            {{ $obsolete := .Params.obsolete }}
+            {{- if .Params.image }}
+            {{- with $cardimg := .Resources.GetMatch .Params.image }}
+            {{- $cardimg_scaled := .Resize "305x" }}
+            <div>
+                <img class="card-img-top" src="{{ $cardimg_scaled.Permalink }}" alt="Card image cap">
+                {{ if $obsolete }}
+                <img style="position:absolute; width:100%; top:25%; left:0;" src="/img/obsolete.png">
+                {{ end }}
+            </div>
+            {{- end }}
+            {{- end }}
+              <div class="card-body" style="position:relative">
+                <h5 class="card-title font-weight-bold">{{ .Title }}</h5>
+                <p class="card-text">{{ .Description }}</p>
+            </div>
+        </div>
+        {{ end }}
+    </div>
 </div>
 
 {{ end }}

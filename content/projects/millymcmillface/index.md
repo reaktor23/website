@@ -139,4 +139,10 @@ Unsere Motoren sind glücklicherweise mit beidseiteigen Wellen ausgestattet, die
 Die Encoder werden an eine Mesanet [7i85S](http://store.mesanet.com/index.php?route=product/product&product_id=125&search=7i85s) angeschlossen die uns weitere Encodereingänge verschafft.
 Der User PCW aus dem linuxcnc forum war so freundlich uns ein passendes [Bitfile](https://forum.linuxcnc.org/27-driver-boards/35820-7i96-7i85s#123869) für die 7i96 zur Verfügung zu stellen.
 
+# Update vom 10.03.2020 - Alles Neu
 
+Wir versuchen jetzt mal alles neu zu machen und zu dokumentieren:
+
+- Debian-Image:
+https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-10.3.0-amd64-netinst.iso
+- 

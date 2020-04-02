@@ -6,10 +6,21 @@
     <description>Recent content on Reaktor23 - Hackerspace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Thu, 14 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://reaktor23.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SARS-CoV-2-Pandemie Lockdown</title>
+      <link>https://reaktor23.org/blog/2020-04-02-corona/</link>
+      <pubDate>Thu, 02 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://reaktor23.org/blog/2020-04-02-corona/</guid>
+      <description>Wie vermutlich die meisten anderen Hackerspaces auch bleibt unser Hackerspace bis auf weiteres auf Grund der SARS-CoV-2-Pandemie geschlossen.
+Um nicht komplett ohne Hacker Vibes auskommen zu müssen treffen wir uns immer Dienstags auf unserem Matrix Server, wer Lust hat ist herzlichst eingeladen auch dazuzukommen!
+Matrix: #reaktor23:reaktor23.org</description>
+    </item>
     
     <item>
       <title>36C3 - Chaos Communication Congress 2019</title>

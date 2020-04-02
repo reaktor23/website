@@ -100,58 +100,35 @@
         </div>
     </header>
     
-    
-
-<h1 id="vorgeschichte">Vorgeschichte</h1>
-
+    <h1 id="vorgeschichte">Vorgeschichte</h1>
 <p>Es bestand schon lange der Plan, eine CNC Fräse zu bauen, doch das war lange nur ein Plan.
 Vor ca. einem Jahr ist die Fräse von Valentin im Zuge von Jugend Forscht gebaut worden.
 Leider bereitet das <a href="http://smoothieware.org/smoothieboard">Smoothieboard</a>, das die Fräse steuert, ein paar Probleme.
 Deshalb wurde beschlossen, auf eine LinuxCNC basierte Steuerung umzubauen.
 Diesen Prozess werden wir hier dokumentieren.</p>
-
 <h1 id="video">Video</h1>
-
 
   <div class="">
       <iframe width="640" height="360" src="https://www.youtube.com/embed/DZV8DQtpf2Q" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   </div>
 
 
-
 <h1 id="hardware">Hardware</h1>
-
 <h2 id="elektronik">Elektronik</h2>
-
-<p>Angetrieben werden die Achsen von Nema34 Schrittmotoren. Diese werden von [Treiberkarten]() und 60V Netzteilen mit Strom versorgt. Die <a href="http://cnc.a-ueberbach.de/spindle/alles-ueber-die-22kw-chinaspindel/">Spindel</a> ist über einen Frequenzumrichter des Herstellers HuanYang angeschlossen. Dieser spricht einen kuriosen Modbus-Dialekt. Motoren und Spindel sind bzw. waren an der Steuerung <a href="http://smoothieware.org/smoothieboard">Smoothieboard V1</a> angeschlossen. Hier sind ebenfalls Endschalter angeschlossen. Fräsdateien und Steuerungsinputs bekommt das Board per Ethernet.</p>
-
+<p>Angetrieben werden die Achsen von Nema34 Schrittmotoren. Diese werden von <a href="">Treiberkarten</a> und 60V Netzteilen mit Strom versorgt. Die <a href="http://cnc.a-ueberbach.de/spindle/alles-ueber-die-22kw-chinaspindel/">Spindel</a> ist über einen Frequenzumrichter des Herstellers HuanYang angeschlossen. Dieser spricht einen kuriosen Modbus-Dialekt. Motoren und Spindel sind bzw. waren an der Steuerung <a href="http://smoothieware.org/smoothieboard">Smoothieboard V1</a> angeschlossen. Hier sind ebenfalls Endschalter angeschlossen. Fräsdateien und Steuerungsinputs bekommt das Board per Ethernet.</p>
 <p>Grundsätzlich ist das Smoothieboard eine gute 3D-Drucker-Steuerung, die viele Möglichkeiten bietet. Für den Betrieb an unserer Maschine haben wir allerdings im Laufe der Zeit herausgefunden, dass es noch nicht die optimale Lösung ist. Auf Feedrate-Override oder Nothalt reagiert die Steuerung erst nachdem eine Programmzeile beendet ist.</p>
-
 <p>Wärend das beim Würstchendrucker nicht so schlimm ist, stellt das bei einer etwas seriöseren Maschine ein Sicherheitsrisiko dar und so haben wir uns entschieden, die Steuerung auf ein LinuxCNC-basierendes System umzubauen.</p>
-
 <p>Wir haben uns nach langer Entscheidungszeit für eine <a href="http://store.mesanet.com/index.php?route=product/product&amp;product_id=311">Mesa 7i96</a> FPGA-Karte entschieden da diese via Ethernet mit einem beliebigen PC verbunden werden kann auf dem LinuxCNC läuft. Ausserdem bietet sie alles, was wir benötigen, zum kleinen Preis. Bestellt wurde die Karte bei <a href="http://eusurplus.com">EUsurplus</a>.</p>
-
 <p>Nach den ersten Versuchen stellte sich heraus, dass es sich um ein selten verwendetes Modell handelt und die Konfiguration etwas mehr Arbeit erforderdert, als beispielsweise die größere 7i77. Dennoch haben wir bereits am ersten Abend geschafft, einen Ausgang blinken zu lassen und einen Motor drehen zu lassen. Wie es mit der Steuerung weitergeht, werden wir weiter unten genauer beschreiben.</p>
-
 <h2 id="mechanik">Mechanik</h2>
-
 <p>Ich habe mit meiner Projektarbeit eine Dokumentation erstellt, in denen Details zum Planung und zum Bau der Maschine beschrieben werden. Diese Dokumentation kann <a href="https://github.com/reaktor23/website/raw/master/content/projects/millymcmillface/Seminarkursarbeit_f%C3%BCr_R23.pdf">hier</a> heruntergeladen werden.</p>
-
-<h1 id="umbau-auf-linuxcnc-ein-meisterwerk-in-akten">Umbau auf LinuxCNC - Ein Meisterwerk in ??? Akten</h1>
-
-<h2 id="erster-akt-das-realtime-betriebssystem-installieren">Erster Akt: Das Realtime - Betriebssystem installieren</h2>
-
+<h1 id="umbau-auf-linuxcnc---ein-meisterwerk-in--akten">Umbau auf LinuxCNC - Ein Meisterwerk in ??? Akten</h1>
+<h2 id="erster-akt-das-realtime---betriebssystem-installieren">Erster Akt: Das Realtime - Betriebssystem installieren</h2>
 <p>Debian Stretch Netinstaller von <a href="https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.6.0-amd64-netinst.iso">hier</a> herunterladen.</p>
-
 <p>Image mit z.B. dd auf einen USB Stick schreiben (Achtung, sichergehen das /dev/sdb auch der USB Stick ist!):</p>
-
 <pre><code>sudo dd if=debian-9.6.0-amd64-netinst.iso of=/dev/sdb bs=4M status=progress
-</code></pre>
-
-<p>USB Stick in den Rechner und davon booten, Debian installieren und anschliessend das frisch installierte System booten.</p>
-
+</code></pre><p>USB Stick in den Rechner und davon booten, Debian installieren und anschliessend das frisch installierte System booten.</p>
 <p>Terminal öffnen und folgende Befehle ausführen:</p>
-
 <pre><code># Als Root anmelden 
 su -
 
@@ -188,36 +165,22 @@ apt-get install vim git
 
 # System neu starten
 reboot
-</code></pre>
-
-<p>PC neu starten, ein Terminal öffnen und mit <code>uname -a</code> ob der PREEMT RT Kernel geladen wurde.
+</code></pre><p>PC neu starten, ein Terminal öffnen und mit <code>uname -a</code> ob der PREEMT RT Kernel geladen wurde.
 Da sollte dann so etwas wie <code>Linux mill 4.9.0-8-rt-amd64 #1 SMP PREEMPT RT Debian 4.9.130-2 (2018-10-27) x86_64 GNU/Linux</code> stehen</p>
-
 <h2 id="zweiter-akt-netzwerkverbindung-herstellen">Zweiter Akt: Netzwerkverbindung herstellen</h2>
-
 <p>Die MESA-Karte hat standardmäßig die IP 192.168.1.121 . Um mit der Karte kommunizieren zu können muss am Computer eine statische IP-Adresse vergeben werden. Dazu oben rechts im Panel auf das Netzwerksymbol rechtsklicken und Edit Connections&hellip; auswählen. Im sich öffnenden Fenster eine neue Verbindung erstellen, Èthernet auswählen und bestätigen. Es öffnet sich ein neues Fenster. Im Tab Ethernet wird bei Device die richtige Netzwerkkarte ausgewählt. Im Tab IPv4 Settings wird manual ausgewählt. Mit einem Klick auf Add wird eine Verbindung mit der Adresse 192.168.1.1 und der Netzwaske 24 eingegeben. Der Eintrag des Gateways bleibt leer. Alle Fenster bestätigen und schließen. Nun im Panel oben rechts erneut auf das Netzwerkysmbol klicken und die neu erstellte Verbindung auswählen.</p>
-
 <p>Zum Testen wird ein Terminal geöffnet, in dem der Befehl <code>ping -c 4 191.168.1.1</code> eingegeben wird. Lautet die Antwort <code>4 packets transmitted, 4 received, 0% packet loss</code>, so sollte alles richtig eingestellt sein.</p>
-
 <h2 id="dritter-akt-linuxcnc-einrichten-und-konfiguration">Dritter Akt: LinuxCNC einrichten und Konfiguration</h2>
-
 <p>Die Konfiguration findet über <strong>.ini</strong> und <strong>.hal</strong> files statt. Diese liegen auf unserem Fräsen Rechner unter <code>~/linuxcnc</code> aber im Grunde ist es egal wo man seine config files ablegt, man übergibt den Pfad zum .ini file sowieso beim starten von linuxcnc.</p>
-
 <pre><code># ins home verzeichnis wechseln
 cd ~
 # Konfig unserer Fräse von Github clonen
 git clone https://github.com/reaktor23/MillyMcMillface.git linuxcnc
-</code></pre>
-
-<p>Um linuxcnc zu starten ein terminal öffnen und <code>linuxcnc ~/linuxcnc/7i76-1k.ini</code> eingeben und starten.</p>
-
+</code></pre><p>Um linuxcnc zu starten ein terminal öffnen und <code>linuxcnc ~/linuxcnc/7i76-1k.ini</code> eingeben und starten.</p>
 <p>Da wir doch auch an sehr vielen Stellen unsere Probleme hatten, werden wir versuchen einige davon hier detailierter zu beschreiben.</p>
-
-<h1 id="update-07-01-2019-handrad">Update 07.01.2019 - Handrad</h1>
-
+<h1 id="update-07012019---handrad">Update 07.01.2019 - Handrad</h1>
 <p>Wir konten ein gebrauchtes Handrad (<a href="https://www.euchner.de/de-de/Produkte/Handbedienger%C3%A4te-und-Handr%C3%A4der/Handbedienger%C3%A4t-HBA/HBA-079827">Euchner HBA</a>) ergattern und haben dieses währen des <a href="https://events.ccc.de/congress/2018">35C3</a> erfolgreich in unser LinuxCNC Setup integrieren.
 Das Handrad verfügt über:</p>
-
 <ul>
 <li>2 Wahlschalter, einen Achse, der andere für die Schrittweite</li>
 <li>3 Folientasten +, Eilgang, - (derzeit nicht verwendet)</li>
@@ -225,22 +188,16 @@ Das Handrad verfügt über:</p>
 <li>1 NOT-STOP Taster</li>
 <li>1 Drehencoder</li>
 </ul>
-
 <p>Alle Signale wurden auf einem Arduino Nano aufgelegt (<a href="https://github.com/reaktor23/MillyMcMillface/blob/master/handwheel/handwheel_arduino/handwheel_arduino.ino">Link zum Sketch</a>), dieses sendet bei Änderung die daten Seriell zum PC, z.B. Plus:1 für Plustaste ist gedrückt.
 Dort liegt ein <a href="https://github.com/reaktor23/MillyMcMillface/blob/master/handwheel/handwheel.py">Python Programm</a> das die Daten auswertet und an Linux CNC weiterreicht <a href="https://github.com/reaktor23/MillyMcMillface/blob/master/handwheel/handwheel.hal">Link zum HAL File</a>.
 In der INI muss lediglich das HAL file eingebunden werden <a href="https://github.com/reaktor23/MillyMcMillface/blob/master/7i96-1k.ini#L99">Link zur betreffenden INI Zeile</a></p>
-
-<h1 id="update-17-01-2019-encoder-feedback">Update 17.01.2019 - Encoder Feedback</h1>
-
+<h1 id="update-17012019---encoder-feedback">Update 17.01.2019 - Encoder Feedback</h1>
 <p>Da wir immer wieder mit Schrittverlusten kämpfen haben wir beschlossen die Achsen mit Encodern auszustatten um ein Closed-Loop System zu bekommen.
 Unsere Motoren sind glücklicherweise mit beidseiteigen Wellen ausgestattet, die eine treibt die Spindel an, die andere wird mit einem Hohlwellenencoder versehen.
 Die Encoder werden an eine Mesanet <a href="http://store.mesanet.com/index.php?route=product/product&amp;product_id=125&amp;search=7i85s">7i85S</a> angeschlossen die uns weitere Encodereingänge verschafft.
 Der User PCW aus dem linuxcnc forum war so freundlich uns ein passendes <a href="https://forum.linuxcnc.org/27-driver-boards/35820-7i96-7i85s#123869">Bitfile</a> für die 7i96 zur Verfügung zu stellen.</p>
-
-<h1 id="update-vom-10-03-2020-alles-neu">Update vom 10.03.2020 - Alles Neu</h1>
-
+<h1 id="update-vom-10032020---alles-neu">Update vom 10.03.2020 - Alles Neu</h1>
 <p>Wir versuchen jetzt mal alles neu zu machen und zu dokumentieren:</p>
-
 <ul>
 <li>Debian-Image:
 <a href="https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-10.3.0-amd64-netinst.iso">https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-10.3.0-amd64-netinst.iso</a></li>
@@ -257,7 +214,7 @@ Der User PCW aus dem linuxcnc forum war so freundlich uns ein passendes <a href=
 		<span class="px-2">&bull;</span>
 		<a href="https://github.com/reaktor23"><i class="fa fa-github text-muted" style="font-size: 1.25rem;" aria-hidden="true"></i></a>
 		<br>
-		<span style="font-size: 0.7em;">build time: 2020-04-02 11:13 UTC</span>
+		<span style="font-size: 0.7em;">build time: 2020-04-02 11:23 UTC</span>
 	</div>
 </footer>
 

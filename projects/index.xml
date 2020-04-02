@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Reaktor23 - Hackerspace</title>
@@ -27,7 +27,8 @@ Then we decided to build our own new controller board based on an Arduino Mega25
       <pubDate>Wed, 17 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://reaktor23.org/projects/pwrcmdr2/</guid>
-      <description>Wir haben noch 4 Platinen für den pwrCMDer übrig und würden diese gerne gratis an andere Hackerspaces abgeben wenn Interesse besteht. Eine Liste mit Bauteilen für die Bestellung bei Pollin ist ebenfalls vorhanden. Der einzige Knackpunkt ist das ein kleiner Layoutfehler bei den Optokopplern unterlaufen ist und das Pinout nicht stimmt. Das kann aber mit ein wenig gutem altem Pfusch behoben werden (genauere Infos auf Anfrage).  Warum? Unser aktueller bisheriger pwrCMDr bestand aus einem Arduino-Ethernet auf einer selbstgeätzten Platine.</description>
+      <description>Wir haben noch 4 Platinen für den pwrCMDer übrig und würden diese gerne gratis an andere Hackerspaces abgeben wenn Interesse besteht. Eine Liste mit Bauteilen für die Bestellung bei Pollin ist ebenfalls vorhanden. Der einzige Knackpunkt ist das ein kleiner Layoutfehler bei den Optokopplern unterlaufen ist und das Pinout nicht stimmt. Das kann aber mit ein wenig gutem altem Pfuschbehoben werden (genauere Infos auf Anfrage).
+Warum? Unser aktuellerbisheriger pwrCMDr bestand aus einem Arduino-Ethernet auf einer selbstgeätzten Platine.</description>
     </item>
     
     <item>
@@ -46,7 +47,7 @@ Video   Hardware Elektronik Angetrieben werden die Achsen von Nema34 Schrittmoto
       <pubDate>Mon, 09 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://reaktor23.org/projects/ctf/</guid>
-      <description>CTFs  https://capturetheflag.withgoogle.com http://overthewire.org/wargames/natas/ https://www.root-me.org/?lang=en  Title image by: https://www.flickr.com/photos/christiaancolen/20607150556</description>
+      <description>CTFs  https://capturetheflag.withgoogle.com http://overthewire.org/wargames/natas/ https://www.root-me.org/?lang=en  </description>
     </item>
     
     <item>
@@ -76,7 +77,7 @@ Dieses Bild soll anhand von 4 Pixeln verdeutlichen wie die Matrix verschalten is
       <guid>https://reaktor23.org/projects/matedealer/</guid>
       <description>There is a enlish version of this site: Mate Dealer
 Der MateDealer in der hier beschriebenen Konfiguration ist tot. Die Mechanischen Teile werden für den MateDealer 2.0 benutzt.
-Der Ausgangszustand  Hersteller: Sanden Vendo Model: VDI 100-5 5 Produktschächte Betriebsspannung: 230VAC 50Hz Nominale Leistungsaufnahme: 450W Gewicht: 200kg Baujahr: 02/2003 Kaufpreis: ~400 € Münzprüfer NRI G40.4000&amp;frasl;4-0752 (EUR &amp;amp; GBP)   So sah der Automat aus als wir ihn abgeholt haben.</description>
+Der Ausgangszustand  Hersteller: Sanden Vendo Model: VDI 100-5 5 Produktschächte Betriebsspannung: 230VAC 50Hz Nominale Leistungsaufnahme: 450W Gewicht: 200kg Baujahr: 02/2003 Kaufpreis: ~400 € Münzprüfer NRI G40.4000/4-0752 (EUR &amp;amp; GBP)   So sah der Automat aus als wir ihn abgeholt haben.</description>
     </item>
     
     <item>
@@ -85,7 +86,7 @@ Der Ausgangszustand  Hersteller: Sanden Vendo Model: VDI 100-5 5 Produktschächt
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://reaktor23.org/projects/matedealer2/</guid>
-      <description>Changes to MateDealer 1.0  completely custom build VMC new wiring no buttons on the machine to interact with it -&amp;gt; web service / smartphone app only no MDB -&amp;gt; reduce the complexity a clear json based protocol  To Do List  renew the wiring of the slot motors ✓ renew the wiring of the slot empty switches ✓ renew the wiring of the motor position switches ✓ print a mount for the new vending machine controller ✓ design the pcb for then new vending machine controller ✓ mount the power supply in a nicer way than in the old MateDealer ✓ do the wiring on the vmc side ✓ write the code for the vmc ✓ write a Android/iOS app that can control the vending machine (the webapp works well for all devices) write a webinterface that can control the vending machine ✓(alpha)  Files  Eagle design files of the prototype board.</description>
+      <description>Changes to MateDealer 1.0  completely custom build VMC new wiring no buttons on the machine to interact with it -&amp;gt; web service / smartphone apponly no MDB -&amp;gt; reduce the complexity a clear json based protocol  To Do List  renew the wiring of the slot motors ✓ renew the wiring of the slot empty switches ✓ renew the wiring of the motor position switches ✓ print a mount for the new vending machine controller ✓ design the pcb for then new vending machine controller ✓ mount the power supply in a nicer way than in the old MateDealer ✓ do the wiring on the vmc side ✓ write the code for the vmc ✓ write a Android/iOS app that can control the vending machine(the webapp works well for all devices) write a webinterface that can control the vending machine ✓(alpha)  Files  Eagle design files of the prototype board.</description>
     </item>
     
     <item>
@@ -94,7 +95,7 @@ Der Ausgangszustand  Hersteller: Sanden Vendo Model: VDI 100-5 5 Produktschächt
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://reaktor23.org/projects/pcbdrill/</guid>
-      <description>Mechanik Die Vorrichtung ist so konstruiert, das sie an einer Tischplatte festgeklemmt wird. So ist das Gerät portabel und kann bei Nichtgebrauch einfach verstaut werden. Die Bohrmaschine ist eine Proxxon LB/E, die Langhals Variante wurde gewählt, um ein besseres einspannen in die Vorrichtung zu ermöglichen.
+      <description>Mechanik Die Vorrichtung ist so konstruiert, das sie an einer Tischplatte festgeklemmt wird. So ist das Gerät portabel und kann bei Nichtgebrauch einfach verstaut werden. Die Bohrmaschine ist eine Proxxon LB/E, die Langhals Variante wurde gewählt, um ein besseres einspannen in die Vorrichtung zu ermöglichen.\
 Die Bohrmaschine ist auf einem Stück Führungsschiene montiert, und wird von einem Exzenter nach oben gedrückt. Der Exzenter wird von einem Schrittmotor angetrieben.
 Elektronik Die Ansteuerung des Schrittmotors gestaltet sich recht einfach, da es sich um einen unipolaren Schrittmotor handelt.</description>
     </item>
@@ -126,7 +127,8 @@ Funktion Das R23 AudioControl – Modul besteht aus einem ATmega8 sowie 4 Kleins
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://reaktor23.org/projects/radiationdata/</guid>
-      <description>Linksammlung  Landesamt fuer Umwelt BW European Radiological Data Exchange Platform ODL Daten vom BfS -&amp;gt; Login fuers beziehen des CSV ist beantragt  Datenquellen Deutschland Bundesamt fuer Strahlenschutz  Alle Daten sind auf dem Sever des BfS zu finden. Eine Beschreibung was alles verfügbar ist sowie was die Daten für eine Bedeutung haben.  Österreich Lebensministerium  Karte mit Messwerten Land-, forst- und wasserwirtschaftliches Rechenzentrum GmbH, ohne Parameter bekommt man ein Query Formular zurück :)</description>
+      <description>Linksammlung  Landesamt fuer Umwelt BW European Radiological Data Exchange Platform ODL Daten vom BfS -&amp;gt; Login fuers beziehen des CSV ist beantragt  Datenquellen Deutschland Bundesamt fuer Strahlenschutz  Alle Daten sind auf dem Sever des BfS zu finden. Eine Beschreibung was alles verfügbar ist sowie was die Daten für eine Bedeutung haben.  Österreich Lebensministerium   Karte mit Messwerten
+  Land-, forst- und wasserwirtschaftliches Rechenzentrum GmbH, ohne Parameter bekommt man ein Query Formular zurück :)</description>
     </item>
     
     <item>
@@ -135,7 +137,8 @@ Funktion Das R23 AudioControl – Modul besteht aus einem ATmega8 sowie 4 Kleins
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://reaktor23.org/projects/ultimaker/</guid>
-      <description>**Current status of the ultimaker** We added some feature to the original printer: - Dual Extruder (printing with two different colores / two different materials) - Heated Bed (better grip for the first layer / able to print ABS...)  Available print materials    Color Material Quantity     light blue PLA 0.3kg   dark blue PLA 0.3kg   translucent blue PLA 0,65kg   silver PLA ?</description>
+      <description>Current status of the ultimaker We added some feature to the original printer:
+ Dual Extruder (printing with two different colores / two different materials) Heated Bed (better grip for the first layer / able to print ABS&amp;hellip;)  Available print materials    Color Material Quantity     light blue PLA 0.3kg   dark blue PLA 0.3kg   translucent blue PLA 0,65kg   silver PLA ?</description>
     </item>
     
   </channel>

@@ -104,47 +104,36 @@
         <div class="panel-heading">Table Of Conent</div>
         <div class="panel-body">
             <nav id="TableOfContents">
-<ul>
-<li><a href="#the-background">The background</a></li>
-<li><a href="#matedealer-3-0">MateDealer 3.0</a>
-<ul>
-<li><a href="#features">Features</a></li>
-<li><a href="#pictures">Pictures</a></li>
-<li><a href="#the-procedure-of-getting-a-cool-drink">The procedure of getting a cool drink</a></li>
-<li><a href="#the-payment">The payment</a></li>
-<li><a href="#what-works-so-far">What works so far</a>
-<ul>
-<li><a href="#nfc-authentication">NFC authentication</a></li>
-<li><a href="#cooler">Cooler</a></li>
-<li><a href="#display">Display</a></li>
-<li><a href="#accounting">Accounting</a></li>
-<li><a href="#logging">Logging</a></li>
-<li><a href="#integration">Integration</a></li>
-</ul></li>
-<li><a href="#fails">Fails</a></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#pictures">Pictures</a></li>
+    <li><a href="#the-procedure-of-getting-a-cool-drink">The procedure of getting a cool drink</a></li>
+    <li><a href="#the-payment">The payment</a></li>
+    <li><a href="#what-works-so-far">What works so far</a>
+      <ul>
+        <li><a href="#nfc-authentication">NFC authentication</a></li>
+        <li><a href="#cooler">Cooler</a></li>
+        <li><a href="#display">Display</a></li>
+        <li><a href="#accounting">Accounting</a></li>
+        <li><a href="#logging">Logging</a></li>
+        <li><a href="#integration">Integration</a></li>
+      </ul>
+    </li>
+    <li><a href="#fails">Fails</a></li>
+  </ul>
 </nav>
         </div>
     </aside>
     
-    
-
-<h1 id="the-background">The background</h1>
-
+    <h1 id="the-background">The background</h1>
 <p>It all started with <a href="/projects/matedealer/">MateDealer 1.0</a> with all its original electronics extended by an MDB implementation.
 The controller died for some unknown reason and the MateDealer sat there in an pitiful state for a quite long time.</p>
-
 <p>Then we decided to build our own new controller board based on an <a href="https://store.arduino.cc/arduino-mega-2560-rev3">Arduino Mega2560</a> and an <a href="https://www.pcengines.ch/alix3d3.htm">Alix 3d3</a>.
 <a href="https://reaktor23.org/projects/matedealer2/">MateDealer 2.0</a> was born. This itteration never took of as we had problems getting the communication between the Arduino and the PC working flawlessly.</p>
-
 <p>Again the MateDealer was out of order for a couple of years, until we decided to take a third attempt to get it up and running.
 Here&rsquo;s what we came up with!</p>
-
-<h1 id="matedealer-3-0">MateDealer 3.0</h1>
-
+<h1 id="matedealer-30">MateDealer 3.0</h1>
 <h2 id="features">Features</h2>
-
 <ul>
 <li>Based on a <a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/">RaspberryPi 3B+</a></li>
 <li>Custom Hat designed to fit our machine (might work for yours as well)</li>
@@ -162,126 +151,96 @@ Here&rsquo;s what we came up with!</p>
 <li>1-Wire port for temperature measurement</li>
 <li>I2C port for later addons</li>
 </ul>
-
 <h2 id="pictures">Pictures</h2>
-
 <p>The HAT in all its beauty
 
 <img src="matedealer-3-1.jpg" class="img-thumbnail " width="600">
 
 </p>
-
 <p>The HAT stacked on top of the RaspberryPi and mounted to the inside of the machine using M2.5x12mm distance bolts
 
 <img src="matedealer-3-2.jpg" class="img-thumbnail " width="600">
 
 </p>
-
 <p>The wiring of the product selection buttons
 
 <img src="matedealer-3-3.jpg" class="img-thumbnail " width="600">
 
 </p>
-
 <p>The wiring of the motors, the home postion switches and the slot empty switches
 
 <img src="matedealer-3-4.jpg" class="img-thumbnail " width="600">
 
 </p>
-
 <p>A close up of the motor wiring
 
 <img src="matedealer-3-5.jpg" class="img-thumbnail " width="600">
 
 </p>
-
 <p>The 1-wire temperature sensor
 
 <img src="matedealer-3-6.jpg" class="img-thumbnail " width="600">
 
 </p>
-
 <p>The external relay that switches the cooler
 
 <img src="matedealer-3-7.jpg" class="img-thumbnail " width="600">
 
 </p>
-
 <h2 id="the-procedure-of-getting-a-cool-drink">The procedure of getting a cool drink</h2>
-
 <ol>
 <li>The person approaches the machine and swipes a NFC Tag</li>
 <li>The reader beeps, signaling the person that its ready</li>
 <li>The person selects a drink via one of the 5 buttons at the front</li>
 <li>The machine dispenses the selected bottle from the slot</li>
-<li>The machine writes <code>user_id</code>, <code>timestamp</code> and <code>product_id</code> to a influx db that runs on actse<sup class="footnote-ref" id="fnref:actse"><a href="#fn:actse">1</a></sup><br /></li>
+<li>The machine writes <code>user_id</code>, <code>timestamp</code> and <code>product_id</code> to a influx db that runs on actse<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></li>
 <li>Happy person consumes the drink</li>
 </ol>
-
 <h2 id="the-payment">The payment</h2>
-
 <p>Once every month a script runs on <code>actse</code> calculating the amount a person has to pay depending on the number of consumed drinks an the costs.
 That makes it easy for us to get the money and does not need to handle payments on every vend.</p>
-
 <h2 id="what-works-so-far">What works so far</h2>
-
 <p>We are in a beta phase at the moment.</p>
-
 <h3 id="nfc-authentication">NFC authentication</h3>
-
 <p>We finally managed to integrate a ACR-122U USB NFC Reader with the MateDealer that allows us to authenticate a user. We know for sure that using the UID of a NFC badge isn&rsquo;t very secure but thats not the point for us.</p>
-
 <h3 id="cooler">Cooler</h3>
-
 <p>The cooler is controlled depending on the temperature inside of the machine with a hysteresis that is configurable.
 That allows us to only coll down when its neccessary.
 The cooler is blocked when nobody is in the hackerspace to save energy or it is not Tuesday between 18:00 and 23:00 which is our main opening hours.</p>
-
 <h3 id="display">Display</h3>
-
 <p>We ordered a 8&rdquo; HDMI display on AliExpress that will replace the product lables next to the selection buttons.
 That way we can shwo dynamic product labels an when a vend is ongoing or another information needs to be shown to the users it can be done that way.</p>
-
 <h3 id="accounting">Accounting</h3>
-
 <p>We decided to send a measurement to a InfluxDB on every vend that includes <code>username</code>, <code>product</code>, <code>price</code> and a <code>timestamp</code>.
 At the end of the month, we can simply run a (yet to be written) script that fetchs all vend of the past month and sums up the consumption per user.
 Our treasurer then can request the amount from the user. We plan to have users to top up a virtual account and the the treasurer wil subtract the amount from the available funds.
 That way he does not have to run after people an make them pay afterwards.
 We will see how that works out.</p>
-
 <h3 id="logging">Logging</h3>
-
 <p>We send several values to the InfluxDB to have a log of what is going on, at the moment these are:</p>
-
 <ul>
 <li>Inside temperature</li>
 <li>Cooler state (on/off)</li>
 <li>Slot states (ok/empty)</li>
 </ul>
-
 <h3 id="integration">Integration</h3>
-
 <p>Our <a href="https://reaktor23.org/projects/pwrcmdr2/">pwrCMDer</a> runs <a href="https://www.home-assistant.io/">Home-Assistant</a>, from there we&rsquo;ve integrated several InfluxDB values as sensors.
 That allows us to let the pwrCMDer react to state changes.
 We plan to let it send a information message when a slot runs empty for example (yet to be done) or having the states in our <a href="https://reaktor23.org/status/">SpaceAPI</a> (already done)</p>
-
 <h2 id="fails">Fails</h2>
-
 <ul>
 <li>I didn&rsquo;t know how much current the motors draw, so I guessed 1A and ordered TR5 fuses with 1A. Turns out the are labled with 5.2A and actually draw 4.9A which on the first try blew all 5 fuses imedialtely.</li>
 <li>I used relays that are rated for 3A because I guessed the actual motor current (and I had dozens of them laying around). I decided to use them directly until they start to fail. If that happens I replace them and use additional relays that are controlled by the small ones.</li>
 <li>I accidentally placed a via that stitches 24VAC to GND which results in a short circuit when one of the relays is switched on. This issue could be easily fixed with a sharp cutter knife.</li>
 </ul>
-<div class="footnotes">
-
-<hr />
-
+<section class="footnotes" role="doc-endnotes">
+<hr>
 <ol>
-<li id="fn:actse">Our main server, actse = a computer that serves everything
- <a class="footnote-return" href="#fnref:actse"><sup>[return]</sup></a></li>
+<li id="fn:1" role="doc-endnote">
+<p>Our main server, actse = a computer that serves everything <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
 </ol>
-</div>
+</section>
 
 </article>
 
@@ -293,7 +252,7 @@ We plan to let it send a information message when a slot runs empty for example 
 		<span class="px-2">&bull;</span>
 		<a href="https://github.com/reaktor23"><i class="fa fa-github text-muted" style="font-size: 1.25rem;" aria-hidden="true"></i></a>
 		<br>
-		<span style="font-size: 0.7em;">build time: 2020-04-02 11:13 UTC</span>
+		<span style="font-size: 0.7em;">build time: 2020-04-02 11:23 UTC</span>
 	</div>
 </footer>
 

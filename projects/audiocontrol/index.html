@@ -104,47 +104,26 @@
         <div class="panel-heading">Table Of Conent</div>
         <div class="panel-body">
             <nav id="TableOfContents">
-<ul>
-<li><a href="#hintergrund">Hintergrund</a></li>
-<li><a href="#funktion">Funktion</a></li>
-<li><a href="#aufbau">Aufbau</a></li>
-<li><a href="#probleme">Probleme</a>
-<ul>
-<li><a href="#stromversorgung">Stromversorgung</a></li>
-<li><a href="#leds">LEDs</a></li>
-</ul></li>
-<li><a href="#bild-von-der-box">Bild von der Box</a></li>
-</ul>
+  <ul>
+    <li><a href="#stromversorgung">Stromversorgung</a></li>
+    <li><a href="#leds">LEDs</a></li>
+  </ul>
 </nav>
         </div>
     </aside>
     
-    
-
-<h1 id="hintergrund">Hintergrund</h1>
-
+    <h1 id="hintergrund">Hintergrund</h1>
 <p>Da es ziemlich unpraktisch war, jedes Mal das Podest zu besteigen um das Radio einzuschalten, kauften wir einen neuen Verstärker und ein Mischpult. Als die Frage aufkam, wie man seine „mobilen Endgeräte“ ohne ein viel zu langes Audiokabel einstecken kann, kam die Idee auf, ein Modul zum bequemen Wechseln des Audioeingangs zu entwickeln.</p>
-
 <h1 id="funktion">Funktion</h1>
-
 <p>Das R23 AudioControl – Modul besteht aus einem ATmega8 sowie 4 Kleinsignalrelais, die über beleuchtete Taster ausgewählt werden und damit das Handy zum Mischpult durchzuschalten. Das Handy wird mit einem kurzen Adapterkabel in die nächste, im Brüstungskanal eingebaute Audiobuchse eingesteckt. Der ATmega fragt immer wieder den Zustand der Taster ab und schaltet beim Drücken das jeweilige Relais sowie die dazugehörige LED des Tasters.</p>
-
 <h1 id="aufbau">Aufbau</h1>
-
 <p>Das ganze Modul wurde auf Lochraster  („bäh, Lochraster!“) aufgebaut. Abgesichert ist das Modul mit einer 200mA-Feinsicherung. Die Massen aller Audiokanälen ist dauerhaft miteinander verbunden; Links und rechts des gewünschten Kanals wird mit den 2-Kanal-Kleisignalrelais zur Ausgangsklemme durchgeschaltet. Die Relais werden mit BS107 n-Channel LogicLevel MOSFETS angesteuert. Die Taster, LEDs und Buchsen sind jeweils fest im Kabelkanal eingeheißklebert und mit CAT7-Kabeln mit dem Modul verbunden. Strom bekommt das ganze aus einem 230V/USB Adapter, der an einer geschalteten Steckdose hängt.</p>
-
 <h1 id="probleme">Probleme</h1>
-
 <h2 id="stromversorgung">Stromversorgung</h2>
-
 <p>Ursprünglich war geplant, dass das Modul seinen Strom über eine USB-Buchse des Servers bekommt. Weil wir aber wollten, dass das ganze Audiozeug an einen geschalteten Stromkreis angeschlossen ist, haben wir uns für den Steckdosenadapter entschieden.</p>
-
 <h2 id="leds">LEDs</h2>
-
 <p>Beim Testen hab ich wohl „irgendwo irgendwas irgendwie ein bisschen“ falsch angeschlossen und die LEDs waren kaputt. Da ich den Kabelkanal aufmachen müsste und die Taster wechseln müsste und dazu leider keine Lust habe, gibt es halt keine LEDs. Sorry.</p>
-
 <h1 id="bild-von-der-box">Bild von der Box</h1>
-
 
 <img src="box.jpg" class="img-thumbnail " width="400">
 
@@ -160,7 +139,7 @@
 		<span class="px-2">&bull;</span>
 		<a href="https://github.com/reaktor23"><i class="fa fa-github text-muted" style="font-size: 1.25rem;" aria-hidden="true"></i></a>
 		<br>
-		<span style="font-size: 0.7em;">build time: 2020-04-02 11:14 UTC</span>
+		<span style="font-size: 0.7em;">build time: 2020-04-02 11:23 UTC</span>
 	</div>
 </footer>
 

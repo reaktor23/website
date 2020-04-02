@@ -8,7 +8,7 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - nale: Checkout source 🛎️
+      - name: Checkout source 🛎️
         uses: actions/checkout@v2
         with:
           persist-credentials: false

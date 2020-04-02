@@ -1,0 +1,26 @@
+name: Deploy website
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Build the site
+        run: |
+          docker run --name hugo \
+          --volume $${{ github.workspace }}:/src \
+          jojomi/hugo -v --cleanDestinationDir --baseURL="https://reaktor23.org"
+        
+      - name: Deploy to gh-pages
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: public

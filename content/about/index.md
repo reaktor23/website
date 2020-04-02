@@ -17,7 +17,7 @@ verschlossener Türe steht!
 
 E-Mail: info (ät) reaktor23 (Punkt) org
 
-Mailinglist: reaktor23 (ät) lists.reaktor23 (Punkt) org - https://lists.reaktor23.org/mailman/listinfo/reaktor23
+Matrix Chat: [#reaktor23:reaktor23.org](https://matrix.to/#/#reaktor23:reaktor23.org)
 
 ## Ort
 

@@ -2,7 +2,11 @@ name: Deploy website
 
 on:
   push:
-    branches: [ master ]
+    branches:
+      - master
+    paths:
+      - '!README.md'
+      - '!.gitignore'
 
 jobs:
   build-and-deploy:
@@ -15,7 +19,7 @@ jobs:
 
       - name: Install hugo 📦
         run: |
-          wget https://github.com/gohugoio/hugo/releases/download/v0.58.1/hugo_0.58.1_Linux-64bit.deb -O /tmp/hugo.dpkg
+          wget https://github.com/gohugoio/hugo/releases/download/v0.68.3/hugo_0.68.3_Linux-64bit.deb -O /tmp/hugo.dpkg
           sudo dpkg -i /tmp/hugo.dpkg
 
       - name: Build website 🔧

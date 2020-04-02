@@ -8,7 +8,6 @@ var getstatus = function() {
       $("#reaktorstatus > #message").html("Come in, we're open!<br><small class='text-muted'>"+new Date(data.state.lastchange * 1000)+"</small>");
     } else {
       $("#reaktorstatus > #message").addClass("text-danger");
-      //$("#reaktorstatus > #message").html(data.state.message);
       $("#reaktorstatus > #message").html("Sorry, we're closed!<br><small class='text-muted'>"+new Date(data.state.lastchange * 1000)+"</small>");
     }
     if($("#apidteails")) {
@@ -18,6 +17,9 @@ var getstatus = function() {
     if($("#apijson")) {
       $("#apijson").html(JSON.stringify(data, null, '\t'));
     }
+  }).fail(function() {
+      $("#reaktorstatus > #message").addClass("text-warning");
+      $("#reaktorstatus > #message").html("💩, something went wrong!<br><small class='text-muted'>Status unknown</small>");
   });
 }
 
@@ -28,12 +30,6 @@ var printdetails = function(data) {
   data.sensors.temperature.forEach(function(e) {
     $("#apidteails").append("<div>"+e.name+": "+e.value+" "+e.unit+"</div>")
   })
-  /*
-  $("#apidteails").append("<br/><div>Power circuits</div>")
-  data.sensors.power_circuits.forEach(function(e) {
-    $("#apidteails").append("<div>"+e.name+": "+e.value+" "+e.unit+"</div>")
-  })
-  */
 }
 
 // Call function on page load

@@ -3,7 +3,7 @@ Reaktor 23 website
 
 The website behind http://reaktor23.org made using the [Hugo static site generator](https://gohugo.io/).
 
-[![Build Status](https://travis-ci.org/reaktor23/website.svg?branch=master)](https://travis-ci.org/reaktor23/website)
+![Deploy website](https://github.com/reaktor23/website/workflows/Deploy%20website/badge.svg?branch=master)
 
 Quickstart
 ----------

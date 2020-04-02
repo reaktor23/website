@@ -4,9 +4,9 @@ on:
   push:
     branches:
       - master
-    paths:
-      - '!README.md'
-      - '!.gitignore'
+    paths-ignore:
+      - README.md
+      - .gitignore
 
 jobs:
   build-and-deploy:

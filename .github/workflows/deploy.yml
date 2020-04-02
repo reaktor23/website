@@ -8,22 +8,28 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - nale: Checkout source 🛎️
+        uses: actions/checkout@v2
         with:
           persist-credentials: false
 
-      - name: Install hugo
+      - name: Install hugo 📦
         run: |
           wget https://github.com/gohugoio/hugo/releases/download/v0.58.1/hugo_0.58.1_Linux-64bit.deb -O /tmp/hugo.dpkg
           sudo dpkg -i /tmp/hugo.dpkg
 
-      - name: Build the site
+      - name: Build website 🔧
         run: |
           hugo -v --cleanDestinationDir --baseURL="https://reaktor23.org"
-        
-      - name: Deploy to gh-pages
+
+      - name: Install SSH Client 🔑
+        uses: webfactory/ssh-agent@v0.2.0
+        with:
+          ssh-private-key: ${{ secrets.DEPLOY_KEY }}
+
+      - name: Deploy to gh-pages 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          SSH: true
           BRANCH: gh-pages
           FOLDER: public

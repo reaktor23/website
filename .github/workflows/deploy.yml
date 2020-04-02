@@ -12,11 +12,14 @@ jobs:
         with:
           persist-credentials: false
 
+      - name: Install hugo
+        run: |
+          wget https://github.com/gohugoio/hugo/releases/download/v0.58.1/hugo_0.58.1_Linux-64bit.deb -O /tmp/hugo.dpkg
+          sudo dpkg -i /tmp/hugo.dpkg
+
       - name: Build the site
         run: |
-          docker run --name hugo \
-          --volume $${{ github.workspace }}:/src \
-          jojomi/hugo -v --cleanDestinationDir --baseURL="https://reaktor23.org"
+          hugo -v --cleanDestinationDir --baseURL="https://reaktor23.org"
         
       - name: Deploy to gh-pages
         uses: JamesIves/github-pages-deploy-action@releases/v3

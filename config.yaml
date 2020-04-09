@@ -23,3 +23,8 @@ menu:
 imaging:
   resampleFilter: Lanczos
   quality: 80
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

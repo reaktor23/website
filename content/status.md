@@ -1,5 +1,5 @@
 ---
-title: Reaktor 23 Space Status
+title: Reaktor23 Space Status
 draft: false
 ---
 

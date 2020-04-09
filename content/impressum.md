@@ -4,7 +4,7 @@ draft: false
 
 # Impressum
 
-Reaktor 23\
+Reaktor23\
 p. Adr. Samuel Barabas\
 Badstrasse 29a\
 79761 Waldshut-Tiengen

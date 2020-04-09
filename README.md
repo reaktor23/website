@@ -1,4 +1,4 @@
-Reaktor 23 website
+Reaktor23 website
 ==================
 
 The website behind http://reaktor23.org made using the [Hugo static site generator](https://gohugo.io/).

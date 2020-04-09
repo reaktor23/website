@@ -4,7 +4,7 @@ draft: false
 ---
 
 
-In regelmässig unregelmässigen Abständen finden im Reaktor 23 "Talks" statt,
+In regelmässig unregelmässigen Abständen finden im Reaktor23 "Talks" statt,
 wobei jemand über ein Thema referiert mit dem er sich gerade beschäftigt oder
 gut auskennt und sein Wissen teilen möchte.
 

@@ -27,8 +27,8 @@ Then we decided to build our own new controller board based on an Arduino Mega25
       <pubDate>Wed, 17 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://reaktor23.org/projects/pwrcmdr2/</guid>
-      <description>Wir haben noch 4 Platinen für den pwrCMDer übrig und würden diese gerne gratis an andere Hackerspaces abgeben wenn Interesse besteht. Eine Liste mit Bauteilen für die Bestellung bei Pollin ist ebenfalls vorhanden. Der einzige Knackpunkt ist das ein kleiner Layoutfehler bei den Optokopplern unterlaufen ist und das Pinout nicht stimmt. Das kann aber mit ein wenig gutem altem Pfuschbehoben werden (genauere Infos auf Anfrage).
-Warum? Unser aktuellerbisheriger pwrCMDr bestand aus einem Arduino-Ethernet auf einer selbstgeätzten Platine.</description>
+      <description>Wir haben noch 4 Platinen für den pwrCMDer übrig und würden diese gerne gratis an andere Hackerspaces abgeben wenn Interesse besteht. Eine Liste mit Bauteilen für die Bestellung bei Pollin ist ebenfalls vorhanden. Der einzige Knackpunkt ist das ein kleiner Layoutfehler bei den Optokopplern unterlaufen ist und das Pinout nicht stimmt. Das kann aber mit ein wenig gutem altem Pfusch behoben werden (genauere Infos auf Anfrage).
+ Warum? Unser aktueller bisheriger pwrCMDr bestand aus einem Arduino-Ethernet auf einer selbstgeätzten Platine.</description>
     </item>
     
     <item>
@@ -47,7 +47,7 @@ Video   Hardware Elektronik Angetrieben werden die Achsen von Nema34 Schrittmoto
       <pubDate>Mon, 09 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://reaktor23.org/projects/ctf/</guid>
-      <description>CTFs  https://capturetheflag.withgoogle.com http://overthewire.org/wargames/natas/ https://www.root-me.org/?lang=en  </description>
+      <description>CTFs  https://capturetheflag.withgoogle.com http://overthewire.org/wargames/natas/ https://www.root-me.org/?lang=en  Title image by: https://www.flickr.com/photos/christiaancolen/20607150556</description>
     </item>
     
     <item>
@@ -86,7 +86,7 @@ Der Ausgangszustand  Hersteller: Sanden Vendo Model: VDI 100-5 5 Produktschächt
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://reaktor23.org/projects/matedealer2/</guid>
-      <description>Changes to MateDealer 1.0  completely custom build VMC new wiring no buttons on the machine to interact with it -&amp;gt; web service / smartphone apponly no MDB -&amp;gt; reduce the complexity a clear json based protocol  To Do List  renew the wiring of the slot motors ✓ renew the wiring of the slot empty switches ✓ renew the wiring of the motor position switches ✓ print a mount for the new vending machine controller ✓ design the pcb for then new vending machine controller ✓ mount the power supply in a nicer way than in the old MateDealer ✓ do the wiring on the vmc side ✓ write the code for the vmc ✓ write a Android/iOS app that can control the vending machine(the webapp works well for all devices) write a webinterface that can control the vending machine ✓(alpha)  Files  Eagle design files of the prototype board.</description>
+      <description>Changes to MateDealer 1.0  completely custom build VMC new wiring no buttons on the machine to interact with it -&amp;gt; web service / smartphone app only no MDB -&amp;gt; reduce the complexity a clear json based protocol  To Do List  renew the wiring of the slot motors ✓ renew the wiring of the slot empty switches ✓ renew the wiring of the motor position switches ✓ print a mount for the new vending machine controller ✓ design the pcb for then new vending machine controller ✓ mount the power supply in a nicer way than in the old MateDealer ✓ do the wiring on the vmc side ✓ write the code for the vmc ✓ write a Android/iOS app that can control the vending machine (the webapp works well for all devices) write a webinterface that can control the vending machine ✓(alpha)  Files  Eagle design files of the prototype board.</description>
     </item>
     
     <item>
@@ -138,7 +138,7 @@ Funktion Das R23 AudioControl – Modul besteht aus einem ATmega8 sowie 4 Kleins
       
       <guid>https://reaktor23.org/projects/ultimaker/</guid>
       <description>Current status of the ultimaker We added some feature to the original printer:
- Dual Extruder (printing with two different colores / two different materials) Heated Bed (better grip for the first layer / able to print ABS&amp;hellip;)  Available print materials    Color Material Quantity     light blue PLA 0.3kg   dark blue PLA 0.3kg   translucent blue PLA 0,65kg   silver PLA ?</description>
+ Dual Extruder (printing with two different colores / two different materials) Heated Bed (better grip for the first layer / able to print ABS&amp;hellip;)   Available print materials    Color Material Quantity     light blue PLA 0.3kg   dark blue PLA 0.3kg   translucent blue PLA 0,65kg   silver PLA ?</description>
     </item>
     
   </channel>

@@ -66,7 +66,7 @@ Video   Hardware Elektronik Angetrieben werden die Achsen von Nema34 Schrittmoto
       
       <guid>https://reaktor23.org/projects/flipdot/</guid>
       <description>Ansteuerung Auf der Platine ist bereits ein FP2800 verbaut, und alle Zeilen sind mit Hilfe des PCB auf diesen verdrahtet. Der andere Anschluss jedes Pixels ist mit 2 Dioden auf je eine Leiterbahn verbunden die die Spalten miteinander verbinden.
-Dieses Bild soll anhand von 4 Pixeln verdeutlichen wie die Matrix verschalten ist. Dies ist die Transistorschaltung die wir momentan zum schalten der Reihen einsetzen. Bilder   Videos Datenblätter  flip.</description>
+Dieses Bild soll anhand von 4 Pixeln verdeutlichen wie die Matrix verschalten ist.  Dies ist die Transistorschaltung die wir momentan zum schalten der Reihen einsetzen.  Bilder   Videos  Datenblätter  flip.</description>
     </item>
     
     <item>
@@ -77,7 +77,7 @@ Dieses Bild soll anhand von 4 Pixeln verdeutlichen wie die Matrix verschalten is
       <guid>https://reaktor23.org/projects/matedealer/</guid>
       <description>There is a enlish version of this site: Mate Dealer
 Der MateDealer in der hier beschriebenen Konfiguration ist tot. Die Mechanischen Teile werden für den MateDealer 2.0 benutzt.
-Der Ausgangszustand  Hersteller: Sanden Vendo Model: VDI 100-5 5 Produktschächte Betriebsspannung: 230VAC 50Hz Nominale Leistungsaufnahme: 450W Gewicht: 200kg Baujahr: 02/2003 Kaufpreis: ~400 € Münzprüfer NRI G40.4000/4-0752 (EUR &amp;amp; GBP)   So sah der Automat aus als wir ihn abgeholt haben.</description>
+Der Ausgangszustand  Hersteller: Sanden Vendo Model: VDI 100-5 5 Produktschächte Betriebsspannung: 230VAC 50Hz Nominale Leistungsaufnahme: 450W Gewicht: 200kg Baujahr: 02/2003 Kaufpreis: ~400 € Münzprüfer NRI G40.4000/4-0752 (EUR &amp;amp; GBP)      So sah der Automat aus als wir ihn abgeholt haben.</description>
     </item>
     
     <item>
@@ -108,7 +108,7 @@ Elektronik Die Ansteuerung des Schrittmotors gestaltet sich recht einfach, da es
       <guid>https://reaktor23.org/projects/pwrcmdr/</guid>
       <description>Verbrauchsmessung Wir werden unsern Stromverbrauch messen &amp;amp; loggen.
 Zum Einsatz kommt ein S0 Schnittstelle (Nein nicht S0 Bus von der ISDN Anlage ;-))
- Projekt History  09.08.2011: Es wurden erste Versuche unternommen die S0 Schnittstelle auszuwerten. Leider erfolglos. 30.08.2011: Nach dem sich herausgestellt hat das die Drähte einfach verkehrt herum angeschlossen waren hat man auf dem Oszi nun saubere Pulse gesehen. 04.10.2011: Nach einigem hin und her bin ich zu dem Schluss gekommen, das ein [[http://arduino.</description>
+   Projekt History  09.08.2011: Es wurden erste Versuche unternommen die S0 Schnittstelle auszuwerten. Leider erfolglos. 30.08.2011: Nach dem sich herausgestellt hat das die Drähte einfach verkehrt herum angeschlossen waren hat man auf dem Oszi nun saubere Pulse gesehen. 04.10.2011: Nach einigem hin und her bin ich zu dem Schluss gekommen, das ein [[http://arduino.</description>
     </item>
     
     <item>

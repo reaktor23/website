@@ -42,25 +42,25 @@ Here's what we came up with!
 ## Pictures
 
 The HAT in all its beauty
-{{< thumbnail src="matedealer-3-1.jpg" width="600" >}}
+{{< thumbnail src="matedealer-3-1.jpg" width="600x" >}}
 
 The HAT stacked on top of the RaspberryPi and mounted to the inside of the machine using M2.5x12mm distance bolts
-{{< thumbnail src="matedealer-3-2.jpg" width="600" >}}
+{{< thumbnail src="matedealer-3-2.jpg" width="600x" >}}
 
 The wiring of the product selection buttons
-{{< thumbnail src="matedealer-3-3.jpg" width="600" >}}
+{{< thumbnail src="matedealer-3-3.jpg" width="600x" >}}
 
 The wiring of the motors, the home postion switches and the slot empty switches
-{{< thumbnail src="matedealer-3-4.jpg" width="600" >}}
+{{< thumbnail src="matedealer-3-4.jpg" width="600x" >}}
 
 A close up of the motor wiring
-{{< thumbnail src="matedealer-3-5.jpg" width="600" >}}
+{{< thumbnail src="matedealer-3-5.jpg" width="600x" >}}
 
 The 1-wire temperature sensor
-{{< thumbnail src="matedealer-3-6.jpg" width="600" >}}
+{{< thumbnail src="matedealer-3-6.jpg" width="600x" >}}
 
 The external relay that switches the cooler
-{{< thumbnail src="matedealer-3-7.jpg" width="600" >}}
+{{< thumbnail src="matedealer-3-7.jpg" width="600x" >}}
 
 ## The procedure of getting a cool drink
 

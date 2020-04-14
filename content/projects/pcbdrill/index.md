@@ -24,7 +24,7 @@ Die Ansteuerung des Schrittmotors gestaltet sich recht einfach, da es sich um ei
 
 # Bilder
 
-{{< thumbnail src="pcbdrill.jpg" width="350">}}
+{{< thumbnail src="pcbdrill.jpg" width="350x">}}
 
 # Video 
 

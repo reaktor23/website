@@ -94,13 +94,13 @@ image: radiationmap-heatmap.png
 
 # Experimente 
 
-{{< thumbnail src="radiationmap-dots.png" width="500" >}}
+{{< thumbnail src="radiationmap-dots.png" width="500x" >}}
 Die Messdaten aller Messtellen des BfS von 0:00Uhr am 26.07.2012 als Punkt pro Messstelle.
 
-{{< thumbnail src="radiationmap-dots-opaque.png" width="500" >}}
+{{< thumbnail src="radiationmap-dots-opaque.png" width="500x" >}}
 Die Messdaten aller Messtellen des BfS von 0:00Uhr am 26.07.2012 als Punkt pro Messstelle ohne Rand und mit Transparenz.
 
-{{< thumbnail src="radiationmap-heatmap.png" width="500" >}}
+{{< thumbnail src="radiationmap-heatmap.png" width="500x" >}}
 Und zu guter Letzt noch als Heatmap, wobei die Häufung von Messtellen auch zu Farbänderungen führt.
 
 [Hier](http://bouni.owee.de/radiationmap/) gibt es die Transparenz Variante live zu sehen. Die Daten sind momentan statisch vom **26.07.2012 0:00Uhr** und wurden vom [BfS](http://www.bfs.de/bfs) zur Verfügung gestellt!. 

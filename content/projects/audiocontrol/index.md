@@ -30,4 +30,4 @@ Beim Testen hab ich wohl „irgendwo irgendwas irgendwie ein bisschen“ falsch 
 
 
 # Bild von der Box 
-{{< thumbnail src="box.jpg" width="400" >}}
+{{< thumbnail src="box.jpg" width="400x" >}}

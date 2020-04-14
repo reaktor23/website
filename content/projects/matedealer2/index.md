@@ -38,12 +38,12 @@ image: matedealer-2.0-prototype.jpg
 # Impressions 
 
 The prototype of the custom VMC stacked on top of the Arduino Mega 2560\\
-{{< thumbnail src="matedealer-2.0-prototype.jpg" width="400" >}}\\
+{{< thumbnail src="matedealer-2.0-prototype.jpg" width="400x" >}}\\
 The new wiring inside the colled box\\
-{{< thumbnail src="matedealer-2.0-wiring-1.jpg" width="400" >}}\\
+{{< thumbnail src="matedealer-2.0-wiring-1.jpg" width="400x" >}}\\
 The wiring on the side where the VMC is mounted\\
-{{< thumbnail src="matedealer-2.0-wiring-2.jpg" width="400" >}}\\
+{{< thumbnail src="matedealer-2.0-wiring-2.jpg" width="400x" >}}\\
 The empty VMC mount\\
-{{< thumbnail src="matedealer-2.0-mount-1.jpg" width="400" >}}\\
+{{< thumbnail src="matedealer-2.0-mount-1.jpg" width="400x" >}}\\
 The VMC snaped into the mount\\
-{{< thumbnail src="matedealer-2.0-mount-2.jpg" width="400" >}}\\
+{{< thumbnail src="matedealer-2.0-mount-2.jpg" width="400x" >}}\\

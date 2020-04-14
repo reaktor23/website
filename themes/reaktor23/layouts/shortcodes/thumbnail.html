@@ -1,5 +1,3 @@
-{{ if .IsNamedParams }}
-<img src="{{ .Get "src" }}" class="img-thumbnail {{ if .Get "class" }}{{ .Get "class" }}{{ end }}" {{ if .Get "width" }}width="{{ .Get "width" }}"{{ end }}>
-{{ else }}
-<img src="{{ .Get 0 }}" class="img-thumbnail {{ if len .Params | eq 3 }}{{ .Get 2 }}{{ end }}" {{ if len .Params | eq 2 }}width="{{ .Get 1 }}"{{ end }}>
-{{ end }}
+{{ $original := .Page.Resources.GetMatch (.Get "src") }}
+{{ $image := $original.Resize (.Get "width") }}
+<img src="{{ $image.RelPermalink }}" class="img-thumbnail {{ if .Get "class" }}{{ .Get "class" }}{{ end }}" width="{{ $image.Width}}">

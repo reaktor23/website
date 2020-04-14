@@ -13,16 +13,16 @@ Auf der Platine ist bereits ein FP2800 verbaut, und alle Zeilen sind mit Hilfe d
 Der andere Anschluss jedes Pixels ist mit 2 Dioden auf je eine Leiterbahn verbunden die die Spalten miteinander verbinden.
 
 Dieses Bild soll anhand von 4 Pixeln verdeutlichen wie die Matrix verschalten ist.
-{{< thumbnail src="pixel_wiring.png" width="400" >}}
+{{< thumbnail src="pixel_wiring.png" width="400x" >}}
 
 Dies ist die Transistorschaltung die wir momentan zum schalten der Reihen einsetzen.
-{{< thumbnail src="transistor-flipdot.png" width="400" >}}
+{{< thumbnail src="transistor-flipdot.png" width="400x" >}}
 
 # Bilder
 {{< vimeo id="61695002" >}}
 
 # Videos
-{{< thumbnail src="flip-dot.jpg" width="400" >}}
+{{< thumbnail src="flip-dot.jpg" width="400x" >}}
 
 # Datenblätter
 

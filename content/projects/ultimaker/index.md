@@ -59,10 +59,10 @@ TBD: Upload to either Vimeo or Youtube
 
 Zeno is working on a rotary dual print head for e3dv6 hotends
 
-{{< thumbnail src="rotary_head1.png" width="350px" class="horizontal">}}
-{{< thumbnail src="rotary_head2.png" width="350px" class="horizontal">}}
-{{< thumbnail src="rotary_head3.jpg" width="350px" class="horizontal">}}
-{{< thumbnail src="rotary_head4.jpg" width="350px" class="horizontal">}}
+{{< thumbnail src="rotary_head1.png" width="350x" class="horizontal">}}
+{{< thumbnail src="rotary_head2.png" width="350x" class="horizontal">}}
+{{< thumbnail src="rotary_head3.jpg" width="350x" class="horizontal">}}
+{{< thumbnail src="rotary_head4.jpg" width="350x" class="horizontal">}}
 
-{{< thumbnail src="rotary_head4.png" width="350px" class="horizontal">}}
-{{< thumbnail src="rotary_head5.png" width="350px" class="horizontal">}}
+{{< thumbnail src="rotary_head4.png" width="350x" class="horizontal">}}
+{{< thumbnail src="rotary_head5.png" width="350x" class="horizontal">}}

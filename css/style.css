@@ -104,10 +104,6 @@ p > code {
     border-color: #ececec !important;
 }
 
-.img-thumbnail {
-    display: block;
-}
-
 .img-thumbnail.horizontal {
     display: inline-block !important;
 }

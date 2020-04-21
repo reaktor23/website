@@ -1,3 +1,3 @@
 {{ $original := .Page.Resources.GetMatch (.Get "src") }}
 {{ $image := $original.Resize (.Get "width") }}
-<div><a href="{{ $original.RelPermalink }}"><img src="{{ $image.RelPermalink }}" class="img-thumbnail {{ if .Get "class" }}{{ .Get "class" }}{{ end }}" width="{{ $image.Width}}"></a></div>
+<div><a href="{{ $original.RelPermalink }}" data-featherlight="image"><img src="{{ $image.RelPermalink }}" class="img-thumbnail {{ if .Get "class" }}{{ .Get "class" }}{{ end }}" width="{{ $image.Width}}"></a></div>

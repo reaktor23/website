@@ -6,10 +6,21 @@
     <description>Recent content in Blogs on Reaktor23 - Hackerspace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Thu, 02 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://reaktor23.org/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SARS-CoV-2 Facial Masks 3D printing</title>
+      <link>https://reaktor23.org/blog/2020-04-14-corona-masks/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://reaktor23.org/blog/2020-04-14-corona-masks/</guid>
+      <description>Wir vom Reaktor23 Hackerspace beteiligen uns aktiv am Maker vs. Virus Programm bei dem es darum geht Gesichtsmasken mit Hilfe von 3D Druckern herzustellen die dann an Organisationen wie Krankenhäuser mit Bedarf zu übergeben.
+Im Moment sind 3 Drucker unterschiedlicher Hersteller im Einsatz:
+ Wir hoffen damit einen Beitrag im Kampf gegen das Virus zu leisten!</description>
+    </item>
     
     <item>
       <title>SARS-CoV-2-Pandemie Lockdown</title>

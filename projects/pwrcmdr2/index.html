@@ -131,8 +131,10 @@ Desweiteren hat das Board 8 Digitaleingänge die 24V tollerant sind und mittels 
 <h2 id="sensorik">Sensorik</h2>
 <p>Es sind ein I2C, ein 1-Wire und ein RS485 Port vorhanden. Über diese wollen wir diverse Sensorik anbinden.</p>
 <h1 id="software">Software</h1>
-<p>Wir haben <a href="https://www.home-assistant.io/hassio/">Hassio</a>, eine speziell auf das RaspberryPi zugeschnittene Distribution von <a href="https://www.home-assistant.io">Home Assistant</a> auf dem RaspberryPi installiert.</p>
-<p>Das hat sehr viele nett Vortiele für uns:</p>
+<p><del>Wir haben <a href="https://www.home-assistant.io/hassio/">Hassio</a>, eine speziell auf das RaspberryPi zugeschnittene Distribution von <a href="https://www.home-assistant.io">Home Assistant</a> auf dem RaspberryPi installiert.</del></p>
+<p>Da wir immer wieder Probleme mit Hassio hatten (Micro SD Card corruption) haben wir ein Raspbian Buster installiert und darauf dann <a href="https://www.home-assistant.io">Home Assistant</a> via <a href="https://github.com/reaktor23/pwrcmder/">docker-compose</a>.
+Die Datenbank ist jetzt ein Postgres das auf unserem actse server läuft und eintsprechend in der HA config konfiguriert ist. Dies sollte die Schreibzyklen auf die SD Karte möglichst gering halten.</p>
+<p>Das hat sehr viele Vortiele für uns:</p>
 <ul>
 <li>Ansteuerungen der GPIOs via Webinterface und/oder REST API (<a href="https://www.home-assistant.io/components/rpi_gpio/">rpi_gpio</a>)</li>
 <li>Auslesen der 1-Wire Temperatursensoren (<a href="https://www.home-assistant.io/components/sensor.onewire/">sensor.onewire</a>)</li>
@@ -140,7 +142,20 @@ Desweiteren hat das Board 8 Digitaleingänge die 24V tollerant sind und mittels 
 </ul>
 <p>Ausserdem die einfache Konfiguration via YAML files und das ermöglichen von Automations und vielen weiteren coolen Features!</p>
 <p>So sieht das interface in seiner ersten Version aus, hier bietet sich noch viel Spielraum für Erweiterungen :-)</p>
-<p><img src="hassio.png" alt="Hass.io"></p>
+
+
+<div><a href="/projects/pwrcmdr2/2020-04-22-ha.png" data-featherlight="image"><img src="/projects/pwrcmdr2/2020-04-22-ha_hu8a18e8387c267ab2692f3754e51a821e_106577_600x0_resize_lanczos_2.png" class="img-thumbnail " width="600"></a></div>
+
+<h2 id="known-bugs">Known Bugs</h2>
+<h3 id="rpi_gpio">rpi_gpio</h3>
+<p>Die Eingänge werden über die rpi_gpio integration abgefragt und lösen ein event aus, allerdings kann es passieren das wenn der Kontakt prellt das der state nicht stimmt was sehr unglücklich ist.
+Als Workaround haben wir das <code>rpi_gpio</code> Verzeichnis von <a href="https://github.com/home-assistant/core/tree/dev/homeassistant/components/rpi_gpio">GitHub</a> nach config/custom_components/rpi_gpio kopiert und die Zeile 75 in der Datei <code>switch.py</code> geändert das sie True zurückgibt.
+Dadurch wird die rpi_gpio integration als custom_component geladen und verhindert das laden der Originalen Integration.</p>
+<pre><code>    @property
+    def should_poll(self):
+        &quot;&quot;&quot;No polling needed.&quot;&quot;&quot;
+        return True
+</code></pre><p>Es wird zwar gewarnt das dies die CPU Last erhöht, allerdings konnten wir keine Nachteile durch diese Methode erkennen.</p>
 
 </article>
 
@@ -152,7 +167,7 @@ Desweiteren hat das Board 8 Digitaleingänge die 24V tollerant sind und mittels 
 		<span class="px-2">&bull;</span>
 		<a href="https://github.com/reaktor23"><i class="fa fa-github text-muted" style="font-size: 1.25rem;" aria-hidden="true"></i></a>
 		<br>
-		<span style="font-size: 0.7em;">build time: 2020-04-21 19:51 UTC</span>
+		<span style="font-size: 0.7em;">build time: 2020-04-22 08:46 UTC</span>
 	</div>
 </footer>
 

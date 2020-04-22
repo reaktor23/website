@@ -55,9 +55,12 @@ Es sind ein I2C, ein 1-Wire und ein RS485 Port vorhanden. Über diese wollen wir
 
 # Software
 
-Wir haben [Hassio](https://www.home-assistant.io/hassio/), eine speziell auf das RaspberryPi zugeschnittene Distribution von [Home Assistant](https://www.home-assistant.io) auf dem RaspberryPi installiert.
+~~Wir haben [Hassio](https://www.home-assistant.io/hassio/), eine speziell auf das RaspberryPi zugeschnittene Distribution von [Home Assistant](https://www.home-assistant.io) auf dem RaspberryPi installiert.~~
 
-Das hat sehr viele nett Vortiele für uns:
+Da wir immer wieder Probleme mit Hassio hatten (Micro SD Card corruption) haben wir ein Raspbian Buster installiert und darauf dann [Home Assistant](https://www.home-assistant.io) via [docker-compose](https://github.com/reaktor23/pwrcmder/).
+Die Datenbank ist jetzt ein Postgres das auf unserem actse server läuft und eintsprechend in der HA config konfiguriert ist. Dies sollte die Schreibzyklen auf die SD Karte möglichst gering halten.
+
+Das hat sehr viele Vortiele für uns:
 
 - Ansteuerungen der GPIOs via Webinterface und/oder REST API ([rpi_gpio](https://www.home-assistant.io/components/rpi_gpio/))
 - Auslesen der 1-Wire Temperatursensoren ([sensor.onewire](https://www.home-assistant.io/components/sensor.onewire/))
@@ -67,4 +70,21 @@ Ausserdem die einfache Konfiguration via YAML files und das ermöglichen von Aut
 
 So sieht das interface in seiner ersten Version aus, hier bietet sich noch viel Spielraum für Erweiterungen :-)
 
-![Hass.io](hassio.png)
+{{< thumbnail src="2020-04-22-ha.png" width="600x" >}}
+
+## Known Bugs
+
+### rpi_gpio
+
+Die Eingänge werden über die rpi_gpio integration abgefragt und lösen ein event aus, allerdings kann es passieren das wenn der Kontakt prellt das der state nicht stimmt was sehr unglücklich ist.
+Als Workaround haben wir das `rpi_gpio` Verzeichnis von [GitHub](https://github.com/home-assistant/core/tree/dev/homeassistant/components/rpi_gpio) nach config/custom_components/rpi_gpio kopiert und die Zeile 75 in der Datei `switch.py` geändert das sie True zurückgibt.
+Dadurch wird die rpi_gpio integration als custom_component geladen und verhindert das laden der Originalen Integration.
+
+```
+    @property
+    def should_poll(self):
+        """No polling needed."""
+        return True
+```
+
+Es wird zwar gewarnt das dies die CPU Last erhöht, allerdings konnten wir keine Nachteile durch diese Methode erkennen.

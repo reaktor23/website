@@ -141,8 +141,12 @@ Der User PCW aus dem linuxcnc forum war so freundlich uns ein passendes [Bitfile
 
 # Update vom 10.03.2020 - Alles Neu
 
-Wir versuchen jetzt mal alles neu zu machen und zu dokumentieren:
+Wir versuchen jetzt mal alles neu zu machen und zu dokumentieren, der aktuelle aber nicht unbedingt funktionierende Stand unserer LinuxCNC config findet sich in diesem [Git Repo](https://github.com/Bouni/MilliMcMillface).
 
-- Debian-Image:
-https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-10.3.0-amd64-netinst.iso
-- 
+# Update vom 20.05.2020 - Debian 10 Buster + LinuxCNC 2.9 + Mesa 7i96 + Mesa 7i85S Setup
+
+Um mal auf einem halbwegs auf einen aktuellen Stan zu kommen haben wir ein Debian 10 Buster installiert. Da es dafür aber keine fertigen Pakete guibt war es notwendig diese selbst zu bauen.
+Auch dies haben wir [hier](https://github.com/reaktor23/linuxcnc-wiki/blob/master/installation.md) dokumentiert!
+
+
+

@@ -6,10 +6,19 @@
     <description>Recent content in Blogs on Reaktor23 - Hackerspace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Tue, 14 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://reaktor23.org/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Umbau unserer CNC Fräse MilliMcMillface</title>
+      <link>https://reaktor23.org/blog/2020-07-07-cnc-umbau/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://reaktor23.org/blog/2020-07-07-cnc-umbau/</guid>
+      <description>Über die letzten Wochen und Monate haben wir einige Veränderungen an unserer Fräsmaschine MilliMcMillface vorgenommen. Unter anderem wurden die Schrittmotoren, die in der Vergangenheit immer wieder zu Problemen geführt haben gegen AC-Servomotoren gewechselt. Dabei haben wir die Aufhängung der Motoren durch Riemen so verändern können, dass die Maschine weniger Platz braucht und durch die von Zeno gedruckten Schutzabdeckungen zudem noch besser aussieht:) Ein großer Dank geht hierbei an die Firma Norelem, insbesondere an Herrn Maschner, die uns die benötigten Spannsätze zur Montage der Riemenräder kostenlos zur verfügung gestellt haben.</description>
+    </item>
     
     <item>
       <title>SARS-CoV-2 Facial Masks 3D printing</title>

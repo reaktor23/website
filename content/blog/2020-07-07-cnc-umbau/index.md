@@ -5,7 +5,7 @@ date: 2020-07-07
 draft: false
 ---
 
-Über die letzten Wochen und Monate haben wir einige Veränderungen an unserer Fräsmaschine MilliMcMillface vorgenommen. Unter anderem wurden die Schrittmotoren, die in der Vergangenheit immer wieder zu Problemen geführt haben gegen AC-Servomotoren gewechselt. Dabei haben wir die Aufhängung der Motoren durch Riemen so verändern können, dass die Maschine weniger Platz braucht und durch die von Zeno gedruckten Schutzabdeckungen zudem noch besser aussieht:) Ein großer Dank geht hierbei an die Firma Norelem, insbesondere an Herrn Maschner, die uns die benötigten Spannsätze zur Montage der Riemenräder kostenlos zur verfügung gestellt haben.
+Über die letzten Wochen und Monate haben wir einige Veränderungen an unserer Fräsmaschine MilliMcMillface vorgenommen. Unter anderem wurden die Schrittmotoren, die in der Vergangenheit immer wieder zu Problemen geführt haben gegen AC-Servomotoren gewechselt. Dabei haben wir die Aufhängung der Motoren durch Riemen so verändern können, dass die Maschine weniger Platz braucht und durch die von Zeno gedruckten Schutzabdeckungen zudem noch besser aussieht:) Ein großer Dank geht hierbei an die Firma Norelem, insbesondere an Herrn Marschner, die uns die benötigten Spannsätze zur Montage der Riemenräder kostenlos zur verfügung gestellt haben.
 
 Das Bett der Maschine konnten wir durch eine große Nutenplatte erweitern, die wir mit M8-Schrauben auf das bisherige Maschienbett geschraubt haben. Wir erhalten durch das höhere Gewiche eine bessere Stabilität und das Spannen von Werkstücken wird erheblich erleichtert.
 

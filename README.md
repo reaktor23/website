@@ -27,6 +27,9 @@ Custom shortcodes
 -----------------
 
 Shortcodes are used to enable users to create certain HTML output from the markup pages.
+
+You can use Emojis with their shortcodes as listed [here](https://www.webfx.com/tools/emoji-cheat-sheet/)  :heart_eyes:
+
 Here are our implemented shortcodes for documentation:
 
 **Thumbnail**

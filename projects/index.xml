@@ -6,10 +6,21 @@
     <description>Recent content in Projects on Reaktor23 - Hackerspace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Thu, 24 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://reaktor23.org/projects/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>RESTfan</title>
+      <link>https://reaktor23.org/projects/restfan/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://reaktor23.org/projects/restfan/</guid>
+      <description>Wir haben seit wir den Reator gegründet haben das Problem das es im Sommer unangenehm warm wird und wir nur die Eingangstüre als Lüftungsmöglichkeit. Drum haben wir uns diesen Sommer entschieden einen dieser günstigen Wandventilatoren zu kaufen um es ein wenig erträglicher zu haben.
+Das das ganze nicht wie vom Hersteller gedacht über Zugschnüre gesteuert werden soll versteht sich ja von selbst 🕶
+Ausgangszustand  Der Lüfter verfügt über zwei Schnüre zur Steuerung, eine dreht einen Drehschalter bei jedem Zug um eine Stellung weiter.</description>
+    </item>
     
     <item>
       <title>Mate Dealer 3.0</title>

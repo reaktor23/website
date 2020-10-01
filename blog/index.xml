@@ -6,10 +6,20 @@
     <description>Recent content in Blogs on Reaktor23 - Hackerspace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Tue, 07 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://reaktor23.org/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>3D Druck Workshop</title>
+      <link>https://reaktor23.org/blog/2020-09-30-3d-print-workshop/</link>
+      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://reaktor23.org/blog/2020-09-30-3d-print-workshop/</guid>
+      <description>Wir haben seit der ersten Stunde eigenlich immer einen oder mehrere 3D Drucker im Reaktor gehabt, jedoch haben sich nur einige wenige Mitglieder damit ausgekannt. Für viele war es immer so das sie auf ein erfahrenes Mitglied gewartet haben wenn sie Mal was drucken wollten.
+Zeno hat sich nun bereit erklärt einen kleinen Workshop zu geben um den Interessierten eine Einführung in das Thema zu bieten. Im Grunde ist es nicht wirklich schwierig, aber die kleinen Kniffe beim Umgang mit dem Slicer als auch die paar wenigen Punkte die es Hardwareseitig zu beachten gibt sollten bekannt sein wenn man etwas drucken möchte, um den Drucker nit zu Beschädigen und ein gutes Druckergebns zu erhalten.</description>
+    </item>
     
     <item>
       <title>Umbau unserer CNC Fräse MilliMcMillface</title>

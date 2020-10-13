@@ -70,7 +70,9 @@ Ausserdem die einfache Konfiguration via YAML files und das ermöglichen von Aut
 
 So sieht das interface in seiner ersten Version aus, hier bietet sich noch viel Spielraum für Erweiterungen :-)
 
-{{< thumbnail src="2020-04-22-ha.png" width="600x" >}}
+{{< thumbnail src="2020-10-13-ha-1.png" width="600x" >}}
+
+{{< thumbnail src="2020-10-13-ha-2.png" width="600x" >}}
 
 ## Known Bugs
 

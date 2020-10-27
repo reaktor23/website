@@ -12,6 +12,6 @@ Wie schon im Frühjar diesen Jahres werden wir Dienstags Remote Hackereien unter
  - Matrix: #reaktor23:reaktor23.org
  - Jitsi: https://meet.reaktor23.org/chat
 
-Ihr seit natürlich alle herzlichst eingeladen dazuzustossen, wir feuen uns auch!
+Ihr seit natürlich alle herzlichst eingeladen dazuzustossen, wir feuen uns auf euch!
 
 In diesem Sinne, bleibt Gesund!

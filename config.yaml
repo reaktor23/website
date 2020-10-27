@@ -8,7 +8,7 @@ enableEmoji: true
 menu:
   main:
     - name: Blog
-      url: /
+      url: /blog/
       weight: -1
     - name: About
       url: /about/

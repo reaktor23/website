@@ -19,6 +19,8 @@ E-Mail: info (ät) reaktor23 (Punkt) org
 
 Matrix Chat: [#reaktor23:reaktor23.org](https://matrix.to/#/#reaktor23:reaktor23.org)
 
+Jitsi Meet: https://meet.reaktor23.org/chat
+
 ## Ort
 
 Die Adresse lautet:

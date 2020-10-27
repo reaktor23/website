@@ -3,6 +3,8 @@ title: CCC Camp 2019
 author: Bouni
 date: 2019-07-31
 draft: false
+aliases:
+  - camp2019 
 ---
 
 # Wir fahren zum CCC Camp 2019

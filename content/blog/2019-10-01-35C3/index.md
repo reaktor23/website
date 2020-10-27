@@ -3,6 +3,8 @@ title: 35C3 - the aftermath
 author: Bouni
 date: 2019-01-10
 draft: false
+aliases:
+  - 35C3-2019-10-01
 ---
 
 Wie vermutlich fast jeder Hackerspace im deutschsprachigen Raum und darüber hinaus haben auch wir vom 27.12.2018 bis zum 30.12.2018 die Streams vom [35C3](https://events.ccc.de/category/congress/35c3/) angeschaut.

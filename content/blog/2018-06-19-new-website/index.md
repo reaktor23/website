@@ -3,6 +3,8 @@ title: "Neue Website"
 author: "Samuel"
 date: 2018-06-19
 draft: false
+aliases:
+  - new-website-2018-06-19
 ---
 
 Wir haben es endlich geschafft eine neue Website zu bauen! Yay! Naja, fast. Noch

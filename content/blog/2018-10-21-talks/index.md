@@ -3,6 +3,8 @@ title: Reaktor Talks
 author: Samuel
 date: 2018-10-21
 draft: false
+aliases:
+  - talks-2018-10-21
 ---
 
 Da die kalte Jahreszeit dann doch so langsam mal anfängt, ist es die richtige

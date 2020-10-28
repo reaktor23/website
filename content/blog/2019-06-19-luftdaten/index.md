@@ -3,6 +3,8 @@ title: Feinstaubmessung jetzt auch im Reaktor
 author: Bouni
 date: 2019-06-19
 draft: false
+aliases:
+  - luftdaten
 ---
 
 # Feinstaub Messstation

@@ -3,6 +3,8 @@ title: "Projekt CNC Fräse"
 author: "Bouni"
 date: 2018-09-07
 draft: false
+aliases:
+  - cnc-mill-2018-09-07
 ---
 
 Vor ca. 2 Wochen haben wir damit begonnen unsere CNC Fräse auf Linux CNC umzustellen und seit letzter Woche ist die Fräse im Testbetrieb.

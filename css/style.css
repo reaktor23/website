@@ -112,6 +112,10 @@ p > code {
     margin: 10px;
 }
 
+figcaption {
+    font-size: 0.8em;
+}
+
 .project-image-single {
     margin-bottom: 0.5em;
     max-width: 50%;

@@ -1,8 +1,5 @@
 {{ define "main" }}
 {{- range $i, $e := (first 5 (where $.Site.RegularPages "Section" "blog")) }}
-{{- if gt $i 0 }}
-<hr>
-{{- end }}
 <article>
     <header>
         <h1 class="headline"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
@@ -19,5 +16,12 @@
     </header>
     {{ .Content }}
 </article>
+
+<hr>
 {{- end }}
+
+<div class="d-flex justify-content-center mt-5">
+    <a class="btn btn-outline-secondary" href="/blog/">more</a>
+</div>
+
 {{ end }}

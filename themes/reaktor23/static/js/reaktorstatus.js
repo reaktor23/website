@@ -1,14 +1,17 @@
 // get JSON according to the SpaceAPI
+const dateformat = new Intl.DateTimeFormat('DE', { year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit'});
+
 var getstatus = function() {
   $.getJSON("https://spaceapi.reaktor23.org", function(data) {
+    var lastchange = dateformat.format(new Date(data.state.lastchange * 1000))
     $("#reaktorstatus > #message").removeClass();
     // Check if last update is longer than 2 Minutes old
     if(data.state.open) {
       $("#reaktorstatus > #message").addClass("text-success");
-      $("#reaktorstatus > #message").html("Come in, we're open!<br><small class='text-muted'>"+new Date(data.state.lastchange * 1000)+"</small>");
+      $("#reaktorstatus > #message").html("Come in, we're open!<br><small class='text-muted'>Last change: "+lastchange+"</small>");
     } else {
       $("#reaktorstatus > #message").addClass("text-danger");
-      $("#reaktorstatus > #message").html("Sorry, we're closed!<br><small class='text-muted'>"+new Date(data.state.lastchange * 1000)+"</small>");
+      $("#reaktorstatus > #message").html("Sorry, we're closed!<br><small class='text-muted'>Last change: "+lastchange+"</small>");
     }
     if($("#apidteails")) {
       $("#apidteails").html("");

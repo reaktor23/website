@@ -1,7 +1,8 @@
 Reaktor23 website
 ==================
 
-The website behind http://reaktor23.org made using the [Hugo static site generator](https://gohugo.io/).
+The website behind http://reaktor23.org made using the
+[Hugo static site generator](https://gohugo.io/).
 
 ![Deploy website](https://github.com/reaktor23/website/workflows/Deploy%20website/badge.svg?branch=master)
 
@@ -16,29 +17,38 @@ Quickstart
     cd reaktor23-website
     ```
 4. Mess around with the content ... or not
-5. View page on your machine with `hugo server` and visiting http://localhost:1313
+5. View page on your machine with `hugo server` and visiting
+   http://localhost:1313
 
 Deploying
 ---------
 
-All commits to the master branch will be deployed automatically via Travis CI https://reaktor23.org.
+All commits to the master branch will be deployed automatically via Travis CI
+https://reaktor23.org.
 
 Custom shortcodes
 -----------------
 
-Shortcodes are used to enable users to create certain HTML output from the markup pages.
+Shortcodes are used to enable users to create certain HTML output from the
+markup pages.
 
-You can use Emojis with their shortcodes as listed [here](https://www.webfx.com/tools/emoji-cheat-sheet/)  :heart_eyes:
+You can use Emojis with their shortcodes as listed
+[here](https://www.webfx.com/tools/emoji-cheat-sheet/)  :heart_eyes:
 
 Here are our implemented shortcodes for documentation:
 
 **Thumbnail**
 
-Geneartes a nice looking frame around the image.
+Geneartes a nice looking frame around the image. Also, clicking on it will show
+a big size version.
 
-    {{< thumbnail src="url/to/img.jpg" width="200px" class="horizontal" >}}
+    {{< thumbnail src="url/to/img.jpg" width="200px" >}}
+    {{< thumbnail src="url/to/img.jpg" width="x200" class="horizontal" >}}
+    {{< thumbnail src="url/to/img.jpg" width="x200" caption="This picture illustrates something" >}}
 
-_src_ is mandatory, _width_ controls the image width, _class_ enables us to align the images horizontaly if neccessary
+_src_ is mandatory, _width_ controls the image width, _class_ enables us to
+align the images horizontaly or do other stuff (see Bootstrap) and _caption_
+will show a text underneath the image.
 
 **Font Awesome**
 
@@ -70,11 +80,13 @@ Let you put content in an bootstrap alert box.
     Your content here 
     {{% /box %}}
 
-_type_ is one of the bootstrap classes for alerts (primary, secondary, success, danger, warning, info, light, dark), defaults to info.
+_type_ is one of the bootstrap classes for alerts (primary, secondary, success,
+danger, warning, info, light, dark), defaults to info.
 
 **Table**
 
-Wraps a markdown table and makes it a bit more fancy by adding the bootstrap table class
+Wraps a markdown table and makes it a bit more fancy by adding the bootstrap
+table class
 
     {{% table %}}
     | A | B |

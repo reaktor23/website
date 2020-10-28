@@ -15,5 +15,5 @@ Gegenüber dem allgemeinen Konsens, Maschinensteuerungen laufen auf veralteten B
 
 Insgesamt sind wir mit dem aktuellen Stand sehr zufrieden und freuen uns schon darauf, mit unserer Maschine viele Projekte umsetzen zu können.
 
-{{< thumbnail src="uno.jpg" width="200x" >}}
-{{< thumbnail src="due.jpg" width="200x" >}}
+{{< thumbnail src="uno.jpg" width="x300" >}}
+{{< thumbnail src="due.jpg" width="x300" >}}

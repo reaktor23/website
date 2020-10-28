@@ -66,20 +66,20 @@ Matrix: #reaktor23:reaktor23.org</description>
     
     <item>
       <title>36C3 - Chaos Communication Congress 2019</title>
-      <link>https://reaktor23.org/blog/36c3-2019-11-14/</link>
+      <link>https://reaktor23.org/blog/2019-11-14-36c3/</link>
       <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://reaktor23.org/blog/36c3-2019-11-14/</guid>
+      <guid>https://reaktor23.org/blog/2019-11-14-36c3/</guid>
       <description>Here we go again! Wie jedes Jahr werden wir auch in diesem Jahr wieder die Live Streams des alljährlichen Congress vom 27.12. bis zum 31.12 im Reaktor anschauen.
 Wir Dich laden herzlich dazu ein dies mit uns zu zelebrieren. Um sicher zu gehen das du nicht vor verschlossener Tür stehst, schau vorher auf den Reaktor Status ob schon jemand da ist oder schreib uns eine Mail wann du gedenkst zu uns zu kommen.</description>
     </item>
     
     <item>
       <title>CCC Camp 2019</title>
-      <link>https://reaktor23.org/blog/camp2019/</link>
+      <link>https://reaktor23.org/blog/2019-07-31-camp2019/</link>
       <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://reaktor23.org/blog/camp2019/</guid>
+      <guid>https://reaktor23.org/blog/2019-07-31-camp2019/</guid>
       <description>Wir fahren zum CCC Camp 2019 Wir sind in der glücklichen Lage uns 3 Tickets für das CCC Camp 2019 ergattert zu haben. Zwei davon durch befreundete Hacker/Hackerspaces aus der Schweiz, ein riesiges Dankeschön an dieser Stelle dafür :-)
 Wir dürfen uns auch dem CCC-CH Village anschliessen und freuen uns schon darauf was es alles zu erleben geben wird.
 Falls auch du zum Camp kommst würden wir uns freuen dich dort zu treffen!</description>
@@ -87,10 +87,10 @@ Falls auch du zum Camp kommst würden wir uns freuen dich dort zu treffen!</desc
     
     <item>
       <title>Feinstaubmessung jetzt auch im Reaktor</title>
-      <link>https://reaktor23.org/blog/luftdaten/</link>
+      <link>https://reaktor23.org/blog/2019-06-19-luftdaten/</link>
       <pubDate>Wed, 19 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://reaktor23.org/blog/luftdaten/</guid>
+      <guid>https://reaktor23.org/blog/2019-06-19-luftdaten/</guid>
       <description>Feinstaub Messstation Seit gestern läuft in unserem Hackerspace ein Feinstaub/Temperatur/Luftfeuchte Sensor der seine Daten an luftdaten.info sendet.
 Unsere Messtation ist auf der Karte von Luftdaten.info zu finden.
 Ausserdem werden die Messwerte via SpaceAPI von unserer Home Assistant Installation zur Verfügung gestellt.</description>
@@ -98,39 +98,39 @@ Ausserdem werden die Messwerte via SpaceAPI von unserer Home Assistant Installat
     
     <item>
       <title>35C3 - the aftermath</title>
-      <link>https://reaktor23.org/blog/35c3-2019-10-01/</link>
+      <link>https://reaktor23.org/blog/2019-10-01-35c3/</link>
       <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://reaktor23.org/blog/35c3-2019-10-01/</guid>
+      <guid>https://reaktor23.org/blog/2019-10-01-35c3/</guid>
       <description>Wie vermutlich fast jeder Hackerspace im deutschsprachigen Raum und darüber hinaus haben auch wir vom 27.12.2018 bis zum 30.12.2018 die Streams vom 35C3 angeschaut. Und wie es halt so ist sind bei uns in den letzten Jahren etliche Projekte ins Leben gerufen worden, jedoch nie (richtig) fertig gestellt worden. Glücklicherweise ist es uns gleich am 27.12. gelungen unsere CNC Fräse wiederzubeleben, was uns ein enormes Maß an neuen Möglichkeiten eröffnet. Und so haben wir diesen Congress mehr damit zugebracht unseren Space zu verbessern als die Streams zu schauen.</description>
     </item>
     
     <item>
       <title>Reaktor Talks</title>
-      <link>https://reaktor23.org/blog/talks-2018-10-21/</link>
+      <link>https://reaktor23.org/blog/2018-10-21-talks/</link>
       <pubDate>Sun, 21 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://reaktor23.org/blog/talks-2018-10-21/</guid>
+      <guid>https://reaktor23.org/blog/2018-10-21-talks/</guid>
       <description>Da die kalte Jahreszeit dann doch so langsam mal anfängt, ist es die richtige Zeit um die &amp;ldquo;Reaktor Talks&amp;rdquo; wiederzubeleben. Jeder der mag, kann einen Vortrag über ein beliebiges Thema halten. Oft fand das bisher eher spontan statt, also so mit einer Woche Vorlaufszeit, weil sich ein oder mehrere Leute für etwas bestimmtes interessierten und jemand anders darüber was erzählen oder zeigen konnte.
 Diese Website hat nun ein kleine Infoseite darüber.</description>
     </item>
     
     <item>
       <title>Projekt CNC Fräse</title>
-      <link>https://reaktor23.org/blog/cnc-mill-2018-09-07/</link>
+      <link>https://reaktor23.org/blog/2018-09-07-cnc-mill/</link>
       <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://reaktor23.org/blog/cnc-mill-2018-09-07/</guid>
+      <guid>https://reaktor23.org/blog/2018-09-07-cnc-mill/</guid>
       <description>Vor ca. 2 Wochen haben wir damit begonnen unsere CNC Fräse auf Linux CNC umzustellen und seit letzter Woche ist die Fräse im Testbetrieb. Alles in allem sind wir sehr zufrieden mit dem Fortschritt des Projektes. Wir erhoffen uns dadurch endlich mehr Projekte die gefräste Teile erfordern, umsetzen zu können.
 Weitere Infos zum Projekt sowie eine Doku findet ihr unter Projekte</description>
     </item>
     
     <item>
       <title>Neue Website</title>
-      <link>https://reaktor23.org/blog/new-website-2018-06-19/</link>
+      <link>https://reaktor23.org/blog/2018-06-19-new-website/</link>
       <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://reaktor23.org/blog/new-website-2018-06-19/</guid>
+      <guid>https://reaktor23.org/blog/2018-06-19-new-website/</guid>
       <description>Wir haben es endlich geschafft eine neue Website zu bauen! Yay! Naja, fast. Noch müssen wir etwas Arbeit hinein stecken.
 Zuvor hatten wir eine auf DokuWiki basierenden Website. DokuWiki ist an sich nicht schlecht, war aber dann doch ein bisschen ein funktioneller Overkill und doch fehlte uns eine Funktion: Schon lange wollten wir es jedem sehr einfach machen Inhalte auf der Website zu ergänzen, korrigieren oder gar zu verfassen. Mit DokuWiki brauchte man dafür mindestens einen Login, etwas was vielen Leuten einfach im Wege war.</description>
     </item>

@@ -19,6 +19,13 @@ menu:
   foot:
     - name: Impressum / Datenschutz
       url: /impressum/
+  rss:
+    - name: Blog
+      url: /blog/index.xml
+    - name: Projects
+      url: /projects/index.xml
+    - name: All
+      url: /index.xml
 
 imaging:
   resampleFilter: Lanczos

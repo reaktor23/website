@@ -4,10 +4,12 @@
 		{{- range .Site.Menus.foot }}
 		<a href="{{ .URL }}" class="text-muted">{{ .Name }}</a>
 		{{- end }}
-		{{ with .OutputFormats.Get "RSS" }}
+		{{ if .Site.Menus.rss }}
 		<span class="px-2">&bull;</span>
-		<a href="{{ .RelPermalink }}" class="text-muted">RSS</a>
-		{{- end }}
+		<i class="fa fa-rss text-muted mr-1" style="font-size: 1.25rem" aria-hidden="true"></i>
+		{{ range $i, $e := .Site.Menus.rss }}
+		{{- if gt $i 0 }}|{{ end }}<a href="{{ $e.URL }}" class="text-muted">{{ $e.Name }}</a>{{ end -}}
+		{{- end -}}
 		<span class="px-2">&bull;</span>
 		<a href="https://github.com/reaktor23"><i class="fa fa-github text-muted" style="font-size: 1.25rem;" aria-hidden="true"></i></a>
 		<span class="px-2">&bull;</span>

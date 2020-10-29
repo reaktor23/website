@@ -4,7 +4,7 @@ author: Bouni
 description: Trust based payment system
 date: 2020-10-28
 draft: false
-image: cashdesk1.jpg
+image: cashdesk1.png
 ---
 
 # Reaktor23 cashdesk

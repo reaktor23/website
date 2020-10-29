@@ -1,7 +1,14 @@
 {{ define "main" }}
 <div class="list-group">
 {{ range .Data.Pages }}
-<a class="list-group-item list-group-item-action" href="{{ .Permalink }}">{{ .Title }}<small class="text-muted mx-2">by {{ .Params.Author }} - {{ .Date.Format "2006-01-02" }}</small></a>
+    <a class="list-group-item list-group-item-action" href="{{ .Permalink }}">
+        <div class="d-md-inline" >
+            {{ .Title }}
+        </div>
+        <div class="d-md-inline">
+            <small class="text-muted mx-2">by {{ .Params.Author }} - {{ .Date.Format "2006-01-02" }}</small>
+        </div>
+    </a>
 {{ end }}
 </div>
 {{ end }}

@@ -1,20 +1,33 @@
 <footer>
-	<div class="footer-copyright text-center py-3 text-muted">
-		{{- $currentPage := . }}
-		{{- range .Site.Menus.foot }}
-		<a href="{{ .URL }}" class="text-muted">{{ .Name }}</a>
-		{{- end }}
-		{{ if .Site.Menus.rss }}
-		<span class="px-2">&bull;</span>
-		<i class="fa fa-rss text-muted mr-1" style="font-size: 1.25rem" aria-hidden="true"></i>
-		{{ range $i, $e := .Site.Menus.rss }}
-		{{- if gt $i 0 }}|{{ end }}<a href="{{ $e.URL }}" class="text-muted">{{ $e.Name }}</a>{{ end -}}
-		{{- end -}}
-		<span class="px-2">&bull;</span>
-		<a href="https://github.com/reaktor23"><i class="fa fa-github text-muted" style="font-size: 1.25rem;" aria-hidden="true"></i></a>
-		<span class="px-2">&bull;</span>
-		<a href="https://serverstate.info/7wifrv" class="text-muted">Statuspage</a>
-		<br>
-		<span style="font-size: 0.7em;">build time: {{ now.UTC.Format "2006-01-02 15:04 MST" }}</span>
-	</div>
+    <div class="footer-copyright text-center py-3 text-muted">
+        {{- $currentPage := . }}
+        {{- range .Site.Menus.foot }}
+            <a href="{{ .URL }}" class="text-muted">{{ .Name }}</a>
+        {{- end }}
+
+        {{ if .Site.Menus.rss }}
+            <div class="d-sm-inline">
+                <span class="px-2 d-none d-sm-inline">&bull;</span>	
+                <i class="fa fa-rss text-muted mr-1" style="font-size: 1.25rem" aria-hidden="true"></i>
+                {{ range $i, $e := .Site.Menus.rss }}
+                    {{- if gt $i 0 }} | {{ end }}
+                    <a href="{{ $e.URL }}" class="text-muted">{{ $e.Name }}</a>
+                {{ end -}}
+            </div>
+        {{- end -}}
+
+        <span class="px-2 d-none d-sm-inline">&bull;</span>
+
+        <a href="https://github.com/reaktor23">
+            <i class="fa fa-github text-muted" style="font-size: 1.25rem;" aria-hidden="true"></i>
+        </a>
+
+        <span class="px-2">&bull;</span>
+
+        <a href="https://serverstate.info/7wifrv" class="text-muted">Statuspage</a>
+
+        <br />
+
+        <span style="font-size: 0.7em;">build time: {{ now.UTC.Format "2006-01-02 15:04 MST" }}</span>
+    </div>
 </footer>

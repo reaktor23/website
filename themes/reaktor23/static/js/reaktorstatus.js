@@ -6,7 +6,7 @@ var getstatus = function() {
     var lastchange = dateformat.format(new Date(data.state.lastchange * 1000))
     $("#reaktorstatus > #message").removeClass();
     // Check if last update is longer than 2 Minutes old
-    if(data.state.open) {
+    if(data.state.open === true) {
       $("#reaktorstatus > #message").addClass("text-success");
       $("#reaktorstatus > #message").html("Come in, we're open!<br><small class='text-muted'>Last change: "+lastchange+"</small>");
     } else {

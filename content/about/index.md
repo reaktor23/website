@@ -15,7 +15,7 @@ verschlossener Türe steht!
 
 ## Kontakt
 
-E-Mail: info (ät) reaktor23 (Punkt) org
+E-Mail: contact (ät) reaktor23 (Punkt) org
 
 Matrix Chat: [#reaktor23:reaktor23.org](https://matrix.to/#/#reaktor23:reaktor23.org)
 

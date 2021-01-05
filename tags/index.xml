@@ -5,10 +5,6 @@
     <link>https://reaktor23.org/tags/</link>
     <description>Recent content in Tags on Reaktor23 - Hackerspace</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>de-de</language>
-    
-	<atom:link href="https://reaktor23.org/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>de-de</language><atom:link href="https://reaktor23.org/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

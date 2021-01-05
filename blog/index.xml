@@ -6,11 +6,7 @@
     <description>Recent content in Blogs on Reaktor23 - Hackerspace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Tue, 27 Oct 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://reaktor23.org/blog/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 27 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://reaktor23.org/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SARS-CoV-2 Herbst-Winter Welle</title>
       <link>https://reaktor23.org/blog/2020-10-27-corona-fall-2020/</link>

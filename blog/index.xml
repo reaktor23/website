@@ -6,7 +6,20 @@
     <description>Recent content in Blogs on Reaktor23 - Hackerspace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Tue, 27 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://reaktor23.org/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://reaktor23.org/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wiedereröffnung des Hackerspace</title>
+      <link>https://reaktor23.org/blog/2021-08-16-open-up-again/</link>
+      <pubDate>Mon, 16 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://reaktor23.org/blog/2021-08-16-open-up-again/</guid>
+      <description>Nach langer Überlegung haben wir uns entschlossen den Reaktor wieder zu öffnen.
+Seit Heute, dem 16. August 2021 ist es in Baden-Würtemberg nicht mehr Inzidenzabhängig ob eine Location geöffnet sein darf. Es gelten die 3G Regeln (Geimpft, Genesen oder Getestet), detailiert nachzulesen in der Mitteilung des Staatsministeriums
+Zitat:
+ Bei Veranstaltungen/Aktivitäten in geschlossenen Räumen müssen alle Besucherinnen und Besucher einen Geimpftennachweis, einen Genesenennachweis oder ein negativen Corona Antigen-Schnelltest vorweisen.
+ Falls du uns als Nichtmitglied besuchen möchtest, bitten wir dich uns vorher über deinen Besuch zu informiern so das wir sicherstellen können das sich die 1.</description>
+    </item>
+    
     <item>
       <title>SARS-CoV-2 Herbst-Winter Welle</title>
       <link>https://reaktor23.org/blog/2020-10-27-corona-fall-2020/</link>

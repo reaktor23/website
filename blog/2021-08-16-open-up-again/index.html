@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		
 		
-		<title>RESTfan</title>
+		<title>Wiedereröffnung des Hackerspace</title>
 		
 		<link rel="stylesheet" href="https://reaktor23.org/css/bootstrap.min.css"/>
 		<link rel="stylesheet" href="https://reaktor23.org/css/font-awesome.min.css"/>
@@ -82,91 +82,27 @@
 
 		
 <article>
-    <header>
-        <h1 class="headline my-3"><a href="https://reaktor23.org/projects/restfan/">RESTfan</a></h1>
+	<header>
+        <h1 class="headline"><a href="https://reaktor23.org/blog/2021-08-16-open-up-again/">Wiedereröffnung des Hackerspace</a></h1>
         <div class="meta">
-            
-            <span class="author">by Bouni 
+            <span class="author">by Bouni
                  - 
             </span>
-            
-            
-            <time datetime="2020-09-01">2020-09-01</time>
-            
+            <time datetime="2021-08-16">2021-08-16</time>
         </div>
-        <div>
-        <div class="project-image-frame">
-            <img class="project-image-single" src="Tristar-VE-5874.jpg" alt="Project image">
-        </div>
-        </div>
-    </header>
-    
-    <p>Wir haben seit wir den Reator gegründet haben das Problem das es im Sommer unangenehm warm wird und wir nur die Eingangstüre als Lüftungsmöglichkeit.
-Drum haben wir uns diesen Sommer entschieden einen dieser günstigen Wandventilatoren zu kaufen um es ein wenig erträglicher zu haben.</p>
-<p>Das das ganze nicht wie vom Hersteller gedacht über Zugschnüre gesteuert werden soll versteht sich ja von selbst 😎</p>
-<h1 id="ausgangszustand">Ausgangszustand</h1>
-
-
-<figure class="figure m-1">
-    <a href="/projects/restfan/Restfan-0.jpg" data-featherlight="image">
-        <img src="/projects/restfan/Restfan-0_hu1072ffb7e4c2b8fc7d221dd53eb3dfa6_3240292_600x0_resize_q80_lanczos.jpg" class="figure-img img-thumbnail " width="600">
-    </a>
-    
-</figure>
-
-<p>Der Lüfter verfügt über zwei Schnüre zur Steuerung, eine dreht einen Drehschalter bei jedem Zug um eine Stellung weiter.
-Hierdurch werden die Lüfterstufen 1, 2, 3 und AUS durchgeschalten. Der Schalter schaltet die Phase auf den entsprechenden Draht.</p>
-<p>Der zweite Schalter schaltet den N auf den Motor der für die Oszillation zuständig ist. Solange keine der Lüfterstufen geschaltet ist, oszilliert auch der Lüfter nicht weil keine Phase anliegt.</p>
-<h1 id="restfan-platine">RESTfan Platine</h1>
-<p>Die Platine ist im Grunde recht simpel aufgebaut. Sie verfügt über einen Hi-Link AC-DC converter der aus der Netzspannung 5VDC generiert, einem WEMOS D1 mini das die Steuerng übernimmt und 4 5VDC Finder Relais die die Stufen sowie die Oszillationschalten und somit die beiden Schalter nachbilden.</p>
-
-
-<figure class="figure m-1">
-    <a href="/projects/restfan/Restfan-1.jpg" data-featherlight="image">
-        <img src="/projects/restfan/Restfan-1_hu63c81d83388d087703846f18c47ab46c_2939726_600x0_resize_q80_lanczos.jpg" class="figure-img img-thumbnail " width="600">
-    </a>
-    
-</figure>
-
-
-
-<figure class="figure m-1">
-    <a href="/projects/restfan/Restfan-2.jpg" data-featherlight="image">
-        <img src="/projects/restfan/Restfan-2_hu6b95c38aa1049e4fa7fd9dde0e672994_3910326_600x0_resize_q80_lanczos.jpg" class="figure-img img-thumbnail " width="600">
-    </a>
-    
-</figure>
-
-<p>Die KiCAD files finden sich <a href="https://github.com/reaktor23/RESTfan/tree/master/KiCAD/RESTfan">hier</a></p>
-<h1 id="software">Software</h1>
-<p>Auf dem WEMOS läuft recht trivialer code der eine Hand voll POST und GET requests entgegen nimmt die dan entsprechende Relais Konstellationen schalten.</p>
-<p>Der Code findet sich ebenfalls <a href="https://github.com/reaktor23/RESTfan/tree/master/PlatformIO/RESTfan">hier</a></p>
-<h2 id="rest-endpoints">REST endpoints</h2>
-<p>Die REST endpoints sind eigentlich selbsterklärend (alles POST requests, ausser /state)</p>
+	</header>
+	<p>Nach langer Überlegung haben wir uns entschlossen den Reaktor wieder zu öffnen.</p>
+<p>Seit Heute, dem 16. August 2021 ist es in Baden-Würtemberg nicht mehr Inzidenzabhängig ob eine Location geöffnet sein darf.
+Es gelten die 3G Regeln (Geimpft, Genesen oder Getestet), detailiert nachzulesen in der <a href="https://stm.baden-wuerttemberg.de/de/service/presse/meldung/pid/corona-beschraenkungen-fuer-geimpfte-und-genesene-werden-weitgehend-aufgehoben/">Mitteilung des Staatsministeriums</a></p>
+<p>Zitat:</p>
+<blockquote>
+<p>Bei Veranstaltungen/Aktivitäten in geschlossenen Räumen müssen alle Besucherinnen und Besucher einen Geimpftennachweis, einen Genesenennachweis oder ein negativen Corona Antigen-Schnelltest vorweisen.</p></p>
+</blockquote>
+<p>Falls du uns als Nichtmitglied besuchen möchtest, bitten wir dich uns vorher über deinen Besuch zu informiern so das wir sicherstellen können das sich die 1.5m Abstand auch einhalten lassen.</p>
 <ul>
-<li>
-<p><code>http://&lt;ip&gt;/state</code> Gibt ein JSON object mit dem aktuellen state zurück</p>
-</li>
-<li>
-<p><code>http://&lt;ip&gt;/off</code> Lüfter und Oszillation AUS</p>
-</li>
-<li>
-<p><code>http://&lt;ip&gt;/speed/1</code> Lüfter Stufe 1</p>
-</li>
-<li>
-<p><code>http://&lt;ip&gt;/speed/2</code> Lüfter Stufe 2</p>
-</li>
-<li>
-<p><code>http://&lt;ip&gt;/speed/3</code> Lüfter Stufe 3</p>
-</li>
-<li>
-<p><code>http://&lt;ip&gt;/oscillation/on</code> Oszillation EIN</p>
-</li>
-<li>
-<p><code>http://&lt;ip&gt;/oscillation/off</code> Oszillation AUS</p>
-</li>
+<li>Matrix: #reaktor23:reaktor23.org</li>
+<li>E-Mail: info (ät) reaktor23 (Punkt) org</li>
 </ul>
-<p>das ganze wird natürlich in unserem <a href="https://reaktor23.org/projects/pwrcmdr2/">PowerCommander</a> integriert um einfach steuerbar zu sein.</p>
 
 </article>
 

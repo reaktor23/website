@@ -165,7 +165,7 @@ Die Datenbank ist jetzt ein Postgres das auf unserem actse server läuft und ein
 <p>Die Eingänge werden über die rpi_gpio integration abgefragt und lösen ein event aus, allerdings kann es passieren das wenn der Kontakt prellt das der state nicht stimmt was sehr unglücklich ist.
 Als Workaround haben wir das <code>rpi_gpio</code> Verzeichnis von <a href="https://github.com/home-assistant/core/tree/dev/homeassistant/components/rpi_gpio">GitHub</a> nach config/custom_components/rpi_gpio kopiert und die Zeile 75 in der Datei <code>switch.py</code> geändert das sie True zurückgibt.
 Dadurch wird die rpi_gpio integration als custom_component geladen und verhindert das laden der Originalen Integration.</p>
-<pre><code>    @property
+<pre tabindex="0"><code>    @property
     def should_poll(self):
         &quot;&quot;&quot;No polling needed.&quot;&quot;&quot;
         return True
@@ -200,7 +200,7 @@ Dadurch wird die rpi_gpio integration als custom_component geladen und verhinder
 
         <br />
 
-        <span style="font-size: 0.7em;">build time: 2021-08-20 14:39 UTC</span>
+        <span style="font-size: 0.7em;">build time: 2021-10-05 04:59 UTC</span>
     </div>
 </footer>
 

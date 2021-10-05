@@ -606,7 +606,7 @@ Die Datenbank ist jetzt ein Postgres das auf unserem actse server läuft und ein
 &lt;p&gt;Die Eingänge werden über die rpi_gpio integration abgefragt und lösen ein event aus, allerdings kann es passieren das wenn der Kontakt prellt das der state nicht stimmt was sehr unglücklich ist.
 Als Workaround haben wir das &lt;code&gt;rpi_gpio&lt;/code&gt; Verzeichnis von &lt;a href=&#34;https://github.com/home-assistant/core/tree/dev/homeassistant/components/rpi_gpio&#34;&gt;GitHub&lt;/a&gt; nach config/custom_components/rpi_gpio kopiert und die Zeile 75 in der Datei &lt;code&gt;switch.py&lt;/code&gt; geändert das sie True zurückgibt.
 Dadurch wird die rpi_gpio integration als custom_component geladen und verhindert das laden der Originalen Integration.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;    @property
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;    @property
     def should_poll(self):
         &amp;quot;&amp;quot;&amp;quot;No polling needed.&amp;quot;&amp;quot;&amp;quot;
         return True
@@ -658,10 +658,10 @@ Diesen Prozess werden wir hier dokumentieren.&lt;/p&gt;
 &lt;h2 id=&#34;erster-akt-das-realtime---betriebssystem-installieren&#34;&gt;Erster Akt: Das Realtime - Betriebssystem installieren&lt;/h2&gt;
 &lt;p&gt;Debian Stretch Netinstaller von &lt;a href=&#34;https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.6.0-amd64-netinst.iso&#34;&gt;hier&lt;/a&gt; herunterladen.&lt;/p&gt;
 &lt;p&gt;Image mit z.B. dd auf einen USB Stick schreiben (Achtung, sichergehen das /dev/sdb auch der USB Stick ist!):&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo dd if=debian-9.6.0-amd64-netinst.iso of=/dev/sdb bs=4M status=progress
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo dd if=debian-9.6.0-amd64-netinst.iso of=/dev/sdb bs=4M status=progress
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;USB Stick in den Rechner und davon booten, Debian installieren und anschliessend das frisch installierte System booten.&lt;/p&gt;
 &lt;p&gt;Terminal öffnen und folgende Befehle ausführen:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;# Als Root anmelden 
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# Als Root anmelden 
 su -
 
 # System updaten
@@ -704,7 +704,7 @@ Da sollte dann so etwas wie &lt;code&gt;Linux mill 4.9.0-8-rt-amd64 #1 SMP PREEM
 &lt;p&gt;Zum Testen wird ein Terminal geöffnet, in dem der Befehl &lt;code&gt;ping -c 4 191.168.1.1&lt;/code&gt; eingegeben wird. Lautet die Antwort &lt;code&gt;4 packets transmitted, 4 received, 0% packet loss&lt;/code&gt;, so sollte alles richtig eingestellt sein.&lt;/p&gt;
 &lt;h2 id=&#34;dritter-akt-linuxcnc-einrichten-und-konfiguration&#34;&gt;Dritter Akt: LinuxCNC einrichten und Konfiguration&lt;/h2&gt;
 &lt;p&gt;Die Konfiguration findet über &lt;strong&gt;.ini&lt;/strong&gt; und &lt;strong&gt;.hal&lt;/strong&gt; files statt. Diese liegen auf unserem Fräsen Rechner unter &lt;code&gt;~/linuxcnc&lt;/code&gt; aber im Grunde ist es egal wo man seine config files ablegt, man übergibt den Pfad zum .ini file sowieso beim starten von linuxcnc.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;# ins home verzeichnis wechseln
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# ins home verzeichnis wechseln
 cd ~
 # Konfig unserer Fräse von Github clonen
 git clone https://github.com/reaktor23/MillyMcMillface.git linuxcnc
@@ -1648,7 +1648,7 @@ Die Bohrmaschine ist auf einem Stück Führungsschiene montiert, und wird von ei
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;POST String:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-8&amp;quot;?&amp;gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-8&amp;quot;?&amp;gt;
     &amp;lt;SOAP-ENV:Envelope 
         xmlns:SOAP-ENV=&amp;quot;http://schemas.xmlsoap.org/soap/envelope/&amp;quot; 
         xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; 
@@ -1683,7 +1683,7 @@ Die Bohrmaschine ist auf einem Stück Führungsschiene montiert, und wird von ei
 &lt;p&gt;Post Parameter:&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;datzeitvonbis=1333929600-1334098800
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;datzeitvonbis=1333929600-1334098800
 stationen=B01,B02,B03,B04,B05,B06,B07,B08,B09,B10,B11,B12,B13,B14,B15,B16,B17 
 komponenten=ODL,NDS
 kkwnr=0
@@ -1992,7 +1992,7 @@ verschlossener Türe steht!&lt;/p&gt;
 &lt;p&gt;Jitsi Meet: &lt;a href=&#34;https://meet.reaktor23.org/chat&#34;&gt;https://meet.reaktor23.org/chat&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ort&#34;&gt;Ort&lt;/h2&gt;
 &lt;p&gt;Die Adresse lautet:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;Reaktor23
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Reaktor23
 Badstrasse 29a
 79761 Waldshut-Tiengen
 Deutschland

@@ -127,10 +127,10 @@ Diesen Prozess werden wir hier dokumentieren.</p>
 <h2 id="erster-akt-das-realtime---betriebssystem-installieren">Erster Akt: Das Realtime - Betriebssystem installieren</h2>
 <p>Debian Stretch Netinstaller von <a href="https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.6.0-amd64-netinst.iso">hier</a> herunterladen.</p>
 <p>Image mit z.B. dd auf einen USB Stick schreiben (Achtung, sichergehen das /dev/sdb auch der USB Stick ist!):</p>
-<pre><code>sudo dd if=debian-9.6.0-amd64-netinst.iso of=/dev/sdb bs=4M status=progress
+<pre tabindex="0"><code>sudo dd if=debian-9.6.0-amd64-netinst.iso of=/dev/sdb bs=4M status=progress
 </code></pre><p>USB Stick in den Rechner und davon booten, Debian installieren und anschliessend das frisch installierte System booten.</p>
 <p>Terminal öffnen und folgende Befehle ausführen:</p>
-<pre><code># Als Root anmelden 
+<pre tabindex="0"><code># Als Root anmelden 
 su -
 
 # System updaten
@@ -173,7 +173,7 @@ Da sollte dann so etwas wie <code>Linux mill 4.9.0-8-rt-amd64 #1 SMP PREEMPT RT 
 <p>Zum Testen wird ein Terminal geöffnet, in dem der Befehl <code>ping -c 4 191.168.1.1</code> eingegeben wird. Lautet die Antwort <code>4 packets transmitted, 4 received, 0% packet loss</code>, so sollte alles richtig eingestellt sein.</p>
 <h2 id="dritter-akt-linuxcnc-einrichten-und-konfiguration">Dritter Akt: LinuxCNC einrichten und Konfiguration</h2>
 <p>Die Konfiguration findet über <strong>.ini</strong> und <strong>.hal</strong> files statt. Diese liegen auf unserem Fräsen Rechner unter <code>~/linuxcnc</code> aber im Grunde ist es egal wo man seine config files ablegt, man übergibt den Pfad zum .ini file sowieso beim starten von linuxcnc.</p>
-<pre><code># ins home verzeichnis wechseln
+<pre tabindex="0"><code># ins home verzeichnis wechseln
 cd ~
 # Konfig unserer Fräse von Github clonen
 git clone https://github.com/reaktor23/MillyMcMillface.git linuxcnc
@@ -232,7 +232,7 @@ Auch dies haben wir <a href="https://github.com/reaktor23/linuxcnc-wiki/blob/mas
 
         <br />
 
-        <span style="font-size: 0.7em;">build time: 2021-08-20 14:39 UTC</span>
+        <span style="font-size: 0.7em;">build time: 2021-10-05 04:59 UTC</span>
     </div>
 </footer>
 

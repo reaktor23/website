@@ -3,7 +3,7 @@ title: Reaktor23
 draft: false
 ---
 
-Reaktor23 ist ein Hackerspace in Waldshut-Tiengen, Baden-Würtemberg,
+Reaktor23 ist ein Hackerspace in Waldshut-Tiengen, Baden-Württemberg,
 Deutschland, Erde, Milchstrasse. Gegründet um Leuten eine Plattform zu bieten,
 ihre Kreativität frei auszuleben, zu lernen wie Dinge funktionieren, um neue
 Dinge zu erschaffen.

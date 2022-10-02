@@ -27,14 +27,14 @@ jobs:
 
       - name: Build website 🔧
         run: |
-          hugo -v --cleanDestinationDir --baseURL="https://reaktor23.org/_test/${{github.event.number}}"
+          hugo -v --cleanDestinationDir --baseURL="https://reaktor23.org/test/${{github.event.number}}"
 
       - name: Deploy to gh-pages 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
           branch: gh-pages
           folder: public
-          target-folder: _test/${{github.event.number}}
+          target-folder: test/${{github.event.number}}
 
       - name: Create comment with link to testbuild
         uses: actions/github-script@v5

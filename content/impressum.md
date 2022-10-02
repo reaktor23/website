@@ -9,7 +9,7 @@ p. Adr. Samuel Barabas\
 Badstrasse 29a\
 79761 Waldshut-Tiengen
 
-E-Mail: info (ät) reaktor23 (Punkt) org
+E-Mail: hello (ät) reaktor23 (Punkt) org
 
 
 # Datenschutzerklärung

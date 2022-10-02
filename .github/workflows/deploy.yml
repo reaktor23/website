@@ -34,3 +34,4 @@ jobs:
         with:
           branch: gh-pages
           folder: public
+          clean-exclude: _test

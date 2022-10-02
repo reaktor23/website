@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="de-de">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		
+		<title>pwrcmdr</title>
+		
+		<link rel="stylesheet" href="https://reaktor23.org/_test/37/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="https://reaktor23.org/_test/37/css/font-awesome.min.css"/>
+		<link rel="stylesheet" href="https://reaktor23.org/_test/37/css/style.css"/>
+		<link rel="stylesheet" href="https://reaktor23.org/_test/37/css/opensans.css"/>
+		<link rel="stylesheet" href="https://reaktor23.org/_test/37/css/featherlight.min.css"/>
+		<meta name="theme-color" content="#46b71d">
+		
+	</head>
+	<body>
+		<a href="https://github.com/reaktor23/website" class="github-corner d-none d-sm-block" aria-label="View source on Github">
+  <svg width="80" height="80" viewBox="0 0 250 250" style="fill: #46b71d; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+    <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+    <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path>
+  </svg>
+</a>
+<style>
+  .github-corner:hover .octo-arm {
+    animation:octocat-wave 560ms ease-in-out
+  }
+  @keyframes octocat-wave {
+    0%, 100% { transform:rotate(0) }
+    20%, 60% { transform:rotate(-25deg) }
+    40%, 80% { transform:rotate(10deg) }
+  }
+  @media (max-width:500px) {
+    .github-corner:hover .octo-arm {
+      animation:none
+    }
+    .github-corner .octo-arm {
+      animation:octocat-wave 560ms ease-in-out
+    }
+  }
+</style>
+
+		<div class="container" role="main">
+		<header>
+	<nav class="navbar navbar-expand-md mb-4 navbar-light">
+		<a href="https://reaktor23.org/_test/37" class="navbar-brand mr-5"><img src="/img/logo.png" alt="Reaktor23 - Hackerspace"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				
+				
+				<li class="nav-item mr-3">
+					<a href="/_test/37/blog/" class="nav-link">Blog</a>
+				</li>
+				
+				<li class="nav-item mr-3">
+					<a href="/_test/37/about/" class="nav-link">About</a>
+				</li>
+				
+				<li class="nav-item mr-3">
+					<a href="/_test/37/projects/" class="nav-link">Projects</a>
+				</li>
+				
+				<li class="nav-item mr-3">
+					<a href="/_test/37/talks/" class="nav-link">Talks</a>
+				</li>
+				
+			</ul>
+		</div>
+        <div id="reaktorstatus" class="text-center">
+            Reaktor status:
+            <div id="message" class="text-success"></div>
+            <div class="small"><a href="/status/"><i class="fa fa-info-circle" aria-hidden="true"></i></a></div>
+        </div>
+	</nav>
+</header>
+
+
+		
+<article>
+    <header>
+        <h1 class="headline my-3"><a href="https://reaktor23.org/_test/37/projects/pwrcmdr/">pwrcmdr</a></h1>
+        <div class="meta">
+            
+            <span class="author">by Bouni 
+                 - 
+            </span>
+            
+            
+            <time datetime="2017-12-31">2017-12-31</time>
+            
+        </div>
+        <div>
+        <div class="project-image-frame">
+            <img class="project-image-single" src="bgetech_drt428b.jpg" alt="Project image">
+        </div>
+        </div>
+    </header>
+    
+    <h1 id="verbrauchsmessung">Verbrauchsmessung</h1>
+<p>Wir werden unsern Stromverbrauch messen &amp; loggen.</p>
+<p>Zum Einsatz kommt ein <a href="http://bg-etech.de/index.php?optioncom_content&amp;viewarticle&amp;id57&amp;Itemid60">S0 Schnittstelle</a> (Nein nicht S0 Bus von der ISDN Anlage ;-))</p>
+<p>
+
+<figure class="figure m-1">
+    <a href="/_test/37/projects/pwrcmdr/bgetech_drt428b.jpg" data-featherlight="image">
+        <img src="/_test/37/projects/pwrcmdr/bgetech_drt428b_hu14cf9f5c2b70b0e519e12834dbe190f0_235890_200x0_resize_q80_lanczos.jpg" class="figure-img img-thumbnail " width="200">
+    </a>
+    
+</figure>
+
+
+
+<figure class="figure m-1">
+    <a href="/_test/37/projects/pwrcmdr/s0-beschaltung.png" data-featherlight="image">
+        <img src="/_test/37/projects/pwrcmdr/s0-beschaltung_hu0950aded8f0d29e87631906bb8d8c681_9532_400x0_resize_lanczos_3.png" class="figure-img img-thumbnail " width="400">
+    </a>
+    
+</figure>
+</p>
+<h1 id="projekt-history">Projekt History</h1>
+<ul>
+<li><strong>09.08.2011</strong>: Es wurden erste Versuche unternommen die S0 Schnittstelle auszuwerten. Leider erfolglos.</li>
+<li><strong>30.08.2011</strong>: Nach dem sich herausgestellt hat das die Drähte einfach verkehrt herum angeschlossen waren hat man auf dem Oszi nun saubere Pulse gesehen.</li>
+<li><strong>04.10.2011</strong>: Nach einigem hin und her bin ich zu dem Schluss gekommen, das ein [[http://arduino.cc/en/Main/ArduinoBoardEthernet|Arduino Ethernet Board]] billiger kommt als ein kompletter Eigenbau. Gesagt, getan. Board ist hier, Prototyp des Shields ist fertig. Fehlt nur noch der Code.</li>
+<li><strong>30.10.2012</strong>: Da der Prototyp nie mit code belebt wurde und sowieso eine geätzte Platine her musste, wurde heute eben diese Platine geätzt.</li>
+<li><strong>06.11.2012</strong>: Die fertig bestückte Platine ist komplett und die Basisfunktionen sind im Tischaufbau getestet. Nun soll die Platine noch in die Plastikbox die momentan die Schützsteuerung beherbergt eingebaut werden. \ 
+
+<figure class="figure m-1">
+    <a href="/_test/37/projects/pwrcmdr/pwrcmdr-1.0.4.jpg" data-featherlight="image">
+        <img src="/_test/37/projects/pwrcmdr/pwrcmdr-1.0.4_huce11387eddb2cb2f262d482faa2630c2_1614152_400x0_resize_q80_lanczos.jpg" class="figure-img img-thumbnail " width="400">
+    </a>
+    
+</figure>
+</li>
+<li><strong>22.04.2014</strong>: <em>Pust</em> <em>Entstaub</em>, Neuer code für das Arduino Rthernet ist geschrieben und zu 75% fertig. Eine Webapplication ist auch in der mache um einerseits verschiedenen Messwerte zu loggen, als diese auch in visuell ansprechender Form darzustellen. \ 
+
+<figure class="figure m-1">
+    <a href="/_test/37/projects/pwrcmdr/powercmdr-web.png" data-featherlight="image">
+        <img src="/_test/37/projects/pwrcmdr/powercmdr-web_huf2447e23a0ae02fe6e55c66dd7d7e185_26478_600x0_resize_lanczos_3.png" class="figure-img img-thumbnail " width="600">
+    </a>
+    
+</figure>
+</li>
+<li><strong>01.05.2014</strong>: Das System läuft soweit, leider kommt es ab und zu zu seltsamen Ausschlägen bei den den gezählten S0 Pulsen. \ 
+
+<figure class="figure m-1">
+    <a href="/_test/37/projects/pwrcmdr/s0-errors-1.png" data-featherlight="image">
+        <img src="/_test/37/projects/pwrcmdr/s0-errors-1_hu5f567ff3dfc89f72027ce4eaaca70527_39658_600x0_resize_lanczos_3.png" class="figure-img img-thumbnail " width="600">
+    </a>
+    
+</figure>
+</li>
+<li><strong>13.05.2014</strong>: Die Platine wurde nochmal überarbeitet und ein Prototyp bei pcb-devboards bestellt. \ 
+
+<figure class="figure m-1">
+    <a href="/_test/37/projects/pwrcmdr/powercmdr1.0.5.png" data-featherlight="image">
+        <img src="/_test/37/projects/pwrcmdr/powercmdr1.0.5_huecd353f10e186bf30afd02a8b1bd07e8_184190_600x0_resize_lanczos_3.png" class="figure-img img-thumbnail " width="600">
+    </a>
+    
+</figure>
+</li>
+</ul>
+<h1 id="dokumentation-version-105">Dokumentation Version 1.0.5</h1>
+<ul>
+<li>A0: Reserve Klemme 5V-A0-GND</li>
+<li>A1: Reserve Klemme 5V-A1-GND</li>
+<li>A2: Reserve Klemme 5V-A2-GND</li>
+<li>A3: Reserve Klemme 5V-A3-GND</li>
+<li>A4: Reserve Klemme 5V-A4-GND</li>
+<li>A5: Reserve Klemme 5V-A5-GND und 6x 1-wire Klemmen, per Brücke wählbar</li>
+<li>0: Reserve Klemme 5V-0-GND</li>
+<li>1: Reserve Klemme 5V-1-GND</li>
+<li>2: S0 Interface (INT0)</li>
+<li>3: Schützkreis #2 Status</li>
+<li>4: N.C.</li>
+<li>5: Schützkreis #2 AUS</li>
+<li>6: Schützkreis #2 EIN</li>
+<li>7: Schützkreis #1 Status</li>
+<li>8: Schützkreis #1 AUS</li>
+<li>9: Schützkreis #1 EIN</li>
+<li>10: N.C.</li>
+<li>11: N.C.</li>
+<li>12: N.C.</li>
+<li>13: N.C.</li>
+</ul>
+<h1 id="dokumente">Dokumente</h1>
+<p><a href="die_s0-schnittstelle.pdf">Die S0 Schnittstelle</a></p>
+<h1 id="links">Links</h1>
+<p><a href="http://playground.arduino.cc/Main/EEM12L-32AKWhMonitoring">Arduino KwH Monitoring</a></p>
+
+</article>
+
+		</div>
+	<footer>
+    <div class="footer-copyright text-center py-3 text-muted">
+            <a href="/_test/37/impressum/" class="text-muted">Impressum / Datenschutz</a>
+
+        
+            <div class="d-sm-inline">
+                <span class="px-2 d-none d-sm-inline">&bull;</span>	
+                <i class="fa fa-rss text-muted mr-1" style="font-size: 1.25rem" aria-hidden="true"></i>
+                
+                    <a href="/_test/37/index.xml" class="text-muted">All</a>
+                 | 
+                    <a href="/_test/37/blog/index.xml" class="text-muted">Blog</a>
+                 | 
+                    <a href="/_test/37/projects/index.xml" class="text-muted">Projects</a>
+                </div><span class="px-2 d-none d-sm-inline">&bull;</span>
+
+        <a href="https://github.com/reaktor23">
+            <i class="fa fa-github text-muted" style="font-size: 1.25rem;" aria-hidden="true"></i>
+        </a>
+
+        <span class="px-2">&bull;</span>
+
+        <a href="https://serverstate.info/7wifrv" class="text-muted">Statuspage</a>
+
+        <br />
+
+        <span style="font-size: 0.7em;">build time: 2022-10-02 14:49 UTC</span>
+    </div>
+</footer>
+
+	<script src="https://reaktor23.org/_test/37/js/jquery.min.js"></script>
+<script src="https://reaktor23.org/_test/37/js/showdown.min.js"></script>
+<script src="https://reaktor23.org/_test/37/js/bootstrap.min.js"></script>
+<script src="https://reaktor23.org/_test/37/js/featherlight.min.js"></script>
+<script src="https://reaktor23.org/_test/37/js/reaktorstatus.js"></script>
+<script src="https://reaktor23.org/_test/37/js/talks.js"></script>
+
+</body>
+</html>

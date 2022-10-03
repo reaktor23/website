@@ -7,7 +7,7 @@
 
         {{ if .Site.Menus.rss }}
             <div class="d-sm-inline">
-                <span class="px-2 d-none d-sm-inline">&bull;</span>	
+                <span class="px-2 d-none d-sm-inline">&bull;</span>
                 <i class="fa fa-rss text-muted mr-1" style="font-size: 1.25rem" aria-hidden="true"></i>
                 {{ range $i, $e := .Site.Menus.rss }}
                     {{- if gt $i 0 }} | {{ end }}
@@ -21,10 +21,6 @@
         <a href="https://github.com/reaktor23">
             <i class="fa fa-github text-muted" style="font-size: 1.25rem;" aria-hidden="true"></i>
         </a>
-
-        <span class="px-2">&bull;</span>
-
-        <a href="https://serverstate.info/7wifrv" class="text-muted">Statuspage</a>
 
         <br />
 

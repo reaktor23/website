@@ -16,4 +16,4 @@ Falls du uns als Nichtmitglied besuchen möchtest, bitten wir dich uns vorher ü
 
 
 - Matrix: #reaktor23:reaktor23.org
-- E-Mail: contact (ät) reaktor23 (Punkt) org
+- E-Mail: hello (ät) reaktor23 (Punkt) org

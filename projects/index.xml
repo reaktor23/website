@@ -6,159 +6,130 @@
     <description>Recent content in Projects on Reaktor23 - Hackerspace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Wed, 28 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://reaktor23.org/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://reaktor23.org/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cashdesk</title>
       <link>https://reaktor23.org/projects/cashdesk/</link>
       <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://reaktor23.org/projects/cashdesk/</guid>
       <description>Reaktor23 cashdesk We had just a whiteboard for a very long time to keep track of our drink consumptions and it was about time to get a new solution! So we built a web app called cashdesk
 It is based on trust, so we do not have a login or other means of authentication in place.
 You select your account on the landing page
-  In the account details you see your funds, the logs of your vends, your deposits and two buttons for vending a drink and toping up your account.</description>
+In the account details you see your funds, the logs of your vends, your deposits and two buttons for vending a drink and toping up your account.</description>
     </item>
-    
     <item>
       <title>RESTfan</title>
       <link>https://reaktor23.org/projects/restfan/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://reaktor23.org/projects/restfan/</guid>
       <description>Wir haben seit wir den Reator gegründet haben das Problem das es im Sommer unangenehm warm wird und wir nur die Eingangstüre als Lüftungsmöglichkeit. Drum haben wir uns diesen Sommer entschieden einen dieser günstigen Wandventilatoren zu kaufen um es ein wenig erträglicher zu haben.
-Das das ganze nicht wie vom Hersteller gedacht über Zugschnüre gesteuert werden soll versteht sich ja von selbst 😎
-Ausgangszustand   Der Lüfter verfügt über zwei Schnüre zur Steuerung, eine dreht einen Drehschalter bei jedem Zug um eine Stellung weiter.</description>
+Das das ganze nicht wie vom Hersteller gedacht über Zugschnüre gesteuert werden soll versteht sich ja von selbst &amp;#x1f60e;
+Ausgangszustand Der Lüfter verfügt über zwei Schnüre zur Steuerung, eine dreht einen Drehschalter bei jedem Zug um eine Stellung weiter.</description>
     </item>
-    
     <item>
       <title>Mate Dealer 3.0</title>
       <link>https://reaktor23.org/projects/matedealer3/</link>
       <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://reaktor23.org/projects/matedealer3/</guid>
       <description>The background It all started with MateDealer 1.0 with all its original electronics extended by an MDB implementation. The controller died for some unknown reason and the MateDealer sat there in an pitiful state for a quite long time.
 Then we decided to build our own new controller board based on an Arduino Mega2560 and an Alix 3d3. MateDealer 2.0 was born. This itteration never took of as we had problems getting the communication between the Arduino and the PC working flawlessly.</description>
     </item>
-    
     <item>
       <title>pwrcmdr2</title>
       <link>https://reaktor23.org/projects/pwrcmdr2/</link>
       <pubDate>Wed, 17 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://reaktor23.org/projects/pwrcmdr2/</guid>
       <description>Wir haben noch 4 Platinen für den pwrCMDer übrig und würden diese gerne gratis an andere Hackerspaces abgeben wenn Interesse besteht. Eine Liste mit Bauteilen für die Bestellung bei Pollin ist ebenfalls vorhanden. Der einzige Knackpunkt ist das ein kleiner Layoutfehler bei den Optokopplern unterlaufen ist und das Pinout nicht stimmt. Das kann aber mit ein wenig gutem altem Pfusch behoben werden (genauere Infos auf Anfrage).
- Warum? Unser aktueller bisheriger pwrCMDr bestand aus einem Arduino-Ethernet auf einer selbstgeätzten Platine.</description>
+Warum? Unser aktueller bisheriger pwrCMDr bestand aus einem Arduino-Ethernet auf einer selbstgeätzten Platine.</description>
     </item>
-    
     <item>
       <title>MillyMcMillface</title>
       <link>https://reaktor23.org/projects/millymcmillface/</link>
       <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://reaktor23.org/projects/millymcmillface/</guid>
       <description>Vorgeschichte Es bestand schon lange der Plan, eine CNC Fräse zu bauen, doch das war lange nur ein Plan. Vor ca. einem Jahr ist die Fräse von Valentin im Zuge von Jugend Forscht gebaut worden. Leider bereitet das Smoothieboard, das die Fräse steuert, ein paar Probleme. Deshalb wurde beschlossen, auf eine LinuxCNC basierte Steuerung umzubauen. Diesen Prozess werden wir hier dokumentieren.
-Video   Hardware Elektronik Angetrieben werden die Achsen von Nema34 Schrittmotoren.</description>
+Video Hardware Elektronik Angetrieben werden die Achsen von Nema34 Schrittmotoren.</description>
     </item>
-    
     <item>
       <title>CTF</title>
       <link>https://reaktor23.org/projects/ctf/</link>
       <pubDate>Mon, 09 Jul 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://reaktor23.org/projects/ctf/</guid>
-      <description>CTFs  https://capturetheflag.withgoogle.com http://overthewire.org/wargames/natas/ https://www.root-me.org/?lang=en  Title image by: https://www.flickr.com/photos/christiaancolen/20607150556</description>
+      <description>CTFs https://capturetheflag.withgoogle.com http://overthewire.org/wargames/natas/ https://www.root-me.org/?lang=en Title image by: https://www.flickr.com/photos/christiaancolen/20607150556</description>
     </item>
-    
     <item>
       <title>Elektro Longboard</title>
       <link>https://reaktor23.org/projects/elektrolongboard/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://reaktor23.org/projects/elektrolongboard/</guid>
-      <description>Wie kam ich auf die Idee  Nach dem ich in der Glotze einen Bericht über Elektroboards sah war für mich klar so ein Teil will ich auch!! Zunächst suchte ich im Netz nach Anbietern fertiger Boards wobei mir hier die Boards von Evolve und Boosted ins Auge stachen. Da ich diese aber recht teuer fand war die Idee eines Eigenbau gebohren. Eine sehr hilfreiche Seite beim Stöbern nach Ideen ist das Elektro-Skateboard Forum.</description>
+      <description>Wie kam ich auf die Idee Nach dem ich in der Glotze einen Bericht über Elektroboards sah war für mich klar so ein Teil will ich auch!! Zunächst suchte ich im Netz nach Anbietern fertiger Boards wobei mir hier die Boards von Evolve und Boosted ins Auge stachen. Da ich diese aber recht teuer fand war die Idee eines Eigenbau gebohren. Eine sehr hilfreiche Seite beim Stöbern nach Ideen ist das Elektro-Skateboard Forum.</description>
     </item>
-    
     <item>
       <title>Flipdot</title>
       <link>https://reaktor23.org/projects/flipdot/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://reaktor23.org/projects/flipdot/</guid>
       <description>Ansteuerung Auf der Platine ist bereits ein FP2800 verbaut, und alle Zeilen sind mit Hilfe des PCB auf diesen verdrahtet. Der andere Anschluss jedes Pixels ist mit 2 Dioden auf je eine Leiterbahn verbunden die die Spalten miteinander verbinden.
-Dieses Bild soll anhand von 4 Pixeln verdeutlichen wie die Matrix verschalten ist.   Dies ist die Transistorschaltung die wir momentan zum schalten der Reihen einsetzen.   Bilder   Videos   Datenblätter  flip.</description>
+Dieses Bild soll anhand von 4 Pixeln verdeutlichen wie die Matrix verschalten ist. Dies ist die Transistorschaltung die wir momentan zum schalten der Reihen einsetzen. Bilder Videos Datenblätter flip.pdf FP2800 Datasheet </description>
     </item>
-    
     <item>
       <title>Mate Dealer</title>
       <link>https://reaktor23.org/projects/matedealer/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://reaktor23.org/projects/matedealer/</guid>
       <description>There is a enlish version of this site: Mate Dealer
 Der MateDealer in der hier beschriebenen Konfiguration ist tot. Die Mechanischen Teile werden für den MateDealer 2.0 benutzt.
-Der Ausgangszustand  Hersteller: Sanden Vendo Model: VDI 100-5 5 Produktschächte Betriebsspannung: 230VAC 50Hz Nominale Leistungsaufnahme: 450W Gewicht: 200kg Baujahr: 02/2003 Kaufpreis: ~400 € Münzprüfer NRI G40.4000/4-0752 (EUR &amp;amp; GBP)         So sah der Automat aus als wir ihn abgeholt haben.</description>
+Der Ausgangszustand Hersteller: Sanden Vendo Model: VDI 100-5 5 Produktschächte Betriebsspannung: 230VAC 50Hz Nominale Leistungsaufnahme: 450W Gewicht: 200kg Baujahr: 02/2003 Kaufpreis: ~400 € Münzprüfer NRI G40.4000/4-0752 (EUR &amp;amp; GBP) So sah der Automat aus als wir ihn abgeholt haben.
+Unterlagen zum Automaten Einstell Anleitung für die BB01 Steuerplatine Programmieranleitung für den Automaten Handbuch zum Münzprüfer Verfügbare Tubenvarianten des Münzprüfers Spezifikation zum MDB Protokoll Ein Log der Kommunikation vom 13.</description>
     </item>
-    
     <item>
       <title>Mate Dealer 2.0</title>
       <link>https://reaktor23.org/projects/matedealer2/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://reaktor23.org/projects/matedealer2/</guid>
-      <description>Changes to MateDealer 1.0  completely custom build VMC new wiring no buttons on the machine to interact with it -&amp;gt; web service / smartphone app only no MDB -&amp;gt; reduce the complexity a clear json based protocol  To Do List  renew the wiring of the slot motors ✓ renew the wiring of the slot empty switches ✓ renew the wiring of the motor position switches ✓ print a mount for the new vending machine controller ✓ design the pcb for then new vending machine controller ✓ mount the power supply in a nicer way than in the old MateDealer ✓ do the wiring on the vmc side ✓ write the code for the vmc ✓ write a Android/iOS app that can control the vending machine (the webapp works well for all devices) write a webinterface that can control the vending machine ✓(alpha)  Files  Eagle design files of the prototype board.</description>
+      <description>Changes to MateDealer 1.0 completely custom build VMC new wiring no buttons on the machine to interact with it -&amp;gt; web service / smartphone app only no MDB -&amp;gt; reduce the complexity a clear json based protocol To Do List renew the wiring of the slot motors ✓ renew the wiring of the slot empty switches ✓ renew the wiring of the motor position switches ✓ print a mount for the new vending machine controller ✓ design the pcb for then new vending machine controller ✓ mount the power supply in a nicer way than in the old MateDealer ✓ do the wiring on the vmc side ✓ write the code for the vmc ✓ write a Android/iOS app that can control the vending machine (the webapp works well for all devices) write a webinterface that can control the vending machine ✓(alpha) Files Eagle design files of the prototype board.</description>
     </item>
-    
     <item>
       <title>Platinenbohrmaschine</title>
       <link>https://reaktor23.org/projects/pcbdrill/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://reaktor23.org/projects/pcbdrill/</guid>
-      <description>Mechanik Die Vorrichtung ist so konstruiert, das sie an einer Tischplatte festgeklemmt wird. So ist das Gerät portabel und kann bei Nichtgebrauch einfach verstaut werden. Die Bohrmaschine ist eine Proxxon LB/E, die Langhals Variante wurde gewählt, um ein besseres einspannen in die Vorrichtung zu ermöglichen.\
-Die Bohrmaschine ist auf einem Stück Führungsschiene montiert, und wird von einem Exzenter nach oben gedrückt. Der Exzenter wird von einem Schrittmotor angetrieben.
+      <description>Mechanik Die Vorrichtung ist so konstruiert, das sie an einer Tischplatte festgeklemmt wird. So ist das Gerät portabel und kann bei Nichtgebrauch einfach verstaut werden. Die Bohrmaschine ist eine Proxxon LB/E, die Langhals Variante wurde gewählt, um ein besseres einspannen in die Vorrichtung zu ermöglichen.\ Die Bohrmaschine ist auf einem Stück Führungsschiene montiert, und wird von einem Exzenter nach oben gedrückt. Der Exzenter wird von einem Schrittmotor angetrieben.
 Elektronik Die Ansteuerung des Schrittmotors gestaltet sich recht einfach, da es sich um einen unipolaren Schrittmotor handelt.</description>
     </item>
-    
     <item>
       <title>pwrcmdr</title>
       <link>https://reaktor23.org/projects/pwrcmdr/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://reaktor23.org/projects/pwrcmdr/</guid>
       <description>Verbrauchsmessung Wir werden unsern Stromverbrauch messen &amp;amp; loggen.
 Zum Einsatz kommt ein S0 Schnittstelle (Nein nicht S0 Bus von der ISDN Anlage ;-))
-     Projekt History  09.08.2011: Es wurden erste Versuche unternommen die S0 Schnittstelle auszuwerten. Leider erfolglos. 30.08.2011: Nach dem sich herausgestellt hat das die Drähte einfach verkehrt herum angeschlossen waren hat man auf dem Oszi nun saubere Pulse gesehen. 04.10.2011: Nach einigem hin und her bin ich zu dem Schluss gekommen, das ein [[http://arduino.</description>
+Projekt History 09.08.2011: Es wurden erste Versuche unternommen die S0 Schnittstelle auszuwerten. Leider erfolglos. 30.08.2011: Nach dem sich herausgestellt hat das die Drähte einfach verkehrt herum angeschlossen waren hat man auf dem Oszi nun saubere Pulse gesehen. 04.10.2011: Nach einigem hin und her bin ich zu dem Schluss gekommen, das ein [[http://arduino.</description>
     </item>
-    
     <item>
       <title>R23 AudioControl</title>
       <link>https://reaktor23.org/projects/audiocontrol/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://reaktor23.org/projects/audiocontrol/</guid>
       <description>Hintergrund Da es ziemlich unpraktisch war, jedes Mal das Podest zu besteigen um das Radio einzuschalten, kauften wir einen neuen Verstärker und ein Mischpult. Als die Frage aufkam, wie man seine „mobilen Endgeräte“ ohne ein viel zu langes Audiokabel einstecken kann, kam die Idee auf, ein Modul zum bequemen Wechseln des Audioeingangs zu entwickeln.
 Funktion Das R23 AudioControl – Modul besteht aus einem ATmega8 sowie 4 Kleinsignalrelais, die über beleuchtete Taster ausgewählt werden und damit das Handy zum Mischpult durchzuschalten.</description>
     </item>
-    
     <item>
       <title>RadiationData</title>
       <link>https://reaktor23.org/projects/radiationdata/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://reaktor23.org/projects/radiationdata/</guid>
-      <description>Linksammlung  Landesamt fuer Umwelt BW European Radiological Data Exchange Platform ODL Daten vom BfS -&amp;gt; Login fuers beziehen des CSV ist beantragt  Datenquellen Deutschland Bundesamt fuer Strahlenschutz  Alle Daten sind auf dem Sever des BfS zu finden. Eine Beschreibung was alles verfügbar ist sowie was die Daten für eine Bedeutung haben.  Österreich Lebensministerium   Karte mit Messwerten
-  Land-, forst- und wasserwirtschaftliches Rechenzentrum GmbH, ohne Parameter bekommt man ein Query Formular zurück :)</description>
+      <description>Linksammlung Landesamt fuer Umwelt BW European Radiological Data Exchange Platform ODL Daten vom BfS -&amp;gt; Login fuers beziehen des CSV ist beantragt Datenquellen Deutschland Bundesamt fuer Strahlenschutz Alle Daten sind auf dem Sever des BfS zu finden. Eine Beschreibung was alles verfügbar ist sowie was die Daten für eine Bedeutung haben. Österreich Lebensministerium Karte mit Messwerten
+Land-, forst- und wasserwirtschaftliches Rechenzentrum GmbH, ohne Parameter bekommt man ein Query Formular zurück :)</description>
     </item>
-    
     <item>
       <title>Ultimaker</title>
       <link>https://reaktor23.org/projects/ultimaker/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://reaktor23.org/projects/ultimaker/</guid>
       <description>Current status of the ultimaker We added some feature to the original printer:
- Dual Extruder (printing with two different colores / two different materials) Heated Bed (better grip for the first layer / able to print ABS&amp;hellip;)   Available print materials    Color Material Quantity     light blue PLA 0.3kg   dark blue PLA 0.3kg   translucent blue PLA 0,65kg   silver PLA ?</description>
+Dual Extruder (printing with two different colores / two different materials) Heated Bed (better grip for the first layer / able to print ABS&amp;hellip;) Available print materials Color Material Quantity light blue PLA 0.3kg dark blue PLA 0.3kg translucent blue PLA 0,65kg silver PLA ?kg black PLA 2.5kg white PLA 1.5kg light green PLA 0.75kg yellow PLA 0.</description>
     </item>
-    
   </channel>
 </rss>

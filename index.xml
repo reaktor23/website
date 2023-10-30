@@ -166,7 +166,7 @@ Im Grunde ist es nicht wirklich schwierig, aber die kleinen Kniffe beim Umgang m
       <guid>https://reaktor23.org/projects/restfan/</guid>
       <description>&lt;p&gt;Wir haben seit wir den Reator gegründet haben das Problem das es im Sommer unangenehm warm wird und wir nur die Eingangstüre als Lüftungsmöglichkeit.
 Drum haben wir uns diesen Sommer entschieden einen dieser günstigen Wandventilatoren zu kaufen um es ein wenig erträglicher zu haben.&lt;/p&gt;
-&lt;p&gt;Das das ganze nicht wie vom Hersteller gedacht über Zugschnüre gesteuert werden soll versteht sich ja von selbst 😎&lt;/p&gt;
+&lt;p&gt;Das das ganze nicht wie vom Hersteller gedacht über Zugschnüre gesteuert werden soll versteht sich ja von selbst &amp;#x1f60e;&lt;/p&gt;
 &lt;h1 id=&#34;ausgangszustand&#34;&gt;Ausgangszustand&lt;/h1&gt;
 
 
@@ -460,14 +460,14 @@ We plan to let it send a information message when a slot runs empty for example 
 &lt;li&gt;I used relays that are rated for 3A because I guessed the actual motor current (and I had dozens of them laying around). I decided to use them directly until they start to fail. If that happens I replace them and use additional relays that are controlled by the small ones.&lt;/li&gt;
 &lt;li&gt;I accidentally placed a via that stitches 24VAC to GND which results in a short circuit when one of the relays is switched on. This issue could be easily fixed with a sharp cutter knife.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;Our main server, actse = a computer that serves everything&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -627,7 +627,7 @@ Als Workaround haben wir das &lt;code&gt;rpi_gpio&lt;/code&gt; Verzeichnis von &
 Dadurch wird die rpi_gpio integration als custom_component geladen und verhindert das laden der Originalen Integration.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;    @property
     def should_poll(self):
-        &amp;quot;&amp;quot;&amp;quot;No polling needed.&amp;quot;&amp;quot;&amp;quot;
+        &amp;#34;&amp;#34;&amp;#34;No polling needed.&amp;#34;&amp;#34;&amp;#34;
         return True
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Es wird zwar gewarnt das dies die CPU Last erhöht, allerdings konnten wir keine Nachteile durch diese Methode erkennen.&lt;/p&gt;
 </description>
@@ -703,7 +703,7 @@ apt-get install dirmngr
 apt-key adv --keyserver hkp://keys.gnupg.net --recv-key E0EE663E
 
 # buildbot repo zur sources.list hinzufügen
-add-apt-repository &amp;quot;deb http://buildbot.linuxcnc.org/ stretch master-rtpreempt&amp;quot;
+add-apt-repository &amp;#34;deb http://buildbot.linuxcnc.org/ stretch master-rtpreempt&amp;#34;
 
 # Paketquellen installieren
 apt-get update
@@ -830,13 +830,13 @@ schreiben. So zumindest die Idee.&lt;/p&gt;
 &lt;li&gt;Stillstand entspricht, 2ms entsprechen Vollgas vorwärts und 1 ms entsprechen Vollgas rückwärst. Die Höhe der Spannung ist dabei abhängig vom eingesetzten BEC (Battery Eliminator Circuit). Bei einem 5v BEC, beträgt die Pulshöhe 5v, bei einem 6v BEC beträgt die Pulshöhe 6v, usw.&lt;/li&gt;
 &lt;li&gt;Das Bild zeigt ein typisches Ausgangssignal von einem Empfänger
 
-
-&lt;figure class=&#34;figure m-1&#34;&gt;
-    &lt;a href=&#34;https://reaktor23.org/projects/elektrolongboard/radio_pwm.gif&#34; data-featherlight=&#34;image&#34;&gt;
-        &lt;img src=&#34;https://reaktor23.org/projects/elektrolongboard/radio_pwm_hu43e16e4cfb89617173d169893c1ca1ef_1607_250x0_resize_lanczos.gif&#34; class=&#34;figure-img img-thumbnail &#34; width=&#34;250&#34;&gt;
-    &lt;/a&gt;
-    
-&lt;/figure&gt;
+ 
+ &lt;figure class=&#34;figure m-1&#34;&gt;
+     &lt;a href=&#34;https://reaktor23.org/projects/elektrolongboard/radio_pwm.gif&#34; data-featherlight=&#34;image&#34;&gt;
+         &lt;img src=&#34;https://reaktor23.org/projects/elektrolongboard/radio_pwm_hu43e16e4cfb89617173d169893c1ca1ef_1607_250x0_resize_lanczos_1.gif&#34; class=&#34;figure-img img-thumbnail &#34; width=&#34;250&#34;&gt;
+     &lt;/a&gt;
+     
+ &lt;/figure&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.svenfroemmer.de/index.php?optioncom_wrapper&amp;amp;view=wrapper&amp;amp;Itemid=129&#34;&gt;So funzt die Funke&lt;/a&gt;: Hier kan man alles im Detail nachlesen.&lt;/li&gt;
 &lt;/ul&gt;
@@ -854,61 +854,61 @@ schreiben. So zumindest die Idee.&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;Der Motor wird über eine Rampe gesteuert. Es ist also möglich Vollgas zu geben und der Motor wird langsam bis auf Vollgas beschleunigt.
 
-
-&lt;figure class=&#34;figure m-1&#34;&gt;
-    &lt;a href=&#34;https://reaktor23.org/projects/elektrolongboard/sonynav.jpg&#34; data-featherlight=&#34;image&#34;&gt;
-        &lt;img src=&#34;https://reaktor23.org/projects/elektrolongboard/sonynav_hu19ef46115b20b4f418af9723c87ad212_32644_350x0_resize_q80_lanczos.jpg&#34; class=&#34;figure-img img-thumbnail &#34; width=&#34;350&#34;&gt;
-    &lt;/a&gt;
-    
-&lt;/figure&gt;
+  
+  &lt;figure class=&#34;figure m-1&#34;&gt;
+      &lt;a href=&#34;https://reaktor23.org/projects/elektrolongboard/sonynav.jpg&#34; data-featherlight=&#34;image&#34;&gt;
+          &lt;img src=&#34;https://reaktor23.org/projects/elektrolongboard/sonynav_hu19ef46115b20b4f418af9723c87ad212_32644_350x0_resize_q80_lanczos.jpg&#34; class=&#34;figure-img img-thumbnail &#34; width=&#34;350&#34;&gt;
+      &lt;/a&gt;
+      
+  &lt;/figure&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Arduino mit Oszi.
 
-
-&lt;figure class=&#34;figure m-1&#34;&gt;
-    &lt;a href=&#34;https://reaktor23.org/projects/elektrolongboard/foto_1.jpg&#34; data-featherlight=&#34;image&#34;&gt;
-        &lt;img src=&#34;https://reaktor23.org/projects/elektrolongboard/foto_1_hu9164e01fae0b04e96c122e573d89a35d_433383_350x0_resize_q80_lanczos.jpg&#34; class=&#34;figure-img img-thumbnail &#34; width=&#34;350&#34;&gt;
-    &lt;/a&gt;
-    
-&lt;/figure&gt;
+  
+  &lt;figure class=&#34;figure m-1&#34;&gt;
+      &lt;a href=&#34;https://reaktor23.org/projects/elektrolongboard/foto_1.jpg&#34; data-featherlight=&#34;image&#34;&gt;
+          &lt;img src=&#34;https://reaktor23.org/projects/elektrolongboard/foto_1_hu9164e01fae0b04e96c122e573d89a35d_433383_350x0_resize_q80_lanczos.jpg&#34; class=&#34;figure-img img-thumbnail &#34; width=&#34;350&#34;&gt;
+      &lt;/a&gt;
+      
+  &lt;/figure&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;PWM kein Gas 1,5ms
 
-
-&lt;figure class=&#34;figure m-1&#34;&gt;
-    &lt;a href=&#34;https://reaktor23.org/projects/elektrolongboard/foto_2.jpg&#34; data-featherlight=&#34;image&#34;&gt;
-        &lt;img src=&#34;https://reaktor23.org/projects/elektrolongboard/foto_2_hu9164e01fae0b04e96c122e573d89a35d_402964_350x0_resize_q80_lanczos.jpg&#34; class=&#34;figure-img img-thumbnail &#34; width=&#34;350&#34;&gt;
-    &lt;/a&gt;
-    
-&lt;/figure&gt;
+  
+  &lt;figure class=&#34;figure m-1&#34;&gt;
+      &lt;a href=&#34;https://reaktor23.org/projects/elektrolongboard/foto_2.jpg&#34; data-featherlight=&#34;image&#34;&gt;
+          &lt;img src=&#34;https://reaktor23.org/projects/elektrolongboard/foto_2_hu9164e01fae0b04e96c122e573d89a35d_402964_350x0_resize_q80_lanczos.jpg&#34; class=&#34;figure-img img-thumbnail &#34; width=&#34;350&#34;&gt;
+      &lt;/a&gt;
+      
+  &lt;/figure&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;PWM Vollgas vorwärts 2,0ms oder größer
 
-
-&lt;figure class=&#34;figure m-1&#34;&gt;
-    &lt;a href=&#34;https://reaktor23.org/projects/elektrolongboard/foto_3.jpg&#34; data-featherlight=&#34;image&#34;&gt;
-        &lt;img src=&#34;https://reaktor23.org/projects/elektrolongboard/foto_3_hu9164e01fae0b04e96c122e573d89a35d_388896_350x0_resize_q80_lanczos.jpg&#34; class=&#34;figure-img img-thumbnail &#34; width=&#34;350&#34;&gt;
-    &lt;/a&gt;
-    
-&lt;/figure&gt;
+  
+  &lt;figure class=&#34;figure m-1&#34;&gt;
+      &lt;a href=&#34;https://reaktor23.org/projects/elektrolongboard/foto_3.jpg&#34; data-featherlight=&#34;image&#34;&gt;
+          &lt;img src=&#34;https://reaktor23.org/projects/elektrolongboard/foto_3_hu9164e01fae0b04e96c122e573d89a35d_388896_350x0_resize_q80_lanczos.jpg&#34; class=&#34;figure-img img-thumbnail &#34; width=&#34;350&#34;&gt;
+      &lt;/a&gt;
+      
+  &lt;/figure&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;PWM Vollgas rückwärts 1,0ms oder kleiner
 
-
-&lt;figure class=&#34;figure m-1&#34;&gt;
-    &lt;a href=&#34;https://reaktor23.org/projects/elektrolongboard/foto_4.jpg&#34; data-featherlight=&#34;image&#34;&gt;
-        &lt;img src=&#34;https://reaktor23.org/projects/elektrolongboard/foto_4_hu9164e01fae0b04e96c122e573d89a35d_403997_350x0_resize_q80_lanczos.jpg&#34; class=&#34;figure-img img-thumbnail &#34; width=&#34;350&#34;&gt;
-    &lt;/a&gt;
-    
-&lt;/figure&gt;
+  
+  &lt;figure class=&#34;figure m-1&#34;&gt;
+      &lt;a href=&#34;https://reaktor23.org/projects/elektrolongboard/foto_4.jpg&#34; data-featherlight=&#34;image&#34;&gt;
+          &lt;img src=&#34;https://reaktor23.org/projects/elektrolongboard/foto_4_hu9164e01fae0b04e96c122e573d89a35d_403997_350x0_resize_q80_lanczos.jpg&#34; class=&#34;figure-img img-thumbnail &#34; width=&#34;350&#34;&gt;
+      &lt;/a&gt;
+      
+  &lt;/figure&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -1322,7 +1322,7 @@ Die Mechanischen Teile werden für den &lt;a href=&#34;projects:matedealer2&#34;
 
 &lt;img src=&#34;mdb-flowchart.svg&#34; width=&#34;1100x&#34; &gt;&lt;/p&gt;
 &lt;h1 id=&#34;elektronik&#34;&gt;Elektronik&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;20.09.2011&lt;/strong&gt;\&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;20.09.2011&lt;/strong&gt;\
 Hab mich entschieden das Elektronik &amp;ldquo;Problem&amp;rdquo; mit einem &lt;strong&gt;&lt;a href=&#34;http://arduino.cc/en/Main/ArduinoBoardMega2560&#34;&gt;Arduino Mega 2560&lt;/a&gt; + MEGA Proto PCB Shield&lt;/strong&gt; zu realisieren. Das macht das ganze für andere eher Nachbaubar. Die Kosten werden etwa im selben Rahmen wie die bei einem Eigenbau liegen.
 Evtl. wird das Shield mal als gefertigtes PCB gemacht und zum Selbstkostenpreis verkauft. Ist dann ne saubere Lösung. Die Bestellung sollte die Tage bei mir eintrudeln. &amp;mdash;Bouni&lt;/p&gt;
 &lt;h2 id=&#34;grundlegende-beschaltung&#34;&gt;Grundlegende Beschaltung&lt;/h2&gt;
@@ -1335,7 +1335,7 @@ Evtl. wird das Shield mal als gefertigtes PCB gemacht und zum Selbstkostenpreis 
     
 &lt;/figure&gt;
 
-&lt;p&gt;&lt;img src=&#34;mdb-proto-shield.svg&#34; width=&#34;1100x&#34; &gt;&lt;/p&gt;
+&lt;img src=&#34;mdb-proto-shield.svg&#34; width=&#34;1100x&#34; &gt;
 &lt;h2 id=&#34;was-alles-auf-die-platine-soll&#34;&gt;Was alles auf die Platine soll&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;1 Relais zum schalten des Kühlaggregates&lt;/li&gt;
@@ -1390,7 +1390,7 @@ Wir sind schon im Besitz von 2 Card Readern vom Typ OmniKey CardMan&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;openvendingshield.zip&#34;&gt;Eagle design files of the prototype board&lt;/a&gt;. Note that for some reason the cooler part is not working yet.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;impressions&#34;&gt;Impressions&lt;/h1&gt;
-&lt;p&gt;The prototype of the custom VMC stacked on top of the Arduino Mega 2560\&lt;br&gt;
+&lt;p&gt;The prototype of the custom VMC stacked on top of the Arduino Mega 2560\
 
 
 &lt;figure class=&#34;figure m-1&#34;&gt;
@@ -1399,8 +1399,8 @@ Wir sind schon im Besitz von 2 Card Readern vom Typ OmniKey CardMan&lt;/p&gt;
     &lt;/a&gt;
     
 &lt;/figure&gt;
-\&lt;br&gt;
-The new wiring inside the colled box\&lt;br&gt;
+\
+The new wiring inside the colled box\
 
 
 &lt;figure class=&#34;figure m-1&#34;&gt;
@@ -1409,8 +1409,8 @@ The new wiring inside the colled box\&lt;br&gt;
     &lt;/a&gt;
     
 &lt;/figure&gt;
-\&lt;br&gt;
-The wiring on the side where the VMC is mounted\&lt;br&gt;
+\
+The wiring on the side where the VMC is mounted\
 
 
 &lt;figure class=&#34;figure m-1&#34;&gt;
@@ -1419,8 +1419,8 @@ The wiring on the side where the VMC is mounted\&lt;br&gt;
     &lt;/a&gt;
     
 &lt;/figure&gt;
-\&lt;br&gt;
-The empty VMC mount\&lt;br&gt;
+\
+The empty VMC mount\
 
 
 &lt;figure class=&#34;figure m-1&#34;&gt;
@@ -1429,8 +1429,8 @@ The empty VMC mount\&lt;br&gt;
     &lt;/a&gt;
     
 &lt;/figure&gt;
-\&lt;br&gt;
-The VMC snaped into the mount\&lt;br&gt;
+\
+The VMC snaped into the mount\
 
 
 &lt;figure class=&#34;figure m-1&#34;&gt;
@@ -1452,7 +1452,7 @@ The VMC snaped into the mount\&lt;br&gt;
       <description>&lt;h1 id=&#34;mechanik&#34;&gt;Mechanik&lt;/h1&gt;
 &lt;p&gt;Die Vorrichtung ist so konstruiert, das sie an einer Tischplatte festgeklemmt wird.
 So ist das Gerät portabel und kann bei Nichtgebrauch einfach verstaut werden.
-Die Bohrmaschine ist eine &lt;a href=&#34;http://www.proxxon.com/eng/html/28485.php&#34;&gt;Proxxon LB/E&lt;/a&gt;, die Langhals Variante wurde gewählt, um ein besseres einspannen in die Vorrichtung zu ermöglichen.\&lt;br&gt;
+Die Bohrmaschine ist eine &lt;a href=&#34;http://www.proxxon.com/eng/html/28485.php&#34;&gt;Proxxon LB/E&lt;/a&gt;, die Langhals Variante wurde gewählt, um ein besseres einspannen in die Vorrichtung zu ermöglichen.\
 &lt;img src=&#34;http://www.proxxon.com/eng/images/produkte/28485.jpg&#34; alt=&#34;&#34;&gt;
 Die Bohrmaschine ist auf einem Stück Führungsschiene montiert, und wird von einem Exzenter nach oben gedrückt. Der Exzenter wird von einem Schrittmotor angetrieben.&lt;/p&gt;
 &lt;h1 id=&#34;elektronik&#34;&gt;Elektronik&lt;/h1&gt;
@@ -1667,17 +1667,17 @@ Die Bohrmaschine ist auf einem Stück Führungsschiene montiert, und wird von ei
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;POST String:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-8&amp;quot;?&amp;gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34;?&amp;gt;
     &amp;lt;SOAP-ENV:Envelope 
-        xmlns:SOAP-ENV=&amp;quot;http://schemas.xmlsoap.org/soap/envelope/&amp;quot; 
-        xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; 
-        xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot;&amp;gt;
+        xmlns:SOAP-ENV=&amp;#34;http://schemas.xmlsoap.org/soap/envelope/&amp;#34; 
+        xmlns:xsi=&amp;#34;http://www.w3.org/2001/XMLSchema-instance&amp;#34; 
+        xmlns:xsd=&amp;#34;http://www.w3.org/2001/XMLSchema&amp;#34;&amp;gt;
     &amp;lt;SOAP-ENV:Body&amp;gt;
-        &amp;lt;GetStationValues xmlns=&amp;quot;http://FANC.Telerad.DataServices&amp;quot;&amp;gt;
-        &amp;lt;ns1:stationId xmlns:ns1=&amp;quot;http://FANC.Telerad.DataServices&amp;quot;&amp;gt;255&amp;lt;/ns1:stationId&amp;gt;
-        &amp;lt;ns0:beginDate xmlns:ns0=&amp;quot;http://FANC.Telerad.DataServices&amp;quot;&amp;gt;2012-08-06T00:00:00.000Z&amp;lt;/ns0:beginDate&amp;gt;
-        &amp;lt;ns0:endDate xmlns:ns0=&amp;quot;http://FANC.Telerad.DataServices&amp;quot;&amp;gt;2012-08-06T23:59:59.000Z&amp;lt;/ns0:endDate&amp;gt;
-        &amp;lt;ns0:languageId xmlns:ns0=&amp;quot;http://FANC.Telerad.DataServices&amp;quot;&amp;gt;NL&amp;lt;/ns0:languageId&amp;gt;
+        &amp;lt;GetStationValues xmlns=&amp;#34;http://FANC.Telerad.DataServices&amp;#34;&amp;gt;
+        &amp;lt;ns1:stationId xmlns:ns1=&amp;#34;http://FANC.Telerad.DataServices&amp;#34;&amp;gt;255&amp;lt;/ns1:stationId&amp;gt;
+        &amp;lt;ns0:beginDate xmlns:ns0=&amp;#34;http://FANC.Telerad.DataServices&amp;#34;&amp;gt;2012-08-06T00:00:00.000Z&amp;lt;/ns0:beginDate&amp;gt;
+        &amp;lt;ns0:endDate xmlns:ns0=&amp;#34;http://FANC.Telerad.DataServices&amp;#34;&amp;gt;2012-08-06T23:59:59.000Z&amp;lt;/ns0:endDate&amp;gt;
+        &amp;lt;ns0:languageId xmlns:ns0=&amp;#34;http://FANC.Telerad.DataServices&amp;#34;&amp;gt;NL&amp;lt;/ns0:languageId&amp;gt;
         &amp;lt;/GetStationValues&amp;gt;&amp;lt;/SOAP-ENV:Body&amp;gt;&amp;lt;/SOAP-ENV:Envelope&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;

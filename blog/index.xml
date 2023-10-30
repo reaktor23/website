@@ -6,153 +6,127 @@
     <description>Recent content in Blogs on Reaktor23 - Hackerspace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Mon, 30 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://reaktor23.org/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://reaktor23.org/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Der Reaktor23 ist geschlossen - uns gibt es weiter</title>
       <link>https://reaktor23.org/blog/2023-10-30-wir-schliessen/</link>
       <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://reaktor23.org/blog/2023-10-30-wir-schliessen/</guid>
       <description>Die Coronapause hat uns allen gezeigt, wie schnell sich Gewohnheiten ändern können. Reaktor23, unser Treffpunkt und Hackerspace, hat dadurch leider an Bedeutung verloren. Bei einigen unserer sonst so aktiven Mitglieder haben sich die Lebensprioritäten verschoben, andere sind inzwischen an neue Orte gezogen. Die Folge: Unsere Treffen wurden immer seltener.
 Nach reiflicher Überlegung haben wir entschlossen, den Reaktor23 als Raum zu schließen.
 Unsere Community lebt weiter. Wir bleiben über unseren Threema-Gruppenchat in Kontakt und überlegen sogar, uns gelegentlich zu treffen.</description>
     </item>
-    
     <item>
       <title>Wiedereröffnung des Hackerspace</title>
       <link>https://reaktor23.org/blog/2021-08-16-open-up-again/</link>
       <pubDate>Mon, 16 Aug 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://reaktor23.org/blog/2021-08-16-open-up-again/</guid>
       <description>Nach langer Überlegung haben wir uns entschlossen den Reaktor wieder zu öffnen.
 Seit Heute, dem 16. August 2021, ist es in Baden-Würtemberg nicht mehr Inzidenz abhängig ob eine Location geöffnet sein darf. Es gelten die 3G Regeln (Geimpft, Genesen oder Getestet), detailliert nachzulesen in der Mitteilung des Staatsministeriums
 Zitat:
- Bei Veranstaltungen/Aktivitäten in geschlossenen Räumen müssen alle Besucherinnen und Besucher einen Geimpftennachweis, einen Genesenennachweis oder ein negativen Corona Antigen-Schnelltest vorweisen.</description>
+Bei Veranstaltungen/Aktivitäten in geschlossenen Räumen müssen alle Besucherinnen und Besucher einen Geimpftennachweis, einen Genesenennachweis oder ein negativen Corona Antigen-Schnelltest vorweisen.
+Falls du uns als Nichtmitglied besuchen möchtest, bitten wir dich uns vorher über deinen Besuch zu informieren, so dass wir sicherstellen können, dass sich die 1.</description>
     </item>
-    
     <item>
       <title>SARS-CoV-2 Herbst-Winter Welle</title>
       <link>https://reaktor23.org/blog/2020-10-27-corona-fall-2020/</link>
       <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://reaktor23.org/blog/2020-10-27-corona-fall-2020/</guid>
       <description>Auf Grund der grade wieder massiv steigenden Corona Zahlen bleibt der Reaktor bis auf weiteres wieder für Besucher geschlossen.
 Wie schon im Frühjar diesen Jahres werden wir Dienstags ab 19 Uhr Remote Hackereien via Jitsi Videochat unternehmen und sind sonst auch via Matrix erreichbar:
- Matrix: #reaktor23:reaktor23.org Jitsi: https://meet.reaktor23.org/chat  Ihr seit natürlich alle herzlichst eingeladen dazuzustossen, wir freuen uns auf euch!
+Matrix: #reaktor23:reaktor23.org Jitsi: https://meet.reaktor23.org/chat Ihr seit natürlich alle herzlichst eingeladen dazuzustossen, wir freuen uns auf euch!
 In diesem Sinne, bleibt Gesund!</description>
     </item>
-    
     <item>
       <title>3D Druck Workshop</title>
       <link>https://reaktor23.org/blog/2020-09-30-3d-print-workshop/</link>
       <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://reaktor23.org/blog/2020-09-30-3d-print-workshop/</guid>
       <description>Wir haben seit der ersten Stunde eigenlich immer einen oder mehrere 3D Drucker im Reaktor gehabt, jedoch haben sich nur einige wenige Mitglieder damit ausgekannt. Für viele war es immer so das sie auf ein erfahrenes Mitglied gewartet haben wenn sie Mal was drucken wollten.
 Zeno hat sich nun bereit erklärt einen kleinen Workshop zu geben um den Interessierten eine Einführung in das Thema zu bieten. Im Grunde ist es nicht wirklich schwierig, aber die kleinen Kniffe beim Umgang mit dem Slicer als auch die paar wenigen Punkte die es Hardwareseitig zu beachten gibt sollten bekannt sein wenn man etwas drucken möchte, um den Drucker nit zu Beschädigen und ein gutes Druckergebns zu erhalten.</description>
     </item>
-    
     <item>
       <title>Umbau unserer CNC Fräse MilliMcMillface</title>
       <link>https://reaktor23.org/blog/2020-07-07-cnc-umbau/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://reaktor23.org/blog/2020-07-07-cnc-umbau/</guid>
       <description>Über die letzten Wochen und Monate haben wir einige Veränderungen an unserer Fräsmaschine MilliMcMillface vorgenommen. Unter anderem wurden die Schrittmotoren, die in der Vergangenheit immer wieder zu Problemen geführt haben gegen AC-Servomotoren gewechselt. Dabei haben wir die Aufhängung der Motoren durch Riemen so verändern können, dass die Maschine weniger Platz braucht und durch die von Zeno gedruckten Schutzabdeckungen zudem noch besser aussieht:) Ein großer Dank geht hierbei an die Firma Norelem, insbesondere an Herrn Marschner, die uns die benötigten Spannsätze zur Montage der Riemenräder kostenlos zur verfügung gestellt haben.</description>
     </item>
-    
     <item>
       <title>SARS-CoV-2 Facial Masks 3D printing</title>
       <link>https://reaktor23.org/blog/2020-04-14-corona-masks/</link>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://reaktor23.org/blog/2020-04-14-corona-masks/</guid>
       <description>Wir vom Reaktor23 Hackerspace beteiligen uns aktiv am Maker vs. Virus Programm bei dem es darum geht Gesichtsmasken mit Hilfe von 3D Druckern herzustellen die dann an Organisationen wie Krankenhäuser mit Bedarf zu übergeben.
 Im Moment sind 3 Drucker unterschiedlicher Hersteller im Einsatz:
-  Wir hoffen damit einen Beitrag im Kampf gegen das Virus zu leisten!</description>
+Wir hoffen damit einen Beitrag im Kampf gegen das Virus zu leisten!</description>
     </item>
-    
     <item>
       <title>SARS-CoV-2-Pandemie Lockdown</title>
       <link>https://reaktor23.org/blog/2020-04-02-corona/</link>
       <pubDate>Thu, 02 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://reaktor23.org/blog/2020-04-02-corona/</guid>
       <description>Wie vermutlich die meisten anderen Hackerspaces auch bleibt unser Hackerspace bis auf weiteres auf Grund der SARS-CoV-2-Pandemie geschlossen.
 Um nicht komplett ohne Hacker Vibes auskommen zu müssen treffen wir uns immer Dienstags auf unserem Matrix Server, wer Lust hat ist herzlichst eingeladen auch dazuzukommen!
 Matrix: #reaktor23:reaktor23.org</description>
     </item>
-    
     <item>
       <title>36C3 - Chaos Communication Congress 2019</title>
       <link>https://reaktor23.org/blog/2019-11-14-36c3/</link>
       <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://reaktor23.org/blog/2019-11-14-36c3/</guid>
       <description>Here we go again! Wie jedes Jahr werden wir auch in diesem Jahr wieder die Live Streams des alljährlichen Congress vom 27.12. bis zum 31.12 im Reaktor anschauen.
 Wir Dich laden herzlich dazu ein dies mit uns zu zelebrieren. Um sicher zu gehen das du nicht vor verschlossener Tür stehst, schau vorher auf den Reaktor Status ob schon jemand da ist oder schreib uns eine Mail wann du gedenkst zu uns zu kommen.</description>
     </item>
-    
     <item>
       <title>CCC Camp 2019</title>
       <link>https://reaktor23.org/blog/2019-07-31-camp2019/</link>
       <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://reaktor23.org/blog/2019-07-31-camp2019/</guid>
       <description>Wir fahren zum CCC Camp 2019 Wir sind in der glücklichen Lage uns 3 Tickets für das CCC Camp 2019 ergattert zu haben. Zwei davon durch befreundete Hacker/Hackerspaces aus der Schweiz, ein riesiges Dankeschön an dieser Stelle dafür :-)
 Wir dürfen uns auch dem CCC-CH Village anschliessen und freuen uns schon darauf was es alles zu erleben geben wird.
 Falls auch du zum Camp kommst würden wir uns freuen dich dort zu treffen!</description>
     </item>
-    
     <item>
       <title>Feinstaubmessung jetzt auch im Reaktor</title>
       <link>https://reaktor23.org/blog/2019-06-19-luftdaten/</link>
       <pubDate>Wed, 19 Jun 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://reaktor23.org/blog/2019-06-19-luftdaten/</guid>
       <description>Feinstaub Messstation Seit gestern läuft in unserem Hackerspace ein Feinstaub/Temperatur/Luftfeuchte Sensor der seine Daten an luftdaten.info sendet.
 Unsere Messtation ist auf der Karte von Luftdaten.info zu finden.
 Ausserdem werden die Messwerte via SpaceAPI von unserer Home Assistant Installation zur Verfügung gestellt.</description>
     </item>
-    
     <item>
       <title>35C3 - the aftermath</title>
       <link>https://reaktor23.org/blog/2019-10-01-35c3/</link>
       <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://reaktor23.org/blog/2019-10-01-35c3/</guid>
       <description>Wie vermutlich fast jeder Hackerspace im deutschsprachigen Raum und darüber hinaus haben auch wir vom 27.12.2018 bis zum 30.12.2018 die Streams vom 35C3 angeschaut. Und wie es halt so ist sind bei uns in den letzten Jahren etliche Projekte ins Leben gerufen worden, jedoch nie (richtig) fertig gestellt worden. Glücklicherweise ist es uns gleich am 27.12. gelungen unsere CNC Fräse wiederzubeleben, was uns ein enormes Maß an neuen Möglichkeiten eröffnet. Und so haben wir diesen Congress mehr damit zugebracht unseren Space zu verbessern als die Streams zu schauen.</description>
     </item>
-    
     <item>
       <title>Reaktor Talks</title>
       <link>https://reaktor23.org/blog/2018-10-21-talks/</link>
       <pubDate>Sun, 21 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://reaktor23.org/blog/2018-10-21-talks/</guid>
       <description>Da die kalte Jahreszeit dann doch so langsam mal anfängt, ist es die richtige Zeit um die &amp;ldquo;Reaktor Talks&amp;rdquo; wiederzubeleben. Jeder der mag, kann einen Vortrag über ein beliebiges Thema halten. Oft fand das bisher eher spontan statt, also so mit einer Woche Vorlaufszeit, weil sich ein oder mehrere Leute für etwas bestimmtes interessierten und jemand anders darüber was erzählen oder zeigen konnte.
 Diese Website hat nun ein kleine Infoseite darüber.</description>
     </item>
-    
     <item>
       <title>Projekt CNC Fräse</title>
       <link>https://reaktor23.org/blog/2018-09-07-cnc-mill/</link>
       <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://reaktor23.org/blog/2018-09-07-cnc-mill/</guid>
       <description>Vor ca. 2 Wochen haben wir damit begonnen unsere CNC Fräse auf Linux CNC umzustellen und seit letzter Woche ist die Fräse im Testbetrieb. Alles in allem sind wir sehr zufrieden mit dem Fortschritt des Projektes. Wir erhoffen uns dadurch endlich mehr Projekte die gefräste Teile erfordern, umsetzen zu können.
 Weitere Infos zum Projekt sowie eine Doku findet ihr unter Projekte</description>
     </item>
-    
     <item>
       <title>Neue Website</title>
       <link>https://reaktor23.org/blog/2018-06-19-new-website/</link>
       <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://reaktor23.org/blog/2018-06-19-new-website/</guid>
       <description>Wir haben es endlich geschafft eine neue Website zu bauen! Yay! Naja, fast. Noch müssen wir etwas Arbeit hinein stecken.
 Zuvor hatten wir eine auf DokuWiki basierenden Website. DokuWiki ist an sich nicht schlecht, war aber dann doch ein bisschen ein funktioneller Overkill und doch fehlte uns eine Funktion: Schon lange wollten wir es jedem sehr einfach machen Inhalte auf der Website zu ergänzen, korrigieren oder gar zu verfassen. Mit DokuWiki brauchte man dafür mindestens einen Login, etwas was vielen Leuten einfach im Wege war.</description>
     </item>
-    
   </channel>
 </rss>

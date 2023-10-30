@@ -3,15 +3,17 @@ title: Reaktor23
 draft: false
 ---
 
-Reaktor23 ist ein Hackerspace in Waldshut-Tiengen, Baden-Württemberg,
+Reaktor23 <s>ist</s> <i>war</i> ein Hackerspace in Waldshut-Tiengen, Baden-Württemberg,
 Deutschland, Erde, Milchstrasse. Gegründet um Leuten eine Plattform zu bieten,
 ihre Kreativität frei auszuleben, zu lernen wie Dinge funktionieren, um neue
 Dinge zu erschaffen.
 
-Jeden Dienstag ab 19:00 ist der Reaktor23 für jedermann geöffnet und immer
-jemand da. Solltet ihr Interesse haben an einem anderen Tag vorbei zu schauen,
-meldet euch bitte vorher auf der Mailingliste damit ihr nicht vor
-verschlossener Türe steht!
+Jeden Dienstag ab 19:00 <s>ist</s> <i>war</i> der Reaktor23 für jedermann
+geöffnet und <s>immer</s> <i>es war oft</i> jemand da. <s>Solltet ihr Interesse
+haben an einem anderen Tag vorbei zu schauen, meldet euch bitte vorher auf
+der Mailingliste damit ihr nicht vor verschlossener Türe steht!</s>
+<i>Wir haben Reaktor23 als Raum aufgegeben. Bitte kommt uns nicht besuchen. Ihr
+werdet vor verschlossener Tür stehen.</i>
 
 ## Kontakt
 
@@ -23,7 +25,7 @@ Jitsi Meet: https://meet.reaktor23.org/chat
 
 ## Ort
 
-Die Adresse lautet:
+Die Adresse <s>lautet</s> <i>war</i>:
 
 ```
 Reaktor23

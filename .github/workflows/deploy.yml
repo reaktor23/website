@@ -22,7 +22,7 @@ jobs:
 
       - name: Install hugo 📦
         run: |
-          wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.deb -O /tmp/hugo.dpkg
+          wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-amd64.deb -O /tmp/hugo.dpkg
           sudo dpkg -i /tmp/hugo.dpkg
 
       - name: Build website 🔧

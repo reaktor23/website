@@ -1,7 +1,7 @@
 ---
 title: MillyMcMillface
 author: Valentin, Bouni
-description: Eine CNC Fräse für unsern Hackerspace
+description: Eine CNC Fräse für unseren Hackerspace
 draft: false
 date: 2018-08-22
 image: DSC_0046.JPG
@@ -28,15 +28,15 @@ Angetrieben werden die Achsen von Nema34 Schrittmotoren. Diese werden von [Treib
 
 Grundsätzlich ist das Smoothieboard eine gute 3D-Drucker-Steuerung, die viele Möglichkeiten bietet. Für den Betrieb an unserer Maschine haben wir allerdings im Laufe der Zeit herausgefunden, dass es noch nicht die optimale Lösung ist. Auf Feedrate-Override oder Nothalt reagiert die Steuerung erst nachdem eine Programmzeile beendet ist.
 
-Wärend das beim Würstchendrucker nicht so schlimm ist, stellt das bei einer etwas seriöseren Maschine ein Sicherheitsrisiko dar und so haben wir uns entschieden, die Steuerung auf ein LinuxCNC-basierendes System umzubauen.
+Während das beim Würstchendrucker nicht so schlimm ist, stellt das bei einer etwas seriöseren Maschine ein Sicherheitsrisiko dar und so haben wir uns entschieden, die Steuerung auf ein LinuxCNC-basierendes System umzubauen.
 
 Wir haben uns nach langer Entscheidungszeit für eine [Mesa 7i96](http://store.mesanet.com/index.php?route=product/product&product_id=311) FPGA-Karte entschieden da diese via Ethernet mit einem beliebigen PC verbunden werden kann auf dem LinuxCNC läuft. Ausserdem bietet sie alles, was wir benötigen, zum kleinen Preis. Bestellt wurde die Karte bei [EUsurplus](http://eusurplus.com).
 
-Nach den ersten Versuchen stellte sich heraus, dass es sich um ein selten verwendetes Modell handelt und die Konfiguration etwas mehr Arbeit erforderdert, als beispielsweise die größere 7i77. Dennoch haben wir bereits am ersten Abend geschafft, einen Ausgang blinken zu lassen und einen Motor drehen zu lassen. Wie es mit der Steuerung weitergeht, werden wir weiter unten genauer beschreiben.
+Nach den ersten Versuchen stellte sich heraus, dass es sich um ein selten verwendetes Modell handelt und die Konfiguration etwas mehr Arbeit erfordert, als beispielsweise die größere 7i77. Dennoch haben wir bereits am ersten Abend geschafft, einen Ausgang blinken zu lassen und einen Motor drehen zu lassen. Wie es mit der Steuerung weitergeht, werden wir weiter unten genauer beschreiben.
 
 ## Mechanik
 
-Ich habe mit meiner Projektarbeit eine Dokumentation erstellt, in denen Details zum Planung und zum Bau der Maschine beschrieben werden. Diese Dokumentation kann [hier](https://github.com/reaktor23/website/raw/master/content/projects/millymcmillface/Seminarkursarbeit_f%C3%BCr_R23.pdf) heruntergeladen werden.
+Ich habe mit meiner Projektarbeit eine Dokumentation erstellt, in der Details zur Planung und zum Bau der Maschine beschrieben werden. Diese Dokumentation kann [hier](https://github.com/reaktor23/website/raw/master/content/projects/millymcmillface/Seminarkursarbeit_f%C3%BCr_R23.pdf) heruntergeladen werden.
 
 # Umbau auf LinuxCNC - Ein Meisterwerk in ??? Akten
 
@@ -44,7 +44,7 @@ Ich habe mit meiner Projektarbeit eine Dokumentation erstellt, in denen Details 
 
 Debian Stretch Netinstaller von [hier](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.6.0-amd64-netinst.iso) herunterladen.
 
-Image mit z.B. dd auf einen USB Stick schreiben (Achtung, sichergehen das /dev/sdb auch der USB Stick ist!):
+Image mit z.B. dd auf einen USB Stick schreiben (Achtung, sichergehen, dass /dev/sdb auch der USB Stick ist!):
 
 ```
 sudo dd if=debian-9.6.0-amd64-netinst.iso of=/dev/sdb bs=4M status=progress
@@ -61,7 +61,7 @@ su -
 # System updaten
 apt-get update
 apt-get upgrade
-apt-get dist-upgrade$
+apt-get dist-upgrade
 
 # Realtime kernel installieren
 apt-get install linux-image-rt-amd64
@@ -71,7 +71,7 @@ apt-get install sudo
 # User der Gruppe sudo hinzufügen
 useradd -a -G sudo <username>
 
-#dirmngr installieren um Fehler beim den Nachfolgenden befehlen zu verhindern
+# dirmngr installieren um Fehler bei den nachfolgenden Befehlen zu verhindern
 apt-get install dirmngr
 
 # Key des linuxcnc buildbots hinzufügen
@@ -93,21 +93,21 @@ apt-get install vim git
 reboot
 ```
 
-PC neu starten, ein Terminal öffnen und mit `uname -a` ob der PREEMT RT Kernel geladen wurde.
+PC neu starten, ein Terminal öffnen und mit `uname -a` prüfen, ob der PREEMPT RT Kernel geladen wurde.
 Da sollte dann so etwas wie `Linux mill 4.9.0-8-rt-amd64 #1 SMP PREEMPT RT Debian 4.9.130-2 (2018-10-27) x86_64 GNU/Linux` stehen
 
 ## Zweiter Akt: Netzwerkverbindung herstellen
 
-Die MESA-Karte hat standardmäßig die IP 192.168.1.121 . Um mit der Karte kommunizieren zu können muss am Computer eine statische IP-Adresse vergeben werden. Dazu oben rechts im Panel auf das Netzwerksymbol rechtsklicken und Edit Connections... auswählen. Im sich öffnenden Fenster eine neue Verbindung erstellen, Èthernet auswählen und bestätigen. Es öffnet sich ein neues Fenster. Im Tab Ethernet wird bei Device die richtige Netzwerkkarte ausgewählt. Im Tab IPv4 Settings wird manual ausgewählt. Mit einem Klick auf Add wird eine Verbindung mit der Adresse 192.168.1.1 und der Netzwaske 24 eingegeben. Der Eintrag des Gateways bleibt leer. Alle Fenster bestätigen und schließen. Nun im Panel oben rechts erneut auf das Netzwerkysmbol klicken und die neu erstellte Verbindung auswählen.
+Die MESA-Karte hat standardmäßig die IP 192.168.1.121 . Um mit der Karte kommunizieren zu können muss am Computer eine statische IP-Adresse vergeben werden. Dazu oben rechts im Panel auf das Netzwerksymbol rechtsklicken und Edit Connections... auswählen. Im sich öffnenden Fenster eine neue Verbindung erstellen, Ethernet auswählen und bestätigen. Es öffnet sich ein neues Fenster. Im Tab Ethernet wird bei Device die richtige Netzwerkkarte ausgewählt. Im Tab IPv4 Settings wird manual ausgewählt. Mit einem Klick auf Add wird eine Verbindung mit der Adresse 192.168.1.1 und der Netzmaske 24 eingegeben. Der Eintrag des Gateways bleibt leer. Alle Fenster bestätigen und schließen. Nun im Panel oben rechts erneut auf das Netzwerksymbol klicken und die neu erstellte Verbindung auswählen.
 
-Zum Testen wird ein Terminal geöffnet, in dem der Befehl `ping -c 4 191.168.1.1` eingegeben wird. Lautet die Antwort `4 packets transmitted, 4 received, 0% packet loss`, so sollte alles richtig eingestellt sein.
+Zum Testen wird ein Terminal geöffnet, in dem der Befehl `ping -c 4 192.168.1.121` eingegeben wird. Lautet die Antwort `4 packets transmitted, 4 received, 0% packet loss`, so sollte alles richtig eingestellt sein.
 
 ## Dritter Akt: LinuxCNC einrichten und Konfiguration
 
-Die Konfiguration findet über **.ini** und **.hal** files statt. Diese liegen auf unserem Fräsen Rechner unter `~/linuxcnc` aber im Grunde ist es egal wo man seine config files ablegt, man übergibt den Pfad zum .ini file sowieso beim starten von linuxcnc.
+Die Konfiguration findet über **.ini** und **.hal** files statt. Diese liegen auf unserem Fräsen Rechner unter `~/linuxcnc` aber im Grunde ist es egal wo man seine config files ablegt, man übergibt den Pfad zum .ini file sowieso beim Starten von linuxcnc.
 
 ```
-# ins home verzeichnis wechseln
+# ins Home-Verzeichnis wechseln
 cd ~
 # Konfig unserer Fräse von Github clonen
 git clone https://github.com/reaktor23/MillyMcMillface.git linuxcnc
@@ -115,27 +115,27 @@ git clone https://github.com/reaktor23/MillyMcMillface.git linuxcnc
 
 Um linuxcnc zu starten ein terminal öffnen und `linuxcnc ~/linuxcnc/7i76-1k.ini` eingeben und starten.
 
-Da wir doch auch an sehr vielen Stellen unsere Probleme hatten, werden wir versuchen einige davon hier detailierter zu beschreiben.
+Da wir doch auch an sehr vielen Stellen unsere Probleme hatten, werden wir versuchen einige davon hier detaillierter zu beschreiben.
 
 # Update 07.01.2019 - Handrad
 
-Wir konten ein gebrauchtes Handrad ([Euchner HBA](https://www.euchner.de/de-de/Produkte/Handbedienger%C3%A4te-und-Handr%C3%A4der/Handbedienger%C3%A4t-HBA/HBA-079827)) ergattern und haben dieses währen des [35C3](https://events.ccc.de/congress/2018) erfolgreich in unser LinuxCNC Setup integrieren.
+Wir konnten ein gebrauchtes Handrad ([Euchner HBA](https://www.euchner.de/de-de/Produkte/Handbedienger%C3%A4te-und-Handr%C3%A4der/Handbedienger%C3%A4t-HBA/HBA-079827)) ergattern und haben dieses während des [35C3](https://events.ccc.de/congress/2018) erfolgreich in unser LinuxCNC Setup integriert.
 Das Handrad verfügt über:
 
-- 2 Wahlschalter, einen Achse, der andere für die Schrittweite
+- 2 Wahlschalter, einer für die Achse, der andere für die Schrittweite
 - 3 Folientasten +, Eilgang, - (derzeit nicht verwendet)
 - 2 Parallel geschaltete Freigabetaster (derzeit nicht verwendet)
 - 1 NOT-STOP Taster
 - 1 Drehencoder
 
-Alle Signale wurden auf einem Arduino Nano aufgelegt ([Link zum Sketch](https://github.com/reaktor23/MillyMcMillface/blob/master/handwheel/handwheel_arduino/handwheel_arduino.ino)), dieses sendet bei Änderung die daten Seriell zum PC, z.B. Plus:1 für Plustaste ist gedrückt.
+Alle Signale wurden auf einem Arduino Nano aufgelegt ([Link zum Sketch](https://github.com/reaktor23/MillyMcMillface/blob/master/handwheel/handwheel_arduino/handwheel_arduino.ino)), dieses sendet bei Änderung die Daten seriell zum PC, z.B. Plus:1 für Plustaste ist gedrückt.
 Dort liegt ein [Python Programm](https://github.com/reaktor23/MillyMcMillface/blob/master/handwheel/handwheel.py) das die Daten auswertet und an Linux CNC weiterreicht [Link zum HAL File](https://github.com/reaktor23/MillyMcMillface/blob/master/handwheel/handwheel.hal).
 In der INI muss lediglich das HAL file eingebunden werden [Link zur betreffenden INI Zeile](https://github.com/reaktor23/MillyMcMillface/blob/master/7i96-1k.ini#L99)
 
 # Update 17.01.2019 - Encoder Feedback
 
 Da wir immer wieder mit Schrittverlusten kämpfen haben wir beschlossen die Achsen mit Encodern auszustatten um ein Closed-Loop System zu bekommen.
-Unsere Motoren sind glücklicherweise mit beidseiteigen Wellen ausgestattet, die eine treibt die Spindel an, die andere wird mit einem Hohlwellenencoder versehen.
+Unsere Motoren sind glücklicherweise mit beidseitigen Wellen ausgestattet, die eine treibt die Spindel an, die andere wird mit einem Hohlwellenencoder versehen.
 Die Encoder werden an eine Mesanet [7i85S](http://store.mesanet.com/index.php?route=product/product&product_id=125&search=7i85s) angeschlossen die uns weitere Encodereingänge verschafft.
 Der User PCW aus dem linuxcnc forum war so freundlich uns ein passendes [Bitfile](https://forum.linuxcnc.org/27-driver-boards/35820-7i96-7i85s#123869) für die 7i96 zur Verfügung zu stellen.
 
@@ -145,7 +145,7 @@ Wir versuchen jetzt mal alles neu zu machen und zu dokumentieren, der aktuelle a
 
 # Update vom 20.05.2020 - Debian 10 Buster + LinuxCNC 2.9 + Mesa 7i96 + Mesa 7i85S Setup
 
-Um mal auf einem halbwegs auf einen aktuellen Stan zu kommen haben wir ein Debian 10 Buster installiert. Da es dafür aber keine fertigen Pakete guibt war es notwendig diese selbst zu bauen.
+Um mal auf einen halbwegs aktuellen Stand zu kommen haben wir ein Debian 10 Buster installiert. Da es dafür aber keine fertigen Pakete gibt war es notwendig diese selbst zu bauen.
 Auch dies haben wir [hier](https://github.com/reaktor23/linuxcnc-wiki/blob/master/installation.md) dokumentiert!
 
 

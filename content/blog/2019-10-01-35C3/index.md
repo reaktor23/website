@@ -14,13 +14,13 @@ Und so haben wir diesen Congress mehr damit zugebracht unseren Space zu verbesse
 
 
 ## CNC Fräse
-Unser Rechner auf dem LinuxCNC läuft war defekt und wir haben einen neuen eingebaut und wieder zum laufen gebracht. 
+Unser Rechner auf dem LinuxCNC läuft war defekt und wir haben einen neuen eingebaut und wieder zum Laufen gebracht. 
 Als dies getan war haben wir mit der Fräse Siebdruckplatten zugeschnitten um eine schwenkbare Konsole für Bildschirm und Tastatur/Maus zu schaffen da diese bis dahin auf einem Tisch neben der Fräse standen.
 Der Artikel zum Projekt findet sich [hier](/projects/millymcmillface/)
 
 ## Lüftungsanlage
-Unser Hackserspace ist sehr klein und verfügt lediglich über eine Tür mit einem Schmalen Seitenflügel und ein Oberlicht das sich allerdings nicht öffnen lässt was es uns kam möglich macht zu lüften.
-Drum haben wir im Seitenflügel im Unteren Bereich die originale Holzplatte herausgenommen und eine eigene verbaut in der zwei Lüftungsöffnungen sind, 
+Unser Hackerspace ist sehr klein und verfügt lediglich über eine Tür mit einem schmalen Seitenflügel und ein Oberlicht das sich allerdings nicht öffnen lässt was es uns kaum möglich macht zu lüften.
+Drum haben wir im Seitenflügel im unteren Bereich die originale Holzplatte herausgenommen und eine eigene verbaut in der zwei Lüftungsöffnungen sind, 
 ein Lüfter saugt Frischluft an und bläst diese durch einen Aluschlauch in den hinteren Bereich des Raumes was zu einer wesentlichen Verbesserung der Luftqualität führt.
 
 ## Abdunkelung des Oberlichts
@@ -37,8 +37,8 @@ Diverse Objekte im Raum waren bis anhin nicht oder nur schwer zu bewegen, z.B. d
 Diese wurden nun mit Rollen bzw. einem Rollbrett versehen und können nun bei Bedarf leicht verschoben werden.
 
 ## Sitzgelegenheiten
-Das Sofa das im Reaktor stand nahm enorm viel Platz ein und war auch nicht wirklich gemütlich. Hinzu kommt das das Filzartige Material ein Dreckmagnet war was es sehr schmuddelig wirken lies.
-Wir hatten die Möglichkeit ein gebrauchtes Ledersofa zu bekommen und haben im gleich Zug das alte Sofa sowie einen Sessel der viel Platz verbrauchte entsorgt.
+Das Sofa das im Reaktor stand nahm enorm viel Platz ein und war auch nicht wirklich gemütlich. Hinzu kommt, dass das filzartige Material ein Dreckmagnet war, was es sehr schmuddelig wirken liess.
+Wir hatten die Möglichkeit ein gebrauchtes Ledersofa zu bekommen und haben im gleichen Zug das alte Sofa sowie einen Sessel der viel Platz verbrauchte entsorgt.
 Um in Zukunft dennoch weitere Sitzgelegenheiten zu haben haben wir Siebdruckplatten gefräst die sich auf Matekisten stecken lassen und so schnell zu improvisierten Sitzgelegenheiten werden.
 
 Wir werden in der nächsten Zeit noch Artikel zu den jeweiligen Projekten veröffentlichen um diese auch sauber zu dokumentieren.

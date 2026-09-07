@@ -8,9 +8,9 @@ aliases:
 ---
 
 Wir haben es endlich geschafft eine neue Website zu bauen! Yay! Naja, fast. Noch
-müssen wir etwas Arbeit hinein stecken.
+müssen wir etwas Arbeit hineinstecken.
 
-Zuvor hatten wir eine auf DokuWiki basierenden Website. DokuWiki ist an sich
+Zuvor hatten wir eine auf DokuWiki basierende Website. DokuWiki ist an sich
 nicht schlecht, war aber dann doch ein bisschen ein funktioneller Overkill und
 doch fehlte uns eine Funktion: Schon lange wollten wir es jedem sehr
 einfach machen Inhalte auf der Website zu ergänzen, korrigieren oder gar zu

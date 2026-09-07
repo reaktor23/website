@@ -9,9 +9,9 @@ image: rotary_head4.png
 
 {{% box success %}}
 **Current status of the ultimaker**
-We added some feature to the original printer:
+We added some features to the original printer:
 
-  - Dual Extruder (printing with two different colores / two different materials)
+  - Dual Extruder (printing with two different colors / two different materials)
   - Heated Bed (better grip for the first layer / able to print ABS...)
 {{% /box %}}
 
@@ -23,15 +23,15 @@ We added some feature to the original printer:
 | --- | --- | --- |
 | light blue | PLA | 0.3kg |
 | dark blue | PLA | 0.3kg |
-| translucent blue | PLA | 0,65kg |
+| translucent blue | PLA | 0.65kg |
 | silver | PLA | ?kg |
 | black | PLA | 2.5kg |
 | white | PLA | 1.5kg |
 | light green | PLA | 0.75kg |
 | yellow | PLA | 0.2kg |
 | red | PLA | 0kg |
-| red translucent | PLA | 0,65kg |
-| black | ABS | 2,8kg |
+| red translucent | PLA | 0.65kg |
+| black | ABS | 2.8kg |
 {{% /table %}}
 
 # Available special materials 
@@ -55,7 +55,7 @@ We added some feature to the original printer:
 
 TBD: Upload to either Vimeo or Youtube
 
-# Comming soon
+# Coming soon
 
 Zeno is working on a rotary dual print head for e3dv6 hotends
 

@@ -10,17 +10,17 @@ image: radiationmap-heatmap.png
 
 # Linksammlung 
 
-  * [Landesamt fuer Umwelt BW](http://www.um.baden-wuerttemberg.de)
+  * [Landesamt für Umwelt BW](http://www.um.baden-wuerttemberg.de)
   * [European Radiological Data Exchange Platform](http://eurdep.jrc.ec.europa.eu/Basic/Pages/Public/Home/Default.aspx)
-  * [ODL Daten vom BfS](http://offenedaten.de/dataset?res_format=csv&tags=radioaktivit%C3%A4t&tags=ortsdosisleistung&groups=sonderfreigaben) -> Login fuers beziehen des CSV ist beantragt
+  * [ODL Daten vom BfS](http://offenedaten.de/dataset?res_format=csv&tags=radioaktivit%C3%A4t&tags=ortsdosisleistung&groups=sonderfreigaben) -> Login fürs Beziehen des CSV ist beantragt
 
 # Datenquellen 
 
 ## Deutschland
 
-### Bundesamt fuer Strahlenschutz 
+### Bundesamt für Strahlenschutz 
 
-  * Alle Daten sind auf dem [Sever des BfS](https://odlinfo.bfs.de/daten/) zu finden.
+  * Alle Daten sind auf dem [Server des BfS](https://odlinfo.bfs.de/daten/) zu finden.
   * Eine [Beschreibung](https://odlinfo.bfs.de/daten/Datenbereitstellung-2016-04-21.pdf) was alles verfügbar ist sowie was die Daten für eine Bedeutung haben. 
 
 ## Österreich
@@ -64,7 +64,7 @@ image: radiationmap-heatmap.png
 ### Nationale Alarmzentrale 
 
   * [Zeitverläufe](https://www.naz.ch/de/aktuell/zeitverlaeufe.html)
-    * Stünidliche Messwerte in nS/h, Niederschlagsmessdaten in mm
+    * Stündliche Messwerte in nS/h, Niederschlagsmessdaten in mm
 
 ### Eidgenössisches Nuklearsicherheitsinspektorat 
 
@@ -90,17 +90,17 @@ image: radiationmap-heatmap.png
 ## Frankreich
 ### Reseau National 
   * [RNM](https://www.mesure-radioactivite.fr/en#/expert)
-    * Karte mit den Messtellen, z.T. auch Wasser und einzelne Isotope.
+    * Karte mit den Messstellen, z.T. auch Wasser und einzelne Isotope.
 
 # Experimente 
 
 {{< thumbnail src="radiationmap-dots.png" width="500x" >}}
-Die Messdaten aller Messtellen des BfS von 0:00Uhr am 26.07.2012 als Punkt pro Messstelle.
+Die Messdaten aller Messstellen des BfS von 0:00 Uhr am 26.07.2012 als Punkt pro Messstelle.
 
 {{< thumbnail src="radiationmap-dots-opaque.png" width="500x" >}}
-Die Messdaten aller Messtellen des BfS von 0:00Uhr am 26.07.2012 als Punkt pro Messstelle ohne Rand und mit Transparenz.
+Die Messdaten aller Messstellen des BfS von 0:00 Uhr am 26.07.2012 als Punkt pro Messstelle ohne Rand und mit Transparenz.
 
 {{< thumbnail src="radiationmap-heatmap.png" width="500x" >}}
-Und zu guter Letzt noch als Heatmap, wobei die Häufung von Messtellen auch zu Farbänderungen führt.
+Und zu guter Letzt noch als Heatmap, wobei die Häufung von Messstellen auch zu Farbänderungen führt.
 
-[Hier](http://bouni.owee.de/radiationmap/) gibt es die Transparenz Variante live zu sehen. Die Daten sind momentan statisch vom **26.07.2012 0:00Uhr** und wurden vom [BfS](http://www.bfs.de/bfs) zur Verfügung gestellt!. 
+[Hier](http://bouni.owee.de/radiationmap/) gibt es die Transparenz Variante live zu sehen. Die Daten sind momentan statisch vom **26.07.2012 0:00 Uhr** und wurden vom [BfS](http://www.bfs.de/bfs) zur Verfügung gestellt! 

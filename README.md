@@ -16,14 +16,14 @@ Quickstart
     git clone https://github.com/reaktor23/website.git reaktor23-website
     cd reaktor23-website
     ```
-4. Mess around with the content ... or not
-5. View page on your machine with `hugo server` and visiting
+3. Mess around with the content ... or not
+4. View page on your machine with `hugo server` and visiting
    http://localhost:1313
 
 Deploying
 ---------
 
-All commits to the master branch will be deployed automatically via Travis CI
+All commits to the master branch will be deployed automatically via GitHub Actions to
 https://reaktor23.org.
 
 Custom shortcodes
@@ -39,7 +39,7 @@ Here are our implemented shortcodes for documentation:
 
 **Thumbnail**
 
-Geneartes a nice looking frame around the image. Also, clicking on it will show
+Generates a nice looking frame around the image. Also, clicking on it will show
 a big size version.
 
     {{< thumbnail src="url/to/img.jpg" width="200px" >}}
@@ -47,20 +47,20 @@ a big size version.
     {{< thumbnail src="url/to/img.jpg" width="x200" caption="This picture illustrates something" >}}
 
 _src_ is mandatory, _width_ controls the image width, _class_ enables us to
-align the images horizontaly or do other stuff (see Bootstrap) and _caption_
+align the images horizontally or do other stuff (see Bootstrap) and _caption_
 will show a text underneath the image.
 
 **Font Awesome**
 
-Let you insert a Font Awesome Icon into you page.
+Lets you insert a Font Awesome Icon into your page.
 
     {{< fa icon="github" size="3" >}}
 
-_icon_ is mandatrory, _size_ controls the icon size (1,2,3,4,5)
+_icon_ is mandatory, _size_ controls the icon size (1,2,3,4,5)
 
 **Vimeo**
 
-Let you embed a vimeo video.
+Lets you embed a Vimeo video.
 
     {{< vimeo id="43611049" >}}
 
@@ -68,13 +68,13 @@ _id_ is mandatory
 
 **Youtube**
 
-Let you embed a youtube video.
+Lets you embed a YouTube video.
 
     {{< youtube id="aqz-KE-bpKQ" >}}
 
 **Box**
 
-Let you put content in an bootstrap alert box.
+Lets you put content in a Bootstrap alert box.
 
     {{% box type="danger" %}}
     Your content here 

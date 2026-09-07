@@ -1,5 +1,5 @@
 ---
-languageCode: de-de
+locale: de-de
 title: Reaktor23 - Hackerspace
 theme: reaktor23
 baseurl: ""
@@ -29,7 +29,8 @@ menu:
 
 imaging:
   resampleFilter: Lanczos
-  quality: 80
+  jpeg:
+    quality: 80
 
 markup:
   goldmark:

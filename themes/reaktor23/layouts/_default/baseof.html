@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html {{ with .Site.LanguageCode }}lang="{{ . }}"{{ end }}>
+<html {{ with .Site.Language.Locale }}lang="{{ . }}"{{ end }}>
 	<head>
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		{{ with .Site.Author }}<meta name="metaauthor" content="{{ . }}"/>{{ end }}
+		{{ with .Site.Params.author.name }}<meta name="metaauthor" content="{{ . }}"/>{{ end }}
 		{{ with .Site.Params.description }}<meta name="description" content="{{ .Site.Params.description }}"/>{{ end }}
 		<title>{{ .Title }}</title>
 		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/bootstrap.min.css"/>
-		<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/font-awesome.min.css"/>
-		<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/style.css"/>
-		<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/opensans.css"/>
-		<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/featherlight.min.css"/>
+		<link rel="stylesheet" href="{{ "css/bootstrap.min.css" | absURL }}"/>
+		<link rel="stylesheet" href="{{ "css/font-awesome.min.css" | absURL }}"/>
+		<link rel="stylesheet" href="{{ "css/style.css" | absURL }}"/>
+		<link rel="stylesheet" href="{{ "css/opensans.css" | absURL }}"/>
+		<link rel="stylesheet" href="{{ "css/featherlight.min.css" | absURL }}"/>
 		<meta name="theme-color" content="#46b71d">
 		{{ range .AlternativeOutputFormats -}}
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}

@@ -11,9 +11,9 @@ Bedeutung verloren. Bei einigen unserer sonst so aktiven Mitglieder haben sich
 die Lebensprioritäten verschoben, andere sind inzwischen an neue Orte gezogen.
 Die Folge: Unsere Treffen wurden immer seltener.
 
-Nach reiflicher Überlegung haben wir entschlossen, den Reaktor23 als Raum zu
+Nach reiflicher Überlegung haben wir uns entschlossen, den Reaktor23 als Raum zu
 schließen.
 
 Unsere Community lebt weiter. Wir bleiben über unseren Threema-Gruppenchat in
 Kontakt und überlegen sogar, uns gelegentlich zu treffen. Auch auf Matrix und
-per E-Mail bleiben wir weiterhin erreichbar
+per E-Mail bleiben wir weiterhin erreichbar.

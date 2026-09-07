@@ -7,23 +7,23 @@ draft: false
 image: Tristar-VE-5874.jpg 
 ---
 
-Wir haben seit wir den Reator gegründet haben das Problem das es im Sommer unangenehm warm wird und wir nur die Eingangstüre als Lüftungsmöglichkeit.
+Wir haben seit wir den Reaktor gegründet haben das Problem, dass es im Sommer unangenehm warm wird und wir nur die Eingangstüre als Lüftungsmöglichkeit haben.
 Drum haben wir uns diesen Sommer entschieden einen dieser günstigen Wandventilatoren zu kaufen um es ein wenig erträglicher zu haben.
 
-Das das ganze nicht wie vom Hersteller gedacht über Zugschnüre gesteuert werden soll versteht sich ja von selbst :sunglasses:
+Dass das Ganze nicht wie vom Hersteller gedacht über Zugschnüre gesteuert werden soll versteht sich ja von selbst :sunglasses:
 
 # Ausgangszustand
 
 {{< thumbnail src="Restfan-0.jpg" width="600x" >}}
 
 Der Lüfter verfügt über zwei Schnüre zur Steuerung, eine dreht einen Drehschalter bei jedem Zug um eine Stellung weiter.
-Hierdurch werden die Lüfterstufen 1, 2, 3 und AUS durchgeschalten. Der Schalter schaltet die Phase auf den entsprechenden Draht.
+Hierdurch werden die Lüfterstufen 1, 2, 3 und AUS durchgeschaltet. Der Schalter schaltet die Phase auf den entsprechenden Draht.
 
 Der zweite Schalter schaltet den N auf den Motor der für die Oszillation zuständig ist. Solange keine der Lüfterstufen geschaltet ist, oszilliert auch der Lüfter nicht weil keine Phase anliegt.
 
 # RESTfan Platine
 
-Die Platine ist im Grunde recht simpel aufgebaut. Sie verfügt über einen Hi-Link AC-DC converter der aus der Netzspannung 5VDC generiert, einem WEMOS D1 mini das die Steuerng übernimmt und 4 5VDC Finder Relais die die Stufen sowie die Oszillationschalten und somit die beiden Schalter nachbilden.
+Die Platine ist im Grunde recht simpel aufgebaut. Sie verfügt über einen Hi-Link AC-DC converter der aus der Netzspannung 5VDC generiert, einem WEMOS D1 mini das die Steuerung übernimmt und 4 5VDC Finder Relais die die Stufen sowie die Oszillation schalten und somit die beiden Schalter nachbilden.
 
 
 {{< thumbnail src="Restfan-1.jpg" width="600x" >}}
@@ -35,7 +35,7 @@ Die KiCAD files finden sich [hier](https://github.com/reaktor23/RESTfan/tree/mas
 
 # Software
 
-Auf dem WEMOS läuft recht trivialer code der eine Hand voll POST und GET requests entgegen nimmt die dan entsprechende Relais Konstellationen schalten.
+Auf dem WEMOS läuft recht trivialer Code der eine Handvoll POST und GET requests entgegennimmt die dann entsprechende Relais Konstellationen schalten.
 
 Der Code findet sich ebenfalls [hier](https://github.com/reaktor23/RESTfan/tree/master/PlatformIO/RESTfan)
 
@@ -52,4 +52,4 @@ Die REST endpoints sind eigentlich selbsterklärend (alles POST requests, ausser
 - `http://<ip>/oscillation/on` Oszillation EIN
 - `http://<ip>/oscillation/off` Oszillation AUS
 
-das ganze wird natürlich in unserem [PowerCommander](https://reaktor23.org/projects/pwrcmdr2/) integriert um einfach steuerbar zu sein.
+Das Ganze wird natürlich in unserem [PowerCommander](https://reaktor23.org/projects/pwrcmdr2/) integriert um einfach steuerbar zu sein.

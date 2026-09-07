@@ -18,7 +18,7 @@ Das R23 AudioControl – Modul besteht aus einem ATmega8 sowie 4 Kleinsignalrela
 
 
 # Aufbau 
-Das ganze Modul wurde auf Lochraster  („bäh, Lochraster!“) aufgebaut. Abgesichert ist das Modul mit einer 200mA-Feinsicherung. Die Massen aller Audiokanälen ist dauerhaft miteinander verbunden; Links und rechts des gewünschten Kanals wird mit den 2-Kanal-Kleisignalrelais zur Ausgangsklemme durchgeschaltet. Die Relais werden mit BS107 n-Channel LogicLevel MOSFETS angesteuert. Die Taster, LEDs und Buchsen sind jeweils fest im Kabelkanal eingeheißklebert und mit CAT7-Kabeln mit dem Modul verbunden. Strom bekommt das ganze aus einem 230V/USB Adapter, der an einer geschalteten Steckdose hängt.
+Das ganze Modul wurde auf Lochraster („bäh, Lochraster!“) aufgebaut. Abgesichert ist das Modul mit einer 200mA-Feinsicherung. Die Massen aller Audiokanäle sind dauerhaft miteinander verbunden; links und rechts des gewünschten Kanals wird mit den 2-Kanal-Kleinsignalrelais zur Ausgangsklemme durchgeschaltet. Die Relais werden mit BS107 n-Channel LogicLevel MOSFETs angesteuert. Die Taster, LEDs und Buchsen sind jeweils fest im Kabelkanal eingeheißklebert und mit CAT7-Kabeln mit dem Modul verbunden. Strom bekommt das Ganze aus einem 230V/USB Adapter, der an einer geschalteten Steckdose hängt.
 
 
 # Probleme 

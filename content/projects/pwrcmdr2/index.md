@@ -10,7 +10,7 @@ image: pwrcmdr2.png
 {{% box type="success" %}}
 Wir haben noch 4 Platinen für den pwrCMDer übrig und würden diese gerne gratis an andere Hackerspaces abgeben wenn Interesse besteht.
 Eine Liste mit Bauteilen für die Bestellung bei Pollin ist ebenfalls vorhanden.
-Der einzige Knackpunkt ist das ein kleiner Layoutfehler bei den Optokopplern unterlaufen ist und das Pinout nicht stimmt.
+Der einzige Knackpunkt ist, dass ein kleiner Layoutfehler bei den Optokopplern unterlaufen ist und das Pinout nicht stimmt.
 Das kann aber mit ein wenig gutem altem Pfusch<sup><i class="fa fa-trademark" aria-hidden="true"></i></sup> behoben werden (genauere Infos auf Anfrage).
 {{% /box %}}
 
@@ -23,8 +23,8 @@ Da wir immer wieder Probleme damit haben sollte etwas neues her, das vielleicht 
 
 ## Board
 
-Wir haben uns für ein RaspberryPi 3 B+ entschieden, das ist ausreichend flott udn erfüllt alle unsere Wunschkriterien.
-Ausserdem ist es sehr viel einfacher zu bekommen als die etwas günstigeren Verterter von z.B. Aliexpress (BananaPi, etc.)
+Wir haben uns für ein RaspberryPi 3 B+ entschieden, das ist ausreichend flott und erfüllt alle unsere Wunschkriterien.
+Ausserdem ist es sehr viel einfacher zu bekommen als die etwas günstigeren Vertreter von z.B. Aliexpress (BananaPi, etc.)
 
 ## Formfaktor
 
@@ -33,21 +33,21 @@ Dieses hat ausreichend Platz für einen [HAT](https://www.raspberrypi.org/blog/i
 
 ## Spannungsversorgung
 
-Wir versorgen das Board mit 24VDC da wir das eh im Schaltschrank verwenden. Das RPi wird über die Stiftleisten mit 5VDC versorgt womit die Notwendigkeit eines USB Netzteil entfällt.
+Wir versorgen das Board mit 24VDC da wir das eh im Schaltschrank verwenden. Das RPi wird über die Stiftleisten mit 5VDC versorgt womit die Notwendigkeit eines USB Netzteils entfällt.
 Die 5V werden von einem [AliExpress DC/DC Wandler](https://de.aliexpress.com/item/-/32830931596.html) generiert der auf dem Board verlötet wird.
 
 ## Funktionen
 
 ### Schützsteuerung
 
-Wir haben wieder unsere zweikanalige Schützsteuerung verbaut, diese ist so ausgelegt das sie zwei Externe Schütze die unsere beiden Stromkreise schalten ein bzw. ausschalten können.
-Dabei war uns wichtig das das auch funktionieren muss wenn der PowerCommander einmal einen Ausfall haben sollte.
-Deshalb schalten die 4 Relais einfach eine Selbsthaltung der Schütze, parallel dazu gibt es noch extern verbaute Hardware Taster damit sich das ganze auch wie bereits erwähnt im Notfall schalten lässt.
+Wir haben wieder unsere zweikanalige Schützsteuerung verbaut, diese ist so ausgelegt, dass sie zwei externe Schütze die unsere beiden Stromkreise schalten ein bzw. ausschalten können.
+Dabei war uns wichtig, dass das auch funktionieren muss wenn der PowerCommander einmal einen Ausfall haben sollte.
+Deshalb schalten die 4 Relais einfach eine Selbsthaltung der Schütze, parallel dazu gibt es noch extern verbaute Hardware Taster damit sich das Ganze auch wie bereits erwähnt im Notfall schalten lässt.
 
 ## Ein- und Ausgänge
 
 Das Board verfügt über 4 Relais Ausgänge, dabei lässt sich über einen Lötjumper wählen ob der betreffende Kanal Schliesser oder Öffner sein soll.
-Desweiteren hat das Board 8 Digitaleingänge die 24V tollerant sind und mittels Optokopplern getrennt sind.
+Des Weiteren hat das Board 8 Digitaleingänge die 24V tolerant sind und mittels Optokopplern getrennt sind.
 
 ## Sensorik
 
@@ -58,17 +58,17 @@ Es sind ein I2C, ein 1-Wire und ein RS485 Port vorhanden. Über diese wollen wir
 ~~Wir haben [Hassio](https://www.home-assistant.io/hassio/), eine speziell auf das RaspberryPi zugeschnittene Distribution von [Home Assistant](https://www.home-assistant.io) auf dem RaspberryPi installiert.~~
 
 Da wir immer wieder Probleme mit Hassio hatten (Micro SD Card corruption) haben wir ein Raspbian Buster installiert und darauf dann [Home Assistant](https://www.home-assistant.io) via [docker-compose](https://github.com/reaktor23/pwrcmder/).
-Die Datenbank ist jetzt ein Postgres das auf unserem actse server läuft und eintsprechend in der HA config konfiguriert ist. Dies sollte die Schreibzyklen auf die SD Karte möglichst gering halten.
+Die Datenbank ist jetzt ein Postgres das auf unserem actse server läuft und entsprechend in der HA config konfiguriert ist. Dies sollte die Schreibzyklen auf die SD Karte möglichst gering halten.
 
-Das hat sehr viele Vortiele für uns:
+Das hat sehr viele Vorteile für uns:
 
 - Ansteuerungen der GPIOs via Webinterface und/oder REST API ([rpi_gpio](https://www.home-assistant.io/components/rpi_gpio/))
 - Auslesen der 1-Wire Temperatursensoren ([sensor.onewire](https://www.home-assistant.io/components/sensor.onewire/))
 - Bereitstellen des Reaktorstatus via SpaceAPI ([spaceapi](https://www.home-assistant.io/components/spaceapi/))
 
-Ausserdem die einfache Konfiguration via YAML files und das ermöglichen von Automations und vielen weiteren coolen Features!
+Ausserdem die einfache Konfiguration via YAML files und das Ermöglichen von Automations und vielen weiteren coolen Features!
 
-So sieht das interface in seiner ersten Version aus, hier bietet sich noch viel Spielraum für Erweiterungen :-)
+So sieht das Interface in seiner ersten Version aus, hier bietet sich noch viel Spielraum für Erweiterungen :-)
 
 {{< thumbnail src="2020-10-13-ha-1.png" width="600x" >}}
 
@@ -78,9 +78,9 @@ So sieht das interface in seiner ersten Version aus, hier bietet sich noch viel 
 
 ### rpi_gpio
 
-Die Eingänge werden über die rpi_gpio integration abgefragt und lösen ein event aus, allerdings kann es passieren das wenn der Kontakt prellt das der state nicht stimmt was sehr unglücklich ist.
-Als Workaround haben wir das `rpi_gpio` Verzeichnis von [GitHub](https://github.com/home-assistant/core/tree/dev/homeassistant/components/rpi_gpio) nach config/custom_components/rpi_gpio kopiert und die Zeile 75 in der Datei `switch.py` geändert das sie True zurückgibt.
-Dadurch wird die rpi_gpio integration als custom_component geladen und verhindert das laden der Originalen Integration.
+Die Eingänge werden über die rpi_gpio integration abgefragt und lösen ein event aus, allerdings kann es passieren, dass, wenn der Kontakt prellt, der State nicht stimmt, was sehr unglücklich ist.
+Als Workaround haben wir das `rpi_gpio` Verzeichnis von [GitHub](https://github.com/home-assistant/core/tree/dev/homeassistant/components/rpi_gpio) nach config/custom_components/rpi_gpio kopiert und die Zeile 75 in der Datei `switch.py` geändert, dass sie True zurückgibt.
+Dadurch wird die rpi_gpio integration als custom_component geladen und verhindert das Laden der originalen Integration.
 
 ```
     @property
@@ -89,4 +89,4 @@ Dadurch wird die rpi_gpio integration als custom_component geladen und verhinder
         return True
 ```
 
-Es wird zwar gewarnt das dies die CPU Last erhöht, allerdings konnten wir keine Nachteile durch diese Methode erkennen.
+Es wird zwar gewarnt, dass dies die CPU Last erhöht, allerdings konnten wir keine Nachteile durch diese Methode erkennen.

@@ -30,7 +30,7 @@ Lorem ipsum dolor sit amet, consectetur [adipiscing](http://owee.de/) elit. Sed 
 
     class foo {
         public static void foo() {
-            // return somthing
+            // return something
             return true;
         }
     }

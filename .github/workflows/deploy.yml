@@ -27,3 +27,8 @@ jobs:
         with:
           branch: gh-pages
           folder: public
+          # Vorschauen der offenen PRs und die Domain-Konfiguration nicht löschen
+          clean-exclude: |
+            pr-preview
+            CNAME
+          force: false

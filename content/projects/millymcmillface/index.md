@@ -1,5 +1,5 @@
 ---
-title: MillyMcMillface
+title: Milly McMillface
 author: Valentin, Bouni
 description: Eine CNC Fräse für unseren Hackerspace
 draft: false

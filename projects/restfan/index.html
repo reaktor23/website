@@ -97,9 +97,9 @@
         </div>
     </header>
     
-    <p>Wir haben seit wir den Reator gegründet haben das Problem das es im Sommer unangenehm warm wird und wir nur die Eingangstüre als Lüftungsmöglichkeit.
+    <p>Wir haben seit wir den Reaktor gegründet haben das Problem, dass es im Sommer unangenehm warm wird und wir nur die Eingangstüre als Lüftungsmöglichkeit haben.
 Drum haben wir uns diesen Sommer entschieden einen dieser günstigen Wandventilatoren zu kaufen um es ein wenig erträglicher zu haben.</p>
-<p>Das das ganze nicht wie vom Hersteller gedacht über Zugschnüre gesteuert werden soll versteht sich ja von selbst &#x1f60e;</p>
+<p>Dass das Ganze nicht wie vom Hersteller gedacht über Zugschnüre gesteuert werden soll versteht sich ja von selbst &#x1f60e;</p>
 <h1 id="ausgangszustand">Ausgangszustand</h1>
 
 
@@ -111,10 +111,10 @@ Drum haben wir uns diesen Sommer entschieden einen dieser günstigen Wandventila
 </figure>
 
 <p>Der Lüfter verfügt über zwei Schnüre zur Steuerung, eine dreht einen Drehschalter bei jedem Zug um eine Stellung weiter.
-Hierdurch werden die Lüfterstufen 1, 2, 3 und AUS durchgeschalten. Der Schalter schaltet die Phase auf den entsprechenden Draht.</p>
+Hierdurch werden die Lüfterstufen 1, 2, 3 und AUS durchgeschaltet. Der Schalter schaltet die Phase auf den entsprechenden Draht.</p>
 <p>Der zweite Schalter schaltet den N auf den Motor der für die Oszillation zuständig ist. Solange keine der Lüfterstufen geschaltet ist, oszilliert auch der Lüfter nicht weil keine Phase anliegt.</p>
 <h1 id="restfan-platine">RESTfan Platine</h1>
-<p>Die Platine ist im Grunde recht simpel aufgebaut. Sie verfügt über einen Hi-Link AC-DC converter der aus der Netzspannung 5VDC generiert, einem WEMOS D1 mini das die Steuerng übernimmt und 4 5VDC Finder Relais die die Stufen sowie die Oszillationschalten und somit die beiden Schalter nachbilden.</p>
+<p>Die Platine ist im Grunde recht simpel aufgebaut. Sie verfügt über einen Hi-Link AC-DC converter der aus der Netzspannung 5VDC generiert, einem WEMOS D1 mini das die Steuerung übernimmt und 4 5VDC Finder Relais die die Stufen sowie die Oszillation schalten und somit die beiden Schalter nachbilden.</p>
 
 
 <figure class="figure m-1">
@@ -135,7 +135,7 @@ Hierdurch werden die Lüfterstufen 1, 2, 3 und AUS durchgeschalten. Der Schalter
 
 <p>Die KiCAD files finden sich <a href="https://github.com/reaktor23/RESTfan/tree/master/KiCAD/RESTfan">hier</a></p>
 <h1 id="software">Software</h1>
-<p>Auf dem WEMOS läuft recht trivialer code der eine Hand voll POST und GET requests entgegen nimmt die dan entsprechende Relais Konstellationen schalten.</p>
+<p>Auf dem WEMOS läuft recht trivialer Code der eine Handvoll POST und GET requests entgegennimmt die dann entsprechende Relais Konstellationen schalten.</p>
 <p>Der Code findet sich ebenfalls <a href="https://github.com/reaktor23/RESTfan/tree/master/PlatformIO/RESTfan">hier</a></p>
 <h2 id="rest-endpoints">REST endpoints</h2>
 <p>Die REST endpoints sind eigentlich selbsterklärend (alles POST requests, ausser /state)</p>
@@ -162,7 +162,7 @@ Hierdurch werden die Lüfterstufen 1, 2, 3 und AUS durchgeschalten. Der Schalter
 <p><code>http://&lt;ip&gt;/oscillation/off</code> Oszillation AUS</p>
 </li>
 </ul>
-<p>das ganze wird natürlich in unserem <a href="https://reaktor23.org/projects/pwrcmdr2/">PowerCommander</a> integriert um einfach steuerbar zu sein.</p>
+<p>Das Ganze wird natürlich in unserem <a href="https://reaktor23.org/projects/pwrcmdr2/">PowerCommander</a> integriert um einfach steuerbar zu sein.</p>
 
 </article>
 
@@ -193,7 +193,7 @@ Hierdurch werden die Lüfterstufen 1, 2, 3 und AUS durchgeschalten. Der Schalter
         
         <br />
 
-        <span style="font-size: 0.7em;">build time: 2026-09-07 13:34 UTC</span>
+        <span style="font-size: 0.7em;">build time: 2026-09-07 13:43 UTC</span>
     </div>
 </footer>
 

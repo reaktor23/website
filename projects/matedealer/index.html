@@ -98,7 +98,7 @@
     </header>
     
     <aside class="panel panel-default">
-        <div class="panel-heading">Table Of Conent</div>
+        <div class="panel-heading">Table Of Content</div>
         <div class="panel-body">
             <nav id="TableOfContents">
   <ul>
@@ -154,13 +154,13 @@
         </div>
     </aside>
     
-    <p>There is a enlish version of this site: <a href="projects:mate_dealer_en">Mate Dealer</a></p>
+    <p>There is an English version of this site: <a href="projects:mate_dealer_en">Mate Dealer</a></p>
 <p>Der MateDealer in der hier beschriebenen Konfiguration ist tot.
-Die Mechanischen Teile werden für den <a href="projects:matedealer2">MateDealer 2.0</a> benutzt.</p>
+Die mechanischen Teile werden für den <a href="/projects/matedealer2/">MateDealer 2.0</a> benutzt.</p>
 <h1 id="der-ausgangszustand">Der Ausgangszustand</h1>
 <ul>
 <li>Hersteller: <a href="http://www.sandenvendo.com/">Sanden Vendo</a></li>
-<li>Model: VDI 100-5</li>
+<li>Modell: VDI 100-5</li>
 <li>5 Produktschächte</li>
 <li>Betriebsspannung: 230VAC 50Hz</li>
 <li>Nominale Leistungsaufnahme: 450W</li>
@@ -220,29 +220,29 @@ Die Mechanischen Teile werden für den <a href="projects:matedealer2">MateDealer
 </ul>
 <h2 id="februar-2011">Februar 2011</h2>
 <ul>
-<li>19.02.2011: Nachdem wir im Dezember Log festgestellt hatten das der VMC das Chashless Device welches wir mit hilfe des AtMegas simulieren wollen nicht adressiert, haben wir beim Hersteller des Automaten ein neues EEPROM gekauft, und diesers nun eingebaut. Im neuen Log ist schön zu sehen das das Cashless Device adressiert wird.</li>
+<li>19.02.2011: Nachdem wir im Dezember Log festgestellt hatten dass der VMC das Cashless Device welches wir mit Hilfe des AtMegas simulieren wollen nicht adressiert, haben wir beim Hersteller des Automaten ein neues EEPROM gekauft, und dieses nun eingebaut. Im neuen Log ist schön zu sehen, dass das Cashless Device adressiert wird.</li>
 </ul>
 <h2 id="märz-2011">März 2011</h2>
 <ul>
 <li>
-<p>01.03.2011: Nach dem wir von einem PC814 auf einen PC817 umgestiegen sind klappt der Empfang immer noch nicht wie gedacht. Die Nachfolgenden Bilder zeigen was mit dem Oszi sichtbar wurde. Die steigenden Flanken (untere Bildhälfte) steigen viel zu langsam an. im ersten Bild ist ein 10k Pullup verwendet worden, im zweiten dann ein 1k5. \ <img src="20110301_003.jpg" alt=""></p>
+<p>01.03.2011: Nach dem wir von einem PC814 auf einen PC817 umgestiegen sind klappt der Empfang immer noch nicht wie gedacht. Die nachfolgenden Bilder zeigen was mit dem Oszi sichtbar wurde. Die steigenden Flanken (untere Bildhälfte) steigen viel zu langsam an. Im ersten Bild ist ein 10k Pullup verwendet worden, im zweiten dann ein 1k5. <br> <img src="20110301_003.jpg" alt=""></p>
 </li>
 <li>
-<p>12.03.2011: Heute wurde ein Versuch unternommen mit schnellen PC900 Optokopplern das Problem in den Griff zu bekommen. Ergebinis ist ein gesprengter PC900 und ein gelöschtes/defektes ROM im Münzprüfer. Nach dem Test wurde das PC817 Board nochmal angeschlossen und mit diesem ein Test mit kleinerem Pullup (470R) und einem grösseren Vorwiderstand (560R) gemacht und das brachte den ersehnten Erfolg.</p>
+<p>12.03.2011: Heute wurde ein Versuch unternommen mit schnellen PC900 Optokopplern das Problem in den Griff zu bekommen. Ergebnis ist ein gesprengter PC900 und ein gelöschtes/defektes ROM im Münzprüfer. Nach dem Test wurde das PC817 Board nochmal angeschlossen und mit diesem ein Test mit kleinerem Pullup (470R) und einem grösseren Vorwiderstand (560R) gemacht und das brachte den ersehnten Erfolg.</p>
 </li>
 </ul>
 <p><strong>Milestone</strong> Der Empfang der MDB Daten klappt nun wie gedacht.</p>
 <ul>
-<li>23.03.2011: Seit heute klappt nun auch das senden von MDB Kommandos</li>
+<li>23.03.2011: Seit heute klappt nun auch das Senden von MDB Kommandos</li>
 </ul>
-<p><strong>Milestone</strong> Das senden von MDB Daten klappt nun auch.</p>
+<p><strong>Milestone</strong> Das Senden von MDB Daten klappt nun auch.</p>
 <h2 id="april-2011">April 2011</h2>
 <ul>
 <li>
 <p>15.04.2011: Die ersten Gehversuche sind gemacht. Das MDB Protokoll ist ein wenig komisch aber wir lassen uns nicht entmutigen.</p>
 </li>
 <li>
-<p>20.04.2011: Die ersten Befehle (RESET, SETUP) sind implementiert und funktioneieren auch schon. Das ausgeben eines Getränks ist aber noch nicht möglich.</p>
+<p>20.04.2011: Die ersten Befehle (RESET, SETUP) sind implementiert und funktionieren auch schon. Das Ausgeben eines Getränks ist aber noch nicht möglich.</p>
 </li>
 <li>
 <p>21.04.2011: Das erste Getränk wurde dem Automaten entlockt. Irgendetwas scheint aber noch nicht zu passen, da das eher Zufall war.</p>
@@ -251,36 +251,36 @@ Die Mechanischen Teile werden für den <a href="projects:matedealer2">MateDealer
 <p>22.04.2011: Wie es aussieht ist ein fetter Bug im Code. Wenn man sich &ldquo;beeilt&rdquo; bekommt man ein Getränk aus dem Automaten, wenn man aber zu lange wartet versagt die ganze Kommunikation.</p>
 </li>
 <li>
-<p>30.04.2011: Das Problem ist gefunden. Ein Fehlerhaft implementierter FiFo Buffer war die Ursache. Wenn man vor dem Überlauf das Getränk bezogen hat ging es, danach ging etwas schief. Nach dem beheben des Fehlers klappt das beziehen eines Getränks nun ohne Probleme. Das ganze ist momentan über 2 Taster gelöst. Taster 1 ist das authentifizieren eines Kunden am Automaten mit einem Festen Guthaben von 23€. Taste 2 ist das freigeben des Ausgabevorganges mit fixen 2€ Getränkepreis.</p>
+<p>30.04.2011: Das Problem ist gefunden. Ein fehlerhaft implementierter FiFo Buffer war die Ursache. Wenn man vor dem Überlauf das Getränk bezogen hat ging es, danach ging etwas schief. Nach dem Beheben des Fehlers klappt das Beziehen eines Getränks nun ohne Probleme. Das Ganze ist momentan über 2 Taster gelöst. Taster 1 ist das Authentifizieren eines Kunden am Automaten mit einem festen Guthaben von 23€. Taster 2 ist das Freigeben des Ausgabevorganges mit fixen 2€ Getränkepreis.</p>
 </li>
 </ul>
-<p>*<em>Milestone</em> Es ist nun möglich ein Getränk aus dem Automaten zu ziehen.</p>
+<p><strong>Milestone</strong> Es ist nun möglich ein Getränk aus dem Automaten zu ziehen.</p>
 <p><img src="https://vimeo.com/24110627" alt=""></p>
 <h2 id="august-2011">August 2011</h2>
 <ul>
 <li>
-<p>01.08.2011: In den letzten Monaten wurde der Code weitreichend überarbeitet. Beide Seriellen Verbindungen (MDB,Uplink) sind nun sowohl sendend als auch empfangend mit einem FiFo gepuffert. Ausserdem geschieht das Empfangen und senden im Interrupt Betrieb. Auch die anfangs verwendeten while Schleifen um auf neue Daten zu warten wurden erstezt und es ist nun mehr Zeit etwas sinnvolles in de Main Loop zu tun.</p>
+<p>01.08.2011: In den letzten Monaten wurde der Code weitreichend überarbeitet. Beide seriellen Verbindungen (MDB,Uplink) sind nun sowohl sendend als auch empfangend mit einem FiFo gepuffert. Ausserdem geschieht das Empfangen und Senden im Interrupt Betrieb. Auch die anfangs verwendeten while Schleifen um auf neue Daten zu warten wurden ersetzt und es ist nun mehr Zeit etwas Sinnvolles in der Main Loop zu tun.</p>
 </li>
 <li>
-<p>02.08.2011: Heute wurde das zusammenspiel des Python Scripts auf dem SingleBoard PC mit der uC Schaltung getestet. Nun kann für mehrere Benutzer in einer Datenbank ein Guthaben hinterlegt werden von dem beim Bezug eines Getränks abgebucht wird. Ebenso werden Getränkpreise in der Datenbank hinterlegt und der Verbrauch der einzelnen Getränkesorten geloggt um eine kleine Statistik über den Verbrauch und die Beliebtheit erstellen zu können. Dies geschieht nicht Personenbezogen.</p>
+<p>02.08.2011: Heute wurde das Zusammenspiel des Python Scripts auf dem SingleBoard PC mit der uC Schaltung getestet. Nun kann für mehrere Benutzer in einer Datenbank ein Guthaben hinterlegt werden von dem beim Bezug eines Getränks abgebucht wird. Ebenso werden Getränkepreise in der Datenbank hinterlegt und der Verbrauch der einzelnen Getränkesorten geloggt um eine kleine Statistik über den Verbrauch und die Beliebtheit erstellen zu können. Dies geschieht nicht personenbezogen.</p>
 </li>
 </ul>
-<p><strong>Milestone</strong> Das Backend ist in einer frühen alpha Phase funktioniert aber schon gut.</p>
+<p><strong>Milestone</strong> Das Backend ist in einer frühen Alpha-Phase, funktioniert aber schon gut.</p>
 <h2 id="september-2011">September 2011</h2>
 <ul>
 <li>20.09.2011 Es wurde der Entschluss gefasst das Projekt auf ein Arduino Board zu portieren.</li>
 </ul>
 <h2 id="oktober-2011">Oktober 2011</h2>
 <ul>
-<li>Die Portierung ist immer noch im Gange wenn auch langsamer als gedacht. Die Idee vom Anfang das ganze in &ldquo;Arduino Code&rdquo; zu portieren wurde verworfen. es wird sich wieder um reinen C-Code handeln, denn die Arduino Serial Lib unterstützt keine anderen Modi als 8,N,1</li>
+<li>Die Portierung ist immer noch im Gange wenn auch langsamer als gedacht. Die Idee vom Anfang das ganze in &ldquo;Arduino Code&rdquo; zu portieren wurde verworfen. Es wird sich wieder um reinen C-Code handeln, denn die Arduino Serial Lib unterstützt keine anderen Modi als 8,N,1</li>
 </ul>
 <h2 id="november-2011">November 2011</h2>
 <ul>
-<li>ein fauler monat</li>
+<li>ein fauler Monat</li>
 </ul>
 <h2 id="dezember-2011">Dezember 2011</h2>
 <ul>
-<li>ein weiterer fauler monat</li>
+<li>ein weiterer fauler Monat</li>
 </ul>
 <h2 id="januar-2012">Januar 2012</h2>
 <ul>
@@ -313,7 +313,7 @@ Die Mechanischen Teile werden für den <a href="projects:matedealer2">MateDealer
     
 </figure>
 </p>
-<p>hellblau ist die LED Seite an der das Arduino Board hängt, gelb die Transistorseite. Übertragen wurde mit 9600Baud.</p>
+<p>Hellblau ist die LED Seite an der das Arduino Board hängt, gelb die Transistorseite. Übertragen wurde mit 9600Baud.</p>
 <h2 id="february-2012">February 2012</h2>
 <ul>
 <li>kein Fortschritt</li>
@@ -332,15 +332,15 @@ Die Mechanischen Teile werden für den <a href="projects:matedealer2">MateDealer
 </ul>
 <h2 id="juni-2012">Juni 2012</h2>
 <ul>
-<li>Ich habe die Zeit gefunden an meinem Code rewrite weiter zu arbeiten, evtl. kann die nächsten Dienstage ein Test stattfinden :) Yeah baby, yeah &mdash;Bouni</li>
+<li>Ich habe die Zeit gefunden an meinem Code rewrite weiterzuarbeiten, evtl. kann die nächsten Dienstage ein Test stattfinden :) Yeah baby, yeah &mdash;Bouni</li>
 </ul>
 <h2 id="juli-2012">Juli 2012</h2>
 <ul>
 <li>
-<p><strong>04.07.2012</strong> Am gestrigen Dienstag hab ich endlich wieder am MateDealer weiter gearbeitet. Ich hab zwar den Code nicht vollständig fertig bekommen, aber etliche Fehler gefunden und behoben und bis zum //begin session// funktioniert nun alles. Auch die Uplink Kommunikation funktioniert sauber. Ausserdem hab ich ein kleines Stück Lochstreifen Platine in ein &ldquo;Arduino Mega MDB Shield&rdquo; verwandelt und das hat auf Anhieb funktioniert. &mdash;Bouni</p>
+<p><strong>04.07.2012</strong> Am gestrigen Dienstag hab ich endlich wieder am MateDealer weiter gearbeitet. Ich hab zwar den Code nicht vollständig fertig bekommen, aber etliche Fehler gefunden und behoben und bis zum <em>begin session</em> funktioniert nun alles. Auch die Uplink Kommunikation funktioniert sauber. Ausserdem hab ich ein kleines Stück Lochstreifen Platine in ein &ldquo;Arduino Mega MDB Shield&rdquo; verwandelt und das hat auf Anhieb funktioniert. &mdash;Bouni</p>
 </li>
 <li>
-<p><strong>11.07.2012</strong> Wiederum am gestrigen Hackerspace Dienstag habe ich die (Grund)Funktionalität des MateDealers fertig gestellt. Es funktionieren nun die folgenden MDB Kommandos: RESET, SETUP, POLL, READER [ENABLE|DISABLE], VEND [REQUEST|SUCCESS]. Demenstprechend kann man nun eine Session starten, eine Getränk wählen, den Vend genehmigen, und das Resultat trinken ;)</p>
+<p><strong>11.07.2012</strong> Wiederum am gestrigen Hackerspace Dienstag habe ich die (Grund)Funktionalität des MateDealers fertig gestellt. Es funktionieren nun die folgenden MDB Kommandos: RESET, SETUP, POLL, READER [ENABLE|DISABLE], VEND [REQUEST|SUCCESS]. Dementsprechend kann man nun eine Session starten, ein Getränk wählen, den Vend genehmigen, und das Resultat trinken ;)</p>
 </li>
 <li>
 <p><strong>17.07.2012</strong> Seit heute funktioniert der Arduinoseitige Teil des Mate Dealers komplett.</p>
@@ -348,28 +348,28 @@ Die Mechanischen Teile werden für den <a href="projects:matedealer2">MateDealer
 </ul>
 <h2 id="juli-2013">Juli 2013</h2>
 <ul>
-<li><strong>02.07.2013</strong> Nach langem stillstand wurde heute eine lauffähige aber wahrscheinlich nicht sehr vertrauenswürdige Version der GUI auf dem single-board computer im MateDealer zum laufen gebracht. Weitere tests werden folgen.</li>
+<li><strong>02.07.2013</strong> Nach langem Stillstand wurde heute eine lauffähige aber wahrscheinlich nicht sehr vertrauenswürdige Version der GUI auf dem Single-Board Computer im MateDealer zum Laufen gebracht. Weitere Tests werden folgen.</li>
 </ul>
-<p>** Ab hier werden Schwerwiegende Änderungen am MateDealer Projekt stattfinden.**</p>
+<p><strong>Ab hier werden schwerwiegende Änderungen am MateDealer Projekt stattfinden.</strong></p>
 <ul>
-<li><strong>30.07.2013</strong> Kurz bevor die Kids zum <a href="events:fez2013">FEZ Abend</a> zu uns gekommen sind hat sich der 2te Schacht des Matedealers verabschiedet. Er zeigt an er sei leer obwohl das nicht der Fall ist. Das durchmessen der Leitung und der Test des Schalters lassen darauf schliessen das es sich um einen Defekt auf der VMC Platine handelt.</li>
+<li><strong>30.07.2013</strong> Kurz bevor die Kids zum <a href="events:fez2013">FEZ Abend</a> zu uns gekommen sind hat sich der 2te Schacht des Matedealers verabschiedet. Er zeigt an er sei leer obwohl das nicht der Fall ist. Das durchmessen der Leitung und der Test des Schalters lassen darauf schliessen, dass es sich um einen Defekt auf der VMC Platine handelt.</li>
 <li>Wenig später hat sich gleich noch ein weiterer Schacht verabschiedet.</li>
-<li>Nach kurzem überlegen wir es wohl darauf hinauslaufen, das wir ein komplett eigenes PCB anfertigen um die Steuerung des Automaten zu übernehmen, was nicht wirklich wild ist, denn es sind nur 5 Motoren (DC) und 10 Schalter (Schacht leer + Motor Position erreicht) zu bedienen. Ein weiterer Vorteil wird sein das das komplette MDB wegfällt und man viele Fehlerquellen eliminiert.</li>
+<li>Nach kurzem Überlegen wird es wohl darauf hinauslaufen, dass wir ein komplett eigenes PCB anfertigen um die Steuerung des Automaten zu übernehmen, was nicht wirklich wild ist, denn es sind nur 5 Motoren (DC) und 10 Schalter (Schacht leer + Motor Position erreicht) zu bedienen. Ein weiterer Vorteil wird sein, dass das komplette MDB wegfällt und man viele Fehlerquellen eliminiert.</li>
 </ul>
 <h1 id="software">Software</h1>
-<p>Die Software die auf dem Arduino lauft ist auf <a href="https://github.com/Bouni/MateDealer">GitHub</a> zu finden.</p>
+<p>Die Software die auf dem Arduino läuft ist auf <a href="https://github.com/Bouni/MateDealer">GitHub</a> zu finden.</p>
 <hr>
 <h1 id="probleme--lösungen">Probleme &amp; Lösungen</h1>
 <h2 id="falsche-münzrohre">Falsche Münzrohre</h2>
 <ul>
-<li><strong>Problem:</strong> Der Münzprüfer verfügt über 4 Münzspeicher, wovon jede eine Münzsorte aufnimmt (5Cent, 10Cent, 20Cent, 50Cent). Eine dieser sogenannten Tuben passte nicht zur programmierten Münze (20Cent) was dazu führte das sich die einfallenden Münzen querstellten.</li>
-<li><strong>Lösung</strong>: Der Hersteller hat uns freundlicherweise eine {{:projekte:mate_dealer:tubenvarianten_g46.pdf|Liste aller Tuben}} zugemailt und wir konnten die passende nachbestellen.</li>
+<li><strong>Problem:</strong> Der Münzprüfer verfügt über 4 Münzspeicher, wovon jeder eine Münzsorte aufnimmt (5Cent, 10Cent, 20Cent, 50Cent). Eine dieser sogenannten Tuben passte nicht zur programmierten Münze (20Cent) was dazu führte, dass sich die einfallenden Münzen querstellten.</li>
+<li><strong>Lösung</strong>: Der Hersteller hat uns freundlicherweise eine <a href="tubenvarianten_g46.pdf">Liste aller Tuben</a> zugemailt und wir konnten die passende nachbestellen.</li>
 <li><strong>Kosten:</strong> ~11€ + MwSt. &amp; Versand.</li>
 </ul>
 <h2 id="fehlender-schlüssel">Fehlender Schlüssel</h2>
 <ul>
-<li><strong>Problem:</strong> Als wir den Automaten gekauft haben, war er offen und es gab keine Schlüssel zum eingebauten Schloss mehr. Da niemand unbefugtes Zugang zum Inneren des Automaten haben soll muss ein Schloss mit Schlüssel her.</li>
-<li><strong>Lösung</strong>: Nach einiger Suche konnten wir ein Baugleiches Schloss in bei <a href="http://www.coinoperatorshop.com/shop/product_info.php?cPath=21_37_39_364&amp;info=p5438_Lock-key-alike-T-Handle-inner-cylinder-lock.html">www.coinoperatorshop.com</a> finden und bestellen.</li>
+<li><strong>Problem:</strong> Als wir den Automaten gekauft haben, war er offen und es gab keine Schlüssel zum eingebauten Schloss mehr. Da niemand Unbefugtes Zugang zum Inneren des Automaten haben soll muss ein Schloss mit Schlüssel her.</li>
+<li><strong>Lösung</strong>: Nach einiger Suche konnten wir ein baugleiches Schloss bei <a href="http://www.coinoperatorshop.com/shop/product_info.php?cPath=21_37_39_364&amp;info=p5438_Lock-key-alike-T-Handle-inner-cylinder-lock.html">www.coinoperatorshop.com</a> finden und bestellen.</li>
 <li><strong>Kosten:</strong> ~7€ + MwSt. &amp; Versand.</li>
 </ul>
 <h2 id="cashless-device">Cashless Device</h2>
@@ -380,26 +380,26 @@ Die Mechanischen Teile werden für den <a href="projects:matedealer2">MateDealer
 </ul>
 <h2 id="vmc-parametrierung">VMC Parametrierung</h2>
 <ul>
-<li><strong>Problem:</strong> Nach dem einabu des neuen EEPROM hat sich die Menüstruktur zum parametrieren des Automaten geändert. Das Handbuch das wir mit dem Automaten bekommen hatten war somit nicht mehr wirklich zu gebrauchen.</li>
-<li><strong>Lösung</strong>: Eine freundliche Anfrage beim hersteller später haben wir ein {{:projekte:mate_dealer:bb01_einstellanleitung_080306_de.pdf|aktuelles Manual}} per Mail bekommen. Es passt zwar auch nicht ganz zum Menü, aber besser als das alte ist es.</li>
+<li><strong>Problem:</strong> Nach dem Einbau des neuen EEPROM hat sich die Menüstruktur zum Parametrieren des Automaten geändert. Das Handbuch das wir mit dem Automaten bekommen hatten war somit nicht mehr wirklich zu gebrauchen.</li>
+<li><strong>Lösung</strong>: Eine freundliche Anfrage beim Hersteller später haben wir ein <a href="bb01_einstellanleitung_080306_de.pdf">aktuelles Manual</a> per Mail bekommen. Es passt zwar auch nicht ganz zum Menü, aber besser als das alte ist es.</li>
 <li><strong>Kosten:</strong> 0€</li>
 </ul>
 <h2 id="füllstandsüberwachung">Füllstandsüberwachung</h2>
 <ul>
-<li><strong>Problem:</strong> Wenn man den Automaten bzw. einen Schacht bis oben hin füllt, passen ca. 25 Flaschen hinein. Der Wippschalter der den Füllstand überwacht meldet allerdings schon bei 10 verbleibenden Flaschen im Schacht das dieser leer sei.</li>
-<li><strong>Lösung</strong>: Ein paar streifen 2mm Aluminium mit ~3x10cm und ein wenig Duct-Tape haben die Füllstandsüberwachung auf 1 verbleibende Flasche verbessert.</li>
+<li><strong>Problem:</strong> Wenn man den Automaten bzw. einen Schacht bis oben hin füllt, passen ca. 25 Flaschen hinein. Der Wippschalter der den Füllstand überwacht meldet allerdings schon bei 10 verbleibenden Flaschen im Schacht, dass dieser leer sei.</li>
+<li><strong>Lösung</strong>: Ein paar Streifen 2mm Aluminium mit ~3x10cm und ein wenig Duct-Tape haben die Füllstandsüberwachung auf 1 verbleibende Flasche verbessert.</li>
 <li><strong>Kosten</strong>: 0€</li>
 </ul>
 <hr>
 <h1 id="wünsche-und-ideen">Wünsche und Ideen</h1>
 <h2 id="bargeldloses-bezahlen">Bargeldloses Bezahlen</h2>
 <ul>
-<li><strong>Idee:</strong> Die Hauptmodfikation besteht darin das wir ein Bargeldloses Bezahlsystem entwickeln wollen. Realisiert wird das ganze in dem wir mit einem Mikrocontroller ein Cashless Device simulieren was wirderum über einen Single Borad PC der mit WLAN ausgestattet ist mit einem Server kommuniziert.</li>
+<li><strong>Idee:</strong> Die Hauptmodifikation besteht darin, dass wir ein bargeldloses Bezahlsystem entwickeln wollen. Realisiert wird das Ganze, indem wir mit einem Mikrocontroller ein Cashless Device simulieren, was wiederum über einen Single Board PC der mit WLAN ausgestattet ist mit einem Server kommuniziert.</li>
 <li><strong>Entwicklungsstand:</strong> 80%</li>
 </ul>
 <h2 id="genaue-füllstandsanzeige">Genaue Füllstandsanzeige</h2>
 <ul>
-<li><strong>Idee:</strong> Den Füllstand der einzelnen Schächte mit Hilfe Analoger Sensoren (Sharp GP2Y0A21YK0F) zu messen.</li>
+<li><strong>Idee:</strong> Den Füllstand der einzelnen Schächte mit Hilfe analoger Sensoren (Sharp GP2Y0A21YK0F) zu messen.</li>
 <li><strong>Entwicklungsstand:</strong> 0%</li>
 </ul>
 <h2 id="temperatur-logging">Temperatur Logging</h2>
@@ -409,7 +409,7 @@ Die Mechanischen Teile werden für den <a href="projects:matedealer2">MateDealer
 </ul>
 <h2 id="regelung-des-kühlaggregates">Regelung des Kühlaggregates</h2>
 <ul>
-<li><strong>Idee:</strong> Das Kühlaggregat mit dem uC regeln. Die verbaute Regelung mit Bimetall funktioniert nicht wirklich. Ausserdem lassen sich Nachtabsenkungen usw. Realisieren.</li>
+<li><strong>Idee:</strong> Das Kühlaggregat mit dem uC regeln. Die verbaute Regelung mit Bimetall funktioniert nicht wirklich. Ausserdem lassen sich Nachtabsenkungen usw. realisieren.</li>
 <li><strong>Entwicklungsstand:</strong> 0%</li>
 </ul>
 <h2 id="display-scheibe">Display Scheibe</h2>
@@ -429,8 +429,8 @@ Die Mechanischen Teile werden für den <a href="projects:matedealer2">MateDealer
 
 <img src="mdb-flowchart.svg" width="1100x" ></p>
 <h1 id="elektronik">Elektronik</h1>
-<p><strong>20.09.2011</strong>\
-Hab mich entschieden das Elektronik &ldquo;Problem&rdquo; mit einem <strong><a href="http://arduino.cc/en/Main/ArduinoBoardMega2560">Arduino Mega 2560</a> + MEGA Proto PCB Shield</strong> zu realisieren. Das macht das ganze für andere eher Nachbaubar. Die Kosten werden etwa im selben Rahmen wie die bei einem Eigenbau liegen.
+<p><strong>20.09.2011</strong><br>
+Hab mich entschieden das Elektronik &ldquo;Problem&rdquo; mit einem <strong><a href="http://arduino.cc/en/Main/ArduinoBoardMega2560">Arduino Mega 2560</a> + MEGA Proto PCB Shield</strong> zu realisieren. Das macht das Ganze für andere eher nachbaubar. Die Kosten werden etwa im selben Rahmen wie die bei einem Eigenbau liegen.
 Evtl. wird das Shield mal als gefertigtes PCB gemacht und zum Selbstkostenpreis verkauft. Ist dann ne saubere Lösung. Die Bestellung sollte die Tage bei mir eintrudeln. &mdash;Bouni</p>
 <h2 id="grundlegende-beschaltung">Grundlegende Beschaltung</h2>
 
@@ -445,14 +445,14 @@ Evtl. wird das Shield mal als gefertigtes PCB gemacht und zum Selbstkostenpreis 
 <img src="mdb-proto-shield.svg" width="1100x" >
 <h2 id="was-alles-auf-die-platine-soll">Was alles auf die Platine soll</h2>
 <ul>
-<li>1 Relais zum schalten des Kühlaggregates</li>
-<li>1 Relais zum schalten des Lüfters</li>
+<li>1 Relais zum Schalten des Kühlaggregates</li>
+<li>1 Relais zum Schalten des Lüfters</li>
 <li>Anschlüsse für 1-wire Sensoren</li>
-<li>Status LED&rsquo;s, evtl ein LCD</li>
+<li>Status LEDs, evtl. ein LCD</li>
 <li>&hellip;</li>
 </ul>
-<h1 id="authentification">Authentification</h1>
-<p>Die Authentification am Automaten soll mittels GNUPG Smartcard geschehen.
+<h1 id="authentifizierung">Authentifizierung</h1>
+<p>Die Authentifizierung am Automaten soll mittels GNUPG Smartcard geschehen.
 Wir sind schon im Besitz von 2 Card Readern vom Typ OmniKey CardMan</p>
 <h2 id="how-to-zu-gnupg-mit-smartcard">How To zu GnuPG mit SmartCard</h2>
 <p><a href="http://www.gnupg.org/howtos/card-howto/en/smartcard-howto-single.html">http://www.gnupg.org/howtos/card-howto/en/smartcard-howto-single.html</a></p>
@@ -492,7 +492,7 @@ Wir sind schon im Besitz von 2 Card Readern vom Typ OmniKey CardMan</p>
         
         <br />
 
-        <span style="font-size: 0.7em;">build time: 2026-09-07 13:34 UTC</span>
+        <span style="font-size: 0.7em;">build time: 2026-09-07 13:43 UTC</span>
     </div>
 </footer>
 

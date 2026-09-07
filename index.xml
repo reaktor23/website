@@ -18,11 +18,11 @@ können. Reaktor23, unser Treffpunkt und Hackerspace, hat dadurch leider an
 Bedeutung verloren. Bei einigen unserer sonst so aktiven Mitglieder haben sich
 die Lebensprioritäten verschoben, andere sind inzwischen an neue Orte gezogen.
 Die Folge: Unsere Treffen wurden immer seltener.&lt;/p&gt;
-&lt;p&gt;Nach reiflicher Überlegung haben wir entschlossen, den Reaktor23 als Raum zu
+&lt;p&gt;Nach reiflicher Überlegung haben wir uns entschlossen, den Reaktor23 als Raum zu
 schließen.&lt;/p&gt;
 &lt;p&gt;Unsere Community lebt weiter. Wir bleiben über unseren Threema-Gruppenchat in
 Kontakt und überlegen sogar, uns gelegentlich zu treffen. Auch auf Matrix und
-per E-Mail bleiben wir weiterhin erreichbar&lt;/p&gt;
+per E-Mail bleiben wir weiterhin erreichbar.&lt;/p&gt;
 </description>
     </item>
     
@@ -33,10 +33,10 @@ per E-Mail bleiben wir weiterhin erreichbar&lt;/p&gt;
       
       <guid>https://reaktor23.org/blog/2021-08-16-open-up-again/</guid>
       <description>&lt;p&gt;Nach langer Überlegung haben wir uns entschlossen den Reaktor wieder zu öffnen.&lt;/p&gt;
-&lt;p&gt;Seit Heute, dem 16. August 2021, ist es in Baden-Würtemberg nicht mehr Inzidenz abhängig ob eine Location geöffnet sein darf. Es gelten die 3G Regeln (Geimpft, Genesen oder Getestet), detailliert nachzulesen in der &lt;a href=&#34;https://stm.baden-wuerttemberg.de/de/service/presse/meldung/pid/corona-beschraenkungen-fuer-geimpfte-und-genesene-werden-weitgehend-aufgehoben/&#34;&gt;Mitteilung des Staatsministeriums&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Seit heute, dem 16. August 2021, ist es in Baden-Württemberg nicht mehr inzidenzabhängig ob eine Location geöffnet sein darf. Es gelten die 3G Regeln (Geimpft, Genesen oder Getestet), detailliert nachzulesen in der &lt;a href=&#34;https://stm.baden-wuerttemberg.de/de/service/presse/meldung/pid/corona-beschraenkungen-fuer-geimpfte-und-genesene-werden-weitgehend-aufgehoben/&#34;&gt;Mitteilung des Staatsministeriums&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Zitat:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Bei Veranstaltungen/Aktivitäten in geschlossenen Räumen müssen alle Besucherinnen und Besucher einen Geimpftennachweis, einen Genesenennachweis oder ein negativen Corona Antigen-Schnelltest vorweisen.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;Bei Veranstaltungen/Aktivitäten in geschlossenen Räumen müssen alle Besucherinnen und Besucher einen Geimpftennachweis, einen Genesenennachweis oder einen negativen Corona Antigen-Schnelltest vorweisen.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Falls du uns als Nichtmitglied besuchen möchtest, bitten wir dich uns vorher über deinen Besuch zu informieren, so dass wir sicherstellen können, dass sich die 1.5m Abstand auch einhalten lassen.&lt;/p&gt;
 &lt;ul&gt;
@@ -53,7 +53,7 @@ per E-Mail bleiben wir weiterhin erreichbar&lt;/p&gt;
       
       <guid>https://reaktor23.org/projects/cashdesk/</guid>
       <description>&lt;h1 id=&#34;reaktor23-cashdesk&#34;&gt;Reaktor23 cashdesk&lt;/h1&gt;
-&lt;p&gt;We had just a whiteboard for a very long time to keep track of our drink consumptions and it was about time to get a new solution!
+&lt;p&gt;We had just a whiteboard for a very long time to keep track of our drink consumption and it was about time to get a new solution!
 So we built a web app called &lt;strong&gt;cashdesk&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;It is based on trust, so we do not have a login or other means of authentication in place.&lt;/p&gt;
 &lt;p&gt;You select your account on the landing page&lt;/p&gt;
@@ -66,7 +66,7 @@ So we built a web app called &lt;strong&gt;cashdesk&lt;/strong&gt;&lt;/p&gt;
     
 &lt;/figure&gt;
 
-&lt;p&gt;In the account details you see your funds, the logs of your vends, your deposits and two buttons for vending a drink and toping up your account.&lt;/p&gt;
+&lt;p&gt;In the account details you see your funds, the logs of your vends, your deposits and two buttons for vending a drink and topping up your account.&lt;/p&gt;
 
 
 &lt;figure class=&#34;figure m-1&#34;&gt;
@@ -105,14 +105,14 @@ So we built a web app called &lt;strong&gt;cashdesk&lt;/strong&gt;&lt;/p&gt;
       <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://reaktor23.org/blog/2020-10-27-corona-fall-2020/</guid>
-      <description>&lt;p&gt;Auf Grund der grade wieder massiv steigenden Corona Zahlen bleibt der Reaktor bis auf weiteres wieder für Besucher geschlossen.&lt;/p&gt;
-&lt;p&gt;Wie schon im Frühjar diesen Jahres werden wir Dienstags ab 19 Uhr Remote Hackereien via Jitsi Videochat unternehmen und sind sonst auch via Matrix erreichbar:&lt;/p&gt;
+      <description>&lt;p&gt;Auf Grund der gerade wieder massiv steigenden Corona Zahlen bleibt der Reaktor bis auf weiteres wieder für Besucher geschlossen.&lt;/p&gt;
+&lt;p&gt;Wie schon im Frühjahr diesen Jahres werden wir dienstags ab 19 Uhr Remote Hackereien via Jitsi Videochat unternehmen und sind sonst auch via Matrix erreichbar:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Matrix: #reaktor23:reaktor23.org&lt;/li&gt;
 &lt;li&gt;Jitsi: &lt;a href=&#34;https://meet.reaktor23.org/chat&#34;&gt;https://meet.reaktor23.org/chat&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Ihr seit natürlich alle herzlichst eingeladen dazuzustossen, wir freuen uns auf euch!&lt;/p&gt;
-&lt;p&gt;In diesem Sinne, bleibt Gesund!&lt;/p&gt;
+&lt;p&gt;Ihr seid natürlich alle herzlichst eingeladen dazuzustossen, wir freuen uns auf euch!&lt;/p&gt;
+&lt;p&gt;In diesem Sinne, bleibt gesund!&lt;/p&gt;
 </description>
     </item>
     
@@ -122,10 +122,10 @@ So we built a web app called &lt;strong&gt;cashdesk&lt;/strong&gt;&lt;/p&gt;
       <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://reaktor23.org/blog/2020-09-30-3d-print-workshop/</guid>
-      <description>&lt;p&gt;Wir haben seit der ersten Stunde eigenlich immer einen oder mehrere 3D Drucker im Reaktor gehabt, jedoch haben sich nur einige wenige Mitglieder damit ausgekannt.
-Für viele war es immer so das sie auf ein erfahrenes Mitglied gewartet haben wenn sie Mal was drucken wollten.&lt;/p&gt;
+      <description>&lt;p&gt;Wir haben seit der ersten Stunde eigentlich immer einen oder mehrere 3D Drucker im Reaktor gehabt, jedoch haben sich nur einige wenige Mitglieder damit ausgekannt.
+Für viele war es immer so, dass sie auf ein erfahrenes Mitglied gewartet haben, wenn sie mal was drucken wollten.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Zeno&lt;/strong&gt; hat sich nun bereit erklärt einen kleinen Workshop zu geben um den Interessierten eine Einführung in das Thema zu bieten.
-Im Grunde ist es nicht wirklich schwierig, aber die kleinen Kniffe beim Umgang mit dem Slicer als auch die paar wenigen Punkte die es Hardwareseitig zu beachten gibt sollten bekannt sein wenn man etwas drucken möchte, um den Drucker nit zu Beschädigen und ein gutes Druckergebns zu erhalten.&lt;/p&gt;
+Im Grunde ist es nicht wirklich schwierig, aber die kleinen Kniffe beim Umgang mit dem Slicer als auch die paar wenigen Punkte die es hardwareseitig zu beachten gibt sollten bekannt sein wenn man etwas drucken möchte, um den Drucker nicht zu beschädigen und ein gutes Druckergebnis zu erhalten.&lt;/p&gt;
 &lt;p&gt;
 
 &lt;figure class=&#34;figure m-1&#34;&gt;
@@ -153,7 +153,7 @@ Im Grunde ist es nicht wirklich schwierig, aber die kleinen Kniffe beim Umgang m
     &lt;figcaption class=&#34;figure-caption&#34;&gt;Ergebnis des Testdrucks&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
-&lt;p&gt;Der Workshop hat allen beteiligten Spass gemacht und sicherlich genug Wissen vermittelt das nun auch weitere Mitglieder mit dem Drucker arbeiten können.&lt;/p&gt;
+&lt;p&gt;Der Workshop hat allen Beteiligten Spass gemacht und sicherlich genug Wissen vermittelt, dass nun auch weitere Mitglieder mit dem Drucker arbeiten können.&lt;/p&gt;
 &lt;p&gt;Vielen Dank an &lt;strong&gt;Zeno&lt;/strong&gt;!&lt;/p&gt;
 </description>
     </item>
@@ -164,9 +164,9 @@ Im Grunde ist es nicht wirklich schwierig, aber die kleinen Kniffe beim Umgang m
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://reaktor23.org/projects/restfan/</guid>
-      <description>&lt;p&gt;Wir haben seit wir den Reator gegründet haben das Problem das es im Sommer unangenehm warm wird und wir nur die Eingangstüre als Lüftungsmöglichkeit.
+      <description>&lt;p&gt;Wir haben seit wir den Reaktor gegründet haben das Problem, dass es im Sommer unangenehm warm wird und wir nur die Eingangstüre als Lüftungsmöglichkeit haben.
 Drum haben wir uns diesen Sommer entschieden einen dieser günstigen Wandventilatoren zu kaufen um es ein wenig erträglicher zu haben.&lt;/p&gt;
-&lt;p&gt;Das das ganze nicht wie vom Hersteller gedacht über Zugschnüre gesteuert werden soll versteht sich ja von selbst &amp;#x1f60e;&lt;/p&gt;
+&lt;p&gt;Dass das Ganze nicht wie vom Hersteller gedacht über Zugschnüre gesteuert werden soll versteht sich ja von selbst &amp;#x1f60e;&lt;/p&gt;
 &lt;h1 id=&#34;ausgangszustand&#34;&gt;Ausgangszustand&lt;/h1&gt;
 
 
@@ -178,10 +178,10 @@ Drum haben wir uns diesen Sommer entschieden einen dieser günstigen Wandventila
 &lt;/figure&gt;
 
 &lt;p&gt;Der Lüfter verfügt über zwei Schnüre zur Steuerung, eine dreht einen Drehschalter bei jedem Zug um eine Stellung weiter.
-Hierdurch werden die Lüfterstufen 1, 2, 3 und AUS durchgeschalten. Der Schalter schaltet die Phase auf den entsprechenden Draht.&lt;/p&gt;
+Hierdurch werden die Lüfterstufen 1, 2, 3 und AUS durchgeschaltet. Der Schalter schaltet die Phase auf den entsprechenden Draht.&lt;/p&gt;
 &lt;p&gt;Der zweite Schalter schaltet den N auf den Motor der für die Oszillation zuständig ist. Solange keine der Lüfterstufen geschaltet ist, oszilliert auch der Lüfter nicht weil keine Phase anliegt.&lt;/p&gt;
 &lt;h1 id=&#34;restfan-platine&#34;&gt;RESTfan Platine&lt;/h1&gt;
-&lt;p&gt;Die Platine ist im Grunde recht simpel aufgebaut. Sie verfügt über einen Hi-Link AC-DC converter der aus der Netzspannung 5VDC generiert, einem WEMOS D1 mini das die Steuerng übernimmt und 4 5VDC Finder Relais die die Stufen sowie die Oszillationschalten und somit die beiden Schalter nachbilden.&lt;/p&gt;
+&lt;p&gt;Die Platine ist im Grunde recht simpel aufgebaut. Sie verfügt über einen Hi-Link AC-DC converter der aus der Netzspannung 5VDC generiert, einem WEMOS D1 mini das die Steuerung übernimmt und 4 5VDC Finder Relais die die Stufen sowie die Oszillation schalten und somit die beiden Schalter nachbilden.&lt;/p&gt;
 
 
 &lt;figure class=&#34;figure m-1&#34;&gt;
@@ -202,7 +202,7 @@ Hierdurch werden die Lüfterstufen 1, 2, 3 und AUS durchgeschalten. Der Schalter
 
 &lt;p&gt;Die KiCAD files finden sich &lt;a href=&#34;https://github.com/reaktor23/RESTfan/tree/master/KiCAD/RESTfan&#34;&gt;hier&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;software&#34;&gt;Software&lt;/h1&gt;
-&lt;p&gt;Auf dem WEMOS läuft recht trivialer code der eine Hand voll POST und GET requests entgegen nimmt die dan entsprechende Relais Konstellationen schalten.&lt;/p&gt;
+&lt;p&gt;Auf dem WEMOS läuft recht trivialer Code der eine Handvoll POST und GET requests entgegennimmt die dann entsprechende Relais Konstellationen schalten.&lt;/p&gt;
 &lt;p&gt;Der Code findet sich ebenfalls &lt;a href=&#34;https://github.com/reaktor23/RESTfan/tree/master/PlatformIO/RESTfan&#34;&gt;hier&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;rest-endpoints&#34;&gt;REST endpoints&lt;/h2&gt;
 &lt;p&gt;Die REST endpoints sind eigentlich selbsterklärend (alles POST requests, ausser /state)&lt;/p&gt;
@@ -229,18 +229,18 @@ Hierdurch werden die Lüfterstufen 1, 2, 3 und AUS durchgeschalten. Der Schalter
 &lt;p&gt;&lt;code&gt;http://&amp;lt;ip&amp;gt;/oscillation/off&lt;/code&gt; Oszillation AUS&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;das ganze wird natürlich in unserem &lt;a href=&#34;https://reaktor23.org/projects/pwrcmdr2/&#34;&gt;PowerCommander&lt;/a&gt; integriert um einfach steuerbar zu sein.&lt;/p&gt;
+&lt;p&gt;Das Ganze wird natürlich in unserem &lt;a href=&#34;https://reaktor23.org/projects/pwrcmdr2/&#34;&gt;PowerCommander&lt;/a&gt; integriert um einfach steuerbar zu sein.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Umbau unserer CNC Fräse MilliMcMillface</title>
+      <title>Umbau unserer CNC Fräse Milly McMillface</title>
       <link>https://reaktor23.org/blog/2020-07-07-cnc-umbau/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://reaktor23.org/blog/2020-07-07-cnc-umbau/</guid>
-      <description>&lt;p&gt;Über die letzten Wochen und Monate haben wir einige Veränderungen an unserer Fräsmaschine MilliMcMillface vorgenommen. Unter anderem wurden die Schrittmotoren, die in der Vergangenheit immer wieder zu Problemen geführt haben gegen AC-Servomotoren gewechselt. Dabei haben wir die Aufhängung der Motoren durch Riemen so verändern können, dass die Maschine weniger Platz braucht und durch die von Zeno gedruckten Schutzabdeckungen zudem noch besser aussieht:) Ein großer Dank geht hierbei an die Firma Norelem, insbesondere an Herrn Marschner, die uns die benötigten Spannsätze zur Montage der Riemenräder kostenlos zur verfügung gestellt haben.&lt;/p&gt;
-&lt;p&gt;Das Bett der Maschine konnten wir durch eine große Nutenplatte erweitern, die wir mit M8-Schrauben auf das bisherige Maschienbett geschraubt haben. Wir erhalten durch das höhere Gewiche eine bessere Stabilität und das Spannen von Werkstücken wird erheblich erleichtert.&lt;/p&gt;
+      <description>&lt;p&gt;Über die letzten Wochen und Monate haben wir einige Veränderungen an unserer Fräsmaschine Milly McMillface vorgenommen. Unter anderem wurden die Schrittmotoren, die in der Vergangenheit immer wieder zu Problemen geführt haben gegen AC-Servomotoren gewechselt. Dabei haben wir die Aufhängung der Motoren durch Riemen so verändern können, dass die Maschine weniger Platz braucht und durch die von Zeno gedruckten Schutzabdeckungen zudem noch besser aussieht :) Ein großer Dank geht hierbei an die Firma Norelem, insbesondere an Herrn Marschner, die uns die benötigten Spannsätze zur Montage der Riemenräder kostenlos zur Verfügung gestellt haben.&lt;/p&gt;
+&lt;p&gt;Das Bett der Maschine konnten wir durch eine große Nutenplatte erweitern, die wir mit M8-Schrauben auf das bisherige Maschinenbett geschraubt haben. Wir erhalten durch das höhere Gewicht eine bessere Stabilität und das Spannen von Werkstücken wird erheblich erleichtert.&lt;/p&gt;
 &lt;p&gt;Die Endschalter wurden teilweise schon durch andere ersetzt, Plan ist aber, in den nächsten Wochen noch alle Schalter so umzubauen, dass es je einen normalen Schalter als Limitschalter gibt und einen zweiten, der im Falle einer Störung den Nothalt auslöst, bevor die Achse sich beim Auffahren auf den mechanischen Anschlag selbst zerstört. (Es gab da einen Vorfall)&lt;/p&gt;
 &lt;p&gt;Gegenüber dem allgemeinen Konsens, Maschinensteuerungen laufen auf veralteten Betriebssystemen, konnte sich Bouni durchsetzen und die Steuerung mit Debian 10 (Buster) upgraden.&lt;/p&gt;
 &lt;p&gt;Insgesamt sind wir mit dem aktuellen Stand sehr zufrieden und freuen uns schon darauf, mit unserer Maschine viele Projekte umsetzen zu können.&lt;/p&gt;
@@ -272,7 +272,7 @@ Hierdurch werden die Lüfterstufen 1, 2, 3 und AUS durchgeschalten. Der Schalter
       
       <guid>https://reaktor23.org/blog/2020-04-14-corona-masks/</guid>
       <description>&lt;p&gt;Wir vom Reaktor23 Hackerspace beteiligen uns aktiv am &lt;strong&gt;&lt;a href=&#34;https://www.makervsvirus.org/&#34;&gt;Maker vs. Virus&lt;/a&gt;&lt;/strong&gt; Programm bei dem es darum geht
-Gesichtsmasken mit Hilfe von 3D Druckern herzustellen die dann an Organisationen wie Krankenhäuser mit Bedarf zu übergeben.&lt;/p&gt;
+Gesichtsmasken mit Hilfe von 3D Druckern herzustellen, die dann an Organisationen wie Krankenhäuser mit Bedarf übergeben werden.&lt;/p&gt;
 &lt;p&gt;Im Moment sind 3 Drucker unterschiedlicher Hersteller im Einsatz:&lt;/p&gt;
 
 
@@ -294,7 +294,7 @@ Gesichtsmasken mit Hilfe von 3D Druckern herzustellen die dann an Organisationen
       
       <guid>https://reaktor23.org/blog/2020-04-02-corona/</guid>
       <description>&lt;p&gt;Wie vermutlich die meisten anderen Hackerspaces auch bleibt unser Hackerspace bis auf weiteres auf Grund der SARS-CoV-2-Pandemie geschlossen.&lt;/p&gt;
-&lt;p&gt;Um nicht komplett ohne Hacker Vibes auskommen zu müssen treffen wir uns immer Dienstags auf unserem Matrix Server, wer Lust hat ist herzlichst eingeladen auch dazuzukommen!&lt;/p&gt;
+&lt;p&gt;Um nicht komplett ohne Hacker Vibes auskommen zu müssen treffen wir uns immer dienstags auf unserem Matrix Server, wer Lust hat ist herzlichst eingeladen auch dazuzukommen!&lt;/p&gt;
 &lt;p&gt;Matrix: #reaktor23:reaktor23.org&lt;/p&gt;
 </description>
     </item>
@@ -306,8 +306,8 @@ Gesichtsmasken mit Hilfe von 3D Druckern herzustellen die dann an Organisationen
       
       <guid>https://reaktor23.org/blog/2019-11-14-36c3/</guid>
       <description>&lt;p&gt;Here we go again! Wie jedes Jahr werden wir auch in diesem Jahr wieder die Live Streams des alljährlichen Congress vom 27.12. bis zum 31.12 im Reaktor anschauen.&lt;/p&gt;
-&lt;p&gt;Wir Dich laden herzlich dazu ein dies mit uns zu zelebrieren. Um sicher zu gehen das du nicht vor verschlossener Tür stehst, schau vorher auf den Reaktor Status ob schon jemand da ist oder schreib uns eine Mail wann du gedenkst zu uns zu kommen.&lt;/p&gt;
-&lt;p&gt;Wie schon im letzten Jahr werden ir währen der Congress Tage versuchen viele Projekte voranzutreiben und unseren Space zu verbessern bzw. zu verschönern.&lt;/p&gt;
+&lt;p&gt;Wir laden Dich herzlich dazu ein dies mit uns zu zelebrieren. Um sicherzugehen, dass du nicht vor verschlossener Tür stehst, schau vorher auf den Reaktor Status ob schon jemand da ist oder schreib uns eine Mail wann du gedenkst zu uns zu kommen.&lt;/p&gt;
+&lt;p&gt;Wie schon im letzten Jahr werden wir während der Congress Tage versuchen viele Projekte voranzutreiben und unseren Space zu verbessern bzw. zu verschönern.&lt;/p&gt;
 </description>
     </item>
     
@@ -319,9 +319,9 @@ Gesichtsmasken mit Hilfe von 3D Druckern herzustellen die dann an Organisationen
       <guid>https://reaktor23.org/projects/matedealer3/</guid>
       <description>&lt;h1 id=&#34;the-background&#34;&gt;The background&lt;/h1&gt;
 &lt;p&gt;It all started with &lt;a href=&#34;https://reaktor23.org/projects/matedealer/&#34;&gt;MateDealer 1.0&lt;/a&gt; with all its original electronics extended by an MDB implementation.
-The controller died for some unknown reason and the MateDealer sat there in an pitiful state for a quite long time.&lt;/p&gt;
+The controller died for some unknown reason and the MateDealer sat there in a pitiful state for quite a long time.&lt;/p&gt;
 &lt;p&gt;Then we decided to build our own new controller board based on an &lt;a href=&#34;https://store.arduino.cc/arduino-mega-2560-rev3&#34;&gt;Arduino Mega2560&lt;/a&gt; and an &lt;a href=&#34;https://www.pcengines.ch/alix3d3.htm&#34;&gt;Alix 3d3&lt;/a&gt;.
-&lt;a href=&#34;https://reaktor23.org/projects/matedealer2/&#34;&gt;MateDealer 2.0&lt;/a&gt; was born. This itteration never took of as we had problems getting the communication between the Arduino and the PC working flawlessly.&lt;/p&gt;
+&lt;a href=&#34;https://reaktor23.org/projects/matedealer2/&#34;&gt;MateDealer 2.0&lt;/a&gt; was born. This iteration never took off as we had problems getting the communication between the Arduino and the PC working flawlessly.&lt;/p&gt;
 &lt;p&gt;Again the MateDealer was out of order for a couple of years, until we decided to take a third attempt to get it up and running.
 Here&amp;rsquo;s what we came up with!&lt;/p&gt;
 &lt;h1 id=&#34;matedealer-30&#34;&gt;MateDealer 3.0&lt;/h1&gt;
@@ -334,12 +334,12 @@ Here&amp;rsquo;s what we came up with!&lt;/p&gt;
 &lt;li&gt;DC-DC StepDown converter for 5VDC&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.acs.com.hk/en/products/3/acr122u-usb-nfc-reader/&#34;&gt;NFC Reader&lt;/a&gt; for authentication&lt;/li&gt;
 &lt;li&gt;Control for 5 slot motors via relays&lt;/li&gt;
-&lt;li&gt;TR5 fuses to protect the moters in case of a jam&lt;/li&gt;
+&lt;li&gt;TR5 fuses to protect the motors in case of a jam&lt;/li&gt;
 &lt;li&gt;Control for the cooler via another relay&lt;/li&gt;
 &lt;li&gt;5 inputs for motor home position switches&lt;/li&gt;
 &lt;li&gt;5 inputs for slot empty switches&lt;/li&gt;
 &lt;li&gt;5 inputs for product selection buttons&lt;/li&gt;
-&lt;li&gt;LED&amp;rsquo;s for every output and input&lt;/li&gt;
+&lt;li&gt;LEDs for every output and input&lt;/li&gt;
 &lt;li&gt;1-Wire port for temperature measurement&lt;/li&gt;
 &lt;li&gt;I2C port for later addons&lt;/li&gt;
 &lt;/ul&gt;
@@ -374,7 +374,7 @@ Here&amp;rsquo;s what we came up with!&lt;/p&gt;
     
 &lt;/figure&gt;
 &lt;/p&gt;
-&lt;p&gt;The wiring of the motors, the home postion switches and the slot empty switches
+&lt;p&gt;The wiring of the motors, the home position switches and the slot empty switches
 
 
 &lt;figure class=&#34;figure m-1&#34;&gt;
@@ -416,32 +416,32 @@ Here&amp;rsquo;s what we came up with!&lt;/p&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;the-procedure-of-getting-a-cool-drink&#34;&gt;The procedure of getting a cool drink&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;The person approaches the machine and swipes a NFC Tag&lt;/li&gt;
-&lt;li&gt;The reader beeps, signaling the person that its ready&lt;/li&gt;
+&lt;li&gt;The person approaches the machine and swipes an NFC tag&lt;/li&gt;
+&lt;li&gt;The reader beeps, signaling the person that it&amp;rsquo;s ready&lt;/li&gt;
 &lt;li&gt;The person selects a drink via one of the 5 buttons at the front&lt;/li&gt;
 &lt;li&gt;The machine dispenses the selected bottle from the slot&lt;/li&gt;
-&lt;li&gt;The machine writes &lt;code&gt;user_id&lt;/code&gt;, &lt;code&gt;timestamp&lt;/code&gt; and &lt;code&gt;product_id&lt;/code&gt; to a influx db that runs on actse&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;The machine writes &lt;code&gt;user_id&lt;/code&gt;, &lt;code&gt;timestamp&lt;/code&gt; and &lt;code&gt;product_id&lt;/code&gt; to an InfluxDB that runs on actse&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;li&gt;Happy person consumes the drink&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;the-payment&#34;&gt;The payment&lt;/h2&gt;
-&lt;p&gt;Once every month a script runs on &lt;code&gt;actse&lt;/code&gt; calculating the amount a person has to pay depending on the number of consumed drinks an the costs.
+&lt;p&gt;Once every month a script runs on &lt;code&gt;actse&lt;/code&gt; calculating the amount a person has to pay depending on the number of consumed drinks and the costs.
 That makes it easy for us to get the money and does not need to handle payments on every vend.&lt;/p&gt;
 &lt;h2 id=&#34;what-works-so-far&#34;&gt;What works so far&lt;/h2&gt;
 &lt;p&gt;We are in a beta phase at the moment.&lt;/p&gt;
 &lt;h3 id=&#34;nfc-authentication&#34;&gt;NFC authentication&lt;/h3&gt;
-&lt;p&gt;We finally managed to integrate a ACR-122U USB NFC Reader with the MateDealer that allows us to authenticate a user. We know for sure that using the UID of a NFC badge isn&amp;rsquo;t very secure but thats not the point for us.&lt;/p&gt;
+&lt;p&gt;We finally managed to integrate an ACR-122U USB NFC Reader with the MateDealer that allows us to authenticate a user. We know for sure that using the UID of an NFC badge isn&amp;rsquo;t very secure but that&amp;rsquo;s not the point for us.&lt;/p&gt;
 &lt;h3 id=&#34;cooler&#34;&gt;Cooler&lt;/h3&gt;
 &lt;p&gt;The cooler is controlled depending on the temperature inside of the machine with a hysteresis that is configurable.
-That allows us to only coll down when its neccessary.
-The cooler is blocked when nobody is in the hackerspace to save energy or it is not Tuesday between 18:00 and 23:00 which is our main opening hours.&lt;/p&gt;
+That allows us to only cool down when it&amp;rsquo;s necessary.
+The cooler is blocked when nobody is in the hackerspace to save energy or it is not Tuesday between 18:00 and 23:00 which are our main opening hours.&lt;/p&gt;
 &lt;h3 id=&#34;display&#34;&gt;Display&lt;/h3&gt;
-&lt;p&gt;We ordered a 8&amp;quot; HDMI display on AliExpress that will replace the product lables next to the selection buttons.
-That way we can shwo dynamic product labels an when a vend is ongoing or another information needs to be shown to the users it can be done that way.&lt;/p&gt;
+&lt;p&gt;We ordered an 8&amp;quot; HDMI display on AliExpress that will replace the product labels next to the selection buttons.
+That way we can show dynamic product labels and when a vend is ongoing or another information needs to be shown to the users it can be done that way.&lt;/p&gt;
 &lt;h3 id=&#34;accounting&#34;&gt;Accounting&lt;/h3&gt;
-&lt;p&gt;We decided to send a measurement to a InfluxDB on every vend that includes &lt;code&gt;username&lt;/code&gt;, &lt;code&gt;product&lt;/code&gt;, &lt;code&gt;price&lt;/code&gt; and a &lt;code&gt;timestamp&lt;/code&gt;.
-At the end of the month, we can simply run a (yet to be written) script that fetchs all vend of the past month and sums up the consumption per user.
-Our treasurer then can request the amount from the user. We plan to have users to top up a virtual account and the the treasurer wil subtract the amount from the available funds.
-That way he does not have to run after people an make them pay afterwards.
+&lt;p&gt;We decided to send a measurement to an InfluxDB on every vend that includes &lt;code&gt;username&lt;/code&gt;, &lt;code&gt;product&lt;/code&gt;, &lt;code&gt;price&lt;/code&gt; and a &lt;code&gt;timestamp&lt;/code&gt;.
+At the end of the month, we can simply run a (yet to be written) script that fetches all vends of the past month and sums up the consumption per user.
+Our treasurer then can request the amount from the user. We plan to have users top up a virtual account and the treasurer will subtract the amount from the available funds.
+That way he does not have to run after people and make them pay afterwards.
 We will see how that works out.&lt;/p&gt;
 &lt;h3 id=&#34;logging&#34;&gt;Logging&lt;/h3&gt;
 &lt;p&gt;We send several values to the InfluxDB to have a log of what is going on, at the moment these are:&lt;/p&gt;
@@ -453,10 +453,10 @@ We will see how that works out.&lt;/p&gt;
 &lt;h3 id=&#34;integration&#34;&gt;Integration&lt;/h3&gt;
 &lt;p&gt;Our &lt;a href=&#34;https://reaktor23.org/projects/pwrcmdr2/&#34;&gt;pwrCMDer&lt;/a&gt; runs &lt;a href=&#34;https://www.home-assistant.io/&#34;&gt;Home-Assistant&lt;/a&gt;, from there we&amp;rsquo;ve integrated several InfluxDB values as sensors.
 That allows us to let the pwrCMDer react to state changes.
-We plan to let it send a information message when a slot runs empty for example (yet to be done) or having the states in our &lt;a href=&#34;https://reaktor23.org/status/&#34;&gt;SpaceAPI&lt;/a&gt; (already done)&lt;/p&gt;
+We plan to let it send an information message when a slot runs empty for example (yet to be done) or having the states in our &lt;a href=&#34;https://reaktor23.org/status/&#34;&gt;SpaceAPI&lt;/a&gt; (already done)&lt;/p&gt;
 &lt;h2 id=&#34;fails&#34;&gt;Fails&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;I didn&amp;rsquo;t know how much current the motors draw, so I guessed 1A and ordered TR5 fuses with 1A. Turns out the are labled with 5.2A and actually draw 4.9A which on the first try blew all 5 fuses imedialtely.&lt;/li&gt;
+&lt;li&gt;I didn&amp;rsquo;t know how much current the motors draw, so I guessed 1A and ordered TR5 fuses with 1A. Turns out they are labeled with 5.2A and actually draw 4.9A which on the first try blew all 5 fuses immediately.&lt;/li&gt;
 &lt;li&gt;I used relays that are rated for 3A because I guessed the actual motor current (and I had dozens of them laying around). I decided to use them directly until they start to fail. If that happens I replace them and use additional relays that are controlled by the small ones.&lt;/li&gt;
 &lt;li&gt;I accidentally placed a via that stitches 24VAC to GND which results in a short circuit when one of the relays is switched on. This issue could be easily fixed with a sharp cutter knife.&lt;/li&gt;
 &lt;/ul&gt;
@@ -494,7 +494,7 @@ Zwei davon durch befreundete Hacker/Hackerspaces aus der Schweiz, ein riesiges D
       <description>&lt;h1 id=&#34;feinstaub-messstation&#34;&gt;Feinstaub Messstation&lt;/h1&gt;
 &lt;p&gt;Seit gestern läuft in unserem Hackerspace ein Feinstaub/Temperatur/Luftfeuchte Sensor der seine Daten an luftdaten.info sendet.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://luftdaten.info/wp-content/uploads/2017/03/feinstaub-sensor.jpg&#34; alt=&#34;Airrohr&#34; title=&#34;Image from luftdaten.info&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Unsere Messtation ist auf der Karte von &lt;a href=&#34;https://maps.luftdaten.info/#16/47.6297/8.2654&#34;&gt;Luftdaten.info&lt;/a&gt; zu finden.&lt;/p&gt;
+&lt;p&gt;Unsere Messstation ist auf der Karte von &lt;a href=&#34;https://maps.luftdaten.info/#16/47.6297/8.2654&#34;&gt;Luftdaten.info&lt;/a&gt; zu finden.&lt;/p&gt;
 &lt;p&gt;Ausserdem werden die Messwerte via &lt;a href=&#34;https://spaceapi.io/&#34;&gt;SpaceAPI&lt;/a&gt; von unserer &lt;a href=&#34;https://www.home-assistant.io/components/spaceapi/&#34;&gt;Home Assistant&lt;/a&gt; Installation zur Verfügung gestellt.&lt;/p&gt;
 </description>
     </item>
@@ -510,12 +510,12 @@ Und wie es halt so ist sind bei uns in den letzten Jahren etliche Projekte ins L
 Glücklicherweise ist es uns gleich am 27.12. gelungen unsere &lt;a href=&#34;https://reaktor23.org/projects/millymcmillface/&#34;&gt;CNC Fräse&lt;/a&gt; wiederzubeleben, was uns ein enormes Maß an neuen Möglichkeiten eröffnet.
 Und so haben wir diesen Congress mehr damit zugebracht unseren Space zu verbessern als die Streams zu schauen.&lt;/p&gt;
 &lt;h2 id=&#34;cnc-fräse&#34;&gt;CNC Fräse&lt;/h2&gt;
-&lt;p&gt;Unser Rechner auf dem LinuxCNC läuft war defekt und wir haben einen neuen eingebaut und wieder zum laufen gebracht.
+&lt;p&gt;Unser Rechner auf dem LinuxCNC läuft war defekt und wir haben einen neuen eingebaut und wieder zum Laufen gebracht.
 Als dies getan war haben wir mit der Fräse Siebdruckplatten zugeschnitten um eine schwenkbare Konsole für Bildschirm und Tastatur/Maus zu schaffen da diese bis dahin auf einem Tisch neben der Fräse standen.
 Der Artikel zum Projekt findet sich &lt;a href=&#34;https://reaktor23.org/projects/millymcmillface/&#34;&gt;hier&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;lüftungsanlage&#34;&gt;Lüftungsanlage&lt;/h2&gt;
-&lt;p&gt;Unser Hackserspace ist sehr klein und verfügt lediglich über eine Tür mit einem Schmalen Seitenflügel und ein Oberlicht das sich allerdings nicht öffnen lässt was es uns kam möglich macht zu lüften.
-Drum haben wir im Seitenflügel im Unteren Bereich die originale Holzplatte herausgenommen und eine eigene verbaut in der zwei Lüftungsöffnungen sind,
+&lt;p&gt;Unser Hackerspace ist sehr klein und verfügt lediglich über eine Tür mit einem schmalen Seitenflügel und ein Oberlicht das sich allerdings nicht öffnen lässt was es uns kaum möglich macht zu lüften.
+Drum haben wir im Seitenflügel im unteren Bereich die originale Holzplatte herausgenommen und eine eigene verbaut in der zwei Lüftungsöffnungen sind,
 ein Lüfter saugt Frischluft an und bläst diese durch einen Aluschlauch in den hinteren Bereich des Raumes was zu einer wesentlichen Verbesserung der Luftqualität führt.&lt;/p&gt;
 &lt;h2 id=&#34;abdunkelung-des-oberlichts&#34;&gt;Abdunkelung des Oberlichts&lt;/h2&gt;
 &lt;p&gt;Ein Oberlicht ist eine feine Sache, allerdings nur wenn man nicht gerade Streams auf einem Beamer schauen möchte.
@@ -528,8 +528,8 @@ Auch das war dank der nun wieder gangbaren Fräse ein Kinderspiel, und so hängt
 &lt;p&gt;Diverse Objekte im Raum waren bis anhin nicht oder nur schwer zu bewegen, z.B. der MateDealer und der Getränkeständer.
 Diese wurden nun mit Rollen bzw. einem Rollbrett versehen und können nun bei Bedarf leicht verschoben werden.&lt;/p&gt;
 &lt;h2 id=&#34;sitzgelegenheiten&#34;&gt;Sitzgelegenheiten&lt;/h2&gt;
-&lt;p&gt;Das Sofa das im Reaktor stand nahm enorm viel Platz ein und war auch nicht wirklich gemütlich. Hinzu kommt das das Filzartige Material ein Dreckmagnet war was es sehr schmuddelig wirken lies.
-Wir hatten die Möglichkeit ein gebrauchtes Ledersofa zu bekommen und haben im gleich Zug das alte Sofa sowie einen Sessel der viel Platz verbrauchte entsorgt.
+&lt;p&gt;Das Sofa das im Reaktor stand nahm enorm viel Platz ein und war auch nicht wirklich gemütlich. Hinzu kommt, dass das filzartige Material ein Dreckmagnet war, was es sehr schmuddelig wirken liess.
+Wir hatten die Möglichkeit ein gebrauchtes Ledersofa zu bekommen und haben im gleichen Zug das alte Sofa sowie einen Sessel der viel Platz verbrauchte entsorgt.
 Um in Zukunft dennoch weitere Sitzgelegenheiten zu haben haben wir Siebdruckplatten gefräst die sich auf Matekisten stecken lassen und so schnell zu improvisierten Sitzgelegenheiten werden.&lt;/p&gt;
 &lt;p&gt;Wir werden in der nächsten Zeit noch Artikel zu den jeweiligen Projekten veröffentlichen um diese auch sauber zu dokumentieren.&lt;/p&gt;
 </description>
@@ -544,10 +544,10 @@ Um in Zukunft dennoch weitere Sitzgelegenheiten zu haben haben wir Siebdruckplat
       <description>&lt;p&gt;Da die kalte Jahreszeit dann doch so langsam mal anfängt, ist es die richtige
 Zeit um die &amp;ldquo;Reaktor Talks&amp;rdquo; wiederzubeleben. Jeder der mag, kann einen Vortrag
 über ein beliebiges Thema halten. Oft fand das bisher eher spontan statt, also
-so mit einer Woche Vorlaufszeit, weil sich ein oder mehrere Leute für etwas
+so mit einer Woche Vorlaufzeit, weil sich ein oder mehrere Leute für etwas
 bestimmtes interessierten und jemand anders darüber was erzählen oder zeigen
 konnte.&lt;/p&gt;
-&lt;p&gt;Diese Website hat nun ein kleine Infoseite darüber. Vielleicht schaffe ich es
+&lt;p&gt;Diese Website hat nun eine kleine Infoseite darüber. Vielleicht schaffe ich es
 noch irgendwann die bisher gehaltenen Talks aufzulisten, soweit ich das noch
 nachvollziehen kann zumindest.&lt;/p&gt;
 &lt;p&gt;Auf &lt;a href=&#34;https://github.com/reaktor23/talks&#34;&gt;https://github.com/reaktor23/talks&lt;/a&gt; haben wir angefangen Vorschläge und
@@ -564,7 +564,7 @@ Wünsche für Talks zu sammeln.&lt;/p&gt;
       <description>&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
 &lt;p&gt;Wir haben noch 4 Platinen für den pwrCMDer übrig und würden diese gerne gratis an andere Hackerspaces abgeben wenn Interesse besteht.
 Eine Liste mit Bauteilen für die Bestellung bei Pollin ist ebenfalls vorhanden.
-Der einzige Knackpunkt ist das ein kleiner Layoutfehler bei den Optokopplern unterlaufen ist und das Pinout nicht stimmt.
+Der einzige Knackpunkt ist, dass ein kleiner Layoutfehler bei den Optokopplern unterlaufen ist und das Pinout nicht stimmt.
 Das kann aber mit ein wenig gutem altem Pfusch&lt;sup&gt;&lt;i class=&#34;fa fa-trademark&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/sup&gt; behoben werden (genauere Infos auf Anfrage).&lt;/p&gt;
 &lt;/div&gt;
 &lt;h1 id=&#34;warum&#34;&gt;Warum?&lt;/h1&gt;
@@ -572,36 +572,36 @@ Das kann aber mit ein wenig gutem altem Pfusch&lt;sup&gt;&lt;i class=&#34;fa fa-
 Da wir immer wieder Probleme damit haben sollte etwas neues her, das vielleicht etwas mehr Spielraum gibt um Änderungen/Verbesserungen zu integrieren.&lt;/p&gt;
 &lt;h1 id=&#34;hardware&#34;&gt;Hardware&lt;/h1&gt;
 &lt;h2 id=&#34;board&#34;&gt;Board&lt;/h2&gt;
-&lt;p&gt;Wir haben uns für ein RaspberryPi 3 B+ entschieden, das ist ausreichend flott udn erfüllt alle unsere Wunschkriterien.
-Ausserdem ist es sehr viel einfacher zu bekommen als die etwas günstigeren Verterter von z.B. Aliexpress (BananaPi, etc.)&lt;/p&gt;
+&lt;p&gt;Wir haben uns für ein RaspberryPi 3 B+ entschieden, das ist ausreichend flott und erfüllt alle unsere Wunschkriterien.
+Ausserdem ist es sehr viel einfacher zu bekommen als die etwas günstigeren Vertreter von z.B. Aliexpress (BananaPi, etc.)&lt;/p&gt;
 &lt;h2 id=&#34;formfaktor&#34;&gt;Formfaktor&lt;/h2&gt;
 &lt;p&gt;Das Raspberry Pi kommt in ein Hutschienengehäuse von &lt;a href=&#34;https://www.pollin.de/p/hutschienen-gehaeuse-fuer-raspberry-pi-model-b-8te-702341&#34;&gt;Pollin&lt;/a&gt;.
 Dieses hat ausreichend Platz für einen &lt;a href=&#34;https://www.raspberrypi.org/blog/introducing-raspberry-pi-hats/&#34;&gt;HAT&lt;/a&gt; auch wenn wir uns nicht an die genauen Specs halten.&lt;/p&gt;
 &lt;h2 id=&#34;spannungsversorgung&#34;&gt;Spannungsversorgung&lt;/h2&gt;
-&lt;p&gt;Wir versorgen das Board mit 24VDC da wir das eh im Schaltschrank verwenden. Das RPi wird über die Stiftleisten mit 5VDC versorgt womit die Notwendigkeit eines USB Netzteil entfällt.
+&lt;p&gt;Wir versorgen das Board mit 24VDC da wir das eh im Schaltschrank verwenden. Das RPi wird über die Stiftleisten mit 5VDC versorgt womit die Notwendigkeit eines USB Netzteils entfällt.
 Die 5V werden von einem &lt;a href=&#34;https://de.aliexpress.com/item/-/32830931596.html&#34;&gt;AliExpress DC/DC Wandler&lt;/a&gt; generiert der auf dem Board verlötet wird.&lt;/p&gt;
 &lt;h2 id=&#34;funktionen&#34;&gt;Funktionen&lt;/h2&gt;
 &lt;h3 id=&#34;schützsteuerung&#34;&gt;Schützsteuerung&lt;/h3&gt;
-&lt;p&gt;Wir haben wieder unsere zweikanalige Schützsteuerung verbaut, diese ist so ausgelegt das sie zwei Externe Schütze die unsere beiden Stromkreise schalten ein bzw. ausschalten können.
-Dabei war uns wichtig das das auch funktionieren muss wenn der PowerCommander einmal einen Ausfall haben sollte.
-Deshalb schalten die 4 Relais einfach eine Selbsthaltung der Schütze, parallel dazu gibt es noch extern verbaute Hardware Taster damit sich das ganze auch wie bereits erwähnt im Notfall schalten lässt.&lt;/p&gt;
+&lt;p&gt;Wir haben wieder unsere zweikanalige Schützsteuerung verbaut, diese ist so ausgelegt, dass sie zwei externe Schütze die unsere beiden Stromkreise schalten ein bzw. ausschalten können.
+Dabei war uns wichtig, dass das auch funktionieren muss wenn der PowerCommander einmal einen Ausfall haben sollte.
+Deshalb schalten die 4 Relais einfach eine Selbsthaltung der Schütze, parallel dazu gibt es noch extern verbaute Hardware Taster damit sich das Ganze auch wie bereits erwähnt im Notfall schalten lässt.&lt;/p&gt;
 &lt;h2 id=&#34;ein--und-ausgänge&#34;&gt;Ein- und Ausgänge&lt;/h2&gt;
 &lt;p&gt;Das Board verfügt über 4 Relais Ausgänge, dabei lässt sich über einen Lötjumper wählen ob der betreffende Kanal Schliesser oder Öffner sein soll.
-Desweiteren hat das Board 8 Digitaleingänge die 24V tollerant sind und mittels Optokopplern getrennt sind.&lt;/p&gt;
+Des Weiteren hat das Board 8 Digitaleingänge die 24V tolerant sind und mittels Optokopplern getrennt sind.&lt;/p&gt;
 &lt;h2 id=&#34;sensorik&#34;&gt;Sensorik&lt;/h2&gt;
 &lt;p&gt;Es sind ein I2C, ein 1-Wire und ein RS485 Port vorhanden. Über diese wollen wir diverse Sensorik anbinden.&lt;/p&gt;
 &lt;h1 id=&#34;software&#34;&gt;Software&lt;/h1&gt;
 &lt;p&gt;&lt;del&gt;Wir haben &lt;a href=&#34;https://www.home-assistant.io/hassio/&#34;&gt;Hassio&lt;/a&gt;, eine speziell auf das RaspberryPi zugeschnittene Distribution von &lt;a href=&#34;https://www.home-assistant.io&#34;&gt;Home Assistant&lt;/a&gt; auf dem RaspberryPi installiert.&lt;/del&gt;&lt;/p&gt;
 &lt;p&gt;Da wir immer wieder Probleme mit Hassio hatten (Micro SD Card corruption) haben wir ein Raspbian Buster installiert und darauf dann &lt;a href=&#34;https://www.home-assistant.io&#34;&gt;Home Assistant&lt;/a&gt; via &lt;a href=&#34;https://github.com/reaktor23/pwrcmder/&#34;&gt;docker-compose&lt;/a&gt;.
-Die Datenbank ist jetzt ein Postgres das auf unserem actse server läuft und eintsprechend in der HA config konfiguriert ist. Dies sollte die Schreibzyklen auf die SD Karte möglichst gering halten.&lt;/p&gt;
-&lt;p&gt;Das hat sehr viele Vortiele für uns:&lt;/p&gt;
+Die Datenbank ist jetzt ein Postgres das auf unserem actse server läuft und entsprechend in der HA config konfiguriert ist. Dies sollte die Schreibzyklen auf die SD Karte möglichst gering halten.&lt;/p&gt;
+&lt;p&gt;Das hat sehr viele Vorteile für uns:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Ansteuerungen der GPIOs via Webinterface und/oder REST API (&lt;a href=&#34;https://www.home-assistant.io/components/rpi_gpio/&#34;&gt;rpi_gpio&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Auslesen der 1-Wire Temperatursensoren (&lt;a href=&#34;https://www.home-assistant.io/components/sensor.onewire/&#34;&gt;sensor.onewire&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Bereitstellen des Reaktorstatus via SpaceAPI (&lt;a href=&#34;https://www.home-assistant.io/components/spaceapi/&#34;&gt;spaceapi&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Ausserdem die einfache Konfiguration via YAML files und das ermöglichen von Automations und vielen weiteren coolen Features!&lt;/p&gt;
-&lt;p&gt;So sieht das interface in seiner ersten Version aus, hier bietet sich noch viel Spielraum für Erweiterungen :-)&lt;/p&gt;
+&lt;p&gt;Ausserdem die einfache Konfiguration via YAML files und das Ermöglichen von Automations und vielen weiteren coolen Features!&lt;/p&gt;
+&lt;p&gt;So sieht das Interface in seiner ersten Version aus, hier bietet sich noch viel Spielraum für Erweiterungen :-)&lt;/p&gt;
 
 
 &lt;figure class=&#34;figure m-1&#34;&gt;
@@ -622,14 +622,14 @@ Die Datenbank ist jetzt ein Postgres das auf unserem actse server läuft und ein
 
 &lt;h2 id=&#34;known-bugs&#34;&gt;Known Bugs&lt;/h2&gt;
 &lt;h3 id=&#34;rpi_gpio&#34;&gt;rpi_gpio&lt;/h3&gt;
-&lt;p&gt;Die Eingänge werden über die rpi_gpio integration abgefragt und lösen ein event aus, allerdings kann es passieren das wenn der Kontakt prellt das der state nicht stimmt was sehr unglücklich ist.
-Als Workaround haben wir das &lt;code&gt;rpi_gpio&lt;/code&gt; Verzeichnis von &lt;a href=&#34;https://github.com/home-assistant/core/tree/dev/homeassistant/components/rpi_gpio&#34;&gt;GitHub&lt;/a&gt; nach config/custom_components/rpi_gpio kopiert und die Zeile 75 in der Datei &lt;code&gt;switch.py&lt;/code&gt; geändert das sie True zurückgibt.
-Dadurch wird die rpi_gpio integration als custom_component geladen und verhindert das laden der Originalen Integration.&lt;/p&gt;
+&lt;p&gt;Die Eingänge werden über die rpi_gpio integration abgefragt und lösen ein event aus, allerdings kann es passieren, dass, wenn der Kontakt prellt, der State nicht stimmt, was sehr unglücklich ist.
+Als Workaround haben wir das &lt;code&gt;rpi_gpio&lt;/code&gt; Verzeichnis von &lt;a href=&#34;https://github.com/home-assistant/core/tree/dev/homeassistant/components/rpi_gpio&#34;&gt;GitHub&lt;/a&gt; nach config/custom_components/rpi_gpio kopiert und die Zeile 75 in der Datei &lt;code&gt;switch.py&lt;/code&gt; geändert, dass sie True zurückgibt.
+Dadurch wird die rpi_gpio integration als custom_component geladen und verhindert das Laden der originalen Integration.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;    @property
     def should_poll(self):
         &amp;#34;&amp;#34;&amp;#34;No polling needed.&amp;#34;&amp;#34;&amp;#34;
         return True
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Es wird zwar gewarnt das dies die CPU Last erhöht, allerdings konnten wir keine Nachteile durch diese Methode erkennen.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Es wird zwar gewarnt, dass dies die CPU Last erhöht, allerdings konnten wir keine Nachteile durch diese Methode erkennen.&lt;/p&gt;
 </description>
     </item>
     
@@ -640,13 +640,13 @@ Dadurch wird die rpi_gpio integration als custom_component geladen und verhinder
       
       <guid>https://reaktor23.org/blog/2018-09-07-cnc-mill/</guid>
       <description>&lt;p&gt;Vor ca. 2 Wochen haben wir damit begonnen unsere CNC Fräse auf Linux CNC umzustellen und seit letzter Woche ist die Fräse im Testbetrieb.
-Alles in allem sind wir sehr zufrieden mit dem Fortschritt des Projektes. Wir erhoffen uns dadurch endlich mehr Projekte die gefräste Teile erfordern, umsetzen zu können.&lt;/p&gt;
+Alles in allem sind wir sehr zufrieden mit dem Fortschritt des Projektes. Wir erhoffen uns dadurch endlich mehr Projekte, die gefräste Teile erfordern, umsetzen zu können.&lt;/p&gt;
 &lt;p&gt;Weitere Infos zum Projekt sowie eine Doku findet ihr unter &lt;a href=&#34;https://reaktor23.org/projects/millymcmillface/&#34;&gt;Projekte&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>MillyMcMillface</title>
+      <title>Milly McMillface</title>
       <link>https://reaktor23.org/projects/millymcmillface/</link>
       <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
       
@@ -668,15 +668,15 @@ Diesen Prozess werden wir hier dokumentieren.&lt;/p&gt;
 &lt;h2 id=&#34;elektronik&#34;&gt;Elektronik&lt;/h2&gt;
 &lt;p&gt;Angetrieben werden die Achsen von Nema34 Schrittmotoren. Diese werden von &lt;a href=&#34;&#34;&gt;Treiberkarten&lt;/a&gt; und 60V Netzteilen mit Strom versorgt. Die &lt;a href=&#34;http://cnc.a-ueberbach.de/spindle/alles-ueber-die-22kw-chinaspindel/&#34;&gt;Spindel&lt;/a&gt; ist über einen Frequenzumrichter des Herstellers HuanYang angeschlossen. Dieser spricht einen kuriosen Modbus-Dialekt. Motoren und Spindel sind bzw. waren an der Steuerung &lt;a href=&#34;http://smoothieware.org/smoothieboard&#34;&gt;Smoothieboard V1&lt;/a&gt; angeschlossen. Hier sind ebenfalls Endschalter angeschlossen. Fräsdateien und Steuerungsinputs bekommt das Board per Ethernet.&lt;/p&gt;
 &lt;p&gt;Grundsätzlich ist das Smoothieboard eine gute 3D-Drucker-Steuerung, die viele Möglichkeiten bietet. Für den Betrieb an unserer Maschine haben wir allerdings im Laufe der Zeit herausgefunden, dass es noch nicht die optimale Lösung ist. Auf Feedrate-Override oder Nothalt reagiert die Steuerung erst nachdem eine Programmzeile beendet ist.&lt;/p&gt;
-&lt;p&gt;Wärend das beim Würstchendrucker nicht so schlimm ist, stellt das bei einer etwas seriöseren Maschine ein Sicherheitsrisiko dar und so haben wir uns entschieden, die Steuerung auf ein LinuxCNC-basierendes System umzubauen.&lt;/p&gt;
+&lt;p&gt;Während das beim Würstchendrucker nicht so schlimm ist, stellt das bei einer etwas seriöseren Maschine ein Sicherheitsrisiko dar und so haben wir uns entschieden, die Steuerung auf ein LinuxCNC-basierendes System umzubauen.&lt;/p&gt;
 &lt;p&gt;Wir haben uns nach langer Entscheidungszeit für eine &lt;a href=&#34;http://store.mesanet.com/index.php?route=product/product&amp;amp;product_id=311&#34;&gt;Mesa 7i96&lt;/a&gt; FPGA-Karte entschieden da diese via Ethernet mit einem beliebigen PC verbunden werden kann auf dem LinuxCNC läuft. Ausserdem bietet sie alles, was wir benötigen, zum kleinen Preis. Bestellt wurde die Karte bei &lt;a href=&#34;http://eusurplus.com&#34;&gt;EUsurplus&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Nach den ersten Versuchen stellte sich heraus, dass es sich um ein selten verwendetes Modell handelt und die Konfiguration etwas mehr Arbeit erforderdert, als beispielsweise die größere 7i77. Dennoch haben wir bereits am ersten Abend geschafft, einen Ausgang blinken zu lassen und einen Motor drehen zu lassen. Wie es mit der Steuerung weitergeht, werden wir weiter unten genauer beschreiben.&lt;/p&gt;
+&lt;p&gt;Nach den ersten Versuchen stellte sich heraus, dass es sich um ein selten verwendetes Modell handelt und die Konfiguration etwas mehr Arbeit erfordert, als beispielsweise die größere 7i77. Dennoch haben wir bereits am ersten Abend geschafft, einen Ausgang blinken zu lassen und einen Motor drehen zu lassen. Wie es mit der Steuerung weitergeht, werden wir weiter unten genauer beschreiben.&lt;/p&gt;
 &lt;h2 id=&#34;mechanik&#34;&gt;Mechanik&lt;/h2&gt;
-&lt;p&gt;Ich habe mit meiner Projektarbeit eine Dokumentation erstellt, in denen Details zum Planung und zum Bau der Maschine beschrieben werden. Diese Dokumentation kann &lt;a href=&#34;https://github.com/reaktor23/website/raw/master/content/projects/millymcmillface/Seminarkursarbeit_f%C3%BCr_R23.pdf&#34;&gt;hier&lt;/a&gt; heruntergeladen werden.&lt;/p&gt;
+&lt;p&gt;Ich habe mit meiner Projektarbeit eine Dokumentation erstellt, in der Details zur Planung und zum Bau der Maschine beschrieben werden. Diese Dokumentation kann &lt;a href=&#34;https://github.com/reaktor23/website/raw/master/content/projects/millymcmillface/Seminarkursarbeit_f%C3%BCr_R23.pdf&#34;&gt;hier&lt;/a&gt; heruntergeladen werden.&lt;/p&gt;
 &lt;h1 id=&#34;umbau-auf-linuxcnc---ein-meisterwerk-in--akten&#34;&gt;Umbau auf LinuxCNC - Ein Meisterwerk in ??? Akten&lt;/h1&gt;
 &lt;h2 id=&#34;erster-akt-das-realtime---betriebssystem-installieren&#34;&gt;Erster Akt: Das Realtime - Betriebssystem installieren&lt;/h2&gt;
 &lt;p&gt;Debian Stretch Netinstaller von &lt;a href=&#34;https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.6.0-amd64-netinst.iso&#34;&gt;hier&lt;/a&gt; herunterladen.&lt;/p&gt;
-&lt;p&gt;Image mit z.B. dd auf einen USB Stick schreiben (Achtung, sichergehen das /dev/sdb auch der USB Stick ist!):&lt;/p&gt;
+&lt;p&gt;Image mit z.B. dd auf einen USB Stick schreiben (Achtung, sichergehen, dass /dev/sdb auch der USB Stick ist!):&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo dd if=debian-9.6.0-amd64-netinst.iso of=/dev/sdb bs=4M status=progress
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;USB Stick in den Rechner und davon booten, Debian installieren und anschliessend das frisch installierte System booten.&lt;/p&gt;
 &lt;p&gt;Terminal öffnen und folgende Befehle ausführen:&lt;/p&gt;
@@ -686,7 +686,7 @@ su -
 # System updaten
 apt-get update
 apt-get upgrade
-apt-get dist-upgrade$
+apt-get dist-upgrade
 
 # Realtime kernel installieren
 apt-get install linux-image-rt-amd64
@@ -696,7 +696,7 @@ apt-get install sudo
 # User der Gruppe sudo hinzufügen
 useradd -a -G sudo &amp;lt;username&amp;gt;
 
-#dirmngr installieren um Fehler beim den Nachfolgenden befehlen zu verhindern
+# dirmngr installieren um Fehler bei den nachfolgenden Befehlen zu verhindern
 apt-get install dirmngr
 
 # Key des linuxcnc buildbots hinzufügen
@@ -716,41 +716,41 @@ apt-get install vim git
 
 # System neu starten
 reboot
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;PC neu starten, ein Terminal öffnen und mit &lt;code&gt;uname -a&lt;/code&gt; ob der PREEMT RT Kernel geladen wurde.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;PC neu starten, ein Terminal öffnen und mit &lt;code&gt;uname -a&lt;/code&gt; prüfen, ob der PREEMPT RT Kernel geladen wurde.
 Da sollte dann so etwas wie &lt;code&gt;Linux mill 4.9.0-8-rt-amd64 #1 SMP PREEMPT RT Debian 4.9.130-2 (2018-10-27) x86_64 GNU/Linux&lt;/code&gt; stehen&lt;/p&gt;
 &lt;h2 id=&#34;zweiter-akt-netzwerkverbindung-herstellen&#34;&gt;Zweiter Akt: Netzwerkverbindung herstellen&lt;/h2&gt;
-&lt;p&gt;Die MESA-Karte hat standardmäßig die IP 192.168.1.121 . Um mit der Karte kommunizieren zu können muss am Computer eine statische IP-Adresse vergeben werden. Dazu oben rechts im Panel auf das Netzwerksymbol rechtsklicken und Edit Connections&amp;hellip; auswählen. Im sich öffnenden Fenster eine neue Verbindung erstellen, Èthernet auswählen und bestätigen. Es öffnet sich ein neues Fenster. Im Tab Ethernet wird bei Device die richtige Netzwerkkarte ausgewählt. Im Tab IPv4 Settings wird manual ausgewählt. Mit einem Klick auf Add wird eine Verbindung mit der Adresse 192.168.1.1 und der Netzwaske 24 eingegeben. Der Eintrag des Gateways bleibt leer. Alle Fenster bestätigen und schließen. Nun im Panel oben rechts erneut auf das Netzwerkysmbol klicken und die neu erstellte Verbindung auswählen.&lt;/p&gt;
-&lt;p&gt;Zum Testen wird ein Terminal geöffnet, in dem der Befehl &lt;code&gt;ping -c 4 191.168.1.1&lt;/code&gt; eingegeben wird. Lautet die Antwort &lt;code&gt;4 packets transmitted, 4 received, 0% packet loss&lt;/code&gt;, so sollte alles richtig eingestellt sein.&lt;/p&gt;
+&lt;p&gt;Die MESA-Karte hat standardmäßig die IP 192.168.1.121 . Um mit der Karte kommunizieren zu können muss am Computer eine statische IP-Adresse vergeben werden. Dazu oben rechts im Panel auf das Netzwerksymbol rechtsklicken und Edit Connections&amp;hellip; auswählen. Im sich öffnenden Fenster eine neue Verbindung erstellen, Ethernet auswählen und bestätigen. Es öffnet sich ein neues Fenster. Im Tab Ethernet wird bei Device die richtige Netzwerkkarte ausgewählt. Im Tab IPv4 Settings wird manual ausgewählt. Mit einem Klick auf Add wird eine Verbindung mit der Adresse 192.168.1.1 und der Netzmaske 24 eingegeben. Der Eintrag des Gateways bleibt leer. Alle Fenster bestätigen und schließen. Nun im Panel oben rechts erneut auf das Netzwerksymbol klicken und die neu erstellte Verbindung auswählen.&lt;/p&gt;
+&lt;p&gt;Zum Testen wird ein Terminal geöffnet, in dem der Befehl &lt;code&gt;ping -c 4 192.168.1.121&lt;/code&gt; eingegeben wird. Lautet die Antwort &lt;code&gt;4 packets transmitted, 4 received, 0% packet loss&lt;/code&gt;, so sollte alles richtig eingestellt sein.&lt;/p&gt;
 &lt;h2 id=&#34;dritter-akt-linuxcnc-einrichten-und-konfiguration&#34;&gt;Dritter Akt: LinuxCNC einrichten und Konfiguration&lt;/h2&gt;
-&lt;p&gt;Die Konfiguration findet über &lt;strong&gt;.ini&lt;/strong&gt; und &lt;strong&gt;.hal&lt;/strong&gt; files statt. Diese liegen auf unserem Fräsen Rechner unter &lt;code&gt;~/linuxcnc&lt;/code&gt; aber im Grunde ist es egal wo man seine config files ablegt, man übergibt den Pfad zum .ini file sowieso beim starten von linuxcnc.&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# ins home verzeichnis wechseln
+&lt;p&gt;Die Konfiguration findet über &lt;strong&gt;.ini&lt;/strong&gt; und &lt;strong&gt;.hal&lt;/strong&gt; files statt. Diese liegen auf unserem Fräsen Rechner unter &lt;code&gt;~/linuxcnc&lt;/code&gt; aber im Grunde ist es egal wo man seine config files ablegt, man übergibt den Pfad zum .ini file sowieso beim Starten von linuxcnc.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# ins Home-Verzeichnis wechseln
 cd ~
 # Konfig unserer Fräse von Github clonen
 git clone https://github.com/reaktor23/MillyMcMillface.git linuxcnc
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Um linuxcnc zu starten ein terminal öffnen und &lt;code&gt;linuxcnc ~/linuxcnc/7i76-1k.ini&lt;/code&gt; eingeben und starten.&lt;/p&gt;
-&lt;p&gt;Da wir doch auch an sehr vielen Stellen unsere Probleme hatten, werden wir versuchen einige davon hier detailierter zu beschreiben.&lt;/p&gt;
+&lt;p&gt;Da wir doch auch an sehr vielen Stellen unsere Probleme hatten, werden wir versuchen einige davon hier detaillierter zu beschreiben.&lt;/p&gt;
 &lt;h1 id=&#34;update-07012019---handrad&#34;&gt;Update 07.01.2019 - Handrad&lt;/h1&gt;
-&lt;p&gt;Wir konten ein gebrauchtes Handrad (&lt;a href=&#34;https://www.euchner.de/de-de/Produkte/Handbedienger%C3%A4te-und-Handr%C3%A4der/Handbedienger%C3%A4t-HBA/HBA-079827&#34;&gt;Euchner HBA&lt;/a&gt;) ergattern und haben dieses währen des &lt;a href=&#34;https://events.ccc.de/congress/2018&#34;&gt;35C3&lt;/a&gt; erfolgreich in unser LinuxCNC Setup integrieren.
+&lt;p&gt;Wir konnten ein gebrauchtes Handrad (&lt;a href=&#34;https://www.euchner.de/de-de/Produkte/Handbedienger%C3%A4te-und-Handr%C3%A4der/Handbedienger%C3%A4t-HBA/HBA-079827&#34;&gt;Euchner HBA&lt;/a&gt;) ergattern und haben dieses während des &lt;a href=&#34;https://events.ccc.de/congress/2018&#34;&gt;35C3&lt;/a&gt; erfolgreich in unser LinuxCNC Setup integriert.
 Das Handrad verfügt über:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;2 Wahlschalter, einen Achse, der andere für die Schrittweite&lt;/li&gt;
+&lt;li&gt;2 Wahlschalter, einer für die Achse, der andere für die Schrittweite&lt;/li&gt;
 &lt;li&gt;3 Folientasten +, Eilgang, - (derzeit nicht verwendet)&lt;/li&gt;
 &lt;li&gt;2 Parallel geschaltete Freigabetaster (derzeit nicht verwendet)&lt;/li&gt;
 &lt;li&gt;1 NOT-STOP Taster&lt;/li&gt;
 &lt;li&gt;1 Drehencoder&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Alle Signale wurden auf einem Arduino Nano aufgelegt (&lt;a href=&#34;https://github.com/reaktor23/MillyMcMillface/blob/master/handwheel/handwheel_arduino/handwheel_arduino.ino&#34;&gt;Link zum Sketch&lt;/a&gt;), dieses sendet bei Änderung die daten Seriell zum PC, z.B. Plus:1 für Plustaste ist gedrückt.
+&lt;p&gt;Alle Signale wurden auf einem Arduino Nano aufgelegt (&lt;a href=&#34;https://github.com/reaktor23/MillyMcMillface/blob/master/handwheel/handwheel_arduino/handwheel_arduino.ino&#34;&gt;Link zum Sketch&lt;/a&gt;), dieses sendet bei Änderung die Daten seriell zum PC, z.B. Plus:1 für Plustaste ist gedrückt.
 Dort liegt ein &lt;a href=&#34;https://github.com/reaktor23/MillyMcMillface/blob/master/handwheel/handwheel.py&#34;&gt;Python Programm&lt;/a&gt; das die Daten auswertet und an Linux CNC weiterreicht &lt;a href=&#34;https://github.com/reaktor23/MillyMcMillface/blob/master/handwheel/handwheel.hal&#34;&gt;Link zum HAL File&lt;/a&gt;.
 In der INI muss lediglich das HAL file eingebunden werden &lt;a href=&#34;https://github.com/reaktor23/MillyMcMillface/blob/master/7i96-1k.ini#L99&#34;&gt;Link zur betreffenden INI Zeile&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;update-17012019---encoder-feedback&#34;&gt;Update 17.01.2019 - Encoder Feedback&lt;/h1&gt;
 &lt;p&gt;Da wir immer wieder mit Schrittverlusten kämpfen haben wir beschlossen die Achsen mit Encodern auszustatten um ein Closed-Loop System zu bekommen.
-Unsere Motoren sind glücklicherweise mit beidseiteigen Wellen ausgestattet, die eine treibt die Spindel an, die andere wird mit einem Hohlwellenencoder versehen.
+Unsere Motoren sind glücklicherweise mit beidseitigen Wellen ausgestattet, die eine treibt die Spindel an, die andere wird mit einem Hohlwellenencoder versehen.
 Die Encoder werden an eine Mesanet &lt;a href=&#34;http://store.mesanet.com/index.php?route=product/product&amp;amp;product_id=125&amp;amp;search=7i85s&#34;&gt;7i85S&lt;/a&gt; angeschlossen die uns weitere Encodereingänge verschafft.
 Der User PCW aus dem linuxcnc forum war so freundlich uns ein passendes &lt;a href=&#34;https://forum.linuxcnc.org/27-driver-boards/35820-7i96-7i85s#123869&#34;&gt;Bitfile&lt;/a&gt; für die 7i96 zur Verfügung zu stellen.&lt;/p&gt;
 &lt;h1 id=&#34;update-vom-10032020---alles-neu&#34;&gt;Update vom 10.03.2020 - Alles Neu&lt;/h1&gt;
 &lt;p&gt;Wir versuchen jetzt mal alles neu zu machen und zu dokumentieren, der aktuelle aber nicht unbedingt funktionierende Stand unserer LinuxCNC config findet sich in diesem &lt;a href=&#34;https://github.com/Bouni/MilliMcMillface&#34;&gt;Git Repo&lt;/a&gt;.&lt;/p&gt;
 &lt;h1 id=&#34;update-vom-20052020---debian-10-buster--linuxcnc-29--mesa-7i96--mesa-7i85s-setup&#34;&gt;Update vom 20.05.2020 - Debian 10 Buster + LinuxCNC 2.9 + Mesa 7i96 + Mesa 7i85S Setup&lt;/h1&gt;
-&lt;p&gt;Um mal auf einem halbwegs auf einen aktuellen Stan zu kommen haben wir ein Debian 10 Buster installiert. Da es dafür aber keine fertigen Pakete guibt war es notwendig diese selbst zu bauen.
+&lt;p&gt;Um mal auf einen halbwegs aktuellen Stand zu kommen haben wir ein Debian 10 Buster installiert. Da es dafür aber keine fertigen Pakete gibt war es notwendig diese selbst zu bauen.
 Auch dies haben wir &lt;a href=&#34;https://github.com/reaktor23/linuxcnc-wiki/blob/master/installation.md&#34;&gt;hier&lt;/a&gt; dokumentiert!&lt;/p&gt;
 </description>
     </item>
@@ -778,8 +778,8 @@ Auch dies haben wir &lt;a href=&#34;https://github.com/reaktor23/linuxcnc-wiki/b
       
       <guid>https://reaktor23.org/blog/2018-06-19-new-website/</guid>
       <description>&lt;p&gt;Wir haben es endlich geschafft eine neue Website zu bauen! Yay! Naja, fast. Noch
-müssen wir etwas Arbeit hinein stecken.&lt;/p&gt;
-&lt;p&gt;Zuvor hatten wir eine auf DokuWiki basierenden Website. DokuWiki ist an sich
+müssen wir etwas Arbeit hineinstecken.&lt;/p&gt;
+&lt;p&gt;Zuvor hatten wir eine auf DokuWiki basierende Website. DokuWiki ist an sich
 nicht schlecht, war aber dann doch ein bisschen ein funktioneller Overkill und
 doch fehlte uns eine Funktion: Schon lange wollten wir es jedem sehr
 einfach machen Inhalte auf der Website zu ergänzen, korrigieren oder gar zu
@@ -800,34 +800,34 @@ schreiben. So zumindest die Idee.&lt;/p&gt;
       <guid>https://reaktor23.org/projects/elektrolongboard/</guid>
       <description>&lt;h1 id=&#34;wie-kam-ich-auf-die-idee&#34;&gt;Wie kam ich auf die Idee&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;Nach dem ich in der Glotze einen Bericht über Elektroboards sah war für mich klar so ein Teil will ich auch!!&lt;/li&gt;
-&lt;li&gt;Zunächst suchte ich im Netz nach Anbietern fertiger Boards wobei mir hier die Boards von &lt;a href=&#34;http://www.evolveskateboards.de/&#34;&gt;Evolve&lt;/a&gt;  und &lt;a href=&#34;http://boostedboards.com/&#34;&gt;Boosted&lt;/a&gt; ins Auge stachen. Da ich diese aber recht teuer fand war die Idee eines Eigenbau gebohren.&lt;/li&gt;
+&lt;li&gt;Nachdem ich in der Glotze einen Bericht über Elektroboards sah war für mich klar so ein Teil will ich auch!!&lt;/li&gt;
+&lt;li&gt;Zunächst suchte ich im Netz nach Anbietern fertiger Boards wobei mir hier die Boards von &lt;a href=&#34;http://www.evolveskateboards.de/&#34;&gt;Evolve&lt;/a&gt;  und &lt;a href=&#34;http://boostedboards.com/&#34;&gt;Boosted&lt;/a&gt; ins Auge stachen. Da ich diese aber recht teuer fand war die Idee eines Eigenbaus geboren.&lt;/li&gt;
 &lt;li&gt;Eine sehr hilfreiche Seite beim Stöbern nach Ideen ist das &lt;a href=&#34;http://www.elektro-skateboard.de/&#34;&gt;Elektro-Skateboard Forum&lt;/a&gt;. Hiermit möchte ich mich bei der Community des Forums bedanken, da ich dort einiges nachgelesen habe und mir Inspirationen geholt habe.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;technische-daten&#34;&gt;Technische Daten&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;Die benötigten Komponenten bestellte ich bei &lt;a href=&#34;http://hobbyking.com/hobbyking/store/index.asp&#34;&gt;Hobby King&lt;/a&gt; oder bei &lt;a href=&#34;http://www.rcmaster.net/&#34;&gt;RC Maser&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Die benötigten Komponenten bestellte ich bei &lt;a href=&#34;http://hobbyking.com/hobbyking/store/index.asp&#34;&gt;Hobby King&lt;/a&gt; oder bei &lt;a href=&#34;http://www.rcmaster.net/&#34;&gt;RC Master&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://hobbyking.com/hobbyking/store/__21967__Turnigy_C580L_580_Brushless_Inrunner_Motor_4kw.html&#34;&gt;Motor&lt;/a&gt;: Turnigy C580L-580 Brushless Inrunner Motor 4kw.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://hobbyking.com/hobbyking/store/__17979__Turnigy_160A_1_8th_Scale_Sensorless_ESC_w_Fan.html&#34;&gt;Regler&lt;/a&gt;: Turnigy 160A 1:8th Scale Sensorless ESC w/Fan.&lt;/li&gt;
-&lt;li&gt;Da der Regler allerdings keine Bremsfunktion hat und nur mit bis zu 4s Lipos betrieben werden kann wird er durch einen &lt;a href=&#34;http://www.hobbywing.com/product.asp?bigclassid13&amp;amp;subclassid=44&#34;&gt;Hobbywing&lt;/a&gt; Xerun 150A ersetzt. Link zu &lt;a href=&#34;http://www.rcmaster.net/de-xerun-150a-sd-esc-1-8-150a-sensorot-p229929.htm?source=ProductListAds&amp;amp;id=56128534817&amp;amp;currency=eur&amp;amp;country=DE&amp;amp;gclid=CPKyjo7JjcACFQcHwwodyzMA0g&#34;&gt;RC Master&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Da der Regler allerdings keine Bremsfunktion hat und nur mit bis zu 4s Lipos betrieben werden kann wird er durch einen &lt;a href=&#34;http://www.hobbywing.com/product.asp?bigclassid=13&amp;amp;subclassid=44&#34;&gt;Hobbywing&lt;/a&gt; Xerun 150A ersetzt. Link zu &lt;a href=&#34;http://www.rcmaster.net/de-xerun-150a-sd-esc-1-8-150a-sensorot-p229929.htm?source=ProductListAds&amp;amp;id=56128534817&amp;amp;currency=eur&amp;amp;country=DE&amp;amp;gclid=CPKyjo7JjcACFQcHwwodyzMA0g&#34;&gt;RC Master&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://hobbyking.com/hobbyking/store/__9515__Turnigy_5000mAh_3S_30C_Lipo_Pack.html&#34;&gt;Akku&lt;/a&gt;: 2x Turnigy 5000mAh 3S 30C Lipo Pack.&lt;/li&gt;
 &lt;li&gt;Wird wenn das Board komplett fertig ist eventuell noch durch 6s Lipos ersetzt.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://arduino.cc/en/pmwiki.php?nMain/ArduinoBoardUno&#34;&gt;Arduino Uno&lt;/a&gt;: Zur Regelung des ESC so wie ein USB Bluetooth Shield aus der Bucht und ein &lt;a href=&#34;http://www.amazon.de/s/ref=nb_sb_ss_i_0_11?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;amp;url=search-alias%3Daps&amp;amp;field-keywords=bluetooth+dongle&amp;amp;sprefix=bluetooth+d%2Caps%2C148&amp;amp;rh=i%3Aaps%2Ck%3Abluetooth+dongle&#34;&gt;Buetooth Dongle&lt;/a&gt; von Amazon hier habe ich gleich drei verschiedene gekauft, da manche Dongle die Arbeit verweigern.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://arduino.cc/en/pmwiki.php?n=Main/ArduinoBoardUno&#34;&gt;Arduino Uno&lt;/a&gt;: Zur Regelung des ESC so wie ein USB Bluetooth Shield aus der Bucht und ein &lt;a href=&#34;http://www.amazon.de/s/ref=nb_sb_ss_i_0_11?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;amp;url=search-alias%3Daps&amp;amp;field-keywords=bluetooth+dongle&amp;amp;sprefix=bluetooth+d%2Caps%2C148&amp;amp;rh=i%3Aaps%2Ck%3Abluetooth+dongle&#34;&gt;Bluetooth Dongle&lt;/a&gt; von Amazon hier habe ich gleich drei verschiedene gekauft, da manche Dongle die Arbeit verweigern.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;fernbedienung-regelung-des-motors&#34;&gt;Fernbedienung Regelung des Motors&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Da mir die üblichen RC Pistolenfernbedienungen zu unhandlich sind, war ich auf der Suche nach etwas handlicherem. Da mir im &lt;a href=&#34;https://www.kickstarter.com/projects/170315130/boosted-boards-the-worlds-lightest-electric-vehicl&#34;&gt;Boosted Video&lt;/a&gt; handliche Konzeptzeichnungen ihres Controllers auffielen kam ich auf die Idee einen PS3 Move Navigations-Controller zu verwenden.&lt;/li&gt;
-&lt;li&gt;Hier einige Links die mir dabei halfen den Code für die Steuerung zu Schreiben dort findet man auch die Bluetooth Libary und alles weitere was man zum verbinden des PS3 Controllers benötigt.&lt;/li&gt;
+&lt;li&gt;Hier einige Links die mir dabei halfen den Code für die Steuerung zu schreiben, dort findet man auch die Bluetooth Library und alles weitere was man zum Verbinden des PS3 Controllers benötigt.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://barrettsprojects.wordpress.com/2013/01/12/usb-host-shield-demonstration/&#34;&gt;Barrettsprojects&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://forum.arduino.cc/index.php/topic,137747.0.html&#34;&gt;Step by step on how to connect a PS3 controller to an arduino via Bluetooth&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.youtube.com/watch?vq3vXTX6Qe54&#34;&gt;How to Connect a PS3 controller to an Arduino with a USB host shield and Bluetooth dongle (Part 1)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v9oNMqMQrMnA&#34;&gt;How to Connect a PS3 controller to an Arduino with a USB host shield and Bluetooth dongle (Part 2)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.youtube.com/watch?v5ZptMi1j_w8&#34;&gt;Control an RC car with a PS3 controller, Arduino UNO, USB host shield and Bluetooth dongle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.youtube.com/watch?v=q3vXTX6Qe54&#34;&gt;How to Connect a PS3 controller to an Arduino with a USB host shield and Bluetooth dongle (Part 1)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=9oNMqMQrMnA&#34;&gt;How to Connect a PS3 controller to an Arduino with a USB host shield and Bluetooth dongle (Part 2)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.youtube.com/watch?v=5ZptMi1j_w8&#34;&gt;Control an RC car with a PS3 controller, Arduino UNO, USB host shield and Bluetooth dongle&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.circuitsathome.com/tag/ps3&#34;&gt;Circuits@Home&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://dl.dropboxusercontent.com/u/43421685/Website%20Content/BT_RC.ino&#34;&gt;Example Code&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/felis/USB_Host_Shield_2.0/wiki/PS3-Information#Video_Demonstration&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Die Regler werden über eine Pulsweitenmodulation geregelt. Regler benötigen eine konstante Folge von 1ms bis 2ms Impulsen mit einem Abstand von 20ms. Wobei ein Impuls von 1,5ms dem&lt;/li&gt;
-&lt;li&gt;Stillstand entspricht, 2ms entsprechen Vollgas vorwärts und 1 ms entsprechen Vollgas rückwärst. Die Höhe der Spannung ist dabei abhängig vom eingesetzten BEC (Battery Eliminator Circuit). Bei einem 5v BEC, beträgt die Pulshöhe 5v, bei einem 6v BEC beträgt die Pulshöhe 6v, usw.&lt;/li&gt;
+&lt;li&gt;Stillstand entspricht, 2ms entsprechen Vollgas vorwärts und 1 ms entsprechen Vollgas rückwärts. Die Höhe der Spannung ist dabei abhängig vom eingesetzten BEC (Battery Eliminator Circuit). Bei einem 5v BEC, beträgt die Pulshöhe 5v, bei einem 6v BEC beträgt die Pulshöhe 6v, usw.&lt;/li&gt;
 &lt;li&gt;Das Bild zeigt ein typisches Ausgangssignal von einem Empfänger
 
  
@@ -838,7 +838,7 @@ schreiben. So zumindest die Idee.&lt;/p&gt;
      
  &lt;/figure&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.svenfroemmer.de/index.php?optioncom_wrapper&amp;amp;view=wrapper&amp;amp;Itemid=129&#34;&gt;So funzt die Funke&lt;/a&gt;: Hier kan man alles im Detail nachlesen.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.svenfroemmer.de/index.php?option=com_wrapper&amp;amp;view=wrapper&amp;amp;Itemid=129&#34;&gt;So funzt die Funke&lt;/a&gt;: Hier kann man alles im Detail nachlesen.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;arduino-code&#34;&gt;Arduino Code&lt;/h2&gt;
 &lt;ul&gt;
@@ -926,7 +926,7 @@ schreiben. So zumindest die Idee.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;erste-testfahrten&#34;&gt;Erste Testfahrten&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;So, die ersten Testfahrten sind ganz gut gelaufen. Aus dem Stand heraus lässt sich das Board nicht bewegen, jedoch reicht ein leichtes puschen aus und dann gehts ganz gut vorwärts.&lt;/li&gt;
+&lt;li&gt;So, die ersten Testfahrten sind ganz gut gelaufen. Aus dem Stand heraus lässt sich das Board nicht bewegen, jedoch reicht ein leichtes Pushen aus und dann gehts ganz gut vorwärts.&lt;/li&gt;
 &lt;li&gt;Die Motorhalterung zeigt erste Schwachstellen, da sich Risse bilden.&lt;/li&gt;
 &lt;li&gt;Eine überarbeitete Version der Motorhalterung befindet sich im Druck.&lt;/li&gt;
 &lt;/ul&gt;
@@ -996,7 +996,7 @@ schreiben. So zumindest die Idee.&lt;/p&gt;
       <description>&lt;h1 id=&#34;ansteuerung&#34;&gt;Ansteuerung&lt;/h1&gt;
 &lt;p&gt;Auf der Platine ist bereits ein FP2800 verbaut, und alle Zeilen sind mit Hilfe des PCB auf diesen verdrahtet.
 Der andere Anschluss jedes Pixels ist mit 2 Dioden auf je eine Leiterbahn verbunden die die Spalten miteinander verbinden.&lt;/p&gt;
-&lt;p&gt;Dieses Bild soll anhand von 4 Pixeln verdeutlichen wie die Matrix verschalten ist.
+&lt;p&gt;Dieses Bild soll anhand von 4 Pixeln verdeutlichen wie die Matrix verschaltet ist.
 
 
 &lt;figure class=&#34;figure m-1&#34;&gt;
@@ -1006,7 +1006,7 @@ Der andere Anschluss jedes Pixels ist mit 2 Dioden auf je eine Leiterbahn verbun
     
 &lt;/figure&gt;
 &lt;/p&gt;
-&lt;p&gt;Dies ist die Transistorschaltung die wir momentan zum schalten der Reihen einsetzen.
+&lt;p&gt;Dies ist die Transistorschaltung die wir momentan zum Schalten der Reihen einsetzen.
 
 
 &lt;figure class=&#34;figure m-1&#34;&gt;
@@ -1016,14 +1016,14 @@ Der andere Anschluss jedes Pixels ist mit 2 Dioden auf je eine Leiterbahn verbun
     
 &lt;/figure&gt;
 &lt;/p&gt;
-&lt;h1 id=&#34;bilder&#34;&gt;Bilder&lt;/h1&gt;
+&lt;h1 id=&#34;videos&#34;&gt;Videos&lt;/h1&gt;
 
   &lt;div class=&#34;vimeo-container&#34;&gt;
     &lt;iframe src=&#34;//player.vimeo.com/video/61695002&#34; width=&#34;640&#34; height=&#34;360&#34; frameborder=&#34;0&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
   &lt;/div&gt;
 
 
-&lt;h1 id=&#34;videos&#34;&gt;Videos&lt;/h1&gt;
+&lt;h1 id=&#34;bilder&#34;&gt;Bilder&lt;/h1&gt;
 
 
 &lt;figure class=&#34;figure m-1&#34;&gt;
@@ -1047,13 +1047,13 @@ Der andere Anschluss jedes Pixels ist mit 2 Dioden auf je eine Leiterbahn verbun
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://reaktor23.org/projects/matedealer/</guid>
-      <description>&lt;p&gt;There is a enlish version of this site: &lt;a href=&#34;projects:mate_dealer_en&#34;&gt;Mate Dealer&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;There is an English version of this site: &lt;a href=&#34;projects:mate_dealer_en&#34;&gt;Mate Dealer&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Der MateDealer in der hier beschriebenen Konfiguration ist tot.
-Die Mechanischen Teile werden für den &lt;a href=&#34;projects:matedealer2&#34;&gt;MateDealer 2.0&lt;/a&gt; benutzt.&lt;/p&gt;
+Die mechanischen Teile werden für den &lt;a href=&#34;https://reaktor23.org/projects/matedealer2/&#34;&gt;MateDealer 2.0&lt;/a&gt; benutzt.&lt;/p&gt;
 &lt;h1 id=&#34;der-ausgangszustand&#34;&gt;Der Ausgangszustand&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Hersteller: &lt;a href=&#34;http://www.sandenvendo.com/&#34;&gt;Sanden Vendo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Model: VDI 100-5&lt;/li&gt;
+&lt;li&gt;Modell: VDI 100-5&lt;/li&gt;
 &lt;li&gt;5 Produktschächte&lt;/li&gt;
 &lt;li&gt;Betriebsspannung: 230VAC 50Hz&lt;/li&gt;
 &lt;li&gt;Nominale Leistungsaufnahme: 450W&lt;/li&gt;
@@ -1113,29 +1113,29 @@ Die Mechanischen Teile werden für den &lt;a href=&#34;projects:matedealer2&#34;
 &lt;/ul&gt;
 &lt;h2 id=&#34;februar-2011&#34;&gt;Februar 2011&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;19.02.2011: Nachdem wir im Dezember Log festgestellt hatten das der VMC das Chashless Device welches wir mit hilfe des AtMegas simulieren wollen nicht adressiert, haben wir beim Hersteller des Automaten ein neues EEPROM gekauft, und diesers nun eingebaut. Im neuen Log ist schön zu sehen das das Cashless Device adressiert wird.&lt;/li&gt;
+&lt;li&gt;19.02.2011: Nachdem wir im Dezember Log festgestellt hatten dass der VMC das Cashless Device welches wir mit Hilfe des AtMegas simulieren wollen nicht adressiert, haben wir beim Hersteller des Automaten ein neues EEPROM gekauft, und dieses nun eingebaut. Im neuen Log ist schön zu sehen, dass das Cashless Device adressiert wird.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;märz-2011&#34;&gt;März 2011&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;01.03.2011: Nach dem wir von einem PC814 auf einen PC817 umgestiegen sind klappt der Empfang immer noch nicht wie gedacht. Die Nachfolgenden Bilder zeigen was mit dem Oszi sichtbar wurde. Die steigenden Flanken (untere Bildhälfte) steigen viel zu langsam an. im ersten Bild ist ein 10k Pullup verwendet worden, im zweiten dann ein 1k5. \ &lt;img src=&#34;20110301_003.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;01.03.2011: Nach dem wir von einem PC814 auf einen PC817 umgestiegen sind klappt der Empfang immer noch nicht wie gedacht. Die nachfolgenden Bilder zeigen was mit dem Oszi sichtbar wurde. Die steigenden Flanken (untere Bildhälfte) steigen viel zu langsam an. Im ersten Bild ist ein 10k Pullup verwendet worden, im zweiten dann ein 1k5. &lt;br&gt; &lt;img src=&#34;20110301_003.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;12.03.2011: Heute wurde ein Versuch unternommen mit schnellen PC900 Optokopplern das Problem in den Griff zu bekommen. Ergebinis ist ein gesprengter PC900 und ein gelöschtes/defektes ROM im Münzprüfer. Nach dem Test wurde das PC817 Board nochmal angeschlossen und mit diesem ein Test mit kleinerem Pullup (470R) und einem grösseren Vorwiderstand (560R) gemacht und das brachte den ersehnten Erfolg.&lt;/p&gt;
+&lt;p&gt;12.03.2011: Heute wurde ein Versuch unternommen mit schnellen PC900 Optokopplern das Problem in den Griff zu bekommen. Ergebnis ist ein gesprengter PC900 und ein gelöschtes/defektes ROM im Münzprüfer. Nach dem Test wurde das PC817 Board nochmal angeschlossen und mit diesem ein Test mit kleinerem Pullup (470R) und einem grösseren Vorwiderstand (560R) gemacht und das brachte den ersehnten Erfolg.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Milestone&lt;/strong&gt; Der Empfang der MDB Daten klappt nun wie gedacht.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;23.03.2011: Seit heute klappt nun auch das senden von MDB Kommandos&lt;/li&gt;
+&lt;li&gt;23.03.2011: Seit heute klappt nun auch das Senden von MDB Kommandos&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Milestone&lt;/strong&gt; Das senden von MDB Daten klappt nun auch.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Milestone&lt;/strong&gt; Das Senden von MDB Daten klappt nun auch.&lt;/p&gt;
 &lt;h2 id=&#34;april-2011&#34;&gt;April 2011&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;15.04.2011: Die ersten Gehversuche sind gemacht. Das MDB Protokoll ist ein wenig komisch aber wir lassen uns nicht entmutigen.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;20.04.2011: Die ersten Befehle (RESET, SETUP) sind implementiert und funktioneieren auch schon. Das ausgeben eines Getränks ist aber noch nicht möglich.&lt;/p&gt;
+&lt;p&gt;20.04.2011: Die ersten Befehle (RESET, SETUP) sind implementiert und funktionieren auch schon. Das Ausgeben eines Getränks ist aber noch nicht möglich.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;21.04.2011: Das erste Getränk wurde dem Automaten entlockt. Irgendetwas scheint aber noch nicht zu passen, da das eher Zufall war.&lt;/p&gt;
@@ -1144,36 +1144,36 @@ Die Mechanischen Teile werden für den &lt;a href=&#34;projects:matedealer2&#34;
 &lt;p&gt;22.04.2011: Wie es aussieht ist ein fetter Bug im Code. Wenn man sich &amp;ldquo;beeilt&amp;rdquo; bekommt man ein Getränk aus dem Automaten, wenn man aber zu lange wartet versagt die ganze Kommunikation.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;30.04.2011: Das Problem ist gefunden. Ein Fehlerhaft implementierter FiFo Buffer war die Ursache. Wenn man vor dem Überlauf das Getränk bezogen hat ging es, danach ging etwas schief. Nach dem beheben des Fehlers klappt das beziehen eines Getränks nun ohne Probleme. Das ganze ist momentan über 2 Taster gelöst. Taster 1 ist das authentifizieren eines Kunden am Automaten mit einem Festen Guthaben von 23€. Taste 2 ist das freigeben des Ausgabevorganges mit fixen 2€ Getränkepreis.&lt;/p&gt;
+&lt;p&gt;30.04.2011: Das Problem ist gefunden. Ein fehlerhaft implementierter FiFo Buffer war die Ursache. Wenn man vor dem Überlauf das Getränk bezogen hat ging es, danach ging etwas schief. Nach dem Beheben des Fehlers klappt das Beziehen eines Getränks nun ohne Probleme. Das Ganze ist momentan über 2 Taster gelöst. Taster 1 ist das Authentifizieren eines Kunden am Automaten mit einem festen Guthaben von 23€. Taster 2 ist das Freigeben des Ausgabevorganges mit fixen 2€ Getränkepreis.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;*&lt;em&gt;Milestone&lt;/em&gt; Es ist nun möglich ein Getränk aus dem Automaten zu ziehen.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Milestone&lt;/strong&gt; Es ist nun möglich ein Getränk aus dem Automaten zu ziehen.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://vimeo.com/24110627&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;august-2011&#34;&gt;August 2011&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;01.08.2011: In den letzten Monaten wurde der Code weitreichend überarbeitet. Beide Seriellen Verbindungen (MDB,Uplink) sind nun sowohl sendend als auch empfangend mit einem FiFo gepuffert. Ausserdem geschieht das Empfangen und senden im Interrupt Betrieb. Auch die anfangs verwendeten while Schleifen um auf neue Daten zu warten wurden erstezt und es ist nun mehr Zeit etwas sinnvolles in de Main Loop zu tun.&lt;/p&gt;
+&lt;p&gt;01.08.2011: In den letzten Monaten wurde der Code weitreichend überarbeitet. Beide seriellen Verbindungen (MDB,Uplink) sind nun sowohl sendend als auch empfangend mit einem FiFo gepuffert. Ausserdem geschieht das Empfangen und Senden im Interrupt Betrieb. Auch die anfangs verwendeten while Schleifen um auf neue Daten zu warten wurden ersetzt und es ist nun mehr Zeit etwas Sinnvolles in der Main Loop zu tun.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;02.08.2011: Heute wurde das zusammenspiel des Python Scripts auf dem SingleBoard PC mit der uC Schaltung getestet. Nun kann für mehrere Benutzer in einer Datenbank ein Guthaben hinterlegt werden von dem beim Bezug eines Getränks abgebucht wird. Ebenso werden Getränkpreise in der Datenbank hinterlegt und der Verbrauch der einzelnen Getränkesorten geloggt um eine kleine Statistik über den Verbrauch und die Beliebtheit erstellen zu können. Dies geschieht nicht Personenbezogen.&lt;/p&gt;
+&lt;p&gt;02.08.2011: Heute wurde das Zusammenspiel des Python Scripts auf dem SingleBoard PC mit der uC Schaltung getestet. Nun kann für mehrere Benutzer in einer Datenbank ein Guthaben hinterlegt werden von dem beim Bezug eines Getränks abgebucht wird. Ebenso werden Getränkepreise in der Datenbank hinterlegt und der Verbrauch der einzelnen Getränkesorten geloggt um eine kleine Statistik über den Verbrauch und die Beliebtheit erstellen zu können. Dies geschieht nicht personenbezogen.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Milestone&lt;/strong&gt; Das Backend ist in einer frühen alpha Phase funktioniert aber schon gut.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Milestone&lt;/strong&gt; Das Backend ist in einer frühen Alpha-Phase, funktioniert aber schon gut.&lt;/p&gt;
 &lt;h2 id=&#34;september-2011&#34;&gt;September 2011&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;20.09.2011 Es wurde der Entschluss gefasst das Projekt auf ein Arduino Board zu portieren.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;oktober-2011&#34;&gt;Oktober 2011&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Die Portierung ist immer noch im Gange wenn auch langsamer als gedacht. Die Idee vom Anfang das ganze in &amp;ldquo;Arduino Code&amp;rdquo; zu portieren wurde verworfen. es wird sich wieder um reinen C-Code handeln, denn die Arduino Serial Lib unterstützt keine anderen Modi als 8,N,1&lt;/li&gt;
+&lt;li&gt;Die Portierung ist immer noch im Gange wenn auch langsamer als gedacht. Die Idee vom Anfang das ganze in &amp;ldquo;Arduino Code&amp;rdquo; zu portieren wurde verworfen. Es wird sich wieder um reinen C-Code handeln, denn die Arduino Serial Lib unterstützt keine anderen Modi als 8,N,1&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;november-2011&#34;&gt;November 2011&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;ein fauler monat&lt;/li&gt;
+&lt;li&gt;ein fauler Monat&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;dezember-2011&#34;&gt;Dezember 2011&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;ein weiterer fauler monat&lt;/li&gt;
+&lt;li&gt;ein weiterer fauler Monat&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;januar-2012&#34;&gt;Januar 2012&lt;/h2&gt;
 &lt;ul&gt;
@@ -1206,7 +1206,7 @@ Die Mechanischen Teile werden für den &lt;a href=&#34;projects:matedealer2&#34;
     
 &lt;/figure&gt;
 &lt;/p&gt;
-&lt;p&gt;hellblau ist die LED Seite an der das Arduino Board hängt, gelb die Transistorseite. Übertragen wurde mit 9600Baud.&lt;/p&gt;
+&lt;p&gt;Hellblau ist die LED Seite an der das Arduino Board hängt, gelb die Transistorseite. Übertragen wurde mit 9600Baud.&lt;/p&gt;
 &lt;h2 id=&#34;february-2012&#34;&gt;February 2012&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;kein Fortschritt&lt;/li&gt;
@@ -1225,15 +1225,15 @@ Die Mechanischen Teile werden für den &lt;a href=&#34;projects:matedealer2&#34;
 &lt;/ul&gt;
 &lt;h2 id=&#34;juni-2012&#34;&gt;Juni 2012&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Ich habe die Zeit gefunden an meinem Code rewrite weiter zu arbeiten, evtl. kann die nächsten Dienstage ein Test stattfinden :) Yeah baby, yeah &amp;mdash;Bouni&lt;/li&gt;
+&lt;li&gt;Ich habe die Zeit gefunden an meinem Code rewrite weiterzuarbeiten, evtl. kann die nächsten Dienstage ein Test stattfinden :) Yeah baby, yeah &amp;mdash;Bouni&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;juli-2012&#34;&gt;Juli 2012&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;04.07.2012&lt;/strong&gt; Am gestrigen Dienstag hab ich endlich wieder am MateDealer weiter gearbeitet. Ich hab zwar den Code nicht vollständig fertig bekommen, aber etliche Fehler gefunden und behoben und bis zum //begin session// funktioniert nun alles. Auch die Uplink Kommunikation funktioniert sauber. Ausserdem hab ich ein kleines Stück Lochstreifen Platine in ein &amp;ldquo;Arduino Mega MDB Shield&amp;rdquo; verwandelt und das hat auf Anhieb funktioniert. &amp;mdash;Bouni&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;04.07.2012&lt;/strong&gt; Am gestrigen Dienstag hab ich endlich wieder am MateDealer weiter gearbeitet. Ich hab zwar den Code nicht vollständig fertig bekommen, aber etliche Fehler gefunden und behoben und bis zum &lt;em&gt;begin session&lt;/em&gt; funktioniert nun alles. Auch die Uplink Kommunikation funktioniert sauber. Ausserdem hab ich ein kleines Stück Lochstreifen Platine in ein &amp;ldquo;Arduino Mega MDB Shield&amp;rdquo; verwandelt und das hat auf Anhieb funktioniert. &amp;mdash;Bouni&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;11.07.2012&lt;/strong&gt; Wiederum am gestrigen Hackerspace Dienstag habe ich die (Grund)Funktionalität des MateDealers fertig gestellt. Es funktionieren nun die folgenden MDB Kommandos: RESET, SETUP, POLL, READER [ENABLE|DISABLE], VEND [REQUEST|SUCCESS]. Demenstprechend kann man nun eine Session starten, eine Getränk wählen, den Vend genehmigen, und das Resultat trinken ;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;11.07.2012&lt;/strong&gt; Wiederum am gestrigen Hackerspace Dienstag habe ich die (Grund)Funktionalität des MateDealers fertig gestellt. Es funktionieren nun die folgenden MDB Kommandos: RESET, SETUP, POLL, READER [ENABLE|DISABLE], VEND [REQUEST|SUCCESS]. Dementsprechend kann man nun eine Session starten, ein Getränk wählen, den Vend genehmigen, und das Resultat trinken ;)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;17.07.2012&lt;/strong&gt; Seit heute funktioniert der Arduinoseitige Teil des Mate Dealers komplett.&lt;/p&gt;
@@ -1241,28 +1241,28 @@ Die Mechanischen Teile werden für den &lt;a href=&#34;projects:matedealer2&#34;
 &lt;/ul&gt;
 &lt;h2 id=&#34;juli-2013&#34;&gt;Juli 2013&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;02.07.2013&lt;/strong&gt; Nach langem stillstand wurde heute eine lauffähige aber wahrscheinlich nicht sehr vertrauenswürdige Version der GUI auf dem single-board computer im MateDealer zum laufen gebracht. Weitere tests werden folgen.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;02.07.2013&lt;/strong&gt; Nach langem Stillstand wurde heute eine lauffähige aber wahrscheinlich nicht sehr vertrauenswürdige Version der GUI auf dem Single-Board Computer im MateDealer zum Laufen gebracht. Weitere Tests werden folgen.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;** Ab hier werden Schwerwiegende Änderungen am MateDealer Projekt stattfinden.**&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ab hier werden schwerwiegende Änderungen am MateDealer Projekt stattfinden.&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;30.07.2013&lt;/strong&gt; Kurz bevor die Kids zum &lt;a href=&#34;events:fez2013&#34;&gt;FEZ Abend&lt;/a&gt; zu uns gekommen sind hat sich der 2te Schacht des Matedealers verabschiedet. Er zeigt an er sei leer obwohl das nicht der Fall ist. Das durchmessen der Leitung und der Test des Schalters lassen darauf schliessen das es sich um einen Defekt auf der VMC Platine handelt.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;30.07.2013&lt;/strong&gt; Kurz bevor die Kids zum &lt;a href=&#34;events:fez2013&#34;&gt;FEZ Abend&lt;/a&gt; zu uns gekommen sind hat sich der 2te Schacht des Matedealers verabschiedet. Er zeigt an er sei leer obwohl das nicht der Fall ist. Das durchmessen der Leitung und der Test des Schalters lassen darauf schliessen, dass es sich um einen Defekt auf der VMC Platine handelt.&lt;/li&gt;
 &lt;li&gt;Wenig später hat sich gleich noch ein weiterer Schacht verabschiedet.&lt;/li&gt;
-&lt;li&gt;Nach kurzem überlegen wir es wohl darauf hinauslaufen, das wir ein komplett eigenes PCB anfertigen um die Steuerung des Automaten zu übernehmen, was nicht wirklich wild ist, denn es sind nur 5 Motoren (DC) und 10 Schalter (Schacht leer + Motor Position erreicht) zu bedienen. Ein weiterer Vorteil wird sein das das komplette MDB wegfällt und man viele Fehlerquellen eliminiert.&lt;/li&gt;
+&lt;li&gt;Nach kurzem Überlegen wird es wohl darauf hinauslaufen, dass wir ein komplett eigenes PCB anfertigen um die Steuerung des Automaten zu übernehmen, was nicht wirklich wild ist, denn es sind nur 5 Motoren (DC) und 10 Schalter (Schacht leer + Motor Position erreicht) zu bedienen. Ein weiterer Vorteil wird sein, dass das komplette MDB wegfällt und man viele Fehlerquellen eliminiert.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;software&#34;&gt;Software&lt;/h1&gt;
-&lt;p&gt;Die Software die auf dem Arduino lauft ist auf &lt;a href=&#34;https://github.com/Bouni/MateDealer&#34;&gt;GitHub&lt;/a&gt; zu finden.&lt;/p&gt;
+&lt;p&gt;Die Software die auf dem Arduino läuft ist auf &lt;a href=&#34;https://github.com/Bouni/MateDealer&#34;&gt;GitHub&lt;/a&gt; zu finden.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;probleme--lösungen&#34;&gt;Probleme &amp;amp; Lösungen&lt;/h1&gt;
 &lt;h2 id=&#34;falsche-münzrohre&#34;&gt;Falsche Münzrohre&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Problem:&lt;/strong&gt; Der Münzprüfer verfügt über 4 Münzspeicher, wovon jede eine Münzsorte aufnimmt (5Cent, 10Cent, 20Cent, 50Cent). Eine dieser sogenannten Tuben passte nicht zur programmierten Münze (20Cent) was dazu führte das sich die einfallenden Münzen querstellten.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Lösung&lt;/strong&gt;: Der Hersteller hat uns freundlicherweise eine {{:projekte:mate_dealer:tubenvarianten_g46.pdf|Liste aller Tuben}} zugemailt und wir konnten die passende nachbestellen.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Problem:&lt;/strong&gt; Der Münzprüfer verfügt über 4 Münzspeicher, wovon jeder eine Münzsorte aufnimmt (5Cent, 10Cent, 20Cent, 50Cent). Eine dieser sogenannten Tuben passte nicht zur programmierten Münze (20Cent) was dazu führte, dass sich die einfallenden Münzen querstellten.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lösung&lt;/strong&gt;: Der Hersteller hat uns freundlicherweise eine &lt;a href=&#34;tubenvarianten_g46.pdf&#34;&gt;Liste aller Tuben&lt;/a&gt; zugemailt und wir konnten die passende nachbestellen.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Kosten:&lt;/strong&gt; ~11€ + MwSt. &amp;amp; Versand.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;fehlender-schlüssel&#34;&gt;Fehlender Schlüssel&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Problem:&lt;/strong&gt; Als wir den Automaten gekauft haben, war er offen und es gab keine Schlüssel zum eingebauten Schloss mehr. Da niemand unbefugtes Zugang zum Inneren des Automaten haben soll muss ein Schloss mit Schlüssel her.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Lösung&lt;/strong&gt;: Nach einiger Suche konnten wir ein Baugleiches Schloss in bei &lt;a href=&#34;http://www.coinoperatorshop.com/shop/product_info.php?cPath=21_37_39_364&amp;amp;info=p5438_Lock-key-alike-T-Handle-inner-cylinder-lock.html&#34;&gt;www.coinoperatorshop.com&lt;/a&gt; finden und bestellen.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Problem:&lt;/strong&gt; Als wir den Automaten gekauft haben, war er offen und es gab keine Schlüssel zum eingebauten Schloss mehr. Da niemand Unbefugtes Zugang zum Inneren des Automaten haben soll muss ein Schloss mit Schlüssel her.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lösung&lt;/strong&gt;: Nach einiger Suche konnten wir ein baugleiches Schloss bei &lt;a href=&#34;http://www.coinoperatorshop.com/shop/product_info.php?cPath=21_37_39_364&amp;amp;info=p5438_Lock-key-alike-T-Handle-inner-cylinder-lock.html&#34;&gt;www.coinoperatorshop.com&lt;/a&gt; finden und bestellen.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Kosten:&lt;/strong&gt; ~7€ + MwSt. &amp;amp; Versand.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;cashless-device&#34;&gt;Cashless Device&lt;/h2&gt;
@@ -1273,26 +1273,26 @@ Die Mechanischen Teile werden für den &lt;a href=&#34;projects:matedealer2&#34;
 &lt;/ul&gt;
 &lt;h2 id=&#34;vmc-parametrierung&#34;&gt;VMC Parametrierung&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Problem:&lt;/strong&gt; Nach dem einabu des neuen EEPROM hat sich die Menüstruktur zum parametrieren des Automaten geändert. Das Handbuch das wir mit dem Automaten bekommen hatten war somit nicht mehr wirklich zu gebrauchen.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Lösung&lt;/strong&gt;: Eine freundliche Anfrage beim hersteller später haben wir ein {{:projekte:mate_dealer:bb01_einstellanleitung_080306_de.pdf|aktuelles Manual}} per Mail bekommen. Es passt zwar auch nicht ganz zum Menü, aber besser als das alte ist es.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Problem:&lt;/strong&gt; Nach dem Einbau des neuen EEPROM hat sich die Menüstruktur zum Parametrieren des Automaten geändert. Das Handbuch das wir mit dem Automaten bekommen hatten war somit nicht mehr wirklich zu gebrauchen.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lösung&lt;/strong&gt;: Eine freundliche Anfrage beim Hersteller später haben wir ein &lt;a href=&#34;bb01_einstellanleitung_080306_de.pdf&#34;&gt;aktuelles Manual&lt;/a&gt; per Mail bekommen. Es passt zwar auch nicht ganz zum Menü, aber besser als das alte ist es.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Kosten:&lt;/strong&gt; 0€&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;füllstandsüberwachung&#34;&gt;Füllstandsüberwachung&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Problem:&lt;/strong&gt; Wenn man den Automaten bzw. einen Schacht bis oben hin füllt, passen ca. 25 Flaschen hinein. Der Wippschalter der den Füllstand überwacht meldet allerdings schon bei 10 verbleibenden Flaschen im Schacht das dieser leer sei.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Lösung&lt;/strong&gt;: Ein paar streifen 2mm Aluminium mit ~3x10cm und ein wenig Duct-Tape haben die Füllstandsüberwachung auf 1 verbleibende Flasche verbessert.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Problem:&lt;/strong&gt; Wenn man den Automaten bzw. einen Schacht bis oben hin füllt, passen ca. 25 Flaschen hinein. Der Wippschalter der den Füllstand überwacht meldet allerdings schon bei 10 verbleibenden Flaschen im Schacht, dass dieser leer sei.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lösung&lt;/strong&gt;: Ein paar Streifen 2mm Aluminium mit ~3x10cm und ein wenig Duct-Tape haben die Füllstandsüberwachung auf 1 verbleibende Flasche verbessert.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Kosten&lt;/strong&gt;: 0€&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;wünsche-und-ideen&#34;&gt;Wünsche und Ideen&lt;/h1&gt;
 &lt;h2 id=&#34;bargeldloses-bezahlen&#34;&gt;Bargeldloses Bezahlen&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Idee:&lt;/strong&gt; Die Hauptmodfikation besteht darin das wir ein Bargeldloses Bezahlsystem entwickeln wollen. Realisiert wird das ganze in dem wir mit einem Mikrocontroller ein Cashless Device simulieren was wirderum über einen Single Borad PC der mit WLAN ausgestattet ist mit einem Server kommuniziert.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Idee:&lt;/strong&gt; Die Hauptmodifikation besteht darin, dass wir ein bargeldloses Bezahlsystem entwickeln wollen. Realisiert wird das Ganze, indem wir mit einem Mikrocontroller ein Cashless Device simulieren, was wiederum über einen Single Board PC der mit WLAN ausgestattet ist mit einem Server kommuniziert.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Entwicklungsstand:&lt;/strong&gt; 80%&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;genaue-füllstandsanzeige&#34;&gt;Genaue Füllstandsanzeige&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Idee:&lt;/strong&gt; Den Füllstand der einzelnen Schächte mit Hilfe Analoger Sensoren (Sharp GP2Y0A21YK0F) zu messen.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Idee:&lt;/strong&gt; Den Füllstand der einzelnen Schächte mit Hilfe analoger Sensoren (Sharp GP2Y0A21YK0F) zu messen.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Entwicklungsstand:&lt;/strong&gt; 0%&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;temperatur-logging&#34;&gt;Temperatur Logging&lt;/h2&gt;
@@ -1302,7 +1302,7 @@ Die Mechanischen Teile werden für den &lt;a href=&#34;projects:matedealer2&#34;
 &lt;/ul&gt;
 &lt;h2 id=&#34;regelung-des-kühlaggregates&#34;&gt;Regelung des Kühlaggregates&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Idee:&lt;/strong&gt; Das Kühlaggregat mit dem uC regeln. Die verbaute Regelung mit Bimetall funktioniert nicht wirklich. Ausserdem lassen sich Nachtabsenkungen usw. Realisieren.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Idee:&lt;/strong&gt; Das Kühlaggregat mit dem uC regeln. Die verbaute Regelung mit Bimetall funktioniert nicht wirklich. Ausserdem lassen sich Nachtabsenkungen usw. realisieren.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Entwicklungsstand:&lt;/strong&gt; 0%&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;display-scheibe&#34;&gt;Display Scheibe&lt;/h2&gt;
@@ -1322,8 +1322,8 @@ Die Mechanischen Teile werden für den &lt;a href=&#34;projects:matedealer2&#34;
 
 &lt;img src=&#34;mdb-flowchart.svg&#34; width=&#34;1100x&#34; &gt;&lt;/p&gt;
 &lt;h1 id=&#34;elektronik&#34;&gt;Elektronik&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;20.09.2011&lt;/strong&gt;\
-Hab mich entschieden das Elektronik &amp;ldquo;Problem&amp;rdquo; mit einem &lt;strong&gt;&lt;a href=&#34;http://arduino.cc/en/Main/ArduinoBoardMega2560&#34;&gt;Arduino Mega 2560&lt;/a&gt; + MEGA Proto PCB Shield&lt;/strong&gt; zu realisieren. Das macht das ganze für andere eher Nachbaubar. Die Kosten werden etwa im selben Rahmen wie die bei einem Eigenbau liegen.
+&lt;p&gt;&lt;strong&gt;20.09.2011&lt;/strong&gt;&lt;br&gt;
+Hab mich entschieden das Elektronik &amp;ldquo;Problem&amp;rdquo; mit einem &lt;strong&gt;&lt;a href=&#34;http://arduino.cc/en/Main/ArduinoBoardMega2560&#34;&gt;Arduino Mega 2560&lt;/a&gt; + MEGA Proto PCB Shield&lt;/strong&gt; zu realisieren. Das macht das Ganze für andere eher nachbaubar. Die Kosten werden etwa im selben Rahmen wie die bei einem Eigenbau liegen.
 Evtl. wird das Shield mal als gefertigtes PCB gemacht und zum Selbstkostenpreis verkauft. Ist dann ne saubere Lösung. Die Bestellung sollte die Tage bei mir eintrudeln. &amp;mdash;Bouni&lt;/p&gt;
 &lt;h2 id=&#34;grundlegende-beschaltung&#34;&gt;Grundlegende Beschaltung&lt;/h2&gt;
 
@@ -1338,14 +1338,14 @@ Evtl. wird das Shield mal als gefertigtes PCB gemacht und zum Selbstkostenpreis 
 &lt;img src=&#34;mdb-proto-shield.svg&#34; width=&#34;1100x&#34; &gt;
 &lt;h2 id=&#34;was-alles-auf-die-platine-soll&#34;&gt;Was alles auf die Platine soll&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;1 Relais zum schalten des Kühlaggregates&lt;/li&gt;
-&lt;li&gt;1 Relais zum schalten des Lüfters&lt;/li&gt;
+&lt;li&gt;1 Relais zum Schalten des Kühlaggregates&lt;/li&gt;
+&lt;li&gt;1 Relais zum Schalten des Lüfters&lt;/li&gt;
 &lt;li&gt;Anschlüsse für 1-wire Sensoren&lt;/li&gt;
-&lt;li&gt;Status LED&amp;rsquo;s, evtl ein LCD&lt;/li&gt;
+&lt;li&gt;Status LEDs, evtl. ein LCD&lt;/li&gt;
 &lt;li&gt;&amp;hellip;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;authentification&#34;&gt;Authentification&lt;/h1&gt;
-&lt;p&gt;Die Authentification am Automaten soll mittels GNUPG Smartcard geschehen.
+&lt;h1 id=&#34;authentifizierung&#34;&gt;Authentifizierung&lt;/h1&gt;
+&lt;p&gt;Die Authentifizierung am Automaten soll mittels GNUPG Smartcard geschehen.
 Wir sind schon im Besitz von 2 Card Readern vom Typ OmniKey CardMan&lt;/p&gt;
 &lt;h2 id=&#34;how-to-zu-gnupg-mit-smartcard&#34;&gt;How To zu GnuPG mit SmartCard&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.gnupg.org/howtos/card-howto/en/smartcard-howto-single.html&#34;&gt;http://www.gnupg.org/howtos/card-howto/en/smartcard-howto-single.html&lt;/a&gt;&lt;/p&gt;
@@ -1366,7 +1366,7 @@ Wir sind schon im Besitz von 2 Card Readern vom Typ OmniKey CardMan&lt;/p&gt;
       <guid>https://reaktor23.org/projects/matedealer2/</guid>
       <description>&lt;h1 id=&#34;changes-to-matedealer-10&#34;&gt;Changes to MateDealer 1.0&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;completely custom build VMC&lt;/li&gt;
+&lt;li&gt;completely custom-built VMC&lt;/li&gt;
 &lt;li&gt;new wiring&lt;/li&gt;
 &lt;li&gt;no buttons on the machine to interact with it -&amp;gt; web service &lt;del&gt;/ smartphone app&lt;/del&gt; only&lt;/li&gt;
 &lt;li&gt;no MDB -&amp;gt; reduce the complexity&lt;/li&gt;
@@ -1378,11 +1378,11 @@ Wir sind schon im Besitz von 2 Card Readern vom Typ OmniKey CardMan&lt;/p&gt;
 &lt;li&gt;renew the wiring of the slot empty switches ✓&lt;/li&gt;
 &lt;li&gt;renew the wiring of the motor position switches ✓&lt;/li&gt;
 &lt;li&gt;print a mount for the new vending machine controller ✓&lt;/li&gt;
-&lt;li&gt;design the pcb for then new vending machine controller ✓&lt;/li&gt;
+&lt;li&gt;design the pcb for the new vending machine controller ✓&lt;/li&gt;
 &lt;li&gt;mount the power supply in a nicer way than in the old MateDealer ✓&lt;/li&gt;
 &lt;li&gt;do the wiring on the vmc side ✓&lt;/li&gt;
 &lt;li&gt;write the code for the vmc ✓&lt;/li&gt;
-&lt;li&gt;&lt;del&gt;write a Android/iOS app that can control the vending machine&lt;/del&gt; (the webapp works well for all devices)&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;write an Android/iOS app that can control the vending machine&lt;/del&gt; (the webapp works well for all devices)&lt;/li&gt;
 &lt;li&gt;write a webinterface that can control the vending machine ✓(alpha)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;files&#34;&gt;Files&lt;/h1&gt;
@@ -1390,7 +1390,7 @@ Wir sind schon im Besitz von 2 Card Readern vom Typ OmniKey CardMan&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;openvendingshield.zip&#34;&gt;Eagle design files of the prototype board&lt;/a&gt;. Note that for some reason the cooler part is not working yet.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;impressions&#34;&gt;Impressions&lt;/h1&gt;
-&lt;p&gt;The prototype of the custom VMC stacked on top of the Arduino Mega 2560\
+&lt;p&gt;The prototype of the custom VMC stacked on top of the Arduino Mega 2560&lt;br&gt;
 
 
 &lt;figure class=&#34;figure m-1&#34;&gt;
@@ -1399,8 +1399,8 @@ Wir sind schon im Besitz von 2 Card Readern vom Typ OmniKey CardMan&lt;/p&gt;
     &lt;/a&gt;
     
 &lt;/figure&gt;
-\
-The new wiring inside the colled box\
+
+The new wiring inside the cooled box&lt;br&gt;
 
 
 &lt;figure class=&#34;figure m-1&#34;&gt;
@@ -1409,8 +1409,8 @@ The new wiring inside the colled box\
     &lt;/a&gt;
     
 &lt;/figure&gt;
-\
-The wiring on the side where the VMC is mounted\
+
+The wiring on the side where the VMC is mounted&lt;br&gt;
 
 
 &lt;figure class=&#34;figure m-1&#34;&gt;
@@ -1419,8 +1419,8 @@ The wiring on the side where the VMC is mounted\
     &lt;/a&gt;
     
 &lt;/figure&gt;
-\
-The empty VMC mount\
+
+The empty VMC mount&lt;br&gt;
 
 
 &lt;figure class=&#34;figure m-1&#34;&gt;
@@ -1429,8 +1429,8 @@ The empty VMC mount\
     &lt;/a&gt;
     
 &lt;/figure&gt;
-\
-The VMC snaped into the mount\
+
+The VMC snapped into the mount&lt;br&gt;
 
 
 &lt;figure class=&#34;figure m-1&#34;&gt;
@@ -1439,7 +1439,7 @@ The VMC snaped into the mount\
     &lt;/a&gt;
     
 &lt;/figure&gt;
-\&lt;/p&gt;
+&lt;/p&gt;
 </description>
     </item>
     
@@ -1450,9 +1450,9 @@ The VMC snaped into the mount\
       
       <guid>https://reaktor23.org/projects/pcbdrill/</guid>
       <description>&lt;h1 id=&#34;mechanik&#34;&gt;Mechanik&lt;/h1&gt;
-&lt;p&gt;Die Vorrichtung ist so konstruiert, das sie an einer Tischplatte festgeklemmt wird.
+&lt;p&gt;Die Vorrichtung ist so konstruiert, dass sie an einer Tischplatte festgeklemmt wird.
 So ist das Gerät portabel und kann bei Nichtgebrauch einfach verstaut werden.
-Die Bohrmaschine ist eine &lt;a href=&#34;http://www.proxxon.com/eng/html/28485.php&#34;&gt;Proxxon LB/E&lt;/a&gt;, die Langhals Variante wurde gewählt, um ein besseres einspannen in die Vorrichtung zu ermöglichen.\
+Die Bohrmaschine ist eine &lt;a href=&#34;http://www.proxxon.com/eng/html/28485.php&#34;&gt;Proxxon LB/E&lt;/a&gt;, die Langhals Variante wurde gewählt, um ein besseres Einspannen in die Vorrichtung zu ermöglichen.&lt;br&gt;
 &lt;img src=&#34;http://www.proxxon.com/eng/images/produkte/28485.jpg&#34; alt=&#34;&#34;&gt;
 Die Bohrmaschine ist auf einem Stück Führungsschiene montiert, und wird von einem Exzenter nach oben gedrückt. Der Exzenter wird von einem Schrittmotor angetrieben.&lt;/p&gt;
 &lt;h1 id=&#34;elektronik&#34;&gt;Elektronik&lt;/h1&gt;
@@ -1495,8 +1495,8 @@ Die Bohrmaschine ist auf einem Stück Führungsschiene montiert, und wird von ei
       
       <guid>https://reaktor23.org/projects/pwrcmdr/</guid>
       <description>&lt;h1 id=&#34;verbrauchsmessung&#34;&gt;Verbrauchsmessung&lt;/h1&gt;
-&lt;p&gt;Wir werden unsern Stromverbrauch messen &amp;amp; loggen.&lt;/p&gt;
-&lt;p&gt;Zum Einsatz kommt ein &lt;a href=&#34;http://bg-etech.de/index.php?optioncom_content&amp;amp;viewarticle&amp;amp;id57&amp;amp;Itemid60&#34;&gt;S0 Schnittstelle&lt;/a&gt; (Nein nicht S0 Bus von der ISDN Anlage ;-))&lt;/p&gt;
+&lt;p&gt;Wir werden unseren Stromverbrauch messen &amp;amp; loggen.&lt;/p&gt;
+&lt;p&gt;Zum Einsatz kommt eine &lt;a href=&#34;http://bg-etech.de/index.php?option=com_content&amp;amp;view=article&amp;amp;id=57&amp;amp;Itemid=60&#34;&gt;S0 Schnittstelle&lt;/a&gt; (Nein nicht S0 Bus von der ISDN Anlage ;-))&lt;/p&gt;
 &lt;p&gt;
 
 &lt;figure class=&#34;figure m-1&#34;&gt;
@@ -1518,10 +1518,10 @@ Die Bohrmaschine ist auf einem Stück Führungsschiene montiert, und wird von ei
 &lt;h1 id=&#34;projekt-history&#34;&gt;Projekt History&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;09.08.2011&lt;/strong&gt;: Es wurden erste Versuche unternommen die S0 Schnittstelle auszuwerten. Leider erfolglos.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;30.08.2011&lt;/strong&gt;: Nach dem sich herausgestellt hat das die Drähte einfach verkehrt herum angeschlossen waren hat man auf dem Oszi nun saubere Pulse gesehen.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;04.10.2011&lt;/strong&gt;: Nach einigem hin und her bin ich zu dem Schluss gekommen, das ein [[http://arduino.cc/en/Main/ArduinoBoardEthernet|Arduino Ethernet Board]] billiger kommt als ein kompletter Eigenbau. Gesagt, getan. Board ist hier, Prototyp des Shields ist fertig. Fehlt nur noch der Code.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;30.10.2012&lt;/strong&gt;: Da der Prototyp nie mit code belebt wurde und sowieso eine geätzte Platine her musste, wurde heute eben diese Platine geätzt.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;06.11.2012&lt;/strong&gt;: Die fertig bestückte Platine ist komplett und die Basisfunktionen sind im Tischaufbau getestet. Nun soll die Platine noch in die Plastikbox die momentan die Schützsteuerung beherbergt eingebaut werden. \ 
+&lt;li&gt;&lt;strong&gt;30.08.2011&lt;/strong&gt;: Nachdem sich herausgestellt hat, dass die Drähte einfach verkehrt herum angeschlossen waren hat man auf dem Oszi nun saubere Pulse gesehen.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;04.10.2011&lt;/strong&gt;: Nach einigem Hin und Her bin ich zu dem Schluss gekommen, dass ein &lt;a href=&#34;http://arduino.cc/en/Main/ArduinoBoardEthernet&#34;&gt;Arduino Ethernet Board&lt;/a&gt; billiger kommt als ein kompletter Eigenbau. Gesagt, getan. Board ist hier, Prototyp des Shields ist fertig. Fehlt nur noch der Code.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;30.10.2012&lt;/strong&gt;: Da der Prototyp nie mit Code belebt wurde und sowieso eine geätzte Platine her musste, wurde heute eben diese Platine geätzt.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;06.11.2012&lt;/strong&gt;: Die fertig bestückte Platine ist komplett und die Basisfunktionen sind im Tischaufbau getestet. Nun soll die Platine noch in die Plastikbox die momentan die Schützsteuerung beherbergt eingebaut werden. &lt;br&gt; 
 
 &lt;figure class=&#34;figure m-1&#34;&gt;
     &lt;a href=&#34;https://reaktor23.org/projects/pwrcmdr/pwrcmdr-1.0.4.jpg&#34; data-featherlight=&#34;image&#34;&gt;
@@ -1530,7 +1530,7 @@ Die Bohrmaschine ist auf einem Stück Führungsschiene montiert, und wird von ei
     
 &lt;/figure&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;22.04.2014&lt;/strong&gt;: &lt;em&gt;Pust&lt;/em&gt; &lt;em&gt;Entstaub&lt;/em&gt;, Neuer code für das Arduino Rthernet ist geschrieben und zu 75% fertig. Eine Webapplication ist auch in der mache um einerseits verschiedenen Messwerte zu loggen, als diese auch in visuell ansprechender Form darzustellen. \ 
+&lt;li&gt;&lt;strong&gt;22.04.2014&lt;/strong&gt;: &lt;em&gt;Pust&lt;/em&gt; &lt;em&gt;Entstaub&lt;/em&gt;, Neuer Code für das Arduino Ethernet ist geschrieben und zu 75% fertig. Eine Webapplikation ist auch in der Mache um einerseits verschiedene Messwerte zu loggen, als auch diese in visuell ansprechender Form darzustellen. &lt;br&gt; 
 
 &lt;figure class=&#34;figure m-1&#34;&gt;
     &lt;a href=&#34;https://reaktor23.org/projects/pwrcmdr/powercmdr-web.png&#34; data-featherlight=&#34;image&#34;&gt;
@@ -1539,7 +1539,7 @@ Die Bohrmaschine ist auf einem Stück Führungsschiene montiert, und wird von ei
     
 &lt;/figure&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;01.05.2014&lt;/strong&gt;: Das System läuft soweit, leider kommt es ab und zu zu seltsamen Ausschlägen bei den den gezählten S0 Pulsen. \ 
+&lt;li&gt;&lt;strong&gt;01.05.2014&lt;/strong&gt;: Das System läuft soweit, leider kommt es ab und zu zu seltsamen Ausschlägen bei den gezählten S0 Pulsen. &lt;br&gt; 
 
 &lt;figure class=&#34;figure m-1&#34;&gt;
     &lt;a href=&#34;https://reaktor23.org/projects/pwrcmdr/s0-errors-1.png&#34; data-featherlight=&#34;image&#34;&gt;
@@ -1548,7 +1548,7 @@ Die Bohrmaschine ist auf einem Stück Führungsschiene montiert, und wird von ei
     
 &lt;/figure&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;13.05.2014&lt;/strong&gt;: Die Platine wurde nochmal überarbeitet und ein Prototyp bei pcb-devboards bestellt. \ 
+&lt;li&gt;&lt;strong&gt;13.05.2014&lt;/strong&gt;: Die Platine wurde nochmal überarbeitet und ein Prototyp bei pcb-devboards bestellt. &lt;br&gt; 
 
 &lt;figure class=&#34;figure m-1&#34;&gt;
     &lt;a href=&#34;https://reaktor23.org/projects/pwrcmdr/powercmdr1.0.5.png&#34; data-featherlight=&#34;image&#34;&gt;
@@ -1584,7 +1584,7 @@ Die Bohrmaschine ist auf einem Stück Führungsschiene montiert, und wird von ei
 &lt;h1 id=&#34;dokumente&#34;&gt;Dokumente&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;die_s0-schnittstelle.pdf&#34;&gt;Die S0 Schnittstelle&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;links&#34;&gt;Links&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;http://playground.arduino.cc/Main/EEM12L-32AKWhMonitoring&#34;&gt;Arduino KwH Monitoring&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://playground.arduino.cc/Main/EEM12L-32AKWhMonitoring&#34;&gt;Arduino kWh Monitoring&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -1599,7 +1599,7 @@ Die Bohrmaschine ist auf einem Stück Führungsschiene montiert, und wird von ei
 &lt;h1 id=&#34;funktion&#34;&gt;Funktion&lt;/h1&gt;
 &lt;p&gt;Das R23 AudioControl – Modul besteht aus einem ATmega8 sowie 4 Kleinsignalrelais, die über beleuchtete Taster ausgewählt werden und damit das Handy zum Mischpult durchzuschalten. Das Handy wird mit einem kurzen Adapterkabel in die nächste, im Brüstungskanal eingebaute Audiobuchse eingesteckt. Der ATmega fragt immer wieder den Zustand der Taster ab und schaltet beim Drücken das jeweilige Relais sowie die dazugehörige LED des Tasters.&lt;/p&gt;
 &lt;h1 id=&#34;aufbau&#34;&gt;Aufbau&lt;/h1&gt;
-&lt;p&gt;Das ganze Modul wurde auf Lochraster  („bäh, Lochraster!“) aufgebaut. Abgesichert ist das Modul mit einer 200mA-Feinsicherung. Die Massen aller Audiokanälen ist dauerhaft miteinander verbunden; Links und rechts des gewünschten Kanals wird mit den 2-Kanal-Kleisignalrelais zur Ausgangsklemme durchgeschaltet. Die Relais werden mit BS107 n-Channel LogicLevel MOSFETS angesteuert. Die Taster, LEDs und Buchsen sind jeweils fest im Kabelkanal eingeheißklebert und mit CAT7-Kabeln mit dem Modul verbunden. Strom bekommt das ganze aus einem 230V/USB Adapter, der an einer geschalteten Steckdose hängt.&lt;/p&gt;
+&lt;p&gt;Das ganze Modul wurde auf Lochraster („bäh, Lochraster!“) aufgebaut. Abgesichert ist das Modul mit einer 200mA-Feinsicherung. Die Massen aller Audiokanäle sind dauerhaft miteinander verbunden; links und rechts des gewünschten Kanals wird mit den 2-Kanal-Kleinsignalrelais zur Ausgangsklemme durchgeschaltet. Die Relais werden mit BS107 n-Channel LogicLevel MOSFETs angesteuert. Die Taster, LEDs und Buchsen sind jeweils fest im Kabelkanal eingeheißklebert und mit CAT7-Kabeln mit dem Modul verbunden. Strom bekommt das Ganze aus einem 230V/USB Adapter, der an einer geschalteten Steckdose hängt.&lt;/p&gt;
 &lt;h1 id=&#34;probleme&#34;&gt;Probleme&lt;/h1&gt;
 &lt;h2 id=&#34;stromversorgung&#34;&gt;Stromversorgung&lt;/h2&gt;
 &lt;p&gt;Ursprünglich war geplant, dass das Modul seinen Strom über eine USB-Buchse des Servers bekommt. Weil wir aber wollten, dass das ganze Audiozeug an einen geschalteten Stromkreis angeschlossen ist, haben wir uns für den Steckdosenadapter entschieden.&lt;/p&gt;
@@ -1626,15 +1626,15 @@ Die Bohrmaschine ist auf einem Stück Führungsschiene montiert, und wird von ei
       <guid>https://reaktor23.org/projects/radiationdata/</guid>
       <description>&lt;h1 id=&#34;linksammlung&#34;&gt;Linksammlung&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.um.baden-wuerttemberg.de&#34;&gt;Landesamt fuer Umwelt BW&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.um.baden-wuerttemberg.de&#34;&gt;Landesamt für Umwelt BW&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://eurdep.jrc.ec.europa.eu/Basic/Pages/Public/Home/Default.aspx&#34;&gt;European Radiological Data Exchange Platform&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://offenedaten.de/dataset?res_format=csv&amp;amp;tags=radioaktivit%C3%A4t&amp;amp;tags=ortsdosisleistung&amp;amp;groups=sonderfreigaben&#34;&gt;ODL Daten vom BfS&lt;/a&gt; -&amp;gt; Login fuers beziehen des CSV ist beantragt&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://offenedaten.de/dataset?res_format=csv&amp;amp;tags=radioaktivit%C3%A4t&amp;amp;tags=ortsdosisleistung&amp;amp;groups=sonderfreigaben&#34;&gt;ODL Daten vom BfS&lt;/a&gt; -&amp;gt; Login fürs Beziehen des CSV ist beantragt&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;datenquellen&#34;&gt;Datenquellen&lt;/h1&gt;
 &lt;h2 id=&#34;deutschland&#34;&gt;Deutschland&lt;/h2&gt;
-&lt;h3 id=&#34;bundesamt-fuer-strahlenschutz&#34;&gt;Bundesamt fuer Strahlenschutz&lt;/h3&gt;
+&lt;h3 id=&#34;bundesamt-für-strahlenschutz&#34;&gt;Bundesamt für Strahlenschutz&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Alle Daten sind auf dem &lt;a href=&#34;https://odlinfo.bfs.de/daten/&#34;&gt;Sever des BfS&lt;/a&gt; zu finden.&lt;/li&gt;
+&lt;li&gt;Alle Daten sind auf dem &lt;a href=&#34;https://odlinfo.bfs.de/daten/&#34;&gt;Server des BfS&lt;/a&gt; zu finden.&lt;/li&gt;
 &lt;li&gt;Eine &lt;a href=&#34;https://odlinfo.bfs.de/daten/Datenbereitstellung-2016-04-21.pdf&#34;&gt;Beschreibung&lt;/a&gt; was alles verfügbar ist sowie was die Daten für eine Bedeutung haben.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;österreich&#34;&gt;Österreich&lt;/h2&gt;
@@ -1686,7 +1686,7 @@ Die Bohrmaschine ist auf einem Stück Führungsschiene montiert, und wird von ei
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.naz.ch/de/aktuell/zeitverlaeufe.html&#34;&gt;Zeitverläufe&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;Stünidliche Messwerte in nS/h, Niederschlagsmessdaten in mm&lt;/li&gt;
+&lt;li&gt;Stündliche Messwerte in nS/h, Niederschlagsmessdaten in mm&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -1718,7 +1718,7 @@ L=0
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.mesure-radioactivite.fr/en#/expert&#34;&gt;RNM&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;Karte mit den Messtellen, z.T. auch Wasser und einzelne Isotope.&lt;/li&gt;
+&lt;li&gt;Karte mit den Messstellen, z.T. auch Wasser und einzelne Isotope.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -1732,7 +1732,7 @@ L=0
     
 &lt;/figure&gt;
 
-Die Messdaten aller Messtellen des BfS von 0:00Uhr am 26.07.2012 als Punkt pro Messstelle.&lt;/p&gt;
+Die Messdaten aller Messstellen des BfS von 0:00 Uhr am 26.07.2012 als Punkt pro Messstelle.&lt;/p&gt;
 &lt;p&gt;
 
 &lt;figure class=&#34;figure m-1&#34;&gt;
@@ -1742,7 +1742,7 @@ Die Messdaten aller Messtellen des BfS von 0:00Uhr am 26.07.2012 als Punkt pro M
     
 &lt;/figure&gt;
 
-Die Messdaten aller Messtellen des BfS von 0:00Uhr am 26.07.2012 als Punkt pro Messstelle ohne Rand und mit Transparenz.&lt;/p&gt;
+Die Messdaten aller Messstellen des BfS von 0:00 Uhr am 26.07.2012 als Punkt pro Messstelle ohne Rand und mit Transparenz.&lt;/p&gt;
 &lt;p&gt;
 
 &lt;figure class=&#34;figure m-1&#34;&gt;
@@ -1752,8 +1752,8 @@ Die Messdaten aller Messtellen des BfS von 0:00Uhr am 26.07.2012 als Punkt pro M
     
 &lt;/figure&gt;
 
-Und zu guter Letzt noch als Heatmap, wobei die Häufung von Messtellen auch zu Farbänderungen führt.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://bouni.owee.de/radiationmap/&#34;&gt;Hier&lt;/a&gt; gibt es die Transparenz Variante live zu sehen. Die Daten sind momentan statisch vom &lt;strong&gt;26.07.2012 0:00Uhr&lt;/strong&gt; und wurden vom &lt;a href=&#34;http://www.bfs.de/bfs&#34;&gt;BfS&lt;/a&gt; zur Verfügung gestellt!.&lt;/p&gt;
+Und zu guter Letzt noch als Heatmap, wobei die Häufung von Messstellen auch zu Farbänderungen führt.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://bouni.owee.de/radiationmap/&#34;&gt;Hier&lt;/a&gt; gibt es die Transparenz Variante live zu sehen. Die Daten sind momentan statisch vom &lt;strong&gt;26.07.2012 0:00 Uhr&lt;/strong&gt; und wurden vom &lt;a href=&#34;http://www.bfs.de/bfs&#34;&gt;BfS&lt;/a&gt; zur Verfügung gestellt!&lt;/p&gt;
 </description>
     </item>
     
@@ -1765,9 +1765,9 @@ Und zu guter Letzt noch als Heatmap, wobei die Häufung von Messtellen auch zu F
       <guid>https://reaktor23.org/projects/ultimaker/</guid>
       <description>&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
 &lt;p&gt;&lt;strong&gt;Current status of the ultimaker&lt;/strong&gt;
-We added some feature to the original printer:&lt;/p&gt;
+We added some features to the original printer:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Dual Extruder (printing with two different colores / two different materials)&lt;/li&gt;
+&lt;li&gt;Dual Extruder (printing with two different colors / two different materials)&lt;/li&gt;
 &lt;li&gt;Heated Bed (better grip for the first layer / able to print ABS&amp;hellip;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
@@ -1794,7 +1794,7 @@ We added some feature to the original printer:&lt;/p&gt;
 			&lt;tr&gt;
 					&lt;td&gt;translucent blue&lt;/td&gt;
 					&lt;td&gt;PLA&lt;/td&gt;
-					&lt;td&gt;0,65kg&lt;/td&gt;
+					&lt;td&gt;0.65kg&lt;/td&gt;
 			&lt;/tr&gt;
 			&lt;tr&gt;
 					&lt;td&gt;silver&lt;/td&gt;
@@ -1829,12 +1829,12 @@ We added some feature to the original printer:&lt;/p&gt;
 			&lt;tr&gt;
 					&lt;td&gt;red translucent&lt;/td&gt;
 					&lt;td&gt;PLA&lt;/td&gt;
-					&lt;td&gt;0,65kg&lt;/td&gt;
+					&lt;td&gt;0.65kg&lt;/td&gt;
 			&lt;/tr&gt;
 			&lt;tr&gt;
 					&lt;td&gt;black&lt;/td&gt;
 					&lt;td&gt;ABS&lt;/td&gt;
-					&lt;td&gt;2,8kg&lt;/td&gt;
+					&lt;td&gt;2.8kg&lt;/td&gt;
 			&lt;/tr&gt;
 	&lt;/tbody&gt;
 &lt;/table&gt;
@@ -1902,7 +1902,7 @@ We added some feature to the original printer:&lt;/p&gt;
 &lt;/table&gt;
 &lt;h1 id=&#34;videos&#34;&gt;Videos&lt;/h1&gt;
 &lt;p&gt;TBD: Upload to either Vimeo or Youtube&lt;/p&gt;
-&lt;h1 id=&#34;comming-soon&#34;&gt;Comming soon&lt;/h1&gt;
+&lt;h1 id=&#34;coming-soon&#34;&gt;Coming soon&lt;/h1&gt;
 &lt;p&gt;Zeno is working on a rotary dual print head for e3dv6 hotends&lt;/p&gt;
 &lt;p&gt;
 
@@ -1978,14 +1978,14 @@ Badstrasse 29a&lt;br&gt;
 erfassen oder speichern keinerlei persönliche Daten.&lt;/p&gt;
 &lt;p&gt;Allerdings werden einerseits diese Seiten auf Servern Dritter gehostet,
 andererseits werden Inhalte Dritter von externen Webseiten eingebunden. Dies
-setzt immer voraus, dass die jeweiligen Anbieter die IP-Adresse der Nutzer wahr
-nehmen. Denn ohne die IP-Adresse könnten sie Inhalte nicht an den Browser des
+setzt immer voraus, dass die jeweiligen Anbieter die IP-Adresse der Nutzer
+wahrnehmen. Denn ohne die IP-Adresse könnten sie Inhalte nicht an den Browser des
 jeweiligen Nutzers senden. Die IP-Adresse ist für die Darstellung der Inhalte
 erforderlich. Wir haben leider keinen Einfluss darauf, falls die Dritt-Anbieter
 die IP-Adresse z.B. für statistische Zwecke speichern. Soweit uns dieses
 bekannt ist, klären wir die Nutzer darüber auf.&lt;/p&gt;
 &lt;h1 id=&#34;datenschutzerklärung-für-die-nutzung-von-github-pages&#34;&gt;Datenschutzerklärung für die Nutzung von GitHub Pages&lt;/h1&gt;
-&lt;p&gt;Diese Website wird auf Servern von Github Inc., 88 Colin P Kelly Jr St, San
+&lt;p&gt;Diese Website wird auf Servern von GitHub Inc., 88 Colin P Kelly Jr St, San
 Francisco, CA 94107, USA gehostet. Beachten Sie daher auch die GitHub Privacy
 Policy.&lt;/p&gt;
 </description>
@@ -2059,11 +2059,11 @@ Deutschland
       <guid>https://reaktor23.org/status/</guid>
       <description>&lt;p&gt;DE:&lt;/p&gt;
 &lt;p&gt;Hier findest du aktuelle Messwerte aus unserem Hackerspace!
-The das Datenformat ist in der &lt;a href=&#34;http://spaceapi.io/&#34;&gt;SpaceAPI&lt;/a&gt; definiert, die Daten werden duch unseren &lt;a href=&#34;https://reaktor23.org/projects/pwrcmdr2/&#34;&gt;pwrCMDer&lt;/a&gt; mittels der &lt;a href=&#34;https://www.home-assistant.io/components/spaceapi/&#34;&gt;SpaceAPI Komponente&lt;/a&gt; von &lt;a href=&#34;https://www.home-assistant.io/&#34;&gt;Home-Assistant&lt;/a&gt;erzeugt.
+Das Datenformat ist in der &lt;a href=&#34;http://spaceapi.io/&#34;&gt;SpaceAPI&lt;/a&gt; definiert, die Daten werden durch unseren &lt;a href=&#34;https://reaktor23.org/projects/pwrcmdr2/&#34;&gt;pwrCMDer&lt;/a&gt; mittels der &lt;a href=&#34;https://www.home-assistant.io/components/spaceapi/&#34;&gt;SpaceAPI Komponente&lt;/a&gt; von &lt;a href=&#34;https://www.home-assistant.io/&#34;&gt;Home-Assistant&lt;/a&gt; erzeugt.
 Die API befindet sich auf &lt;a href=&#34;https://spaceapi.reaktor23.org&#34;&gt;spaceapi.reaktor23.org&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;EN:&lt;/p&gt;
 &lt;p&gt;Here you can find more detailed infos about the state of our Hackerspace!
-The data structure is defined by &lt;a href=&#34;http://spaceapi.io/&#34;&gt;SpaceAPI&lt;/a&gt; and generated by our &lt;a href=&#34;https://reaktor23.org/projects/pwrcmdr2/&#34;&gt;pwrCMDer&lt;/a&gt; which runs &lt;a href=&#34;https://www.home-assistant.io/&#34;&gt;Home-Assistant&lt;/a&gt; an uses the &lt;a href=&#34;https://www.home-assistant.io/components/spaceapi/&#34;&gt;SpaceAPI component&lt;/a&gt;.
+The data structure is defined by &lt;a href=&#34;http://spaceapi.io/&#34;&gt;SpaceAPI&lt;/a&gt; and generated by our &lt;a href=&#34;https://reaktor23.org/projects/pwrcmdr2/&#34;&gt;pwrCMDer&lt;/a&gt; which runs &lt;a href=&#34;https://www.home-assistant.io/&#34;&gt;Home-Assistant&lt;/a&gt; and uses the &lt;a href=&#34;https://www.home-assistant.io/components/spaceapi/&#34;&gt;SpaceAPI component&lt;/a&gt;.
 The API is located at &lt;a href=&#34;https://spaceapi.reaktor23.org&#34;&gt;spaceapi.reaktor23.org&lt;/a&gt;&lt;/p&gt;
 &lt;div id=&#34;apidteails&#34;&gt;&lt;/div&gt;
 &lt;pre id=&#34;apijson&#34;&gt;&lt;/pre&gt;
@@ -2081,10 +2081,10 @@ wobei jemand über ein Thema referiert mit dem er sich gerade beschäftigt oder
 gut auskennt und sein Wissen teilen möchte.&lt;/p&gt;
 &lt;p&gt;Die Themen- und Terminfindung findet meist spontan statt. Auf &lt;a href=&#34;https://github.com/reaktor23/talks&#34;&gt;https://github.com/reaktor23/talks&lt;/a&gt;
 können aber auch Wünsche und Vorschläge erfasst werden. Ein neuer Talk wird
-meist auf unsere Mailingliste oder unserem Threema Group-Chat angekündigt.&lt;/p&gt;
+meist auf unserer Mailingliste oder in unserem Threema Group-Chat angekündigt.&lt;/p&gt;
 &lt;p&gt;Der Zeitrahmen für einen Talk sollte nicht zu lange sein, so max. eine Stunde reine
 Vortragszeit, um ausreichend Raum für Fragen und Beispiele zu ermöglichen.
-Als Präsentationsmittel steht ein Beamer und Whiteboard zur Verfügung.&lt;/p&gt;
+Als Präsentationsmittel stehen ein Beamer und ein Whiteboard zur Verfügung.&lt;/p&gt;
 &lt;h2 id=&#34;talk-wünsche-und-angebote&#34;&gt;Talk Wünsche und Angebote&lt;/h2&gt;
 &lt;div class=&#34;talks&#34;&gt;
     &lt;table class=&#34;table table-striped&#34;&gt;

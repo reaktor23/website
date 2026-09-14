@@ -1,6 +1,6 @@
 # Builds the site with a pinned Hugo version. Dependabot tracks the image tag
 # below, so bumping Hugo is a one-line change proposed automatically.
-FROM ghcr.io/gohugoio/hugo:v0.165.0 AS build
+FROM ghcr.io/gohugoio/hugo:v0.166.0 AS build
 
 ARG BASE_URL=https://reaktor23.org
 # The image runs as the unprivileged `hugo` user and declares /project as a
